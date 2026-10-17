@@ -1,0 +1,60 @@
+dashboard ÉCHEC locator.waitFor: Error: strict mode violation: getByText('Eingegangene Beiträge', { exact: true }) resolved to 2 elements: |     1) <div class="kpi-label">Eingegangene Beiträge</div> aka getByText('Eingegangene Beiträge').first() |     2) <div class="card-title">…</div> aka getByText('Eingegangene Beiträge').nth(1) | 
+emails-groupes ÉCHEC locator.waitFor: Timeout 30000ms exceeded. | Call log: | [2m  - waiting for getByText(/\d+/).first() to be visible[22m | [2m    64 × locator resolved to hidden <div class="app-version nav-label" title="Frontend buildé le 17/10/2026 13:01 — backend déployé le —">Front f87e575 · API dev</div>[22m
+[
+ {
+  "id": "dashboard",
+  "failed": "locator.waitFor: Error: strict mode violation: getByText('Eingegangene Beiträge', { exact: true }) resolved to 2 elements: |     1) <div class=\"kpi-label\">Eingegangene Beiträge</div> aka getByText('Eingegangene Beiträge').first() |     2) <div class=\"card-title\">…</div> aka getByText('Eingegangene Beiträge').nth(1) | ",
+  "changed": true,
+  "files": 4,
+  "myp": 0
+ },
+ {
+  "id": "emails-groupes",
+  "failed": "locator.waitFor: Timeout 30000ms exceeded. | Call log: | \u001b[2m  - waiting for getByText(/\\d+/).first() to be visible\u001b[22m | \u001b[2m    64 × locator resolved to hidden <div class=\"app-version nav-label\" title=\"Frontend buildé le 17/10/2026 13:01 — backend déployé le —\">Front f87e575 · API dev</div>\u001b[22m",
+  "changed": true,
+  "files": 3,
+  "myp": 0
+ },
+ {
+  "id": "facture-qr",
+  "failed": null,
+  "changed": true,
+  "files": 26,
+  "myp": 0
+ },
+ {
+  "id": "famille",
+  "failed": null,
+  "changed": true,
+  "files": 14,
+  "myp": 0
+ },
+ {
+  "id": "planning",
+  "failed": null,
+  "changed": true,
+  "files": 14,
+  "myp": 0
+ },
+ {
+  "id": "presences-mobile",
+  "failed": null,
+  "changed": true,
+  "files": 14,
+  "myp": 0
+ },
+ {
+  "id": "rapports",
+  "failed": null,
+  "changed": true,
+  "files": 26,
+  "myp": 0
+ },
+ {
+  "id": "tresorerie",
+  "failed": null,
+  "changed": true,
+  "files": 26,
+  "myp": 0
+ }
+]
