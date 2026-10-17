@@ -1,0 +1,3430 @@
+{
+ "source_commit": "f87e57566e01d3225d81be6fe0ebbb78bd8bfd96",
+ "generated_at": "2026-10-17T11:25:32.247Z",
+ "items": [
+  {
+   "slot": "hero",
+   "lang": "fr",
+   "file": "fr/dashboard/tableau-de-bord-light-desktop.png",
+   "alt": "Gestioo : tableau de bord avec indicateurs, annonces, factures à traiter et événements à venir"
+  },
+  {
+   "slot": "hero",
+   "lang": "de",
+   "file": "de/dashboard/tableau-de-bord-light-desktop.png",
+   "alt": "Gestioo: Dashboard mit Kennzahlen, Mitteilungen, offenen Rechnungen und anstehenden Terminen"
+  },
+  {
+   "slot": "hero",
+   "lang": "en",
+   "file": "en/dashboard/tableau-de-bord-light-desktop.png",
+   "alt": "Gestioo: dashboard with key figures, announcements, invoices to process and upcoming events"
+  }
+ ],
+ "parcours": [
+  {
+   "id": "dashboard",
+   "title": {
+    "fr": "Tableau de bord gestionnaire",
+    "de": "Dashboard für Verantwortliche",
+    "en": "Manager dashboard"
+   },
+   "deps": [
+    "frontend/src/pages/DashboardPage.tsx",
+    "frontend/src/components/AnnoncesWidget.tsx",
+    "frontend/src/api/dashboard.ts",
+    "frontend/src/lib/planning.ts"
+   ],
+   "updated_at": "2026-10-17T11:25:32.247Z",
+   "files": [
+    {
+     "file": "fr/dashboard/tableau-de-bord-light-desktop.png",
+     "parcours": "dashboard",
+     "step": "tableau-de-bord",
+     "lang": "fr",
+     "theme": "light",
+     "device": "desktop",
+     "format": "png",
+     "caption": {
+      "fr": "Le tableau de bord du gestionnaire",
+      "de": "Das Dashboard der Verantwortlichen",
+      "en": "The manager dashboard"
+     },
+     "alt": {
+      "fr": "Gestioo : tableau de bord avec indicateurs, annonces, factures à traiter et événements à venir",
+      "de": "Gestioo: Dashboard mit Kennzahlen, Mitteilungen, offenen Rechnungen und anstehenden Terminen",
+      "en": "Gestioo: dashboard with key figures, announcements, invoices to process and upcoming events"
+     }
+    },
+    {
+     "file": "fr/dashboard/tableau-de-bord-light-mobile.png",
+     "parcours": "dashboard",
+     "step": "tableau-de-bord",
+     "lang": "fr",
+     "theme": "light",
+     "device": "mobile",
+     "format": "png",
+     "caption": {
+      "fr": "Le tableau de bord du gestionnaire",
+      "de": "Das Dashboard der Verantwortlichen",
+      "en": "The manager dashboard"
+     },
+     "alt": {
+      "fr": "Gestioo : tableau de bord avec indicateurs, annonces, factures à traiter et événements à venir",
+      "de": "Gestioo: Dashboard mit Kennzahlen, Mitteilungen, offenen Rechnungen und anstehenden Terminen",
+      "en": "Gestioo: dashboard with key figures, announcements, invoices to process and upcoming events"
+     }
+    },
+    {
+     "file": "fr/dashboard/tableau-de-bord-dark-desktop.png",
+     "parcours": "dashboard",
+     "step": "tableau-de-bord",
+     "lang": "fr",
+     "theme": "dark",
+     "device": "desktop",
+     "format": "png",
+     "caption": {
+      "fr": "Le tableau de bord du gestionnaire",
+      "de": "Das Dashboard der Verantwortlichen",
+      "en": "The manager dashboard"
+     },
+     "alt": {
+      "fr": "Gestioo : tableau de bord avec indicateurs, annonces, factures à traiter et événements à venir",
+      "de": "Gestioo: Dashboard mit Kennzahlen, Mitteilungen, offenen Rechnungen und anstehenden Terminen",
+      "en": "Gestioo: dashboard with key figures, announcements, invoices to process and upcoming events"
+     }
+    },
+    {
+     "file": "fr/dashboard/tableau-de-bord-dark-mobile.png",
+     "parcours": "dashboard",
+     "step": "tableau-de-bord",
+     "lang": "fr",
+     "theme": "dark",
+     "device": "mobile",
+     "format": "png",
+     "caption": {
+      "fr": "Le tableau de bord du gestionnaire",
+      "de": "Das Dashboard der Verantwortlichen",
+      "en": "The manager dashboard"
+     },
+     "alt": {
+      "fr": "Gestioo : tableau de bord avec indicateurs, annonces, factures à traiter et événements à venir",
+      "de": "Gestioo: Dashboard mit Kennzahlen, Mitteilungen, offenen Rechnungen und anstehenden Terminen",
+      "en": "Gestioo: dashboard with key figures, announcements, invoices to process and upcoming events"
+     }
+    },
+    {
+     "file": "de/dashboard/tableau-de-bord-light-desktop.png",
+     "parcours": "dashboard",
+     "step": "tableau-de-bord",
+     "lang": "de",
+     "theme": "light",
+     "device": "desktop",
+     "format": "png",
+     "caption": {
+      "fr": "Le tableau de bord du gestionnaire",
+      "de": "Das Dashboard der Verantwortlichen",
+      "en": "The manager dashboard"
+     },
+     "alt": {
+      "fr": "Gestioo : tableau de bord avec indicateurs, annonces, factures à traiter et événements à venir",
+      "de": "Gestioo: Dashboard mit Kennzahlen, Mitteilungen, offenen Rechnungen und anstehenden Terminen",
+      "en": "Gestioo: dashboard with key figures, announcements, invoices to process and upcoming events"
+     }
+    },
+    {
+     "file": "de/dashboard/tableau-de-bord-light-mobile.png",
+     "parcours": "dashboard",
+     "step": "tableau-de-bord",
+     "lang": "de",
+     "theme": "light",
+     "device": "mobile",
+     "format": "png",
+     "caption": {
+      "fr": "Le tableau de bord du gestionnaire",
+      "de": "Das Dashboard der Verantwortlichen",
+      "en": "The manager dashboard"
+     },
+     "alt": {
+      "fr": "Gestioo : tableau de bord avec indicateurs, annonces, factures à traiter et événements à venir",
+      "de": "Gestioo: Dashboard mit Kennzahlen, Mitteilungen, offenen Rechnungen und anstehenden Terminen",
+      "en": "Gestioo: dashboard with key figures, announcements, invoices to process and upcoming events"
+     }
+    },
+    {
+     "file": "de/dashboard/tableau-de-bord-dark-desktop.png",
+     "parcours": "dashboard",
+     "step": "tableau-de-bord",
+     "lang": "de",
+     "theme": "dark",
+     "device": "desktop",
+     "format": "png",
+     "caption": {
+      "fr": "Le tableau de bord du gestionnaire",
+      "de": "Das Dashboard der Verantwortlichen",
+      "en": "The manager dashboard"
+     },
+     "alt": {
+      "fr": "Gestioo : tableau de bord avec indicateurs, annonces, factures à traiter et événements à venir",
+      "de": "Gestioo: Dashboard mit Kennzahlen, Mitteilungen, offenen Rechnungen und anstehenden Terminen",
+      "en": "Gestioo: dashboard with key figures, announcements, invoices to process and upcoming events"
+     }
+    },
+    {
+     "file": "de/dashboard/tableau-de-bord-dark-mobile.png",
+     "parcours": "dashboard",
+     "step": "tableau-de-bord",
+     "lang": "de",
+     "theme": "dark",
+     "device": "mobile",
+     "format": "png",
+     "caption": {
+      "fr": "Le tableau de bord du gestionnaire",
+      "de": "Das Dashboard der Verantwortlichen",
+      "en": "The manager dashboard"
+     },
+     "alt": {
+      "fr": "Gestioo : tableau de bord avec indicateurs, annonces, factures à traiter et événements à venir",
+      "de": "Gestioo: Dashboard mit Kennzahlen, Mitteilungen, offenen Rechnungen und anstehenden Terminen",
+      "en": "Gestioo: dashboard with key figures, announcements, invoices to process and upcoming events"
+     }
+    },
+    {
+     "file": "en/dashboard/tableau-de-bord-light-desktop.png",
+     "parcours": "dashboard",
+     "step": "tableau-de-bord",
+     "lang": "en",
+     "theme": "light",
+     "device": "desktop",
+     "format": "png",
+     "caption": {
+      "fr": "Le tableau de bord du gestionnaire",
+      "de": "Das Dashboard der Verantwortlichen",
+      "en": "The manager dashboard"
+     },
+     "alt": {
+      "fr": "Gestioo : tableau de bord avec indicateurs, annonces, factures à traiter et événements à venir",
+      "de": "Gestioo: Dashboard mit Kennzahlen, Mitteilungen, offenen Rechnungen und anstehenden Terminen",
+      "en": "Gestioo: dashboard with key figures, announcements, invoices to process and upcoming events"
+     }
+    },
+    {
+     "file": "en/dashboard/tableau-de-bord-light-mobile.png",
+     "parcours": "dashboard",
+     "step": "tableau-de-bord",
+     "lang": "en",
+     "theme": "light",
+     "device": "mobile",
+     "format": "png",
+     "caption": {
+      "fr": "Le tableau de bord du gestionnaire",
+      "de": "Das Dashboard der Verantwortlichen",
+      "en": "The manager dashboard"
+     },
+     "alt": {
+      "fr": "Gestioo : tableau de bord avec indicateurs, annonces, factures à traiter et événements à venir",
+      "de": "Gestioo: Dashboard mit Kennzahlen, Mitteilungen, offenen Rechnungen und anstehenden Terminen",
+      "en": "Gestioo: dashboard with key figures, announcements, invoices to process and upcoming events"
+     }
+    },
+    {
+     "file": "en/dashboard/tableau-de-bord-dark-desktop.png",
+     "parcours": "dashboard",
+     "step": "tableau-de-bord",
+     "lang": "en",
+     "theme": "dark",
+     "device": "desktop",
+     "format": "png",
+     "caption": {
+      "fr": "Le tableau de bord du gestionnaire",
+      "de": "Das Dashboard der Verantwortlichen",
+      "en": "The manager dashboard"
+     },
+     "alt": {
+      "fr": "Gestioo : tableau de bord avec indicateurs, annonces, factures à traiter et événements à venir",
+      "de": "Gestioo: Dashboard mit Kennzahlen, Mitteilungen, offenen Rechnungen und anstehenden Terminen",
+      "en": "Gestioo: dashboard with key figures, announcements, invoices to process and upcoming events"
+     }
+    },
+    {
+     "file": "en/dashboard/tableau-de-bord-dark-mobile.png",
+     "parcours": "dashboard",
+     "step": "tableau-de-bord",
+     "lang": "en",
+     "theme": "dark",
+     "device": "mobile",
+     "format": "png",
+     "caption": {
+      "fr": "Le tableau de bord du gestionnaire",
+      "de": "Das Dashboard der Verantwortlichen",
+      "en": "The manager dashboard"
+     },
+     "alt": {
+      "fr": "Gestioo : tableau de bord avec indicateurs, annonces, factures à traiter et événements à venir",
+      "de": "Gestioo: Dashboard mit Kennzahlen, Mitteilungen, offenen Rechnungen und anstehenden Terminen",
+      "en": "Gestioo: dashboard with key figures, announcements, invoices to process and upcoming events"
+     }
+    },
+    {
+     "file": "fr/dashboard/dashboard.mp4",
+     "parcours": "dashboard",
+     "step": "video",
+     "lang": "fr",
+     "theme": "light",
+     "device": "desktop",
+     "format": "mp4",
+     "caption": {
+      "fr": "Tableau de bord gestionnaire",
+      "de": "Dashboard für Verantwortliche",
+      "en": "Manager dashboard"
+     },
+     "alt": {
+      "fr": "Tableau de bord gestionnaire",
+      "de": "Dashboard für Verantwortliche",
+      "en": "Manager dashboard"
+     }
+    },
+    {
+     "file": "fr/dashboard/dashboard.webm",
+     "parcours": "dashboard",
+     "step": "video",
+     "lang": "fr",
+     "theme": "light",
+     "device": "desktop",
+     "format": "webm",
+     "caption": {
+      "fr": "Tableau de bord gestionnaire",
+      "de": "Dashboard für Verantwortliche",
+      "en": "Manager dashboard"
+     },
+     "alt": {
+      "fr": "Tableau de bord gestionnaire",
+      "de": "Dashboard für Verantwortliche",
+      "en": "Manager dashboard"
+     }
+    }
+   ]
+  },
+  {
+   "id": "emails-groupes",
+   "title": {
+    "fr": "Emails groupés en 3 étapes",
+    "de": "Sammel-E-Mails in 3 Schritten",
+    "en": "Group emails in 3 steps"
+   },
+   "deps": [
+    "frontend/src/pages/MassEmailCampaignWizardPage.tsx",
+    "frontend/src/pages/MassEmailCampaignsHistoryPage.tsx",
+    "frontend/src/api/massEmails.ts"
+   ],
+   "updated_at": "2026-10-17T11:25:32.247Z",
+   "files": [
+    {
+     "file": "fr/emails-groupes/1-destinataires-light-desktop.png",
+     "parcours": "emails-groupes",
+     "step": "1-destinataires",
+     "lang": "fr",
+     "theme": "light",
+     "device": "desktop",
+     "format": "png",
+     "caption": {
+      "fr": "Étape 1 : choisir les destinataires",
+      "de": "Schritt 1: Empfänger wählen",
+      "en": "Step 1: choose the recipients"
+     },
+     "alt": {
+      "fr": "Gestioo : assistant d’emails groupés, étape Destinataires",
+      "de": "Gestioo: Sammel-E-Mail-Assistent, Schritt Empfänger",
+      "en": "Gestioo: group email wizard, Recipients step"
+     }
+    },
+    {
+     "file": "fr/emails-groupes/2-message-light-desktop.png",
+     "parcours": "emails-groupes",
+     "step": "2-message",
+     "lang": "fr",
+     "theme": "light",
+     "device": "desktop",
+     "format": "png",
+     "caption": {
+      "fr": "Étape 2 : rédiger le message",
+      "de": "Schritt 2: Nachricht verfassen",
+      "en": "Step 2: write the message"
+     },
+     "alt": {
+      "fr": "Gestioo : assistant d’emails groupés, étape Message",
+      "de": "Gestioo: Sammel-E-Mail-Assistent, Schritt Nachricht",
+      "en": "Gestioo: group email wizard, Message step"
+     }
+    },
+    {
+     "file": "fr/emails-groupes/3-recapitulatif-light-desktop.png",
+     "parcours": "emails-groupes",
+     "step": "3-recapitulatif",
+     "lang": "fr",
+     "theme": "light",
+     "device": "desktop",
+     "format": "png",
+     "caption": {
+      "fr": "Étape 3 : vérifier et envoyer",
+      "de": "Schritt 3: Prüfen und senden",
+      "en": "Step 3: review and send"
+     },
+     "alt": {
+      "fr": "Gestioo : assistant d’emails groupés, récapitulatif avant l’envoi",
+      "de": "Gestioo: Sammel-E-Mail-Assistent, Zusammenfassung vor dem Versand",
+      "en": "Gestioo: group email wizard, summary before sending"
+     }
+    },
+    {
+     "file": "fr/emails-groupes/1-destinataires-light-mobile.png",
+     "parcours": "emails-groupes",
+     "step": "1-destinataires",
+     "lang": "fr",
+     "theme": "light",
+     "device": "mobile",
+     "format": "png",
+     "caption": {
+      "fr": "Étape 1 : choisir les destinataires",
+      "de": "Schritt 1: Empfänger wählen",
+      "en": "Step 1: choose the recipients"
+     },
+     "alt": {
+      "fr": "Gestioo : assistant d’emails groupés, étape Destinataires",
+      "de": "Gestioo: Sammel-E-Mail-Assistent, Schritt Empfänger",
+      "en": "Gestioo: group email wizard, Recipients step"
+     }
+    },
+    {
+     "file": "fr/emails-groupes/2-message-light-mobile.png",
+     "parcours": "emails-groupes",
+     "step": "2-message",
+     "lang": "fr",
+     "theme": "light",
+     "device": "mobile",
+     "format": "png",
+     "caption": {
+      "fr": "Étape 2 : rédiger le message",
+      "de": "Schritt 2: Nachricht verfassen",
+      "en": "Step 2: write the message"
+     },
+     "alt": {
+      "fr": "Gestioo : assistant d’emails groupés, étape Message",
+      "de": "Gestioo: Sammel-E-Mail-Assistent, Schritt Nachricht",
+      "en": "Gestioo: group email wizard, Message step"
+     }
+    },
+    {
+     "file": "fr/emails-groupes/3-recapitulatif-light-mobile.png",
+     "parcours": "emails-groupes",
+     "step": "3-recapitulatif",
+     "lang": "fr",
+     "theme": "light",
+     "device": "mobile",
+     "format": "png",
+     "caption": {
+      "fr": "Étape 3 : vérifier et envoyer",
+      "de": "Schritt 3: Prüfen und senden",
+      "en": "Step 3: review and send"
+     },
+     "alt": {
+      "fr": "Gestioo : assistant d’emails groupés, récapitulatif avant l’envoi",
+      "de": "Gestioo: Sammel-E-Mail-Assistent, Zusammenfassung vor dem Versand",
+      "en": "Gestioo: group email wizard, summary before sending"
+     }
+    },
+    {
+     "file": "fr/emails-groupes/1-destinataires-dark-desktop.png",
+     "parcours": "emails-groupes",
+     "step": "1-destinataires",
+     "lang": "fr",
+     "theme": "dark",
+     "device": "desktop",
+     "format": "png",
+     "caption": {
+      "fr": "Étape 1 : choisir les destinataires",
+      "de": "Schritt 1: Empfänger wählen",
+      "en": "Step 1: choose the recipients"
+     },
+     "alt": {
+      "fr": "Gestioo : assistant d’emails groupés, étape Destinataires",
+      "de": "Gestioo: Sammel-E-Mail-Assistent, Schritt Empfänger",
+      "en": "Gestioo: group email wizard, Recipients step"
+     }
+    },
+    {
+     "file": "fr/emails-groupes/2-message-dark-desktop.png",
+     "parcours": "emails-groupes",
+     "step": "2-message",
+     "lang": "fr",
+     "theme": "dark",
+     "device": "desktop",
+     "format": "png",
+     "caption": {
+      "fr": "Étape 2 : rédiger le message",
+      "de": "Schritt 2: Nachricht verfassen",
+      "en": "Step 2: write the message"
+     },
+     "alt": {
+      "fr": "Gestioo : assistant d’emails groupés, étape Message",
+      "de": "Gestioo: Sammel-E-Mail-Assistent, Schritt Nachricht",
+      "en": "Gestioo: group email wizard, Message step"
+     }
+    },
+    {
+     "file": "fr/emails-groupes/3-recapitulatif-dark-desktop.png",
+     "parcours": "emails-groupes",
+     "step": "3-recapitulatif",
+     "lang": "fr",
+     "theme": "dark",
+     "device": "desktop",
+     "format": "png",
+     "caption": {
+      "fr": "Étape 3 : vérifier et envoyer",
+      "de": "Schritt 3: Prüfen und senden",
+      "en": "Step 3: review and send"
+     },
+     "alt": {
+      "fr": "Gestioo : assistant d’emails groupés, récapitulatif avant l’envoi",
+      "de": "Gestioo: Sammel-E-Mail-Assistent, Zusammenfassung vor dem Versand",
+      "en": "Gestioo: group email wizard, summary before sending"
+     }
+    },
+    {
+     "file": "fr/emails-groupes/1-destinataires-dark-mobile.png",
+     "parcours": "emails-groupes",
+     "step": "1-destinataires",
+     "lang": "fr",
+     "theme": "dark",
+     "device": "mobile",
+     "format": "png",
+     "caption": {
+      "fr": "Étape 1 : choisir les destinataires",
+      "de": "Schritt 1: Empfänger wählen",
+      "en": "Step 1: choose the recipients"
+     },
+     "alt": {
+      "fr": "Gestioo : assistant d’emails groupés, étape Destinataires",
+      "de": "Gestioo: Sammel-E-Mail-Assistent, Schritt Empfänger",
+      "en": "Gestioo: group email wizard, Recipients step"
+     }
+    },
+    {
+     "file": "fr/emails-groupes/2-message-dark-mobile.png",
+     "parcours": "emails-groupes",
+     "step": "2-message",
+     "lang": "fr",
+     "theme": "dark",
+     "device": "mobile",
+     "format": "png",
+     "caption": {
+      "fr": "Étape 2 : rédiger le message",
+      "de": "Schritt 2: Nachricht verfassen",
+      "en": "Step 2: write the message"
+     },
+     "alt": {
+      "fr": "Gestioo : assistant d’emails groupés, étape Message",
+      "de": "Gestioo: Sammel-E-Mail-Assistent, Schritt Nachricht",
+      "en": "Gestioo: group email wizard, Message step"
+     }
+    },
+    {
+     "file": "fr/emails-groupes/3-recapitulatif-dark-mobile.png",
+     "parcours": "emails-groupes",
+     "step": "3-recapitulatif",
+     "lang": "fr",
+     "theme": "dark",
+     "device": "mobile",
+     "format": "png",
+     "caption": {
+      "fr": "Étape 3 : vérifier et envoyer",
+      "de": "Schritt 3: Prüfen und senden",
+      "en": "Step 3: review and send"
+     },
+     "alt": {
+      "fr": "Gestioo : assistant d’emails groupés, récapitulatif avant l’envoi",
+      "de": "Gestioo: Sammel-E-Mail-Assistent, Zusammenfassung vor dem Versand",
+      "en": "Gestioo: group email wizard, summary before sending"
+     }
+    },
+    {
+     "file": "de/emails-groupes/1-destinataires-light-desktop.png",
+     "parcours": "emails-groupes",
+     "step": "1-destinataires",
+     "lang": "de",
+     "theme": "light",
+     "device": "desktop",
+     "format": "png",
+     "caption": {
+      "fr": "Étape 1 : choisir les destinataires",
+      "de": "Schritt 1: Empfänger wählen",
+      "en": "Step 1: choose the recipients"
+     },
+     "alt": {
+      "fr": "Gestioo : assistant d’emails groupés, étape Destinataires",
+      "de": "Gestioo: Sammel-E-Mail-Assistent, Schritt Empfänger",
+      "en": "Gestioo: group email wizard, Recipients step"
+     }
+    },
+    {
+     "file": "de/emails-groupes/2-message-light-desktop.png",
+     "parcours": "emails-groupes",
+     "step": "2-message",
+     "lang": "de",
+     "theme": "light",
+     "device": "desktop",
+     "format": "png",
+     "caption": {
+      "fr": "Étape 2 : rédiger le message",
+      "de": "Schritt 2: Nachricht verfassen",
+      "en": "Step 2: write the message"
+     },
+     "alt": {
+      "fr": "Gestioo : assistant d’emails groupés, étape Message",
+      "de": "Gestioo: Sammel-E-Mail-Assistent, Schritt Nachricht",
+      "en": "Gestioo: group email wizard, Message step"
+     }
+    },
+    {
+     "file": "de/emails-groupes/3-recapitulatif-light-desktop.png",
+     "parcours": "emails-groupes",
+     "step": "3-recapitulatif",
+     "lang": "de",
+     "theme": "light",
+     "device": "desktop",
+     "format": "png",
+     "caption": {
+      "fr": "Étape 3 : vérifier et envoyer",
+      "de": "Schritt 3: Prüfen und senden",
+      "en": "Step 3: review and send"
+     },
+     "alt": {
+      "fr": "Gestioo : assistant d’emails groupés, récapitulatif avant l’envoi",
+      "de": "Gestioo: Sammel-E-Mail-Assistent, Zusammenfassung vor dem Versand",
+      "en": "Gestioo: group email wizard, summary before sending"
+     }
+    },
+    {
+     "file": "de/emails-groupes/1-destinataires-light-mobile.png",
+     "parcours": "emails-groupes",
+     "step": "1-destinataires",
+     "lang": "de",
+     "theme": "light",
+     "device": "mobile",
+     "format": "png",
+     "caption": {
+      "fr": "Étape 1 : choisir les destinataires",
+      "de": "Schritt 1: Empfänger wählen",
+      "en": "Step 1: choose the recipients"
+     },
+     "alt": {
+      "fr": "Gestioo : assistant d’emails groupés, étape Destinataires",
+      "de": "Gestioo: Sammel-E-Mail-Assistent, Schritt Empfänger",
+      "en": "Gestioo: group email wizard, Recipients step"
+     }
+    },
+    {
+     "file": "de/emails-groupes/2-message-light-mobile.png",
+     "parcours": "emails-groupes",
+     "step": "2-message",
+     "lang": "de",
+     "theme": "light",
+     "device": "mobile",
+     "format": "png",
+     "caption": {
+      "fr": "Étape 2 : rédiger le message",
+      "de": "Schritt 2: Nachricht verfassen",
+      "en": "Step 2: write the message"
+     },
+     "alt": {
+      "fr": "Gestioo : assistant d’emails groupés, étape Message",
+      "de": "Gestioo: Sammel-E-Mail-Assistent, Schritt Nachricht",
+      "en": "Gestioo: group email wizard, Message step"
+     }
+    },
+    {
+     "file": "de/emails-groupes/3-recapitulatif-light-mobile.png",
+     "parcours": "emails-groupes",
+     "step": "3-recapitulatif",
+     "lang": "de",
+     "theme": "light",
+     "device": "mobile",
+     "format": "png",
+     "caption": {
+      "fr": "Étape 3 : vérifier et envoyer",
+      "de": "Schritt 3: Prüfen und senden",
+      "en": "Step 3: review and send"
+     },
+     "alt": {
+      "fr": "Gestioo : assistant d’emails groupés, récapitulatif avant l’envoi",
+      "de": "Gestioo: Sammel-E-Mail-Assistent, Zusammenfassung vor dem Versand",
+      "en": "Gestioo: group email wizard, summary before sending"
+     }
+    },
+    {
+     "file": "de/emails-groupes/1-destinataires-dark-desktop.png",
+     "parcours": "emails-groupes",
+     "step": "1-destinataires",
+     "lang": "de",
+     "theme": "dark",
+     "device": "desktop",
+     "format": "png",
+     "caption": {
+      "fr": "Étape 1 : choisir les destinataires",
+      "de": "Schritt 1: Empfänger wählen",
+      "en": "Step 1: choose the recipients"
+     },
+     "alt": {
+      "fr": "Gestioo : assistant d’emails groupés, étape Destinataires",
+      "de": "Gestioo: Sammel-E-Mail-Assistent, Schritt Empfänger",
+      "en": "Gestioo: group email wizard, Recipients step"
+     }
+    },
+    {
+     "file": "de/emails-groupes/2-message-dark-desktop.png",
+     "parcours": "emails-groupes",
+     "step": "2-message",
+     "lang": "de",
+     "theme": "dark",
+     "device": "desktop",
+     "format": "png",
+     "caption": {
+      "fr": "Étape 2 : rédiger le message",
+      "de": "Schritt 2: Nachricht verfassen",
+      "en": "Step 2: write the message"
+     },
+     "alt": {
+      "fr": "Gestioo : assistant d’emails groupés, étape Message",
+      "de": "Gestioo: Sammel-E-Mail-Assistent, Schritt Nachricht",
+      "en": "Gestioo: group email wizard, Message step"
+     }
+    },
+    {
+     "file": "de/emails-groupes/3-recapitulatif-dark-desktop.png",
+     "parcours": "emails-groupes",
+     "step": "3-recapitulatif",
+     "lang": "de",
+     "theme": "dark",
+     "device": "desktop",
+     "format": "png",
+     "caption": {
+      "fr": "Étape 3 : vérifier et envoyer",
+      "de": "Schritt 3: Prüfen und senden",
+      "en": "Step 3: review and send"
+     },
+     "alt": {
+      "fr": "Gestioo : assistant d’emails groupés, récapitulatif avant l’envoi",
+      "de": "Gestioo: Sammel-E-Mail-Assistent, Zusammenfassung vor dem Versand",
+      "en": "Gestioo: group email wizard, summary before sending"
+     }
+    },
+    {
+     "file": "de/emails-groupes/1-destinataires-dark-mobile.png",
+     "parcours": "emails-groupes",
+     "step": "1-destinataires",
+     "lang": "de",
+     "theme": "dark",
+     "device": "mobile",
+     "format": "png",
+     "caption": {
+      "fr": "Étape 1 : choisir les destinataires",
+      "de": "Schritt 1: Empfänger wählen",
+      "en": "Step 1: choose the recipients"
+     },
+     "alt": {
+      "fr": "Gestioo : assistant d’emails groupés, étape Destinataires",
+      "de": "Gestioo: Sammel-E-Mail-Assistent, Schritt Empfänger",
+      "en": "Gestioo: group email wizard, Recipients step"
+     }
+    },
+    {
+     "file": "de/emails-groupes/2-message-dark-mobile.png",
+     "parcours": "emails-groupes",
+     "step": "2-message",
+     "lang": "de",
+     "theme": "dark",
+     "device": "mobile",
+     "format": "png",
+     "caption": {
+      "fr": "Étape 2 : rédiger le message",
+      "de": "Schritt 2: Nachricht verfassen",
+      "en": "Step 2: write the message"
+     },
+     "alt": {
+      "fr": "Gestioo : assistant d’emails groupés, étape Message",
+      "de": "Gestioo: Sammel-E-Mail-Assistent, Schritt Nachricht",
+      "en": "Gestioo: group email wizard, Message step"
+     }
+    },
+    {
+     "file": "de/emails-groupes/3-recapitulatif-dark-mobile.png",
+     "parcours": "emails-groupes",
+     "step": "3-recapitulatif",
+     "lang": "de",
+     "theme": "dark",
+     "device": "mobile",
+     "format": "png",
+     "caption": {
+      "fr": "Étape 3 : vérifier et envoyer",
+      "de": "Schritt 3: Prüfen und senden",
+      "en": "Step 3: review and send"
+     },
+     "alt": {
+      "fr": "Gestioo : assistant d’emails groupés, récapitulatif avant l’envoi",
+      "de": "Gestioo: Sammel-E-Mail-Assistent, Zusammenfassung vor dem Versand",
+      "en": "Gestioo: group email wizard, summary before sending"
+     }
+    },
+    {
+     "file": "en/emails-groupes/1-destinataires-light-desktop.png",
+     "parcours": "emails-groupes",
+     "step": "1-destinataires",
+     "lang": "en",
+     "theme": "light",
+     "device": "desktop",
+     "format": "png",
+     "caption": {
+      "fr": "Étape 1 : choisir les destinataires",
+      "de": "Schritt 1: Empfänger wählen",
+      "en": "Step 1: choose the recipients"
+     },
+     "alt": {
+      "fr": "Gestioo : assistant d’emails groupés, étape Destinataires",
+      "de": "Gestioo: Sammel-E-Mail-Assistent, Schritt Empfänger",
+      "en": "Gestioo: group email wizard, Recipients step"
+     }
+    },
+    {
+     "file": "en/emails-groupes/2-message-light-desktop.png",
+     "parcours": "emails-groupes",
+     "step": "2-message",
+     "lang": "en",
+     "theme": "light",
+     "device": "desktop",
+     "format": "png",
+     "caption": {
+      "fr": "Étape 2 : rédiger le message",
+      "de": "Schritt 2: Nachricht verfassen",
+      "en": "Step 2: write the message"
+     },
+     "alt": {
+      "fr": "Gestioo : assistant d’emails groupés, étape Message",
+      "de": "Gestioo: Sammel-E-Mail-Assistent, Schritt Nachricht",
+      "en": "Gestioo: group email wizard, Message step"
+     }
+    },
+    {
+     "file": "en/emails-groupes/3-recapitulatif-light-desktop.png",
+     "parcours": "emails-groupes",
+     "step": "3-recapitulatif",
+     "lang": "en",
+     "theme": "light",
+     "device": "desktop",
+     "format": "png",
+     "caption": {
+      "fr": "Étape 3 : vérifier et envoyer",
+      "de": "Schritt 3: Prüfen und senden",
+      "en": "Step 3: review and send"
+     },
+     "alt": {
+      "fr": "Gestioo : assistant d’emails groupés, récapitulatif avant l’envoi",
+      "de": "Gestioo: Sammel-E-Mail-Assistent, Zusammenfassung vor dem Versand",
+      "en": "Gestioo: group email wizard, summary before sending"
+     }
+    },
+    {
+     "file": "en/emails-groupes/1-destinataires-light-mobile.png",
+     "parcours": "emails-groupes",
+     "step": "1-destinataires",
+     "lang": "en",
+     "theme": "light",
+     "device": "mobile",
+     "format": "png",
+     "caption": {
+      "fr": "Étape 1 : choisir les destinataires",
+      "de": "Schritt 1: Empfänger wählen",
+      "en": "Step 1: choose the recipients"
+     },
+     "alt": {
+      "fr": "Gestioo : assistant d’emails groupés, étape Destinataires",
+      "de": "Gestioo: Sammel-E-Mail-Assistent, Schritt Empfänger",
+      "en": "Gestioo: group email wizard, Recipients step"
+     }
+    },
+    {
+     "file": "en/emails-groupes/2-message-light-mobile.png",
+     "parcours": "emails-groupes",
+     "step": "2-message",
+     "lang": "en",
+     "theme": "light",
+     "device": "mobile",
+     "format": "png",
+     "caption": {
+      "fr": "Étape 2 : rédiger le message",
+      "de": "Schritt 2: Nachricht verfassen",
+      "en": "Step 2: write the message"
+     },
+     "alt": {
+      "fr": "Gestioo : assistant d’emails groupés, étape Message",
+      "de": "Gestioo: Sammel-E-Mail-Assistent, Schritt Nachricht",
+      "en": "Gestioo: group email wizard, Message step"
+     }
+    },
+    {
+     "file": "en/emails-groupes/3-recapitulatif-light-mobile.png",
+     "parcours": "emails-groupes",
+     "step": "3-recapitulatif",
+     "lang": "en",
+     "theme": "light",
+     "device": "mobile",
+     "format": "png",
+     "caption": {
+      "fr": "Étape 3 : vérifier et envoyer",
+      "de": "Schritt 3: Prüfen und senden",
+      "en": "Step 3: review and send"
+     },
+     "alt": {
+      "fr": "Gestioo : assistant d’emails groupés, récapitulatif avant l’envoi",
+      "de": "Gestioo: Sammel-E-Mail-Assistent, Zusammenfassung vor dem Versand",
+      "en": "Gestioo: group email wizard, summary before sending"
+     }
+    },
+    {
+     "file": "en/emails-groupes/1-destinataires-dark-desktop.png",
+     "parcours": "emails-groupes",
+     "step": "1-destinataires",
+     "lang": "en",
+     "theme": "dark",
+     "device": "desktop",
+     "format": "png",
+     "caption": {
+      "fr": "Étape 1 : choisir les destinataires",
+      "de": "Schritt 1: Empfänger wählen",
+      "en": "Step 1: choose the recipients"
+     },
+     "alt": {
+      "fr": "Gestioo : assistant d’emails groupés, étape Destinataires",
+      "de": "Gestioo: Sammel-E-Mail-Assistent, Schritt Empfänger",
+      "en": "Gestioo: group email wizard, Recipients step"
+     }
+    },
+    {
+     "file": "en/emails-groupes/2-message-dark-desktop.png",
+     "parcours": "emails-groupes",
+     "step": "2-message",
+     "lang": "en",
+     "theme": "dark",
+     "device": "desktop",
+     "format": "png",
+     "caption": {
+      "fr": "Étape 2 : rédiger le message",
+      "de": "Schritt 2: Nachricht verfassen",
+      "en": "Step 2: write the message"
+     },
+     "alt": {
+      "fr": "Gestioo : assistant d’emails groupés, étape Message",
+      "de": "Gestioo: Sammel-E-Mail-Assistent, Schritt Nachricht",
+      "en": "Gestioo: group email wizard, Message step"
+     }
+    },
+    {
+     "file": "en/emails-groupes/3-recapitulatif-dark-desktop.png",
+     "parcours": "emails-groupes",
+     "step": "3-recapitulatif",
+     "lang": "en",
+     "theme": "dark",
+     "device": "desktop",
+     "format": "png",
+     "caption": {
+      "fr": "Étape 3 : vérifier et envoyer",
+      "de": "Schritt 3: Prüfen und senden",
+      "en": "Step 3: review and send"
+     },
+     "alt": {
+      "fr": "Gestioo : assistant d’emails groupés, récapitulatif avant l’envoi",
+      "de": "Gestioo: Sammel-E-Mail-Assistent, Zusammenfassung vor dem Versand",
+      "en": "Gestioo: group email wizard, summary before sending"
+     }
+    },
+    {
+     "file": "en/emails-groupes/1-destinataires-dark-mobile.png",
+     "parcours": "emails-groupes",
+     "step": "1-destinataires",
+     "lang": "en",
+     "theme": "dark",
+     "device": "mobile",
+     "format": "png",
+     "caption": {
+      "fr": "Étape 1 : choisir les destinataires",
+      "de": "Schritt 1: Empfänger wählen",
+      "en": "Step 1: choose the recipients"
+     },
+     "alt": {
+      "fr": "Gestioo : assistant d’emails groupés, étape Destinataires",
+      "de": "Gestioo: Sammel-E-Mail-Assistent, Schritt Empfänger",
+      "en": "Gestioo: group email wizard, Recipients step"
+     }
+    },
+    {
+     "file": "en/emails-groupes/2-message-dark-mobile.png",
+     "parcours": "emails-groupes",
+     "step": "2-message",
+     "lang": "en",
+     "theme": "dark",
+     "device": "mobile",
+     "format": "png",
+     "caption": {
+      "fr": "Étape 2 : rédiger le message",
+      "de": "Schritt 2: Nachricht verfassen",
+      "en": "Step 2: write the message"
+     },
+     "alt": {
+      "fr": "Gestioo : assistant d’emails groupés, étape Message",
+      "de": "Gestioo: Sammel-E-Mail-Assistent, Schritt Nachricht",
+      "en": "Gestioo: group email wizard, Message step"
+     }
+    },
+    {
+     "file": "en/emails-groupes/3-recapitulatif-dark-mobile.png",
+     "parcours": "emails-groupes",
+     "step": "3-recapitulatif",
+     "lang": "en",
+     "theme": "dark",
+     "device": "mobile",
+     "format": "png",
+     "caption": {
+      "fr": "Étape 3 : vérifier et envoyer",
+      "de": "Schritt 3: Prüfen und senden",
+      "en": "Step 3: review and send"
+     },
+     "alt": {
+      "fr": "Gestioo : assistant d’emails groupés, récapitulatif avant l’envoi",
+      "de": "Gestioo: Sammel-E-Mail-Assistent, Zusammenfassung vor dem Versand",
+      "en": "Gestioo: group email wizard, summary before sending"
+     }
+    },
+    {
+     "file": "fr/emails-groupes/emails-groupes.mp4",
+     "parcours": "emails-groupes",
+     "step": "video",
+     "lang": "fr",
+     "theme": "light",
+     "device": "desktop",
+     "format": "mp4",
+     "caption": {
+      "fr": "Emails groupés en 3 étapes",
+      "de": "Sammel-E-Mails in 3 Schritten",
+      "en": "Group emails in 3 steps"
+     },
+     "alt": {
+      "fr": "Emails groupés en 3 étapes",
+      "de": "Sammel-E-Mails in 3 Schritten",
+      "en": "Group emails in 3 steps"
+     }
+    },
+    {
+     "file": "fr/emails-groupes/emails-groupes.webm",
+     "parcours": "emails-groupes",
+     "step": "video",
+     "lang": "fr",
+     "theme": "light",
+     "device": "desktop",
+     "format": "webm",
+     "caption": {
+      "fr": "Emails groupés en 3 étapes",
+      "de": "Sammel-E-Mails in 3 Schritten",
+      "en": "Group emails in 3 steps"
+     },
+     "alt": {
+      "fr": "Emails groupés en 3 étapes",
+      "de": "Sammel-E-Mails in 3 Schritten",
+      "en": "Group emails in 3 steps"
+     }
+    }
+   ]
+  },
+  {
+   "id": "facture-qr",
+   "title": {
+    "fr": "Facture avec QR-facture suisse",
+    "de": "Rechnung mit Schweizer QR-Rechnung",
+    "en": "Invoice with Swiss QR-bill"
+   },
+   "deps": [
+    "frontend/src/pages/InvoiceDetailPage.tsx",
+    "frontend/src/pages/InvoicesPage.tsx",
+    "frontend/src/api/invoices.ts",
+    "backend-php/src/Support/InvoicePdf*.php"
+   ],
+   "updated_at": "2026-10-17T11:22:48.522Z",
+   "files": [
+    {
+     "file": "fr/facture-qr/facture-light-desktop.png",
+     "parcours": "facture-qr",
+     "step": "facture",
+     "lang": "fr",
+     "theme": "light",
+     "device": "desktop",
+     "format": "png",
+     "caption": {
+      "fr": "Le détail d’une facture : lignes, paiements, remise",
+      "de": "Die Rechnungsdetails: Positionen, Zahlungen, Rabatt",
+      "en": "Invoice details: lines, payments, discount"
+     },
+     "alt": {
+      "fr": "Gestioo : détail d’une facture avec son statut et ses paiements",
+      "de": "Gestioo: Rechnungsdetails mit Status und Zahlungen",
+      "en": "Gestioo: invoice details with status and payments"
+     }
+    },
+    {
+     "file": "fr/facture-qr/qr-facture-pdf-light-desktop.png",
+     "parcours": "facture-qr",
+     "step": "qr-facture-pdf",
+     "lang": "fr",
+     "theme": "light",
+     "device": "desktop",
+     "format": "png",
+     "caption": {
+      "fr": "L’aperçu du PDF avec la QR-facture suisse",
+      "de": "Die PDF-Vorschau mit der Schweizer QR-Rechnung",
+      "en": "The PDF preview with the Swiss QR-bill"
+     },
+     "alt": {
+      "fr": "Gestioo : facture PDF avec bulletin de versement QR-facture suisse",
+      "de": "Gestioo: PDF-Rechnung mit Schweizer QR-Zahlteil",
+      "en": "Gestioo: PDF invoice with Swiss QR-bill payment slip"
+     }
+    },
+    {
+     "file": "fr/facture-qr/facture-light-mobile.png",
+     "parcours": "facture-qr",
+     "step": "facture",
+     "lang": "fr",
+     "theme": "light",
+     "device": "mobile",
+     "format": "png",
+     "caption": {
+      "fr": "Le détail d’une facture : lignes, paiements, remise",
+      "de": "Die Rechnungsdetails: Positionen, Zahlungen, Rabatt",
+      "en": "Invoice details: lines, payments, discount"
+     },
+     "alt": {
+      "fr": "Gestioo : détail d’une facture avec son statut et ses paiements",
+      "de": "Gestioo: Rechnungsdetails mit Status und Zahlungen",
+      "en": "Gestioo: invoice details with status and payments"
+     }
+    },
+    {
+     "file": "fr/facture-qr/qr-facture-pdf-light-mobile.png",
+     "parcours": "facture-qr",
+     "step": "qr-facture-pdf",
+     "lang": "fr",
+     "theme": "light",
+     "device": "mobile",
+     "format": "png",
+     "caption": {
+      "fr": "L’aperçu du PDF avec la QR-facture suisse",
+      "de": "Die PDF-Vorschau mit der Schweizer QR-Rechnung",
+      "en": "The PDF preview with the Swiss QR-bill"
+     },
+     "alt": {
+      "fr": "Gestioo : facture PDF avec bulletin de versement QR-facture suisse",
+      "de": "Gestioo: PDF-Rechnung mit Schweizer QR-Zahlteil",
+      "en": "Gestioo: PDF invoice with Swiss QR-bill payment slip"
+     }
+    },
+    {
+     "file": "fr/facture-qr/facture-dark-desktop.png",
+     "parcours": "facture-qr",
+     "step": "facture",
+     "lang": "fr",
+     "theme": "dark",
+     "device": "desktop",
+     "format": "png",
+     "caption": {
+      "fr": "Le détail d’une facture : lignes, paiements, remise",
+      "de": "Die Rechnungsdetails: Positionen, Zahlungen, Rabatt",
+      "en": "Invoice details: lines, payments, discount"
+     },
+     "alt": {
+      "fr": "Gestioo : détail d’une facture avec son statut et ses paiements",
+      "de": "Gestioo: Rechnungsdetails mit Status und Zahlungen",
+      "en": "Gestioo: invoice details with status and payments"
+     }
+    },
+    {
+     "file": "fr/facture-qr/qr-facture-pdf-dark-desktop.png",
+     "parcours": "facture-qr",
+     "step": "qr-facture-pdf",
+     "lang": "fr",
+     "theme": "dark",
+     "device": "desktop",
+     "format": "png",
+     "caption": {
+      "fr": "L’aperçu du PDF avec la QR-facture suisse",
+      "de": "Die PDF-Vorschau mit der Schweizer QR-Rechnung",
+      "en": "The PDF preview with the Swiss QR-bill"
+     },
+     "alt": {
+      "fr": "Gestioo : facture PDF avec bulletin de versement QR-facture suisse",
+      "de": "Gestioo: PDF-Rechnung mit Schweizer QR-Zahlteil",
+      "en": "Gestioo: PDF invoice with Swiss QR-bill payment slip"
+     }
+    },
+    {
+     "file": "fr/facture-qr/facture-dark-mobile.png",
+     "parcours": "facture-qr",
+     "step": "facture",
+     "lang": "fr",
+     "theme": "dark",
+     "device": "mobile",
+     "format": "png",
+     "caption": {
+      "fr": "Le détail d’une facture : lignes, paiements, remise",
+      "de": "Die Rechnungsdetails: Positionen, Zahlungen, Rabatt",
+      "en": "Invoice details: lines, payments, discount"
+     },
+     "alt": {
+      "fr": "Gestioo : détail d’une facture avec son statut et ses paiements",
+      "de": "Gestioo: Rechnungsdetails mit Status und Zahlungen",
+      "en": "Gestioo: invoice details with status and payments"
+     }
+    },
+    {
+     "file": "fr/facture-qr/qr-facture-pdf-dark-mobile.png",
+     "parcours": "facture-qr",
+     "step": "qr-facture-pdf",
+     "lang": "fr",
+     "theme": "dark",
+     "device": "mobile",
+     "format": "png",
+     "caption": {
+      "fr": "L’aperçu du PDF avec la QR-facture suisse",
+      "de": "Die PDF-Vorschau mit der Schweizer QR-Rechnung",
+      "en": "The PDF preview with the Swiss QR-bill"
+     },
+     "alt": {
+      "fr": "Gestioo : facture PDF avec bulletin de versement QR-facture suisse",
+      "de": "Gestioo: PDF-Rechnung mit Schweizer QR-Zahlteil",
+      "en": "Gestioo: PDF invoice with Swiss QR-bill payment slip"
+     }
+    },
+    {
+     "file": "de/facture-qr/facture-light-desktop.png",
+     "parcours": "facture-qr",
+     "step": "facture",
+     "lang": "de",
+     "theme": "light",
+     "device": "desktop",
+     "format": "png",
+     "caption": {
+      "fr": "Le détail d’une facture : lignes, paiements, remise",
+      "de": "Die Rechnungsdetails: Positionen, Zahlungen, Rabatt",
+      "en": "Invoice details: lines, payments, discount"
+     },
+     "alt": {
+      "fr": "Gestioo : détail d’une facture avec son statut et ses paiements",
+      "de": "Gestioo: Rechnungsdetails mit Status und Zahlungen",
+      "en": "Gestioo: invoice details with status and payments"
+     }
+    },
+    {
+     "file": "de/facture-qr/qr-facture-pdf-light-desktop.png",
+     "parcours": "facture-qr",
+     "step": "qr-facture-pdf",
+     "lang": "de",
+     "theme": "light",
+     "device": "desktop",
+     "format": "png",
+     "caption": {
+      "fr": "L’aperçu du PDF avec la QR-facture suisse",
+      "de": "Die PDF-Vorschau mit der Schweizer QR-Rechnung",
+      "en": "The PDF preview with the Swiss QR-bill"
+     },
+     "alt": {
+      "fr": "Gestioo : facture PDF avec bulletin de versement QR-facture suisse",
+      "de": "Gestioo: PDF-Rechnung mit Schweizer QR-Zahlteil",
+      "en": "Gestioo: PDF invoice with Swiss QR-bill payment slip"
+     }
+    },
+    {
+     "file": "de/facture-qr/facture-light-mobile.png",
+     "parcours": "facture-qr",
+     "step": "facture",
+     "lang": "de",
+     "theme": "light",
+     "device": "mobile",
+     "format": "png",
+     "caption": {
+      "fr": "Le détail d’une facture : lignes, paiements, remise",
+      "de": "Die Rechnungsdetails: Positionen, Zahlungen, Rabatt",
+      "en": "Invoice details: lines, payments, discount"
+     },
+     "alt": {
+      "fr": "Gestioo : détail d’une facture avec son statut et ses paiements",
+      "de": "Gestioo: Rechnungsdetails mit Status und Zahlungen",
+      "en": "Gestioo: invoice details with status and payments"
+     }
+    },
+    {
+     "file": "de/facture-qr/qr-facture-pdf-light-mobile.png",
+     "parcours": "facture-qr",
+     "step": "qr-facture-pdf",
+     "lang": "de",
+     "theme": "light",
+     "device": "mobile",
+     "format": "png",
+     "caption": {
+      "fr": "L’aperçu du PDF avec la QR-facture suisse",
+      "de": "Die PDF-Vorschau mit der Schweizer QR-Rechnung",
+      "en": "The PDF preview with the Swiss QR-bill"
+     },
+     "alt": {
+      "fr": "Gestioo : facture PDF avec bulletin de versement QR-facture suisse",
+      "de": "Gestioo: PDF-Rechnung mit Schweizer QR-Zahlteil",
+      "en": "Gestioo: PDF invoice with Swiss QR-bill payment slip"
+     }
+    },
+    {
+     "file": "de/facture-qr/facture-dark-desktop.png",
+     "parcours": "facture-qr",
+     "step": "facture",
+     "lang": "de",
+     "theme": "dark",
+     "device": "desktop",
+     "format": "png",
+     "caption": {
+      "fr": "Le détail d’une facture : lignes, paiements, remise",
+      "de": "Die Rechnungsdetails: Positionen, Zahlungen, Rabatt",
+      "en": "Invoice details: lines, payments, discount"
+     },
+     "alt": {
+      "fr": "Gestioo : détail d’une facture avec son statut et ses paiements",
+      "de": "Gestioo: Rechnungsdetails mit Status und Zahlungen",
+      "en": "Gestioo: invoice details with status and payments"
+     }
+    },
+    {
+     "file": "de/facture-qr/qr-facture-pdf-dark-desktop.png",
+     "parcours": "facture-qr",
+     "step": "qr-facture-pdf",
+     "lang": "de",
+     "theme": "dark",
+     "device": "desktop",
+     "format": "png",
+     "caption": {
+      "fr": "L’aperçu du PDF avec la QR-facture suisse",
+      "de": "Die PDF-Vorschau mit der Schweizer QR-Rechnung",
+      "en": "The PDF preview with the Swiss QR-bill"
+     },
+     "alt": {
+      "fr": "Gestioo : facture PDF avec bulletin de versement QR-facture suisse",
+      "de": "Gestioo: PDF-Rechnung mit Schweizer QR-Zahlteil",
+      "en": "Gestioo: PDF invoice with Swiss QR-bill payment slip"
+     }
+    },
+    {
+     "file": "de/facture-qr/facture-dark-mobile.png",
+     "parcours": "facture-qr",
+     "step": "facture",
+     "lang": "de",
+     "theme": "dark",
+     "device": "mobile",
+     "format": "png",
+     "caption": {
+      "fr": "Le détail d’une facture : lignes, paiements, remise",
+      "de": "Die Rechnungsdetails: Positionen, Zahlungen, Rabatt",
+      "en": "Invoice details: lines, payments, discount"
+     },
+     "alt": {
+      "fr": "Gestioo : détail d’une facture avec son statut et ses paiements",
+      "de": "Gestioo: Rechnungsdetails mit Status und Zahlungen",
+      "en": "Gestioo: invoice details with status and payments"
+     }
+    },
+    {
+     "file": "de/facture-qr/qr-facture-pdf-dark-mobile.png",
+     "parcours": "facture-qr",
+     "step": "qr-facture-pdf",
+     "lang": "de",
+     "theme": "dark",
+     "device": "mobile",
+     "format": "png",
+     "caption": {
+      "fr": "L’aperçu du PDF avec la QR-facture suisse",
+      "de": "Die PDF-Vorschau mit der Schweizer QR-Rechnung",
+      "en": "The PDF preview with the Swiss QR-bill"
+     },
+     "alt": {
+      "fr": "Gestioo : facture PDF avec bulletin de versement QR-facture suisse",
+      "de": "Gestioo: PDF-Rechnung mit Schweizer QR-Zahlteil",
+      "en": "Gestioo: PDF invoice with Swiss QR-bill payment slip"
+     }
+    },
+    {
+     "file": "en/facture-qr/facture-light-desktop.png",
+     "parcours": "facture-qr",
+     "step": "facture",
+     "lang": "en",
+     "theme": "light",
+     "device": "desktop",
+     "format": "png",
+     "caption": {
+      "fr": "Le détail d’une facture : lignes, paiements, remise",
+      "de": "Die Rechnungsdetails: Positionen, Zahlungen, Rabatt",
+      "en": "Invoice details: lines, payments, discount"
+     },
+     "alt": {
+      "fr": "Gestioo : détail d’une facture avec son statut et ses paiements",
+      "de": "Gestioo: Rechnungsdetails mit Status und Zahlungen",
+      "en": "Gestioo: invoice details with status and payments"
+     }
+    },
+    {
+     "file": "en/facture-qr/qr-facture-pdf-light-desktop.png",
+     "parcours": "facture-qr",
+     "step": "qr-facture-pdf",
+     "lang": "en",
+     "theme": "light",
+     "device": "desktop",
+     "format": "png",
+     "caption": {
+      "fr": "L’aperçu du PDF avec la QR-facture suisse",
+      "de": "Die PDF-Vorschau mit der Schweizer QR-Rechnung",
+      "en": "The PDF preview with the Swiss QR-bill"
+     },
+     "alt": {
+      "fr": "Gestioo : facture PDF avec bulletin de versement QR-facture suisse",
+      "de": "Gestioo: PDF-Rechnung mit Schweizer QR-Zahlteil",
+      "en": "Gestioo: PDF invoice with Swiss QR-bill payment slip"
+     }
+    },
+    {
+     "file": "en/facture-qr/facture-light-mobile.png",
+     "parcours": "facture-qr",
+     "step": "facture",
+     "lang": "en",
+     "theme": "light",
+     "device": "mobile",
+     "format": "png",
+     "caption": {
+      "fr": "Le détail d’une facture : lignes, paiements, remise",
+      "de": "Die Rechnungsdetails: Positionen, Zahlungen, Rabatt",
+      "en": "Invoice details: lines, payments, discount"
+     },
+     "alt": {
+      "fr": "Gestioo : détail d’une facture avec son statut et ses paiements",
+      "de": "Gestioo: Rechnungsdetails mit Status und Zahlungen",
+      "en": "Gestioo: invoice details with status and payments"
+     }
+    },
+    {
+     "file": "en/facture-qr/qr-facture-pdf-light-mobile.png",
+     "parcours": "facture-qr",
+     "step": "qr-facture-pdf",
+     "lang": "en",
+     "theme": "light",
+     "device": "mobile",
+     "format": "png",
+     "caption": {
+      "fr": "L’aperçu du PDF avec la QR-facture suisse",
+      "de": "Die PDF-Vorschau mit der Schweizer QR-Rechnung",
+      "en": "The PDF preview with the Swiss QR-bill"
+     },
+     "alt": {
+      "fr": "Gestioo : facture PDF avec bulletin de versement QR-facture suisse",
+      "de": "Gestioo: PDF-Rechnung mit Schweizer QR-Zahlteil",
+      "en": "Gestioo: PDF invoice with Swiss QR-bill payment slip"
+     }
+    },
+    {
+     "file": "en/facture-qr/facture-dark-desktop.png",
+     "parcours": "facture-qr",
+     "step": "facture",
+     "lang": "en",
+     "theme": "dark",
+     "device": "desktop",
+     "format": "png",
+     "caption": {
+      "fr": "Le détail d’une facture : lignes, paiements, remise",
+      "de": "Die Rechnungsdetails: Positionen, Zahlungen, Rabatt",
+      "en": "Invoice details: lines, payments, discount"
+     },
+     "alt": {
+      "fr": "Gestioo : détail d’une facture avec son statut et ses paiements",
+      "de": "Gestioo: Rechnungsdetails mit Status und Zahlungen",
+      "en": "Gestioo: invoice details with status and payments"
+     }
+    },
+    {
+     "file": "en/facture-qr/qr-facture-pdf-dark-desktop.png",
+     "parcours": "facture-qr",
+     "step": "qr-facture-pdf",
+     "lang": "en",
+     "theme": "dark",
+     "device": "desktop",
+     "format": "png",
+     "caption": {
+      "fr": "L’aperçu du PDF avec la QR-facture suisse",
+      "de": "Die PDF-Vorschau mit der Schweizer QR-Rechnung",
+      "en": "The PDF preview with the Swiss QR-bill"
+     },
+     "alt": {
+      "fr": "Gestioo : facture PDF avec bulletin de versement QR-facture suisse",
+      "de": "Gestioo: PDF-Rechnung mit Schweizer QR-Zahlteil",
+      "en": "Gestioo: PDF invoice with Swiss QR-bill payment slip"
+     }
+    },
+    {
+     "file": "en/facture-qr/facture-dark-mobile.png",
+     "parcours": "facture-qr",
+     "step": "facture",
+     "lang": "en",
+     "theme": "dark",
+     "device": "mobile",
+     "format": "png",
+     "caption": {
+      "fr": "Le détail d’une facture : lignes, paiements, remise",
+      "de": "Die Rechnungsdetails: Positionen, Zahlungen, Rabatt",
+      "en": "Invoice details: lines, payments, discount"
+     },
+     "alt": {
+      "fr": "Gestioo : détail d’une facture avec son statut et ses paiements",
+      "de": "Gestioo: Rechnungsdetails mit Status und Zahlungen",
+      "en": "Gestioo: invoice details with status and payments"
+     }
+    },
+    {
+     "file": "en/facture-qr/qr-facture-pdf-dark-mobile.png",
+     "parcours": "facture-qr",
+     "step": "qr-facture-pdf",
+     "lang": "en",
+     "theme": "dark",
+     "device": "mobile",
+     "format": "png",
+     "caption": {
+      "fr": "L’aperçu du PDF avec la QR-facture suisse",
+      "de": "Die PDF-Vorschau mit der Schweizer QR-Rechnung",
+      "en": "The PDF preview with the Swiss QR-bill"
+     },
+     "alt": {
+      "fr": "Gestioo : facture PDF avec bulletin de versement QR-facture suisse",
+      "de": "Gestioo: PDF-Rechnung mit Schweizer QR-Zahlteil",
+      "en": "Gestioo: PDF invoice with Swiss QR-bill payment slip"
+     }
+    },
+    {
+     "file": "fr/facture-qr/facture-qr.mp4",
+     "parcours": "facture-qr",
+     "step": "video",
+     "lang": "fr",
+     "theme": "light",
+     "device": "desktop",
+     "format": "mp4",
+     "caption": {
+      "fr": "Facture avec QR-facture suisse",
+      "de": "Rechnung mit Schweizer QR-Rechnung",
+      "en": "Invoice with Swiss QR-bill"
+     },
+     "alt": {
+      "fr": "Facture avec QR-facture suisse",
+      "de": "Rechnung mit Schweizer QR-Rechnung",
+      "en": "Invoice with Swiss QR-bill"
+     }
+    },
+    {
+     "file": "fr/facture-qr/facture-qr.webm",
+     "parcours": "facture-qr",
+     "step": "video",
+     "lang": "fr",
+     "theme": "light",
+     "device": "desktop",
+     "format": "webm",
+     "caption": {
+      "fr": "Facture avec QR-facture suisse",
+      "de": "Rechnung mit Schweizer QR-Rechnung",
+      "en": "Invoice with Swiss QR-bill"
+     },
+     "alt": {
+      "fr": "Facture avec QR-facture suisse",
+      "de": "Rechnung mit Schweizer QR-Rechnung",
+      "en": "Invoice with Swiss QR-bill"
+     }
+    }
+   ]
+  },
+  {
+   "id": "famille",
+   "title": {
+    "fr": "Espace « Ma famille » et inscription",
+    "de": "Bereich « Meine Familie » und Anmeldung",
+    "en": "“My family” space and registration"
+   },
+   "deps": [
+    "frontend/src/pages/MemberDashboardPage.tsx",
+    "frontend/src/components/JoinSeasonDialog.tsx",
+    "frontend/src/components/AnnoncesWidget.tsx",
+    "frontend/src/api/membres.ts"
+   ],
+   "updated_at": "2026-10-17T11:22:48.522Z",
+   "files": [
+    {
+     "file": "fr/famille/ma-famille-light-desktop.png",
+     "parcours": "famille",
+     "step": "ma-famille",
+     "lang": "fr",
+     "theme": "light",
+     "device": "desktop",
+     "format": "png",
+     "caption": {
+      "fr": "L’espace « Ma famille » : membres, équipes et cotisations",
+      "de": "Der Bereich « Meine Familie »: Mitglieder, Teams und Beiträge",
+      "en": "The “My family” space: members, teams and fees"
+     },
+     "alt": {
+      "fr": "Gestioo : espace Ma famille avec les membres du foyer et leurs cotisations",
+      "de": "Gestioo: Bereich Meine Familie mit Mitgliedern und Beiträgen",
+      "en": "Gestioo: My family space with household members and fees"
+     }
+    },
+    {
+     "file": "fr/famille/ma-famille-light-mobile.png",
+     "parcours": "famille",
+     "step": "ma-famille",
+     "lang": "fr",
+     "theme": "light",
+     "device": "mobile",
+     "format": "png",
+     "caption": {
+      "fr": "L’espace « Ma famille » : membres, équipes et cotisations",
+      "de": "Der Bereich « Meine Familie »: Mitglieder, Teams und Beiträge",
+      "en": "The “My family” space: members, teams and fees"
+     },
+     "alt": {
+      "fr": "Gestioo : espace Ma famille avec les membres du foyer et leurs cotisations",
+      "de": "Gestioo: Bereich Meine Familie mit Mitgliedern und Beiträgen",
+      "en": "Gestioo: My family space with household members and fees"
+     }
+    },
+    {
+     "file": "fr/famille/ma-famille-dark-desktop.png",
+     "parcours": "famille",
+     "step": "ma-famille",
+     "lang": "fr",
+     "theme": "dark",
+     "device": "desktop",
+     "format": "png",
+     "caption": {
+      "fr": "L’espace « Ma famille » : membres, équipes et cotisations",
+      "de": "Der Bereich « Meine Familie »: Mitglieder, Teams und Beiträge",
+      "en": "The “My family” space: members, teams and fees"
+     },
+     "alt": {
+      "fr": "Gestioo : espace Ma famille avec les membres du foyer et leurs cotisations",
+      "de": "Gestioo: Bereich Meine Familie mit Mitgliedern und Beiträgen",
+      "en": "Gestioo: My family space with household members and fees"
+     }
+    },
+    {
+     "file": "fr/famille/ma-famille-dark-mobile.png",
+     "parcours": "famille",
+     "step": "ma-famille",
+     "lang": "fr",
+     "theme": "dark",
+     "device": "mobile",
+     "format": "png",
+     "caption": {
+      "fr": "L’espace « Ma famille » : membres, équipes et cotisations",
+      "de": "Der Bereich « Meine Familie »: Mitglieder, Teams und Beiträge",
+      "en": "The “My family” space: members, teams and fees"
+     },
+     "alt": {
+      "fr": "Gestioo : espace Ma famille avec les membres du foyer et leurs cotisations",
+      "de": "Gestioo: Bereich Meine Familie mit Mitgliedern und Beiträgen",
+      "en": "Gestioo: My family space with household members and fees"
+     }
+    },
+    {
+     "file": "de/famille/ma-famille-light-desktop.png",
+     "parcours": "famille",
+     "step": "ma-famille",
+     "lang": "de",
+     "theme": "light",
+     "device": "desktop",
+     "format": "png",
+     "caption": {
+      "fr": "L’espace « Ma famille » : membres, équipes et cotisations",
+      "de": "Der Bereich « Meine Familie »: Mitglieder, Teams und Beiträge",
+      "en": "The “My family” space: members, teams and fees"
+     },
+     "alt": {
+      "fr": "Gestioo : espace Ma famille avec les membres du foyer et leurs cotisations",
+      "de": "Gestioo: Bereich Meine Familie mit Mitgliedern und Beiträgen",
+      "en": "Gestioo: My family space with household members and fees"
+     }
+    },
+    {
+     "file": "de/famille/ma-famille-light-mobile.png",
+     "parcours": "famille",
+     "step": "ma-famille",
+     "lang": "de",
+     "theme": "light",
+     "device": "mobile",
+     "format": "png",
+     "caption": {
+      "fr": "L’espace « Ma famille » : membres, équipes et cotisations",
+      "de": "Der Bereich « Meine Familie »: Mitglieder, Teams und Beiträge",
+      "en": "The “My family” space: members, teams and fees"
+     },
+     "alt": {
+      "fr": "Gestioo : espace Ma famille avec les membres du foyer et leurs cotisations",
+      "de": "Gestioo: Bereich Meine Familie mit Mitgliedern und Beiträgen",
+      "en": "Gestioo: My family space with household members and fees"
+     }
+    },
+    {
+     "file": "de/famille/ma-famille-dark-desktop.png",
+     "parcours": "famille",
+     "step": "ma-famille",
+     "lang": "de",
+     "theme": "dark",
+     "device": "desktop",
+     "format": "png",
+     "caption": {
+      "fr": "L’espace « Ma famille » : membres, équipes et cotisations",
+      "de": "Der Bereich « Meine Familie »: Mitglieder, Teams und Beiträge",
+      "en": "The “My family” space: members, teams and fees"
+     },
+     "alt": {
+      "fr": "Gestioo : espace Ma famille avec les membres du foyer et leurs cotisations",
+      "de": "Gestioo: Bereich Meine Familie mit Mitgliedern und Beiträgen",
+      "en": "Gestioo: My family space with household members and fees"
+     }
+    },
+    {
+     "file": "de/famille/ma-famille-dark-mobile.png",
+     "parcours": "famille",
+     "step": "ma-famille",
+     "lang": "de",
+     "theme": "dark",
+     "device": "mobile",
+     "format": "png",
+     "caption": {
+      "fr": "L’espace « Ma famille » : membres, équipes et cotisations",
+      "de": "Der Bereich « Meine Familie »: Mitglieder, Teams und Beiträge",
+      "en": "The “My family” space: members, teams and fees"
+     },
+     "alt": {
+      "fr": "Gestioo : espace Ma famille avec les membres du foyer et leurs cotisations",
+      "de": "Gestioo: Bereich Meine Familie mit Mitgliedern und Beiträgen",
+      "en": "Gestioo: My family space with household members and fees"
+     }
+    },
+    {
+     "file": "en/famille/ma-famille-light-desktop.png",
+     "parcours": "famille",
+     "step": "ma-famille",
+     "lang": "en",
+     "theme": "light",
+     "device": "desktop",
+     "format": "png",
+     "caption": {
+      "fr": "L’espace « Ma famille » : membres, équipes et cotisations",
+      "de": "Der Bereich « Meine Familie »: Mitglieder, Teams und Beiträge",
+      "en": "The “My family” space: members, teams and fees"
+     },
+     "alt": {
+      "fr": "Gestioo : espace Ma famille avec les membres du foyer et leurs cotisations",
+      "de": "Gestioo: Bereich Meine Familie mit Mitgliedern und Beiträgen",
+      "en": "Gestioo: My family space with household members and fees"
+     }
+    },
+    {
+     "file": "en/famille/ma-famille-light-mobile.png",
+     "parcours": "famille",
+     "step": "ma-famille",
+     "lang": "en",
+     "theme": "light",
+     "device": "mobile",
+     "format": "png",
+     "caption": {
+      "fr": "L’espace « Ma famille » : membres, équipes et cotisations",
+      "de": "Der Bereich « Meine Familie »: Mitglieder, Teams und Beiträge",
+      "en": "The “My family” space: members, teams and fees"
+     },
+     "alt": {
+      "fr": "Gestioo : espace Ma famille avec les membres du foyer et leurs cotisations",
+      "de": "Gestioo: Bereich Meine Familie mit Mitgliedern und Beiträgen",
+      "en": "Gestioo: My family space with household members and fees"
+     }
+    },
+    {
+     "file": "en/famille/ma-famille-dark-desktop.png",
+     "parcours": "famille",
+     "step": "ma-famille",
+     "lang": "en",
+     "theme": "dark",
+     "device": "desktop",
+     "format": "png",
+     "caption": {
+      "fr": "L’espace « Ma famille » : membres, équipes et cotisations",
+      "de": "Der Bereich « Meine Familie »: Mitglieder, Teams und Beiträge",
+      "en": "The “My family” space: members, teams and fees"
+     },
+     "alt": {
+      "fr": "Gestioo : espace Ma famille avec les membres du foyer et leurs cotisations",
+      "de": "Gestioo: Bereich Meine Familie mit Mitgliedern und Beiträgen",
+      "en": "Gestioo: My family space with household members and fees"
+     }
+    },
+    {
+     "file": "en/famille/ma-famille-dark-mobile.png",
+     "parcours": "famille",
+     "step": "ma-famille",
+     "lang": "en",
+     "theme": "dark",
+     "device": "mobile",
+     "format": "png",
+     "caption": {
+      "fr": "L’espace « Ma famille » : membres, équipes et cotisations",
+      "de": "Der Bereich « Meine Familie »: Mitglieder, Teams und Beiträge",
+      "en": "The “My family” space: members, teams and fees"
+     },
+     "alt": {
+      "fr": "Gestioo : espace Ma famille avec les membres du foyer et leurs cotisations",
+      "de": "Gestioo: Bereich Meine Familie mit Mitgliedern und Beiträgen",
+      "en": "Gestioo: My family space with household members and fees"
+     }
+    },
+    {
+     "file": "fr/famille/famille.mp4",
+     "parcours": "famille",
+     "step": "video",
+     "lang": "fr",
+     "theme": "light",
+     "device": "desktop",
+     "format": "mp4",
+     "caption": {
+      "fr": "Espace « Ma famille » et inscription",
+      "de": "Bereich « Meine Familie » und Anmeldung",
+      "en": "“My family” space and registration"
+     },
+     "alt": {
+      "fr": "Espace « Ma famille » et inscription",
+      "de": "Bereich « Meine Familie » und Anmeldung",
+      "en": "“My family” space and registration"
+     }
+    },
+    {
+     "file": "fr/famille/famille.webm",
+     "parcours": "famille",
+     "step": "video",
+     "lang": "fr",
+     "theme": "light",
+     "device": "desktop",
+     "format": "webm",
+     "caption": {
+      "fr": "Espace « Ma famille » et inscription",
+      "de": "Bereich « Meine Familie » und Anmeldung",
+      "en": "“My family” space and registration"
+     },
+     "alt": {
+      "fr": "Espace « Ma famille » et inscription",
+      "de": "Bereich « Meine Familie » und Anmeldung",
+      "en": "“My family” space and registration"
+     }
+    }
+   ]
+  },
+  {
+   "id": "planning",
+   "title": {
+    "fr": "Planning de la semaine",
+    "de": "Wochenplanung",
+    "en": "Weekly schedule"
+   },
+   "deps": [
+    "frontend/src/pages/PlanningPage.tsx",
+    "frontend/src/components/PlanningLayout.tsx",
+    "frontend/src/lib/planning.ts",
+    "frontend/src/api/teamSchedules.ts",
+    "frontend/src/api/vacations.ts"
+   ],
+   "updated_at": "2026-10-17T11:22:48.522Z",
+   "files": [
+    {
+     "file": "fr/planning/planning-semaine-light-desktop.png",
+     "parcours": "planning",
+     "step": "planning-semaine",
+     "lang": "fr",
+     "theme": "light",
+     "device": "desktop",
+     "format": "png",
+     "caption": {
+      "fr": "Le planning de la semaine, par équipe et par salle",
+      "de": "Der Wochenplan, nach Team und Raum",
+      "en": "The weekly schedule, by team and room"
+     },
+     "alt": {
+      "fr": "Gestioo : planning de la semaine avec les entraînements de chaque équipe",
+      "de": "Gestioo: Wochenplan mit den Trainings jedes Teams",
+      "en": "Gestioo: weekly schedule with each team’s training sessions"
+     }
+    },
+    {
+     "file": "fr/planning/planning-semaine-light-mobile.png",
+     "parcours": "planning",
+     "step": "planning-semaine",
+     "lang": "fr",
+     "theme": "light",
+     "device": "mobile",
+     "format": "png",
+     "caption": {
+      "fr": "Le planning de la semaine, par équipe et par salle",
+      "de": "Der Wochenplan, nach Team und Raum",
+      "en": "The weekly schedule, by team and room"
+     },
+     "alt": {
+      "fr": "Gestioo : planning de la semaine avec les entraînements de chaque équipe",
+      "de": "Gestioo: Wochenplan mit den Trainings jedes Teams",
+      "en": "Gestioo: weekly schedule with each team’s training sessions"
+     }
+    },
+    {
+     "file": "fr/planning/planning-semaine-dark-desktop.png",
+     "parcours": "planning",
+     "step": "planning-semaine",
+     "lang": "fr",
+     "theme": "dark",
+     "device": "desktop",
+     "format": "png",
+     "caption": {
+      "fr": "Le planning de la semaine, par équipe et par salle",
+      "de": "Der Wochenplan, nach Team und Raum",
+      "en": "The weekly schedule, by team and room"
+     },
+     "alt": {
+      "fr": "Gestioo : planning de la semaine avec les entraînements de chaque équipe",
+      "de": "Gestioo: Wochenplan mit den Trainings jedes Teams",
+      "en": "Gestioo: weekly schedule with each team’s training sessions"
+     }
+    },
+    {
+     "file": "fr/planning/planning-semaine-dark-mobile.png",
+     "parcours": "planning",
+     "step": "planning-semaine",
+     "lang": "fr",
+     "theme": "dark",
+     "device": "mobile",
+     "format": "png",
+     "caption": {
+      "fr": "Le planning de la semaine, par équipe et par salle",
+      "de": "Der Wochenplan, nach Team und Raum",
+      "en": "The weekly schedule, by team and room"
+     },
+     "alt": {
+      "fr": "Gestioo : planning de la semaine avec les entraînements de chaque équipe",
+      "de": "Gestioo: Wochenplan mit den Trainings jedes Teams",
+      "en": "Gestioo: weekly schedule with each team’s training sessions"
+     }
+    },
+    {
+     "file": "de/planning/planning-semaine-light-desktop.png",
+     "parcours": "planning",
+     "step": "planning-semaine",
+     "lang": "de",
+     "theme": "light",
+     "device": "desktop",
+     "format": "png",
+     "caption": {
+      "fr": "Le planning de la semaine, par équipe et par salle",
+      "de": "Der Wochenplan, nach Team und Raum",
+      "en": "The weekly schedule, by team and room"
+     },
+     "alt": {
+      "fr": "Gestioo : planning de la semaine avec les entraînements de chaque équipe",
+      "de": "Gestioo: Wochenplan mit den Trainings jedes Teams",
+      "en": "Gestioo: weekly schedule with each team’s training sessions"
+     }
+    },
+    {
+     "file": "de/planning/planning-semaine-light-mobile.png",
+     "parcours": "planning",
+     "step": "planning-semaine",
+     "lang": "de",
+     "theme": "light",
+     "device": "mobile",
+     "format": "png",
+     "caption": {
+      "fr": "Le planning de la semaine, par équipe et par salle",
+      "de": "Der Wochenplan, nach Team und Raum",
+      "en": "The weekly schedule, by team and room"
+     },
+     "alt": {
+      "fr": "Gestioo : planning de la semaine avec les entraînements de chaque équipe",
+      "de": "Gestioo: Wochenplan mit den Trainings jedes Teams",
+      "en": "Gestioo: weekly schedule with each team’s training sessions"
+     }
+    },
+    {
+     "file": "de/planning/planning-semaine-dark-desktop.png",
+     "parcours": "planning",
+     "step": "planning-semaine",
+     "lang": "de",
+     "theme": "dark",
+     "device": "desktop",
+     "format": "png",
+     "caption": {
+      "fr": "Le planning de la semaine, par équipe et par salle",
+      "de": "Der Wochenplan, nach Team und Raum",
+      "en": "The weekly schedule, by team and room"
+     },
+     "alt": {
+      "fr": "Gestioo : planning de la semaine avec les entraînements de chaque équipe",
+      "de": "Gestioo: Wochenplan mit den Trainings jedes Teams",
+      "en": "Gestioo: weekly schedule with each team’s training sessions"
+     }
+    },
+    {
+     "file": "de/planning/planning-semaine-dark-mobile.png",
+     "parcours": "planning",
+     "step": "planning-semaine",
+     "lang": "de",
+     "theme": "dark",
+     "device": "mobile",
+     "format": "png",
+     "caption": {
+      "fr": "Le planning de la semaine, par équipe et par salle",
+      "de": "Der Wochenplan, nach Team und Raum",
+      "en": "The weekly schedule, by team and room"
+     },
+     "alt": {
+      "fr": "Gestioo : planning de la semaine avec les entraînements de chaque équipe",
+      "de": "Gestioo: Wochenplan mit den Trainings jedes Teams",
+      "en": "Gestioo: weekly schedule with each team’s training sessions"
+     }
+    },
+    {
+     "file": "en/planning/planning-semaine-light-desktop.png",
+     "parcours": "planning",
+     "step": "planning-semaine",
+     "lang": "en",
+     "theme": "light",
+     "device": "desktop",
+     "format": "png",
+     "caption": {
+      "fr": "Le planning de la semaine, par équipe et par salle",
+      "de": "Der Wochenplan, nach Team und Raum",
+      "en": "The weekly schedule, by team and room"
+     },
+     "alt": {
+      "fr": "Gestioo : planning de la semaine avec les entraînements de chaque équipe",
+      "de": "Gestioo: Wochenplan mit den Trainings jedes Teams",
+      "en": "Gestioo: weekly schedule with each team’s training sessions"
+     }
+    },
+    {
+     "file": "en/planning/planning-semaine-light-mobile.png",
+     "parcours": "planning",
+     "step": "planning-semaine",
+     "lang": "en",
+     "theme": "light",
+     "device": "mobile",
+     "format": "png",
+     "caption": {
+      "fr": "Le planning de la semaine, par équipe et par salle",
+      "de": "Der Wochenplan, nach Team und Raum",
+      "en": "The weekly schedule, by team and room"
+     },
+     "alt": {
+      "fr": "Gestioo : planning de la semaine avec les entraînements de chaque équipe",
+      "de": "Gestioo: Wochenplan mit den Trainings jedes Teams",
+      "en": "Gestioo: weekly schedule with each team’s training sessions"
+     }
+    },
+    {
+     "file": "en/planning/planning-semaine-dark-desktop.png",
+     "parcours": "planning",
+     "step": "planning-semaine",
+     "lang": "en",
+     "theme": "dark",
+     "device": "desktop",
+     "format": "png",
+     "caption": {
+      "fr": "Le planning de la semaine, par équipe et par salle",
+      "de": "Der Wochenplan, nach Team und Raum",
+      "en": "The weekly schedule, by team and room"
+     },
+     "alt": {
+      "fr": "Gestioo : planning de la semaine avec les entraînements de chaque équipe",
+      "de": "Gestioo: Wochenplan mit den Trainings jedes Teams",
+      "en": "Gestioo: weekly schedule with each team’s training sessions"
+     }
+    },
+    {
+     "file": "en/planning/planning-semaine-dark-mobile.png",
+     "parcours": "planning",
+     "step": "planning-semaine",
+     "lang": "en",
+     "theme": "dark",
+     "device": "mobile",
+     "format": "png",
+     "caption": {
+      "fr": "Le planning de la semaine, par équipe et par salle",
+      "de": "Der Wochenplan, nach Team und Raum",
+      "en": "The weekly schedule, by team and room"
+     },
+     "alt": {
+      "fr": "Gestioo : planning de la semaine avec les entraînements de chaque équipe",
+      "de": "Gestioo: Wochenplan mit den Trainings jedes Teams",
+      "en": "Gestioo: weekly schedule with each team’s training sessions"
+     }
+    },
+    {
+     "file": "fr/planning/planning.mp4",
+     "parcours": "planning",
+     "step": "video",
+     "lang": "fr",
+     "theme": "light",
+     "device": "desktop",
+     "format": "mp4",
+     "caption": {
+      "fr": "Planning de la semaine",
+      "de": "Wochenplanung",
+      "en": "Weekly schedule"
+     },
+     "alt": {
+      "fr": "Planning de la semaine",
+      "de": "Wochenplanung",
+      "en": "Weekly schedule"
+     }
+    },
+    {
+     "file": "fr/planning/planning.webm",
+     "parcours": "planning",
+     "step": "video",
+     "lang": "fr",
+     "theme": "light",
+     "device": "desktop",
+     "format": "webm",
+     "caption": {
+      "fr": "Planning de la semaine",
+      "de": "Wochenplanung",
+      "en": "Weekly schedule"
+     },
+     "alt": {
+      "fr": "Planning de la semaine",
+      "de": "Wochenplanung",
+      "en": "Weekly schedule"
+     }
+    }
+   ]
+  },
+  {
+   "id": "presences-mobile",
+   "title": {
+    "fr": "Prise de présence sur mobile",
+    "de": "Anwesenheitskontrolle auf dem Handy",
+    "en": "Taking attendance on mobile"
+   },
+   "deps": [
+    "frontend/src/pages/AttendancePage.tsx",
+    "frontend/src/pages/PresencesListPage.tsx",
+    "frontend/src/api/presences.ts",
+    "frontend/src/offline/**"
+   ],
+   "updated_at": "2026-10-17T11:22:48.522Z",
+   "files": [
+    {
+     "file": "fr/presences-mobile/prise-de-presence-light-desktop.png",
+     "parcours": "presences-mobile",
+     "step": "prise-de-presence",
+     "lang": "fr",
+     "theme": "light",
+     "device": "desktop",
+     "format": "png",
+     "caption": {
+      "fr": "La prise de présence au bord du terrain, sur mobile",
+      "de": "Die Anwesenheitskontrolle am Spielfeldrand, auf dem Handy",
+      "en": "Taking attendance on the sidelines, on a phone"
+     },
+     "alt": {
+      "fr": "Gestioo : prise de présence d’une équipe sur mobile, avec les boutons Présent et Absent",
+      "de": "Gestioo: Anwesenheitskontrolle eines Teams auf dem Handy mit Anwesend- und Abwesend-Schaltflächen",
+      "en": "Gestioo: a team’s attendance sheet on mobile with Present and Absent buttons"
+     }
+    },
+    {
+     "file": "fr/presences-mobile/prise-de-presence-light-mobile.png",
+     "parcours": "presences-mobile",
+     "step": "prise-de-presence",
+     "lang": "fr",
+     "theme": "light",
+     "device": "mobile",
+     "format": "png",
+     "caption": {
+      "fr": "La prise de présence au bord du terrain, sur mobile",
+      "de": "Die Anwesenheitskontrolle am Spielfeldrand, auf dem Handy",
+      "en": "Taking attendance on the sidelines, on a phone"
+     },
+     "alt": {
+      "fr": "Gestioo : prise de présence d’une équipe sur mobile, avec les boutons Présent et Absent",
+      "de": "Gestioo: Anwesenheitskontrolle eines Teams auf dem Handy mit Anwesend- und Abwesend-Schaltflächen",
+      "en": "Gestioo: a team’s attendance sheet on mobile with Present and Absent buttons"
+     }
+    },
+    {
+     "file": "fr/presences-mobile/prise-de-presence-dark-desktop.png",
+     "parcours": "presences-mobile",
+     "step": "prise-de-presence",
+     "lang": "fr",
+     "theme": "dark",
+     "device": "desktop",
+     "format": "png",
+     "caption": {
+      "fr": "La prise de présence au bord du terrain, sur mobile",
+      "de": "Die Anwesenheitskontrolle am Spielfeldrand, auf dem Handy",
+      "en": "Taking attendance on the sidelines, on a phone"
+     },
+     "alt": {
+      "fr": "Gestioo : prise de présence d’une équipe sur mobile, avec les boutons Présent et Absent",
+      "de": "Gestioo: Anwesenheitskontrolle eines Teams auf dem Handy mit Anwesend- und Abwesend-Schaltflächen",
+      "en": "Gestioo: a team’s attendance sheet on mobile with Present and Absent buttons"
+     }
+    },
+    {
+     "file": "fr/presences-mobile/prise-de-presence-dark-mobile.png",
+     "parcours": "presences-mobile",
+     "step": "prise-de-presence",
+     "lang": "fr",
+     "theme": "dark",
+     "device": "mobile",
+     "format": "png",
+     "caption": {
+      "fr": "La prise de présence au bord du terrain, sur mobile",
+      "de": "Die Anwesenheitskontrolle am Spielfeldrand, auf dem Handy",
+      "en": "Taking attendance on the sidelines, on a phone"
+     },
+     "alt": {
+      "fr": "Gestioo : prise de présence d’une équipe sur mobile, avec les boutons Présent et Absent",
+      "de": "Gestioo: Anwesenheitskontrolle eines Teams auf dem Handy mit Anwesend- und Abwesend-Schaltflächen",
+      "en": "Gestioo: a team’s attendance sheet on mobile with Present and Absent buttons"
+     }
+    },
+    {
+     "file": "de/presences-mobile/prise-de-presence-light-desktop.png",
+     "parcours": "presences-mobile",
+     "step": "prise-de-presence",
+     "lang": "de",
+     "theme": "light",
+     "device": "desktop",
+     "format": "png",
+     "caption": {
+      "fr": "La prise de présence au bord du terrain, sur mobile",
+      "de": "Die Anwesenheitskontrolle am Spielfeldrand, auf dem Handy",
+      "en": "Taking attendance on the sidelines, on a phone"
+     },
+     "alt": {
+      "fr": "Gestioo : prise de présence d’une équipe sur mobile, avec les boutons Présent et Absent",
+      "de": "Gestioo: Anwesenheitskontrolle eines Teams auf dem Handy mit Anwesend- und Abwesend-Schaltflächen",
+      "en": "Gestioo: a team’s attendance sheet on mobile with Present and Absent buttons"
+     }
+    },
+    {
+     "file": "de/presences-mobile/prise-de-presence-light-mobile.png",
+     "parcours": "presences-mobile",
+     "step": "prise-de-presence",
+     "lang": "de",
+     "theme": "light",
+     "device": "mobile",
+     "format": "png",
+     "caption": {
+      "fr": "La prise de présence au bord du terrain, sur mobile",
+      "de": "Die Anwesenheitskontrolle am Spielfeldrand, auf dem Handy",
+      "en": "Taking attendance on the sidelines, on a phone"
+     },
+     "alt": {
+      "fr": "Gestioo : prise de présence d’une équipe sur mobile, avec les boutons Présent et Absent",
+      "de": "Gestioo: Anwesenheitskontrolle eines Teams auf dem Handy mit Anwesend- und Abwesend-Schaltflächen",
+      "en": "Gestioo: a team’s attendance sheet on mobile with Present and Absent buttons"
+     }
+    },
+    {
+     "file": "de/presences-mobile/prise-de-presence-dark-desktop.png",
+     "parcours": "presences-mobile",
+     "step": "prise-de-presence",
+     "lang": "de",
+     "theme": "dark",
+     "device": "desktop",
+     "format": "png",
+     "caption": {
+      "fr": "La prise de présence au bord du terrain, sur mobile",
+      "de": "Die Anwesenheitskontrolle am Spielfeldrand, auf dem Handy",
+      "en": "Taking attendance on the sidelines, on a phone"
+     },
+     "alt": {
+      "fr": "Gestioo : prise de présence d’une équipe sur mobile, avec les boutons Présent et Absent",
+      "de": "Gestioo: Anwesenheitskontrolle eines Teams auf dem Handy mit Anwesend- und Abwesend-Schaltflächen",
+      "en": "Gestioo: a team’s attendance sheet on mobile with Present and Absent buttons"
+     }
+    },
+    {
+     "file": "de/presences-mobile/prise-de-presence-dark-mobile.png",
+     "parcours": "presences-mobile",
+     "step": "prise-de-presence",
+     "lang": "de",
+     "theme": "dark",
+     "device": "mobile",
+     "format": "png",
+     "caption": {
+      "fr": "La prise de présence au bord du terrain, sur mobile",
+      "de": "Die Anwesenheitskontrolle am Spielfeldrand, auf dem Handy",
+      "en": "Taking attendance on the sidelines, on a phone"
+     },
+     "alt": {
+      "fr": "Gestioo : prise de présence d’une équipe sur mobile, avec les boutons Présent et Absent",
+      "de": "Gestioo: Anwesenheitskontrolle eines Teams auf dem Handy mit Anwesend- und Abwesend-Schaltflächen",
+      "en": "Gestioo: a team’s attendance sheet on mobile with Present and Absent buttons"
+     }
+    },
+    {
+     "file": "en/presences-mobile/prise-de-presence-light-desktop.png",
+     "parcours": "presences-mobile",
+     "step": "prise-de-presence",
+     "lang": "en",
+     "theme": "light",
+     "device": "desktop",
+     "format": "png",
+     "caption": {
+      "fr": "La prise de présence au bord du terrain, sur mobile",
+      "de": "Die Anwesenheitskontrolle am Spielfeldrand, auf dem Handy",
+      "en": "Taking attendance on the sidelines, on a phone"
+     },
+     "alt": {
+      "fr": "Gestioo : prise de présence d’une équipe sur mobile, avec les boutons Présent et Absent",
+      "de": "Gestioo: Anwesenheitskontrolle eines Teams auf dem Handy mit Anwesend- und Abwesend-Schaltflächen",
+      "en": "Gestioo: a team’s attendance sheet on mobile with Present and Absent buttons"
+     }
+    },
+    {
+     "file": "en/presences-mobile/prise-de-presence-light-mobile.png",
+     "parcours": "presences-mobile",
+     "step": "prise-de-presence",
+     "lang": "en",
+     "theme": "light",
+     "device": "mobile",
+     "format": "png",
+     "caption": {
+      "fr": "La prise de présence au bord du terrain, sur mobile",
+      "de": "Die Anwesenheitskontrolle am Spielfeldrand, auf dem Handy",
+      "en": "Taking attendance on the sidelines, on a phone"
+     },
+     "alt": {
+      "fr": "Gestioo : prise de présence d’une équipe sur mobile, avec les boutons Présent et Absent",
+      "de": "Gestioo: Anwesenheitskontrolle eines Teams auf dem Handy mit Anwesend- und Abwesend-Schaltflächen",
+      "en": "Gestioo: a team’s attendance sheet on mobile with Present and Absent buttons"
+     }
+    },
+    {
+     "file": "en/presences-mobile/prise-de-presence-dark-desktop.png",
+     "parcours": "presences-mobile",
+     "step": "prise-de-presence",
+     "lang": "en",
+     "theme": "dark",
+     "device": "desktop",
+     "format": "png",
+     "caption": {
+      "fr": "La prise de présence au bord du terrain, sur mobile",
+      "de": "Die Anwesenheitskontrolle am Spielfeldrand, auf dem Handy",
+      "en": "Taking attendance on the sidelines, on a phone"
+     },
+     "alt": {
+      "fr": "Gestioo : prise de présence d’une équipe sur mobile, avec les boutons Présent et Absent",
+      "de": "Gestioo: Anwesenheitskontrolle eines Teams auf dem Handy mit Anwesend- und Abwesend-Schaltflächen",
+      "en": "Gestioo: a team’s attendance sheet on mobile with Present and Absent buttons"
+     }
+    },
+    {
+     "file": "en/presences-mobile/prise-de-presence-dark-mobile.png",
+     "parcours": "presences-mobile",
+     "step": "prise-de-presence",
+     "lang": "en",
+     "theme": "dark",
+     "device": "mobile",
+     "format": "png",
+     "caption": {
+      "fr": "La prise de présence au bord du terrain, sur mobile",
+      "de": "Die Anwesenheitskontrolle am Spielfeldrand, auf dem Handy",
+      "en": "Taking attendance on the sidelines, on a phone"
+     },
+     "alt": {
+      "fr": "Gestioo : prise de présence d’une équipe sur mobile, avec les boutons Présent et Absent",
+      "de": "Gestioo: Anwesenheitskontrolle eines Teams auf dem Handy mit Anwesend- und Abwesend-Schaltflächen",
+      "en": "Gestioo: a team’s attendance sheet on mobile with Present and Absent buttons"
+     }
+    },
+    {
+     "file": "fr/presences-mobile/presences-mobile.mp4",
+     "parcours": "presences-mobile",
+     "step": "video",
+     "lang": "fr",
+     "theme": "light",
+     "device": "mobile",
+     "format": "mp4",
+     "caption": {
+      "fr": "Prise de présence sur mobile",
+      "de": "Anwesenheitskontrolle auf dem Handy",
+      "en": "Taking attendance on mobile"
+     },
+     "alt": {
+      "fr": "Prise de présence sur mobile",
+      "de": "Anwesenheitskontrolle auf dem Handy",
+      "en": "Taking attendance on mobile"
+     }
+    },
+    {
+     "file": "fr/presences-mobile/presences-mobile.webm",
+     "parcours": "presences-mobile",
+     "step": "video",
+     "lang": "fr",
+     "theme": "light",
+     "device": "mobile",
+     "format": "webm",
+     "caption": {
+      "fr": "Prise de présence sur mobile",
+      "de": "Anwesenheitskontrolle auf dem Handy",
+      "en": "Taking attendance on mobile"
+     },
+     "alt": {
+      "fr": "Prise de présence sur mobile",
+      "de": "Anwesenheitskontrolle auf dem Handy",
+      "en": "Taking attendance on mobile"
+     }
+    }
+   ]
+  },
+  {
+   "id": "rapports",
+   "title": {
+    "fr": "Générateur de rapports et export",
+    "de": "Berichtsgenerator und Export",
+    "en": "Report builder and export"
+   },
+   "deps": [
+    "frontend/src/pages/ReportsPage.tsx",
+    "frontend/src/pages/ReportBuilderPage.tsx",
+    "frontend/src/components/Report*.tsx",
+    "frontend/src/api/reports.ts"
+   ],
+   "updated_at": "2026-10-17T11:22:48.522Z",
+   "files": [
+    {
+     "file": "fr/rapports/liste-modeles-light-desktop.png",
+     "parcours": "rapports",
+     "step": "liste-modeles",
+     "lang": "fr",
+     "theme": "light",
+     "device": "desktop",
+     "format": "png",
+     "caption": {
+      "fr": "Vos modèles de rapports, privés ou partagés",
+      "de": "Ihre Berichtsvorlagen, privat oder geteilt",
+      "en": "Your report templates, private or shared"
+     },
+     "alt": {
+      "fr": "Gestioo : liste des modèles de rapports",
+      "de": "Gestioo: Liste der Berichtsvorlagen",
+      "en": "Gestioo: list of report templates"
+     }
+    },
+    {
+     "file": "fr/rapports/generateur-light-desktop.png",
+     "parcours": "rapports",
+     "step": "generateur",
+     "lang": "fr",
+     "theme": "light",
+     "device": "desktop",
+     "format": "png",
+     "caption": {
+      "fr": "Le générateur : colonnes, filtres, aperçu et export CSV, Excel ou PDF",
+      "de": "Der Generator: Spalten, Filter, Vorschau und Export als CSV, Excel oder PDF",
+      "en": "The builder: columns, filters, preview and CSV, Excel or PDF export"
+     },
+     "alt": {
+      "fr": "Gestioo : générateur de rapports avec aperçu des données et boutons d’export",
+      "de": "Gestioo: Berichtsgenerator mit Datenvorschau und Export-Schaltflächen",
+      "en": "Gestioo: report builder with data preview and export buttons"
+     }
+    },
+    {
+     "file": "fr/rapports/liste-modeles-light-mobile.png",
+     "parcours": "rapports",
+     "step": "liste-modeles",
+     "lang": "fr",
+     "theme": "light",
+     "device": "mobile",
+     "format": "png",
+     "caption": {
+      "fr": "Vos modèles de rapports, privés ou partagés",
+      "de": "Ihre Berichtsvorlagen, privat oder geteilt",
+      "en": "Your report templates, private or shared"
+     },
+     "alt": {
+      "fr": "Gestioo : liste des modèles de rapports",
+      "de": "Gestioo: Liste der Berichtsvorlagen",
+      "en": "Gestioo: list of report templates"
+     }
+    },
+    {
+     "file": "fr/rapports/generateur-light-mobile.png",
+     "parcours": "rapports",
+     "step": "generateur",
+     "lang": "fr",
+     "theme": "light",
+     "device": "mobile",
+     "format": "png",
+     "caption": {
+      "fr": "Le générateur : colonnes, filtres, aperçu et export CSV, Excel ou PDF",
+      "de": "Der Generator: Spalten, Filter, Vorschau und Export als CSV, Excel oder PDF",
+      "en": "The builder: columns, filters, preview and CSV, Excel or PDF export"
+     },
+     "alt": {
+      "fr": "Gestioo : générateur de rapports avec aperçu des données et boutons d’export",
+      "de": "Gestioo: Berichtsgenerator mit Datenvorschau und Export-Schaltflächen",
+      "en": "Gestioo: report builder with data preview and export buttons"
+     }
+    },
+    {
+     "file": "fr/rapports/liste-modeles-dark-desktop.png",
+     "parcours": "rapports",
+     "step": "liste-modeles",
+     "lang": "fr",
+     "theme": "dark",
+     "device": "desktop",
+     "format": "png",
+     "caption": {
+      "fr": "Vos modèles de rapports, privés ou partagés",
+      "de": "Ihre Berichtsvorlagen, privat oder geteilt",
+      "en": "Your report templates, private or shared"
+     },
+     "alt": {
+      "fr": "Gestioo : liste des modèles de rapports",
+      "de": "Gestioo: Liste der Berichtsvorlagen",
+      "en": "Gestioo: list of report templates"
+     }
+    },
+    {
+     "file": "fr/rapports/generateur-dark-desktop.png",
+     "parcours": "rapports",
+     "step": "generateur",
+     "lang": "fr",
+     "theme": "dark",
+     "device": "desktop",
+     "format": "png",
+     "caption": {
+      "fr": "Le générateur : colonnes, filtres, aperçu et export CSV, Excel ou PDF",
+      "de": "Der Generator: Spalten, Filter, Vorschau und Export als CSV, Excel oder PDF",
+      "en": "The builder: columns, filters, preview and CSV, Excel or PDF export"
+     },
+     "alt": {
+      "fr": "Gestioo : générateur de rapports avec aperçu des données et boutons d’export",
+      "de": "Gestioo: Berichtsgenerator mit Datenvorschau und Export-Schaltflächen",
+      "en": "Gestioo: report builder with data preview and export buttons"
+     }
+    },
+    {
+     "file": "fr/rapports/liste-modeles-dark-mobile.png",
+     "parcours": "rapports",
+     "step": "liste-modeles",
+     "lang": "fr",
+     "theme": "dark",
+     "device": "mobile",
+     "format": "png",
+     "caption": {
+      "fr": "Vos modèles de rapports, privés ou partagés",
+      "de": "Ihre Berichtsvorlagen, privat oder geteilt",
+      "en": "Your report templates, private or shared"
+     },
+     "alt": {
+      "fr": "Gestioo : liste des modèles de rapports",
+      "de": "Gestioo: Liste der Berichtsvorlagen",
+      "en": "Gestioo: list of report templates"
+     }
+    },
+    {
+     "file": "fr/rapports/generateur-dark-mobile.png",
+     "parcours": "rapports",
+     "step": "generateur",
+     "lang": "fr",
+     "theme": "dark",
+     "device": "mobile",
+     "format": "png",
+     "caption": {
+      "fr": "Le générateur : colonnes, filtres, aperçu et export CSV, Excel ou PDF",
+      "de": "Der Generator: Spalten, Filter, Vorschau und Export als CSV, Excel oder PDF",
+      "en": "The builder: columns, filters, preview and CSV, Excel or PDF export"
+     },
+     "alt": {
+      "fr": "Gestioo : générateur de rapports avec aperçu des données et boutons d’export",
+      "de": "Gestioo: Berichtsgenerator mit Datenvorschau und Export-Schaltflächen",
+      "en": "Gestioo: report builder with data preview and export buttons"
+     }
+    },
+    {
+     "file": "de/rapports/liste-modeles-light-desktop.png",
+     "parcours": "rapports",
+     "step": "liste-modeles",
+     "lang": "de",
+     "theme": "light",
+     "device": "desktop",
+     "format": "png",
+     "caption": {
+      "fr": "Vos modèles de rapports, privés ou partagés",
+      "de": "Ihre Berichtsvorlagen, privat oder geteilt",
+      "en": "Your report templates, private or shared"
+     },
+     "alt": {
+      "fr": "Gestioo : liste des modèles de rapports",
+      "de": "Gestioo: Liste der Berichtsvorlagen",
+      "en": "Gestioo: list of report templates"
+     }
+    },
+    {
+     "file": "de/rapports/generateur-light-desktop.png",
+     "parcours": "rapports",
+     "step": "generateur",
+     "lang": "de",
+     "theme": "light",
+     "device": "desktop",
+     "format": "png",
+     "caption": {
+      "fr": "Le générateur : colonnes, filtres, aperçu et export CSV, Excel ou PDF",
+      "de": "Der Generator: Spalten, Filter, Vorschau und Export als CSV, Excel oder PDF",
+      "en": "The builder: columns, filters, preview and CSV, Excel or PDF export"
+     },
+     "alt": {
+      "fr": "Gestioo : générateur de rapports avec aperçu des données et boutons d’export",
+      "de": "Gestioo: Berichtsgenerator mit Datenvorschau und Export-Schaltflächen",
+      "en": "Gestioo: report builder with data preview and export buttons"
+     }
+    },
+    {
+     "file": "de/rapports/liste-modeles-light-mobile.png",
+     "parcours": "rapports",
+     "step": "liste-modeles",
+     "lang": "de",
+     "theme": "light",
+     "device": "mobile",
+     "format": "png",
+     "caption": {
+      "fr": "Vos modèles de rapports, privés ou partagés",
+      "de": "Ihre Berichtsvorlagen, privat oder geteilt",
+      "en": "Your report templates, private or shared"
+     },
+     "alt": {
+      "fr": "Gestioo : liste des modèles de rapports",
+      "de": "Gestioo: Liste der Berichtsvorlagen",
+      "en": "Gestioo: list of report templates"
+     }
+    },
+    {
+     "file": "de/rapports/generateur-light-mobile.png",
+     "parcours": "rapports",
+     "step": "generateur",
+     "lang": "de",
+     "theme": "light",
+     "device": "mobile",
+     "format": "png",
+     "caption": {
+      "fr": "Le générateur : colonnes, filtres, aperçu et export CSV, Excel ou PDF",
+      "de": "Der Generator: Spalten, Filter, Vorschau und Export als CSV, Excel oder PDF",
+      "en": "The builder: columns, filters, preview and CSV, Excel or PDF export"
+     },
+     "alt": {
+      "fr": "Gestioo : générateur de rapports avec aperçu des données et boutons d’export",
+      "de": "Gestioo: Berichtsgenerator mit Datenvorschau und Export-Schaltflächen",
+      "en": "Gestioo: report builder with data preview and export buttons"
+     }
+    },
+    {
+     "file": "de/rapports/liste-modeles-dark-desktop.png",
+     "parcours": "rapports",
+     "step": "liste-modeles",
+     "lang": "de",
+     "theme": "dark",
+     "device": "desktop",
+     "format": "png",
+     "caption": {
+      "fr": "Vos modèles de rapports, privés ou partagés",
+      "de": "Ihre Berichtsvorlagen, privat oder geteilt",
+      "en": "Your report templates, private or shared"
+     },
+     "alt": {
+      "fr": "Gestioo : liste des modèles de rapports",
+      "de": "Gestioo: Liste der Berichtsvorlagen",
+      "en": "Gestioo: list of report templates"
+     }
+    },
+    {
+     "file": "de/rapports/generateur-dark-desktop.png",
+     "parcours": "rapports",
+     "step": "generateur",
+     "lang": "de",
+     "theme": "dark",
+     "device": "desktop",
+     "format": "png",
+     "caption": {
+      "fr": "Le générateur : colonnes, filtres, aperçu et export CSV, Excel ou PDF",
+      "de": "Der Generator: Spalten, Filter, Vorschau und Export als CSV, Excel oder PDF",
+      "en": "The builder: columns, filters, preview and CSV, Excel or PDF export"
+     },
+     "alt": {
+      "fr": "Gestioo : générateur de rapports avec aperçu des données et boutons d’export",
+      "de": "Gestioo: Berichtsgenerator mit Datenvorschau und Export-Schaltflächen",
+      "en": "Gestioo: report builder with data preview and export buttons"
+     }
+    },
+    {
+     "file": "de/rapports/liste-modeles-dark-mobile.png",
+     "parcours": "rapports",
+     "step": "liste-modeles",
+     "lang": "de",
+     "theme": "dark",
+     "device": "mobile",
+     "format": "png",
+     "caption": {
+      "fr": "Vos modèles de rapports, privés ou partagés",
+      "de": "Ihre Berichtsvorlagen, privat oder geteilt",
+      "en": "Your report templates, private or shared"
+     },
+     "alt": {
+      "fr": "Gestioo : liste des modèles de rapports",
+      "de": "Gestioo: Liste der Berichtsvorlagen",
+      "en": "Gestioo: list of report templates"
+     }
+    },
+    {
+     "file": "de/rapports/generateur-dark-mobile.png",
+     "parcours": "rapports",
+     "step": "generateur",
+     "lang": "de",
+     "theme": "dark",
+     "device": "mobile",
+     "format": "png",
+     "caption": {
+      "fr": "Le générateur : colonnes, filtres, aperçu et export CSV, Excel ou PDF",
+      "de": "Der Generator: Spalten, Filter, Vorschau und Export als CSV, Excel oder PDF",
+      "en": "The builder: columns, filters, preview and CSV, Excel or PDF export"
+     },
+     "alt": {
+      "fr": "Gestioo : générateur de rapports avec aperçu des données et boutons d’export",
+      "de": "Gestioo: Berichtsgenerator mit Datenvorschau und Export-Schaltflächen",
+      "en": "Gestioo: report builder with data preview and export buttons"
+     }
+    },
+    {
+     "file": "en/rapports/liste-modeles-light-desktop.png",
+     "parcours": "rapports",
+     "step": "liste-modeles",
+     "lang": "en",
+     "theme": "light",
+     "device": "desktop",
+     "format": "png",
+     "caption": {
+      "fr": "Vos modèles de rapports, privés ou partagés",
+      "de": "Ihre Berichtsvorlagen, privat oder geteilt",
+      "en": "Your report templates, private or shared"
+     },
+     "alt": {
+      "fr": "Gestioo : liste des modèles de rapports",
+      "de": "Gestioo: Liste der Berichtsvorlagen",
+      "en": "Gestioo: list of report templates"
+     }
+    },
+    {
+     "file": "en/rapports/generateur-light-desktop.png",
+     "parcours": "rapports",
+     "step": "generateur",
+     "lang": "en",
+     "theme": "light",
+     "device": "desktop",
+     "format": "png",
+     "caption": {
+      "fr": "Le générateur : colonnes, filtres, aperçu et export CSV, Excel ou PDF",
+      "de": "Der Generator: Spalten, Filter, Vorschau und Export als CSV, Excel oder PDF",
+      "en": "The builder: columns, filters, preview and CSV, Excel or PDF export"
+     },
+     "alt": {
+      "fr": "Gestioo : générateur de rapports avec aperçu des données et boutons d’export",
+      "de": "Gestioo: Berichtsgenerator mit Datenvorschau und Export-Schaltflächen",
+      "en": "Gestioo: report builder with data preview and export buttons"
+     }
+    },
+    {
+     "file": "en/rapports/liste-modeles-light-mobile.png",
+     "parcours": "rapports",
+     "step": "liste-modeles",
+     "lang": "en",
+     "theme": "light",
+     "device": "mobile",
+     "format": "png",
+     "caption": {
+      "fr": "Vos modèles de rapports, privés ou partagés",
+      "de": "Ihre Berichtsvorlagen, privat oder geteilt",
+      "en": "Your report templates, private or shared"
+     },
+     "alt": {
+      "fr": "Gestioo : liste des modèles de rapports",
+      "de": "Gestioo: Liste der Berichtsvorlagen",
+      "en": "Gestioo: list of report templates"
+     }
+    },
+    {
+     "file": "en/rapports/generateur-light-mobile.png",
+     "parcours": "rapports",
+     "step": "generateur",
+     "lang": "en",
+     "theme": "light",
+     "device": "mobile",
+     "format": "png",
+     "caption": {
+      "fr": "Le générateur : colonnes, filtres, aperçu et export CSV, Excel ou PDF",
+      "de": "Der Generator: Spalten, Filter, Vorschau und Export als CSV, Excel oder PDF",
+      "en": "The builder: columns, filters, preview and CSV, Excel or PDF export"
+     },
+     "alt": {
+      "fr": "Gestioo : générateur de rapports avec aperçu des données et boutons d’export",
+      "de": "Gestioo: Berichtsgenerator mit Datenvorschau und Export-Schaltflächen",
+      "en": "Gestioo: report builder with data preview and export buttons"
+     }
+    },
+    {
+     "file": "en/rapports/liste-modeles-dark-desktop.png",
+     "parcours": "rapports",
+     "step": "liste-modeles",
+     "lang": "en",
+     "theme": "dark",
+     "device": "desktop",
+     "format": "png",
+     "caption": {
+      "fr": "Vos modèles de rapports, privés ou partagés",
+      "de": "Ihre Berichtsvorlagen, privat oder geteilt",
+      "en": "Your report templates, private or shared"
+     },
+     "alt": {
+      "fr": "Gestioo : liste des modèles de rapports",
+      "de": "Gestioo: Liste der Berichtsvorlagen",
+      "en": "Gestioo: list of report templates"
+     }
+    },
+    {
+     "file": "en/rapports/generateur-dark-desktop.png",
+     "parcours": "rapports",
+     "step": "generateur",
+     "lang": "en",
+     "theme": "dark",
+     "device": "desktop",
+     "format": "png",
+     "caption": {
+      "fr": "Le générateur : colonnes, filtres, aperçu et export CSV, Excel ou PDF",
+      "de": "Der Generator: Spalten, Filter, Vorschau und Export als CSV, Excel oder PDF",
+      "en": "The builder: columns, filters, preview and CSV, Excel or PDF export"
+     },
+     "alt": {
+      "fr": "Gestioo : générateur de rapports avec aperçu des données et boutons d’export",
+      "de": "Gestioo: Berichtsgenerator mit Datenvorschau und Export-Schaltflächen",
+      "en": "Gestioo: report builder with data preview and export buttons"
+     }
+    },
+    {
+     "file": "en/rapports/liste-modeles-dark-mobile.png",
+     "parcours": "rapports",
+     "step": "liste-modeles",
+     "lang": "en",
+     "theme": "dark",
+     "device": "mobile",
+     "format": "png",
+     "caption": {
+      "fr": "Vos modèles de rapports, privés ou partagés",
+      "de": "Ihre Berichtsvorlagen, privat oder geteilt",
+      "en": "Your report templates, private or shared"
+     },
+     "alt": {
+      "fr": "Gestioo : liste des modèles de rapports",
+      "de": "Gestioo: Liste der Berichtsvorlagen",
+      "en": "Gestioo: list of report templates"
+     }
+    },
+    {
+     "file": "en/rapports/generateur-dark-mobile.png",
+     "parcours": "rapports",
+     "step": "generateur",
+     "lang": "en",
+     "theme": "dark",
+     "device": "mobile",
+     "format": "png",
+     "caption": {
+      "fr": "Le générateur : colonnes, filtres, aperçu et export CSV, Excel ou PDF",
+      "de": "Der Generator: Spalten, Filter, Vorschau und Export als CSV, Excel oder PDF",
+      "en": "The builder: columns, filters, preview and CSV, Excel or PDF export"
+     },
+     "alt": {
+      "fr": "Gestioo : générateur de rapports avec aperçu des données et boutons d’export",
+      "de": "Gestioo: Berichtsgenerator mit Datenvorschau und Export-Schaltflächen",
+      "en": "Gestioo: report builder with data preview and export buttons"
+     }
+    },
+    {
+     "file": "fr/rapports/rapports.mp4",
+     "parcours": "rapports",
+     "step": "video",
+     "lang": "fr",
+     "theme": "light",
+     "device": "desktop",
+     "format": "mp4",
+     "caption": {
+      "fr": "Générateur de rapports et export",
+      "de": "Berichtsgenerator und Export",
+      "en": "Report builder and export"
+     },
+     "alt": {
+      "fr": "Générateur de rapports et export",
+      "de": "Berichtsgenerator und Export",
+      "en": "Report builder and export"
+     }
+    },
+    {
+     "file": "fr/rapports/rapports.webm",
+     "parcours": "rapports",
+     "step": "video",
+     "lang": "fr",
+     "theme": "light",
+     "device": "desktop",
+     "format": "webm",
+     "caption": {
+      "fr": "Générateur de rapports et export",
+      "de": "Berichtsgenerator und Export",
+      "en": "Report builder and export"
+     },
+     "alt": {
+      "fr": "Générateur de rapports et export",
+      "de": "Berichtsgenerator und Export",
+      "en": "Report builder and export"
+     }
+    }
+   ]
+  },
+  {
+   "id": "tresorerie",
+   "title": {
+    "fr": "Trésorerie : bilan et compte de résultat",
+    "de": "Finanzen: Bilanz und Erfolgsrechnung",
+    "en": "Finance: balance sheet and income statement"
+   },
+   "deps": [
+    "frontend/src/pages/AccountingPeriodDetailPage.tsx",
+    "frontend/src/pages/AccountingPeriodsPage.tsx",
+    "frontend/src/components/TresorerieLayout.tsx",
+    "frontend/src/api/accountingPeriods.ts"
+   ],
+   "updated_at": "2026-10-17T11:22:48.522Z",
+   "files": [
+    {
+     "file": "fr/tresorerie/bilan-light-desktop.png",
+     "parcours": "tresorerie",
+     "step": "bilan",
+     "lang": "fr",
+     "theme": "light",
+     "device": "desktop",
+     "format": "png",
+     "caption": {
+      "fr": "Le bilan de l’exercice, en direct",
+      "de": "Die Bilanz des Geschäftsjahres, live",
+      "en": "The balance sheet of the financial year, live"
+     },
+     "alt": {
+      "fr": "Gestioo : bilan comptable avec actif et passif",
+      "de": "Gestioo: Bilanz mit Aktiven und Passiven",
+      "en": "Gestioo: balance sheet with assets and liabilities"
+     }
+    },
+    {
+     "file": "fr/tresorerie/compte-de-resultat-light-desktop.png",
+     "parcours": "tresorerie",
+     "step": "compte-de-resultat",
+     "lang": "fr",
+     "theme": "light",
+     "device": "desktop",
+     "format": "png",
+     "caption": {
+      "fr": "Le compte de résultat : produits, charges et résultat net",
+      "de": "Die Erfolgsrechnung: Erträge, Aufwände und Jahresergebnis",
+      "en": "The income statement: revenue, expenses and net result"
+     },
+     "alt": {
+      "fr": "Gestioo : compte de résultat avec produits, charges et résultat net",
+      "de": "Gestioo: Erfolgsrechnung mit Erträgen, Aufwänden und Ergebnis",
+      "en": "Gestioo: income statement with revenue, expenses and net result"
+     }
+    },
+    {
+     "file": "fr/tresorerie/bilan-light-mobile.png",
+     "parcours": "tresorerie",
+     "step": "bilan",
+     "lang": "fr",
+     "theme": "light",
+     "device": "mobile",
+     "format": "png",
+     "caption": {
+      "fr": "Le bilan de l’exercice, en direct",
+      "de": "Die Bilanz des Geschäftsjahres, live",
+      "en": "The balance sheet of the financial year, live"
+     },
+     "alt": {
+      "fr": "Gestioo : bilan comptable avec actif et passif",
+      "de": "Gestioo: Bilanz mit Aktiven und Passiven",
+      "en": "Gestioo: balance sheet with assets and liabilities"
+     }
+    },
+    {
+     "file": "fr/tresorerie/compte-de-resultat-light-mobile.png",
+     "parcours": "tresorerie",
+     "step": "compte-de-resultat",
+     "lang": "fr",
+     "theme": "light",
+     "device": "mobile",
+     "format": "png",
+     "caption": {
+      "fr": "Le compte de résultat : produits, charges et résultat net",
+      "de": "Die Erfolgsrechnung: Erträge, Aufwände und Jahresergebnis",
+      "en": "The income statement: revenue, expenses and net result"
+     },
+     "alt": {
+      "fr": "Gestioo : compte de résultat avec produits, charges et résultat net",
+      "de": "Gestioo: Erfolgsrechnung mit Erträgen, Aufwänden und Ergebnis",
+      "en": "Gestioo: income statement with revenue, expenses and net result"
+     }
+    },
+    {
+     "file": "fr/tresorerie/bilan-dark-desktop.png",
+     "parcours": "tresorerie",
+     "step": "bilan",
+     "lang": "fr",
+     "theme": "dark",
+     "device": "desktop",
+     "format": "png",
+     "caption": {
+      "fr": "Le bilan de l’exercice, en direct",
+      "de": "Die Bilanz des Geschäftsjahres, live",
+      "en": "The balance sheet of the financial year, live"
+     },
+     "alt": {
+      "fr": "Gestioo : bilan comptable avec actif et passif",
+      "de": "Gestioo: Bilanz mit Aktiven und Passiven",
+      "en": "Gestioo: balance sheet with assets and liabilities"
+     }
+    },
+    {
+     "file": "fr/tresorerie/compte-de-resultat-dark-desktop.png",
+     "parcours": "tresorerie",
+     "step": "compte-de-resultat",
+     "lang": "fr",
+     "theme": "dark",
+     "device": "desktop",
+     "format": "png",
+     "caption": {
+      "fr": "Le compte de résultat : produits, charges et résultat net",
+      "de": "Die Erfolgsrechnung: Erträge, Aufwände und Jahresergebnis",
+      "en": "The income statement: revenue, expenses and net result"
+     },
+     "alt": {
+      "fr": "Gestioo : compte de résultat avec produits, charges et résultat net",
+      "de": "Gestioo: Erfolgsrechnung mit Erträgen, Aufwänden und Ergebnis",
+      "en": "Gestioo: income statement with revenue, expenses and net result"
+     }
+    },
+    {
+     "file": "fr/tresorerie/bilan-dark-mobile.png",
+     "parcours": "tresorerie",
+     "step": "bilan",
+     "lang": "fr",
+     "theme": "dark",
+     "device": "mobile",
+     "format": "png",
+     "caption": {
+      "fr": "Le bilan de l’exercice, en direct",
+      "de": "Die Bilanz des Geschäftsjahres, live",
+      "en": "The balance sheet of the financial year, live"
+     },
+     "alt": {
+      "fr": "Gestioo : bilan comptable avec actif et passif",
+      "de": "Gestioo: Bilanz mit Aktiven und Passiven",
+      "en": "Gestioo: balance sheet with assets and liabilities"
+     }
+    },
+    {
+     "file": "fr/tresorerie/compte-de-resultat-dark-mobile.png",
+     "parcours": "tresorerie",
+     "step": "compte-de-resultat",
+     "lang": "fr",
+     "theme": "dark",
+     "device": "mobile",
+     "format": "png",
+     "caption": {
+      "fr": "Le compte de résultat : produits, charges et résultat net",
+      "de": "Die Erfolgsrechnung: Erträge, Aufwände und Jahresergebnis",
+      "en": "The income statement: revenue, expenses and net result"
+     },
+     "alt": {
+      "fr": "Gestioo : compte de résultat avec produits, charges et résultat net",
+      "de": "Gestioo: Erfolgsrechnung mit Erträgen, Aufwänden und Ergebnis",
+      "en": "Gestioo: income statement with revenue, expenses and net result"
+     }
+    },
+    {
+     "file": "de/tresorerie/bilan-light-desktop.png",
+     "parcours": "tresorerie",
+     "step": "bilan",
+     "lang": "de",
+     "theme": "light",
+     "device": "desktop",
+     "format": "png",
+     "caption": {
+      "fr": "Le bilan de l’exercice, en direct",
+      "de": "Die Bilanz des Geschäftsjahres, live",
+      "en": "The balance sheet of the financial year, live"
+     },
+     "alt": {
+      "fr": "Gestioo : bilan comptable avec actif et passif",
+      "de": "Gestioo: Bilanz mit Aktiven und Passiven",
+      "en": "Gestioo: balance sheet with assets and liabilities"
+     }
+    },
+    {
+     "file": "de/tresorerie/compte-de-resultat-light-desktop.png",
+     "parcours": "tresorerie",
+     "step": "compte-de-resultat",
+     "lang": "de",
+     "theme": "light",
+     "device": "desktop",
+     "format": "png",
+     "caption": {
+      "fr": "Le compte de résultat : produits, charges et résultat net",
+      "de": "Die Erfolgsrechnung: Erträge, Aufwände und Jahresergebnis",
+      "en": "The income statement: revenue, expenses and net result"
+     },
+     "alt": {
+      "fr": "Gestioo : compte de résultat avec produits, charges et résultat net",
+      "de": "Gestioo: Erfolgsrechnung mit Erträgen, Aufwänden und Ergebnis",
+      "en": "Gestioo: income statement with revenue, expenses and net result"
+     }
+    },
+    {
+     "file": "de/tresorerie/bilan-light-mobile.png",
+     "parcours": "tresorerie",
+     "step": "bilan",
+     "lang": "de",
+     "theme": "light",
+     "device": "mobile",
+     "format": "png",
+     "caption": {
+      "fr": "Le bilan de l’exercice, en direct",
+      "de": "Die Bilanz des Geschäftsjahres, live",
+      "en": "The balance sheet of the financial year, live"
+     },
+     "alt": {
+      "fr": "Gestioo : bilan comptable avec actif et passif",
+      "de": "Gestioo: Bilanz mit Aktiven und Passiven",
+      "en": "Gestioo: balance sheet with assets and liabilities"
+     }
+    },
+    {
+     "file": "de/tresorerie/compte-de-resultat-light-mobile.png",
+     "parcours": "tresorerie",
+     "step": "compte-de-resultat",
+     "lang": "de",
+     "theme": "light",
+     "device": "mobile",
+     "format": "png",
+     "caption": {
+      "fr": "Le compte de résultat : produits, charges et résultat net",
+      "de": "Die Erfolgsrechnung: Erträge, Aufwände und Jahresergebnis",
+      "en": "The income statement: revenue, expenses and net result"
+     },
+     "alt": {
+      "fr": "Gestioo : compte de résultat avec produits, charges et résultat net",
+      "de": "Gestioo: Erfolgsrechnung mit Erträgen, Aufwänden und Ergebnis",
+      "en": "Gestioo: income statement with revenue, expenses and net result"
+     }
+    },
+    {
+     "file": "de/tresorerie/bilan-dark-desktop.png",
+     "parcours": "tresorerie",
+     "step": "bilan",
+     "lang": "de",
+     "theme": "dark",
+     "device": "desktop",
+     "format": "png",
+     "caption": {
+      "fr": "Le bilan de l’exercice, en direct",
+      "de": "Die Bilanz des Geschäftsjahres, live",
+      "en": "The balance sheet of the financial year, live"
+     },
+     "alt": {
+      "fr": "Gestioo : bilan comptable avec actif et passif",
+      "de": "Gestioo: Bilanz mit Aktiven und Passiven",
+      "en": "Gestioo: balance sheet with assets and liabilities"
+     }
+    },
+    {
+     "file": "de/tresorerie/compte-de-resultat-dark-desktop.png",
+     "parcours": "tresorerie",
+     "step": "compte-de-resultat",
+     "lang": "de",
+     "theme": "dark",
+     "device": "desktop",
+     "format": "png",
+     "caption": {
+      "fr": "Le compte de résultat : produits, charges et résultat net",
+      "de": "Die Erfolgsrechnung: Erträge, Aufwände und Jahresergebnis",
+      "en": "The income statement: revenue, expenses and net result"
+     },
+     "alt": {
+      "fr": "Gestioo : compte de résultat avec produits, charges et résultat net",
+      "de": "Gestioo: Erfolgsrechnung mit Erträgen, Aufwänden und Ergebnis",
+      "en": "Gestioo: income statement with revenue, expenses and net result"
+     }
+    },
+    {
+     "file": "de/tresorerie/bilan-dark-mobile.png",
+     "parcours": "tresorerie",
+     "step": "bilan",
+     "lang": "de",
+     "theme": "dark",
+     "device": "mobile",
+     "format": "png",
+     "caption": {
+      "fr": "Le bilan de l’exercice, en direct",
+      "de": "Die Bilanz des Geschäftsjahres, live",
+      "en": "The balance sheet of the financial year, live"
+     },
+     "alt": {
+      "fr": "Gestioo : bilan comptable avec actif et passif",
+      "de": "Gestioo: Bilanz mit Aktiven und Passiven",
+      "en": "Gestioo: balance sheet with assets and liabilities"
+     }
+    },
+    {
+     "file": "de/tresorerie/compte-de-resultat-dark-mobile.png",
+     "parcours": "tresorerie",
+     "step": "compte-de-resultat",
+     "lang": "de",
+     "theme": "dark",
+     "device": "mobile",
+     "format": "png",
+     "caption": {
+      "fr": "Le compte de résultat : produits, charges et résultat net",
+      "de": "Die Erfolgsrechnung: Erträge, Aufwände und Jahresergebnis",
+      "en": "The income statement: revenue, expenses and net result"
+     },
+     "alt": {
+      "fr": "Gestioo : compte de résultat avec produits, charges et résultat net",
+      "de": "Gestioo: Erfolgsrechnung mit Erträgen, Aufwänden und Ergebnis",
+      "en": "Gestioo: income statement with revenue, expenses and net result"
+     }
+    },
+    {
+     "file": "en/tresorerie/bilan-light-desktop.png",
+     "parcours": "tresorerie",
+     "step": "bilan",
+     "lang": "en",
+     "theme": "light",
+     "device": "desktop",
+     "format": "png",
+     "caption": {
+      "fr": "Le bilan de l’exercice, en direct",
+      "de": "Die Bilanz des Geschäftsjahres, live",
+      "en": "The balance sheet of the financial year, live"
+     },
+     "alt": {
+      "fr": "Gestioo : bilan comptable avec actif et passif",
+      "de": "Gestioo: Bilanz mit Aktiven und Passiven",
+      "en": "Gestioo: balance sheet with assets and liabilities"
+     }
+    },
+    {
+     "file": "en/tresorerie/compte-de-resultat-light-desktop.png",
+     "parcours": "tresorerie",
+     "step": "compte-de-resultat",
+     "lang": "en",
+     "theme": "light",
+     "device": "desktop",
+     "format": "png",
+     "caption": {
+      "fr": "Le compte de résultat : produits, charges et résultat net",
+      "de": "Die Erfolgsrechnung: Erträge, Aufwände und Jahresergebnis",
+      "en": "The income statement: revenue, expenses and net result"
+     },
+     "alt": {
+      "fr": "Gestioo : compte de résultat avec produits, charges et résultat net",
+      "de": "Gestioo: Erfolgsrechnung mit Erträgen, Aufwänden und Ergebnis",
+      "en": "Gestioo: income statement with revenue, expenses and net result"
+     }
+    },
+    {
+     "file": "en/tresorerie/bilan-light-mobile.png",
+     "parcours": "tresorerie",
+     "step": "bilan",
+     "lang": "en",
+     "theme": "light",
+     "device": "mobile",
+     "format": "png",
+     "caption": {
+      "fr": "Le bilan de l’exercice, en direct",
+      "de": "Die Bilanz des Geschäftsjahres, live",
+      "en": "The balance sheet of the financial year, live"
+     },
+     "alt": {
+      "fr": "Gestioo : bilan comptable avec actif et passif",
+      "de": "Gestioo: Bilanz mit Aktiven und Passiven",
+      "en": "Gestioo: balance sheet with assets and liabilities"
+     }
+    },
+    {
+     "file": "en/tresorerie/compte-de-resultat-light-mobile.png",
+     "parcours": "tresorerie",
+     "step": "compte-de-resultat",
+     "lang": "en",
+     "theme": "light",
+     "device": "mobile",
+     "format": "png",
+     "caption": {
+      "fr": "Le compte de résultat : produits, charges et résultat net",
+      "de": "Die Erfolgsrechnung: Erträge, Aufwände und Jahresergebnis",
+      "en": "The income statement: revenue, expenses and net result"
+     },
+     "alt": {
+      "fr": "Gestioo : compte de résultat avec produits, charges et résultat net",
+      "de": "Gestioo: Erfolgsrechnung mit Erträgen, Aufwänden und Ergebnis",
+      "en": "Gestioo: income statement with revenue, expenses and net result"
+     }
+    },
+    {
+     "file": "en/tresorerie/bilan-dark-desktop.png",
+     "parcours": "tresorerie",
+     "step": "bilan",
+     "lang": "en",
+     "theme": "dark",
+     "device": "desktop",
+     "format": "png",
+     "caption": {
+      "fr": "Le bilan de l’exercice, en direct",
+      "de": "Die Bilanz des Geschäftsjahres, live",
+      "en": "The balance sheet of the financial year, live"
+     },
+     "alt": {
+      "fr": "Gestioo : bilan comptable avec actif et passif",
+      "de": "Gestioo: Bilanz mit Aktiven und Passiven",
+      "en": "Gestioo: balance sheet with assets and liabilities"
+     }
+    },
+    {
+     "file": "en/tresorerie/compte-de-resultat-dark-desktop.png",
+     "parcours": "tresorerie",
+     "step": "compte-de-resultat",
+     "lang": "en",
+     "theme": "dark",
+     "device": "desktop",
+     "format": "png",
+     "caption": {
+      "fr": "Le compte de résultat : produits, charges et résultat net",
+      "de": "Die Erfolgsrechnung: Erträge, Aufwände und Jahresergebnis",
+      "en": "The income statement: revenue, expenses and net result"
+     },
+     "alt": {
+      "fr": "Gestioo : compte de résultat avec produits, charges et résultat net",
+      "de": "Gestioo: Erfolgsrechnung mit Erträgen, Aufwänden und Ergebnis",
+      "en": "Gestioo: income statement with revenue, expenses and net result"
+     }
+    },
+    {
+     "file": "en/tresorerie/bilan-dark-mobile.png",
+     "parcours": "tresorerie",
+     "step": "bilan",
+     "lang": "en",
+     "theme": "dark",
+     "device": "mobile",
+     "format": "png",
+     "caption": {
+      "fr": "Le bilan de l’exercice, en direct",
+      "de": "Die Bilanz des Geschäftsjahres, live",
+      "en": "The balance sheet of the financial year, live"
+     },
+     "alt": {
+      "fr": "Gestioo : bilan comptable avec actif et passif",
+      "de": "Gestioo: Bilanz mit Aktiven und Passiven",
+      "en": "Gestioo: balance sheet with assets and liabilities"
+     }
+    },
+    {
+     "file": "en/tresorerie/compte-de-resultat-dark-mobile.png",
+     "parcours": "tresorerie",
+     "step": "compte-de-resultat",
+     "lang": "en",
+     "theme": "dark",
+     "device": "mobile",
+     "format": "png",
+     "caption": {
+      "fr": "Le compte de résultat : produits, charges et résultat net",
+      "de": "Die Erfolgsrechnung: Erträge, Aufwände und Jahresergebnis",
+      "en": "The income statement: revenue, expenses and net result"
+     },
+     "alt": {
+      "fr": "Gestioo : compte de résultat avec produits, charges et résultat net",
+      "de": "Gestioo: Erfolgsrechnung mit Erträgen, Aufwänden und Ergebnis",
+      "en": "Gestioo: income statement with revenue, expenses and net result"
+     }
+    },
+    {
+     "file": "fr/tresorerie/tresorerie.mp4",
+     "parcours": "tresorerie",
+     "step": "video",
+     "lang": "fr",
+     "theme": "light",
+     "device": "desktop",
+     "format": "mp4",
+     "caption": {
+      "fr": "Trésorerie : bilan et compte de résultat",
+      "de": "Finanzen: Bilanz und Erfolgsrechnung",
+      "en": "Finance: balance sheet and income statement"
+     },
+     "alt": {
+      "fr": "Trésorerie : bilan et compte de résultat",
+      "de": "Finanzen: Bilanz und Erfolgsrechnung",
+      "en": "Finance: balance sheet and income statement"
+     }
+    },
+    {
+     "file": "fr/tresorerie/tresorerie.webm",
+     "parcours": "tresorerie",
+     "step": "video",
+     "lang": "fr",
+     "theme": "light",
+     "device": "desktop",
+     "format": "webm",
+     "caption": {
+      "fr": "Trésorerie : bilan et compte de résultat",
+      "de": "Finanzen: Bilanz und Erfolgsrechnung",
+      "en": "Finance: balance sheet and income statement"
+     },
+     "alt": {
+      "fr": "Trésorerie : bilan et compte de résultat",
+      "de": "Finanzen: Bilanz und Erfolgsrechnung",
+      "en": "Finance: balance sheet and income statement"
+     }
+    }
+   ]
+  }
+ ]
+}

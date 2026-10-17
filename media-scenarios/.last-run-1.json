@@ -1,0 +1,1209 @@
+{
+ "dashboard": {
+  "id": "dashboard",
+  "failed": "locator.waitFor: Error: strict mode violation: getByText('Eingegangene Beiträge', { exact: true }) resolved to 2 elements: |     1) <div class=\"kpi-label\">Eingegangene Beiträge</div> aka getByText('Eingegangene Beiträge').first() |     2) <div class=\"card-title\">…</div> aka getByText('Eingegangene Beiträge').nth(1) | ",
+  "files": [
+   {
+    "file": "fr/dashboard/tableau-de-bord-light-desktop.png",
+    "step": "tableau-de-bord",
+    "lang": "fr",
+    "theme": "light",
+    "device": "desktop",
+    "format": "png",
+    "state": "new"
+   },
+   {
+    "file": "fr/dashboard/tableau-de-bord-light-mobile.png",
+    "step": "tableau-de-bord",
+    "lang": "fr",
+    "theme": "light",
+    "device": "mobile",
+    "format": "png",
+    "state": "new"
+   },
+   {
+    "file": "fr/dashboard/tableau-de-bord-dark-desktop.png",
+    "step": "tableau-de-bord",
+    "lang": "fr",
+    "theme": "dark",
+    "device": "desktop",
+    "format": "png",
+    "state": "new"
+   },
+   {
+    "file": "fr/dashboard/tableau-de-bord-dark-mobile.png",
+    "step": "tableau-de-bord",
+    "lang": "fr",
+    "theme": "dark",
+    "device": "mobile",
+    "format": "png",
+    "state": "new"
+   }
+  ],
+  "changed": true,
+  "mypErpPlus": []
+ },
+ "emails-groupes": {
+  "id": "emails-groupes",
+  "failed": "locator.waitFor: Timeout 30000ms exceeded. | Call log: | \u001b[2m  - waiting for getByText(/\\d+/).first() to be visible\u001b[22m | \u001b[2m    64 × locator resolved to hidden <div class=\"app-version nav-label\" title=\"Frontend buildé le 17/10/2026 13:01 — backend déployé le —\">Front f87e575 · API dev</div>\u001b[22m",
+  "files": [
+   {
+    "file": "fr/emails-groupes/1-destinataires-light-desktop.png",
+    "step": "1-destinataires",
+    "lang": "fr",
+    "theme": "light",
+    "device": "desktop",
+    "format": "png",
+    "state": "new"
+   },
+   {
+    "file": "fr/emails-groupes/2-message-light-desktop.png",
+    "step": "2-message",
+    "lang": "fr",
+    "theme": "light",
+    "device": "desktop",
+    "format": "png",
+    "state": "new"
+   },
+   {
+    "file": "fr/emails-groupes/3-recapitulatif-light-desktop.png",
+    "step": "3-recapitulatif",
+    "lang": "fr",
+    "theme": "light",
+    "device": "desktop",
+    "format": "png",
+    "state": "new"
+   }
+  ],
+  "changed": true,
+  "mypErpPlus": []
+ },
+ "facture-qr": {
+  "id": "facture-qr",
+  "failed": null,
+  "files": [
+   {
+    "file": "fr/facture-qr/facture-light-desktop.png",
+    "step": "facture",
+    "lang": "fr",
+    "theme": "light",
+    "device": "desktop",
+    "format": "png",
+    "state": "new"
+   },
+   {
+    "file": "fr/facture-qr/qr-facture-pdf-light-desktop.png",
+    "step": "qr-facture-pdf",
+    "lang": "fr",
+    "theme": "light",
+    "device": "desktop",
+    "format": "png",
+    "state": "new"
+   },
+   {
+    "file": "fr/facture-qr/facture-light-mobile.png",
+    "step": "facture",
+    "lang": "fr",
+    "theme": "light",
+    "device": "mobile",
+    "format": "png",
+    "state": "new"
+   },
+   {
+    "file": "fr/facture-qr/qr-facture-pdf-light-mobile.png",
+    "step": "qr-facture-pdf",
+    "lang": "fr",
+    "theme": "light",
+    "device": "mobile",
+    "format": "png",
+    "state": "new"
+   },
+   {
+    "file": "fr/facture-qr/facture-dark-desktop.png",
+    "step": "facture",
+    "lang": "fr",
+    "theme": "dark",
+    "device": "desktop",
+    "format": "png",
+    "state": "new"
+   },
+   {
+    "file": "fr/facture-qr/qr-facture-pdf-dark-desktop.png",
+    "step": "qr-facture-pdf",
+    "lang": "fr",
+    "theme": "dark",
+    "device": "desktop",
+    "format": "png",
+    "state": "new"
+   },
+   {
+    "file": "fr/facture-qr/facture-dark-mobile.png",
+    "step": "facture",
+    "lang": "fr",
+    "theme": "dark",
+    "device": "mobile",
+    "format": "png",
+    "state": "new"
+   },
+   {
+    "file": "fr/facture-qr/qr-facture-pdf-dark-mobile.png",
+    "step": "qr-facture-pdf",
+    "lang": "fr",
+    "theme": "dark",
+    "device": "mobile",
+    "format": "png",
+    "state": "new"
+   },
+   {
+    "file": "de/facture-qr/facture-light-desktop.png",
+    "step": "facture",
+    "lang": "de",
+    "theme": "light",
+    "device": "desktop",
+    "format": "png",
+    "state": "new"
+   },
+   {
+    "file": "de/facture-qr/qr-facture-pdf-light-desktop.png",
+    "step": "qr-facture-pdf",
+    "lang": "de",
+    "theme": "light",
+    "device": "desktop",
+    "format": "png",
+    "state": "new"
+   },
+   {
+    "file": "de/facture-qr/facture-light-mobile.png",
+    "step": "facture",
+    "lang": "de",
+    "theme": "light",
+    "device": "mobile",
+    "format": "png",
+    "state": "new"
+   },
+   {
+    "file": "de/facture-qr/qr-facture-pdf-light-mobile.png",
+    "step": "qr-facture-pdf",
+    "lang": "de",
+    "theme": "light",
+    "device": "mobile",
+    "format": "png",
+    "state": "new"
+   },
+   {
+    "file": "de/facture-qr/facture-dark-desktop.png",
+    "step": "facture",
+    "lang": "de",
+    "theme": "dark",
+    "device": "desktop",
+    "format": "png",
+    "state": "new"
+   },
+   {
+    "file": "de/facture-qr/qr-facture-pdf-dark-desktop.png",
+    "step": "qr-facture-pdf",
+    "lang": "de",
+    "theme": "dark",
+    "device": "desktop",
+    "format": "png",
+    "state": "new"
+   },
+   {
+    "file": "de/facture-qr/facture-dark-mobile.png",
+    "step": "facture",
+    "lang": "de",
+    "theme": "dark",
+    "device": "mobile",
+    "format": "png",
+    "state": "new"
+   },
+   {
+    "file": "de/facture-qr/qr-facture-pdf-dark-mobile.png",
+    "step": "qr-facture-pdf",
+    "lang": "de",
+    "theme": "dark",
+    "device": "mobile",
+    "format": "png",
+    "state": "new"
+   },
+   {
+    "file": "en/facture-qr/facture-light-desktop.png",
+    "step": "facture",
+    "lang": "en",
+    "theme": "light",
+    "device": "desktop",
+    "format": "png",
+    "state": "new"
+   },
+   {
+    "file": "en/facture-qr/qr-facture-pdf-light-desktop.png",
+    "step": "qr-facture-pdf",
+    "lang": "en",
+    "theme": "light",
+    "device": "desktop",
+    "format": "png",
+    "state": "new"
+   },
+   {
+    "file": "en/facture-qr/facture-light-mobile.png",
+    "step": "facture",
+    "lang": "en",
+    "theme": "light",
+    "device": "mobile",
+    "format": "png",
+    "state": "new"
+   },
+   {
+    "file": "en/facture-qr/qr-facture-pdf-light-mobile.png",
+    "step": "qr-facture-pdf",
+    "lang": "en",
+    "theme": "light",
+    "device": "mobile",
+    "format": "png",
+    "state": "new"
+   },
+   {
+    "file": "en/facture-qr/facture-dark-desktop.png",
+    "step": "facture",
+    "lang": "en",
+    "theme": "dark",
+    "device": "desktop",
+    "format": "png",
+    "state": "new"
+   },
+   {
+    "file": "en/facture-qr/qr-facture-pdf-dark-desktop.png",
+    "step": "qr-facture-pdf",
+    "lang": "en",
+    "theme": "dark",
+    "device": "desktop",
+    "format": "png",
+    "state": "new"
+   },
+   {
+    "file": "en/facture-qr/facture-dark-mobile.png",
+    "step": "facture",
+    "lang": "en",
+    "theme": "dark",
+    "device": "mobile",
+    "format": "png",
+    "state": "new"
+   },
+   {
+    "file": "en/facture-qr/qr-facture-pdf-dark-mobile.png",
+    "step": "qr-facture-pdf",
+    "lang": "en",
+    "theme": "dark",
+    "device": "mobile",
+    "format": "png",
+    "state": "new"
+   },
+   {
+    "file": "fr/facture-qr/facture-qr.mp4",
+    "step": "video",
+    "lang": "fr",
+    "theme": "light",
+    "device": "desktop",
+    "format": "mp4",
+    "state": "new"
+   },
+   {
+    "file": "fr/facture-qr/facture-qr.webm",
+    "step": "video",
+    "lang": "fr",
+    "theme": "light",
+    "device": "desktop",
+    "format": "webm",
+    "state": "new"
+   }
+  ],
+  "changed": true,
+  "mypErpPlus": []
+ },
+ "famille": {
+  "id": "famille",
+  "failed": null,
+  "files": [
+   {
+    "file": "fr/famille/ma-famille-light-desktop.png",
+    "step": "ma-famille",
+    "lang": "fr",
+    "theme": "light",
+    "device": "desktop",
+    "format": "png",
+    "state": "new"
+   },
+   {
+    "file": "fr/famille/ma-famille-light-mobile.png",
+    "step": "ma-famille",
+    "lang": "fr",
+    "theme": "light",
+    "device": "mobile",
+    "format": "png",
+    "state": "new"
+   },
+   {
+    "file": "fr/famille/ma-famille-dark-desktop.png",
+    "step": "ma-famille",
+    "lang": "fr",
+    "theme": "dark",
+    "device": "desktop",
+    "format": "png",
+    "state": "new"
+   },
+   {
+    "file": "fr/famille/ma-famille-dark-mobile.png",
+    "step": "ma-famille",
+    "lang": "fr",
+    "theme": "dark",
+    "device": "mobile",
+    "format": "png",
+    "state": "new"
+   },
+   {
+    "file": "de/famille/ma-famille-light-desktop.png",
+    "step": "ma-famille",
+    "lang": "de",
+    "theme": "light",
+    "device": "desktop",
+    "format": "png",
+    "state": "new"
+   },
+   {
+    "file": "de/famille/ma-famille-light-mobile.png",
+    "step": "ma-famille",
+    "lang": "de",
+    "theme": "light",
+    "device": "mobile",
+    "format": "png",
+    "state": "new"
+   },
+   {
+    "file": "de/famille/ma-famille-dark-desktop.png",
+    "step": "ma-famille",
+    "lang": "de",
+    "theme": "dark",
+    "device": "desktop",
+    "format": "png",
+    "state": "new"
+   },
+   {
+    "file": "de/famille/ma-famille-dark-mobile.png",
+    "step": "ma-famille",
+    "lang": "de",
+    "theme": "dark",
+    "device": "mobile",
+    "format": "png",
+    "state": "new"
+   },
+   {
+    "file": "en/famille/ma-famille-light-desktop.png",
+    "step": "ma-famille",
+    "lang": "en",
+    "theme": "light",
+    "device": "desktop",
+    "format": "png",
+    "state": "new"
+   },
+   {
+    "file": "en/famille/ma-famille-light-mobile.png",
+    "step": "ma-famille",
+    "lang": "en",
+    "theme": "light",
+    "device": "mobile",
+    "format": "png",
+    "state": "new"
+   },
+   {
+    "file": "en/famille/ma-famille-dark-desktop.png",
+    "step": "ma-famille",
+    "lang": "en",
+    "theme": "dark",
+    "device": "desktop",
+    "format": "png",
+    "state": "new"
+   },
+   {
+    "file": "en/famille/ma-famille-dark-mobile.png",
+    "step": "ma-famille",
+    "lang": "en",
+    "theme": "dark",
+    "device": "mobile",
+    "format": "png",
+    "state": "new"
+   },
+   {
+    "file": "fr/famille/famille.mp4",
+    "step": "video",
+    "lang": "fr",
+    "theme": "light",
+    "device": "desktop",
+    "format": "mp4",
+    "state": "new"
+   },
+   {
+    "file": "fr/famille/famille.webm",
+    "step": "video",
+    "lang": "fr",
+    "theme": "light",
+    "device": "desktop",
+    "format": "webm",
+    "state": "new"
+   }
+  ],
+  "changed": true,
+  "mypErpPlus": []
+ },
+ "planning": {
+  "id": "planning",
+  "failed": null,
+  "files": [
+   {
+    "file": "fr/planning/planning-semaine-light-desktop.png",
+    "step": "planning-semaine",
+    "lang": "fr",
+    "theme": "light",
+    "device": "desktop",
+    "format": "png",
+    "state": "new"
+   },
+   {
+    "file": "fr/planning/planning-semaine-light-mobile.png",
+    "step": "planning-semaine",
+    "lang": "fr",
+    "theme": "light",
+    "device": "mobile",
+    "format": "png",
+    "state": "new"
+   },
+   {
+    "file": "fr/planning/planning-semaine-dark-desktop.png",
+    "step": "planning-semaine",
+    "lang": "fr",
+    "theme": "dark",
+    "device": "desktop",
+    "format": "png",
+    "state": "new"
+   },
+   {
+    "file": "fr/planning/planning-semaine-dark-mobile.png",
+    "step": "planning-semaine",
+    "lang": "fr",
+    "theme": "dark",
+    "device": "mobile",
+    "format": "png",
+    "state": "new"
+   },
+   {
+    "file": "de/planning/planning-semaine-light-desktop.png",
+    "step": "planning-semaine",
+    "lang": "de",
+    "theme": "light",
+    "device": "desktop",
+    "format": "png",
+    "state": "new"
+   },
+   {
+    "file": "de/planning/planning-semaine-light-mobile.png",
+    "step": "planning-semaine",
+    "lang": "de",
+    "theme": "light",
+    "device": "mobile",
+    "format": "png",
+    "state": "new"
+   },
+   {
+    "file": "de/planning/planning-semaine-dark-desktop.png",
+    "step": "planning-semaine",
+    "lang": "de",
+    "theme": "dark",
+    "device": "desktop",
+    "format": "png",
+    "state": "new"
+   },
+   {
+    "file": "de/planning/planning-semaine-dark-mobile.png",
+    "step": "planning-semaine",
+    "lang": "de",
+    "theme": "dark",
+    "device": "mobile",
+    "format": "png",
+    "state": "new"
+   },
+   {
+    "file": "en/planning/planning-semaine-light-desktop.png",
+    "step": "planning-semaine",
+    "lang": "en",
+    "theme": "light",
+    "device": "desktop",
+    "format": "png",
+    "state": "new"
+   },
+   {
+    "file": "en/planning/planning-semaine-light-mobile.png",
+    "step": "planning-semaine",
+    "lang": "en",
+    "theme": "light",
+    "device": "mobile",
+    "format": "png",
+    "state": "new"
+   },
+   {
+    "file": "en/planning/planning-semaine-dark-desktop.png",
+    "step": "planning-semaine",
+    "lang": "en",
+    "theme": "dark",
+    "device": "desktop",
+    "format": "png",
+    "state": "new"
+   },
+   {
+    "file": "en/planning/planning-semaine-dark-mobile.png",
+    "step": "planning-semaine",
+    "lang": "en",
+    "theme": "dark",
+    "device": "mobile",
+    "format": "png",
+    "state": "new"
+   },
+   {
+    "file": "fr/planning/planning.mp4",
+    "step": "video",
+    "lang": "fr",
+    "theme": "light",
+    "device": "desktop",
+    "format": "mp4",
+    "state": "new"
+   },
+   {
+    "file": "fr/planning/planning.webm",
+    "step": "video",
+    "lang": "fr",
+    "theme": "light",
+    "device": "desktop",
+    "format": "webm",
+    "state": "new"
+   }
+  ],
+  "changed": true,
+  "mypErpPlus": []
+ },
+ "presences-mobile": {
+  "id": "presences-mobile",
+  "failed": null,
+  "files": [
+   {
+    "file": "fr/presences-mobile/prise-de-presence-light-desktop.png",
+    "step": "prise-de-presence",
+    "lang": "fr",
+    "theme": "light",
+    "device": "desktop",
+    "format": "png",
+    "state": "new"
+   },
+   {
+    "file": "fr/presences-mobile/prise-de-presence-light-mobile.png",
+    "step": "prise-de-presence",
+    "lang": "fr",
+    "theme": "light",
+    "device": "mobile",
+    "format": "png",
+    "state": "new"
+   },
+   {
+    "file": "fr/presences-mobile/prise-de-presence-dark-desktop.png",
+    "step": "prise-de-presence",
+    "lang": "fr",
+    "theme": "dark",
+    "device": "desktop",
+    "format": "png",
+    "state": "new"
+   },
+   {
+    "file": "fr/presences-mobile/prise-de-presence-dark-mobile.png",
+    "step": "prise-de-presence",
+    "lang": "fr",
+    "theme": "dark",
+    "device": "mobile",
+    "format": "png",
+    "state": "new"
+   },
+   {
+    "file": "de/presences-mobile/prise-de-presence-light-desktop.png",
+    "step": "prise-de-presence",
+    "lang": "de",
+    "theme": "light",
+    "device": "desktop",
+    "format": "png",
+    "state": "new"
+   },
+   {
+    "file": "de/presences-mobile/prise-de-presence-light-mobile.png",
+    "step": "prise-de-presence",
+    "lang": "de",
+    "theme": "light",
+    "device": "mobile",
+    "format": "png",
+    "state": "new"
+   },
+   {
+    "file": "de/presences-mobile/prise-de-presence-dark-desktop.png",
+    "step": "prise-de-presence",
+    "lang": "de",
+    "theme": "dark",
+    "device": "desktop",
+    "format": "png",
+    "state": "new"
+   },
+   {
+    "file": "de/presences-mobile/prise-de-presence-dark-mobile.png",
+    "step": "prise-de-presence",
+    "lang": "de",
+    "theme": "dark",
+    "device": "mobile",
+    "format": "png",
+    "state": "new"
+   },
+   {
+    "file": "en/presences-mobile/prise-de-presence-light-desktop.png",
+    "step": "prise-de-presence",
+    "lang": "en",
+    "theme": "light",
+    "device": "desktop",
+    "format": "png",
+    "state": "new"
+   },
+   {
+    "file": "en/presences-mobile/prise-de-presence-light-mobile.png",
+    "step": "prise-de-presence",
+    "lang": "en",
+    "theme": "light",
+    "device": "mobile",
+    "format": "png",
+    "state": "new"
+   },
+   {
+    "file": "en/presences-mobile/prise-de-presence-dark-desktop.png",
+    "step": "prise-de-presence",
+    "lang": "en",
+    "theme": "dark",
+    "device": "desktop",
+    "format": "png",
+    "state": "new"
+   },
+   {
+    "file": "en/presences-mobile/prise-de-presence-dark-mobile.png",
+    "step": "prise-de-presence",
+    "lang": "en",
+    "theme": "dark",
+    "device": "mobile",
+    "format": "png",
+    "state": "new"
+   },
+   {
+    "file": "fr/presences-mobile/presences-mobile.mp4",
+    "step": "video",
+    "lang": "fr",
+    "theme": "light",
+    "device": "mobile",
+    "format": "mp4",
+    "state": "new"
+   },
+   {
+    "file": "fr/presences-mobile/presences-mobile.webm",
+    "step": "video",
+    "lang": "fr",
+    "theme": "light",
+    "device": "mobile",
+    "format": "webm",
+    "state": "new"
+   }
+  ],
+  "changed": true,
+  "mypErpPlus": []
+ },
+ "rapports": {
+  "id": "rapports",
+  "failed": null,
+  "files": [
+   {
+    "file": "fr/rapports/liste-modeles-light-desktop.png",
+    "step": "liste-modeles",
+    "lang": "fr",
+    "theme": "light",
+    "device": "desktop",
+    "format": "png",
+    "state": "new"
+   },
+   {
+    "file": "fr/rapports/generateur-light-desktop.png",
+    "step": "generateur",
+    "lang": "fr",
+    "theme": "light",
+    "device": "desktop",
+    "format": "png",
+    "state": "new"
+   },
+   {
+    "file": "fr/rapports/liste-modeles-light-mobile.png",
+    "step": "liste-modeles",
+    "lang": "fr",
+    "theme": "light",
+    "device": "mobile",
+    "format": "png",
+    "state": "new"
+   },
+   {
+    "file": "fr/rapports/generateur-light-mobile.png",
+    "step": "generateur",
+    "lang": "fr",
+    "theme": "light",
+    "device": "mobile",
+    "format": "png",
+    "state": "new"
+   },
+   {
+    "file": "fr/rapports/liste-modeles-dark-desktop.png",
+    "step": "liste-modeles",
+    "lang": "fr",
+    "theme": "dark",
+    "device": "desktop",
+    "format": "png",
+    "state": "new"
+   },
+   {
+    "file": "fr/rapports/generateur-dark-desktop.png",
+    "step": "generateur",
+    "lang": "fr",
+    "theme": "dark",
+    "device": "desktop",
+    "format": "png",
+    "state": "new"
+   },
+   {
+    "file": "fr/rapports/liste-modeles-dark-mobile.png",
+    "step": "liste-modeles",
+    "lang": "fr",
+    "theme": "dark",
+    "device": "mobile",
+    "format": "png",
+    "state": "new"
+   },
+   {
+    "file": "fr/rapports/generateur-dark-mobile.png",
+    "step": "generateur",
+    "lang": "fr",
+    "theme": "dark",
+    "device": "mobile",
+    "format": "png",
+    "state": "new"
+   },
+   {
+    "file": "de/rapports/liste-modeles-light-desktop.png",
+    "step": "liste-modeles",
+    "lang": "de",
+    "theme": "light",
+    "device": "desktop",
+    "format": "png",
+    "state": "new"
+   },
+   {
+    "file": "de/rapports/generateur-light-desktop.png",
+    "step": "generateur",
+    "lang": "de",
+    "theme": "light",
+    "device": "desktop",
+    "format": "png",
+    "state": "new"
+   },
+   {
+    "file": "de/rapports/liste-modeles-light-mobile.png",
+    "step": "liste-modeles",
+    "lang": "de",
+    "theme": "light",
+    "device": "mobile",
+    "format": "png",
+    "state": "new"
+   },
+   {
+    "file": "de/rapports/generateur-light-mobile.png",
+    "step": "generateur",
+    "lang": "de",
+    "theme": "light",
+    "device": "mobile",
+    "format": "png",
+    "state": "new"
+   },
+   {
+    "file": "de/rapports/liste-modeles-dark-desktop.png",
+    "step": "liste-modeles",
+    "lang": "de",
+    "theme": "dark",
+    "device": "desktop",
+    "format": "png",
+    "state": "new"
+   },
+   {
+    "file": "de/rapports/generateur-dark-desktop.png",
+    "step": "generateur",
+    "lang": "de",
+    "theme": "dark",
+    "device": "desktop",
+    "format": "png",
+    "state": "new"
+   },
+   {
+    "file": "de/rapports/liste-modeles-dark-mobile.png",
+    "step": "liste-modeles",
+    "lang": "de",
+    "theme": "dark",
+    "device": "mobile",
+    "format": "png",
+    "state": "new"
+   },
+   {
+    "file": "de/rapports/generateur-dark-mobile.png",
+    "step": "generateur",
+    "lang": "de",
+    "theme": "dark",
+    "device": "mobile",
+    "format": "png",
+    "state": "new"
+   },
+   {
+    "file": "en/rapports/liste-modeles-light-desktop.png",
+    "step": "liste-modeles",
+    "lang": "en",
+    "theme": "light",
+    "device": "desktop",
+    "format": "png",
+    "state": "new"
+   },
+   {
+    "file": "en/rapports/generateur-light-desktop.png",
+    "step": "generateur",
+    "lang": "en",
+    "theme": "light",
+    "device": "desktop",
+    "format": "png",
+    "state": "new"
+   },
+   {
+    "file": "en/rapports/liste-modeles-light-mobile.png",
+    "step": "liste-modeles",
+    "lang": "en",
+    "theme": "light",
+    "device": "mobile",
+    "format": "png",
+    "state": "new"
+   },
+   {
+    "file": "en/rapports/generateur-light-mobile.png",
+    "step": "generateur",
+    "lang": "en",
+    "theme": "light",
+    "device": "mobile",
+    "format": "png",
+    "state": "new"
+   },
+   {
+    "file": "en/rapports/liste-modeles-dark-desktop.png",
+    "step": "liste-modeles",
+    "lang": "en",
+    "theme": "dark",
+    "device": "desktop",
+    "format": "png",
+    "state": "new"
+   },
+   {
+    "file": "en/rapports/generateur-dark-desktop.png",
+    "step": "generateur",
+    "lang": "en",
+    "theme": "dark",
+    "device": "desktop",
+    "format": "png",
+    "state": "new"
+   },
+   {
+    "file": "en/rapports/liste-modeles-dark-mobile.png",
+    "step": "liste-modeles",
+    "lang": "en",
+    "theme": "dark",
+    "device": "mobile",
+    "format": "png",
+    "state": "new"
+   },
+   {
+    "file": "en/rapports/generateur-dark-mobile.png",
+    "step": "generateur",
+    "lang": "en",
+    "theme": "dark",
+    "device": "mobile",
+    "format": "png",
+    "state": "new"
+   },
+   {
+    "file": "fr/rapports/rapports.mp4",
+    "step": "video",
+    "lang": "fr",
+    "theme": "light",
+    "device": "desktop",
+    "format": "mp4",
+    "state": "new"
+   },
+   {
+    "file": "fr/rapports/rapports.webm",
+    "step": "video",
+    "lang": "fr",
+    "theme": "light",
+    "device": "desktop",
+    "format": "webm",
+    "state": "new"
+   }
+  ],
+  "changed": true,
+  "mypErpPlus": []
+ },
+ "tresorerie": {
+  "id": "tresorerie",
+  "failed": null,
+  "files": [
+   {
+    "file": "fr/tresorerie/bilan-light-desktop.png",
+    "step": "bilan",
+    "lang": "fr",
+    "theme": "light",
+    "device": "desktop",
+    "format": "png",
+    "state": "new"
+   },
+   {
+    "file": "fr/tresorerie/compte-de-resultat-light-desktop.png",
+    "step": "compte-de-resultat",
+    "lang": "fr",
+    "theme": "light",
+    "device": "desktop",
+    "format": "png",
+    "state": "new"
+   },
+   {
+    "file": "fr/tresorerie/bilan-light-mobile.png",
+    "step": "bilan",
+    "lang": "fr",
+    "theme": "light",
+    "device": "mobile",
+    "format": "png",
+    "state": "new"
+   },
+   {
+    "file": "fr/tresorerie/compte-de-resultat-light-mobile.png",
+    "step": "compte-de-resultat",
+    "lang": "fr",
+    "theme": "light",
+    "device": "mobile",
+    "format": "png",
+    "state": "new"
+   },
+   {
+    "file": "fr/tresorerie/bilan-dark-desktop.png",
+    "step": "bilan",
+    "lang": "fr",
+    "theme": "dark",
+    "device": "desktop",
+    "format": "png",
+    "state": "new"
+   },
+   {
+    "file": "fr/tresorerie/compte-de-resultat-dark-desktop.png",
+    "step": "compte-de-resultat",
+    "lang": "fr",
+    "theme": "dark",
+    "device": "desktop",
+    "format": "png",
+    "state": "new"
+   },
+   {
+    "file": "fr/tresorerie/bilan-dark-mobile.png",
+    "step": "bilan",
+    "lang": "fr",
+    "theme": "dark",
+    "device": "mobile",
+    "format": "png",
+    "state": "new"
+   },
+   {
+    "file": "fr/tresorerie/compte-de-resultat-dark-mobile.png",
+    "step": "compte-de-resultat",
+    "lang": "fr",
+    "theme": "dark",
+    "device": "mobile",
+    "format": "png",
+    "state": "new"
+   },
+   {
+    "file": "de/tresorerie/bilan-light-desktop.png",
+    "step": "bilan",
+    "lang": "de",
+    "theme": "light",
+    "device": "desktop",
+    "format": "png",
+    "state": "new"
+   },
+   {
+    "file": "de/tresorerie/compte-de-resultat-light-desktop.png",
+    "step": "compte-de-resultat",
+    "lang": "de",
+    "theme": "light",
+    "device": "desktop",
+    "format": "png",
+    "state": "new"
+   },
+   {
+    "file": "de/tresorerie/bilan-light-mobile.png",
+    "step": "bilan",
+    "lang": "de",
+    "theme": "light",
+    "device": "mobile",
+    "format": "png",
+    "state": "new"
+   },
+   {
+    "file": "de/tresorerie/compte-de-resultat-light-mobile.png",
+    "step": "compte-de-resultat",
+    "lang": "de",
+    "theme": "light",
+    "device": "mobile",
+    "format": "png",
+    "state": "new"
+   },
+   {
+    "file": "de/tresorerie/bilan-dark-desktop.png",
+    "step": "bilan",
+    "lang": "de",
+    "theme": "dark",
+    "device": "desktop",
+    "format": "png",
+    "state": "new"
+   },
+   {
+    "file": "de/tresorerie/compte-de-resultat-dark-desktop.png",
+    "step": "compte-de-resultat",
+    "lang": "de",
+    "theme": "dark",
+    "device": "desktop",
+    "format": "png",
+    "state": "new"
+   },
+   {
+    "file": "de/tresorerie/bilan-dark-mobile.png",
+    "step": "bilan",
+    "lang": "de",
+    "theme": "dark",
+    "device": "mobile",
+    "format": "png",
+    "state": "new"
+   },
+   {
+    "file": "de/tresorerie/compte-de-resultat-dark-mobile.png",
+    "step": "compte-de-resultat",
+    "lang": "de",
+    "theme": "dark",
+    "device": "mobile",
+    "format": "png",
+    "state": "new"
+   },
+   {
+    "file": "en/tresorerie/bilan-light-desktop.png",
+    "step": "bilan",
+    "lang": "en",
+    "theme": "light",
+    "device": "desktop",
+    "format": "png",
+    "state": "new"
+   },
+   {
+    "file": "en/tresorerie/compte-de-resultat-light-desktop.png",
+    "step": "compte-de-resultat",
+    "lang": "en",
+    "theme": "light",
+    "device": "desktop",
+    "format": "png",
+    "state": "new"
+   },
+   {
+    "file": "en/tresorerie/bilan-light-mobile.png",
+    "step": "bilan",
+    "lang": "en",
+    "theme": "light",
+    "device": "mobile",
+    "format": "png",
+    "state": "new"
+   },
+   {
+    "file": "en/tresorerie/compte-de-resultat-light-mobile.png",
+    "step": "compte-de-resultat",
+    "lang": "en",
+    "theme": "light",
+    "device": "mobile",
+    "format": "png",
+    "state": "new"
+   },
+   {
+    "file": "en/tresorerie/bilan-dark-desktop.png",
+    "step": "bilan",
+    "lang": "en",
+    "theme": "dark",
+    "device": "desktop",
+    "format": "png",
+    "state": "new"
+   },
+   {
+    "file": "en/tresorerie/compte-de-resultat-dark-desktop.png",
+    "step": "compte-de-resultat",
+    "lang": "en",
+    "theme": "dark",
+    "device": "desktop",
+    "format": "png",
+    "state": "new"
+   },
+   {
+    "file": "en/tresorerie/bilan-dark-mobile.png",
+    "step": "bilan",
+    "lang": "en",
+    "theme": "dark",
+    "device": "mobile",
+    "format": "png",
+    "state": "new"
+   },
+   {
+    "file": "en/tresorerie/compte-de-resultat-dark-mobile.png",
+    "step": "compte-de-resultat",
+    "lang": "en",
+    "theme": "dark",
+    "device": "mobile",
+    "format": "png",
+    "state": "new"
+   },
+   {
+    "file": "fr/tresorerie/tresorerie.mp4",
+    "step": "video",
+    "lang": "fr",
+    "theme": "light",
+    "device": "desktop",
+    "format": "mp4",
+    "state": "new"
+   },
+   {
+    "file": "fr/tresorerie/tresorerie.webm",
+    "step": "video",
+    "lang": "fr",
+    "theme": "light",
+    "device": "desktop",
+    "format": "webm",
+    "state": "new"
+   }
+  ],
+  "changed": true,
+  "mypErpPlus": []
+ }
+}
