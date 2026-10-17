@@ -23,7 +23,7 @@ function headTags(lang) {
     alternates,
     `<link rel="alternate" hreflang="x-default" href="${SITE_URL}/" />`,
     `<meta property="og:type" content="website" />`,
-    `<meta property="og:site_name" content="MyERPPlus" />`,
+    `<meta property="og:site_name" content="Gestioo" />`,
     `<meta property="og:title" content="${esc(m.title)}" />`,
     `<meta property="og:description" content="${esc(m.description)}" />`,
     `<meta property="og:url" content="${url(lang)}" />`,
@@ -53,9 +53,9 @@ const simplePage = (lang, title, body, extraHead = '') => `<!doctype html>
 ${extraHead}
 <link rel="icon" type="image/svg+xml" href="${BASE}favicon.svg" />
 <style>
-body{font-family:system-ui,sans-serif;max-width:40rem;margin:3rem auto;padding:0 1rem;line-height:1.6;background:#fff;color:#0f172a}
-a{color:#1d4ed8}
-@media (prefers-color-scheme:dark){body{background:#0b1220;color:#e8edf6}a{color:#7aa2ff}}
+body{font-family:system-ui,sans-serif;max-width:40rem;margin:3rem auto;padding:0 1rem;line-height:1.6;background:#fff;color:#0e1b2c}
+a{color:#c8102e}
+@media (prefers-color-scheme:dark){body{background:#0b1220;color:#e8edf6}a{color:#ff8a99}}
 </style>
 </head>
 <body>
@@ -74,13 +74,13 @@ const redirect = `<script>
 </script>`;
 await writeFile(
   path.join(dist, 'index.html'),
-  simplePage('fr', 'MyERPPlus', `<h1>MyERPPlus</h1>\n<ul>\n${langLinks}\n</ul>`,
+  simplePage('fr', 'Gestioo', `<h1>Gestioo</h1>\n<ul>\n${langLinks}\n</ul>`,
     `<link rel="canonical" href="${SITE_URL}/" />\n${LANGS.map((l) => `<link rel="alternate" hreflang="${l}" href="${url(l)}" />`).join('\n')}\n<link rel="alternate" hreflang="x-default" href="${SITE_URL}/" />\n<noscript><meta http-equiv="refresh" content="0;url=${BASE}fr/" /></noscript>\n${redirect}`),
 );
 
 await writeFile(
   path.join(dist, '404.html'),
-  simplePage('fr', 'MyERPPlus – 404', `<h1>404</h1>\n<p>Page introuvable · Seite nicht gefunden · Page not found</p>\n<ul>\n${langLinks}\n</ul>`, '<meta name="robots" content="noindex" />'),
+  simplePage('fr', 'Gestioo – 404', `<h1>404</h1>\n<p>Page introuvable · Seite nicht gefunden · Page not found</p>\n<ul>\n${langLinks}\n</ul>`, '<meta name="robots" content="noindex" />'),
 );
 
 const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
