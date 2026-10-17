@@ -1,2 +1,2 @@
-Site vitrine de MyERPPlus, publié sur GitHub Pages.
-(Le site est ajouté par pull request.)
+Site vitrine de Gestioo, publié sur GitHub Pages.
+Voir CLAUDE.md pour les conventions (design, pré-rendu, i18n).

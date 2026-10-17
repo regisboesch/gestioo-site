@@ -1,0 +1,321 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<title>Gestioo — page d'accueil</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&amp;family=Figtree:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0}
+</style>
+</helmet>
+<div style="font-family: 'Figtree', system-ui, sans-serif; color: #0E1B2C; background: #FFFFFF; line-height: 1.6; font-size: 17px; width: 100%">
+
+<!-- En-tête -->
+<header style="border-bottom: 1px solid #DDE3EA; background: #FFFFFF">
+<div style="max-width: 1180px; margin: 0 auto; padding: 16px clamp(16px, 4vw, 40px); display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 16px">
+<a href="#top" style="display: flex; align-items: center; gap: 10px; text-decoration: none; color: #0E1B2C">
+<span style="display: inline-flex; align-items: center; justify-content: center; width: 36px; height: 36px; border-radius: 10px; background: {{accent}}; color: #FFFFFF; font-family: 'Bricolage Grotesque', sans-serif; font-weight: 800; font-size: 20px">G</span>
+<span style="font-family: 'Bricolage Grotesque', sans-serif; font-weight: 800; font-size: 22px; letter-spacing: -0.02em">Gestioo</span>
+</a>
+<nav aria-label="Navigation principale" style="display: flex; flex-wrap: wrap; gap: 4px 20px; font-size: 15px; font-weight: 500">
+<a href="#profils" style="color: #0E1B2C; text-decoration: none">Pour qui ?</a>
+<a href="#forces" style="color: #0E1B2C; text-decoration: none">Points forts</a>
+<a href="#modules" style="color: #0E1B2C; text-decoration: none">Fonctionnalités</a>
+<a href="#assistant" style="color: #0E1B2C; text-decoration: none">Assistant IA</a>
+<a href="#confiance" style="color: #0E1B2C; text-decoration: none">Confiance</a>
+<a href="#nouveautes" style="color: #0E1B2C; text-decoration: none">Nouveautés</a>
+</nav>
+<div style="display: flex; align-items: center; gap: 14px">
+<div aria-label="Langue du site" style="display: flex; gap: 2px; font-size: 14px; font-weight: 600; border: 1px solid #DDE3EA; border-radius: 999px; padding: 3px">
+<a href="#top" aria-current="page" style="padding: 4px 10px; border-radius: 999px; background: #0E1B2C; color: #FFFFFF; text-decoration: none">FR</a>
+<a href="#top" style="padding: 4px 10px; border-radius: 999px; color: #0E1B2C; text-decoration: none">DE</a>
+<a href="#top" style="padding: 4px 10px; border-radius: 999px; color: #0E1B2C; text-decoration: none">EN</a>
+</div>
+<a href="#contact" style="display: inline-flex; align-items: center; gap: 8px; min-height: 44px; padding: 0 18px; border-radius: 10px; background: {{accent}}; color: #FFFFFF; font-weight: 600; font-size: 15px; text-decoration: none"><dc-import name="Icon" icon="mail" size="18" hint-size="18px,18px"></dc-import>Nous contacter</a>
+</div>
+</div>
+</header>
+
+<!-- Accueil -->
+<section id="top" style="background: #F4F6F9">
+<div style="max-width: 1180px; margin: 0 auto; padding: clamp(48px, 7vw, 96px) clamp(16px, 4vw, 40px); display: flex; flex-wrap: wrap; align-items: center; gap: 56px">
+<div style="flex: 1 1 460px; min-width: 0">
+<p style="margin: 0 0 18px; display: inline-flex; align-items: center; gap: 8px; font-size: 14px; font-weight: 600; color: {{accent}}; background: {{accentTint}}; padding: 6px 12px; border-radius: 999px"><dc-import name="Icon" icon="swiss" size="16" hint-size="16px,16px"></dc-import>Pour les clubs et associations multisport – Suisse &amp; France</p>
+<h1 style="margin: 0 0 20px; font-family: 'Bricolage Grotesque', sans-serif; font-weight: 800; font-size: clamp(38px, 5.2vw, 64px); line-height: 1.05; letter-spacing: -0.03em">Gérez votre club en un seul endroit, sans tableurs</h1>
+<p style="margin: 0 0 28px; font-size: 19px; color: #4A5568; max-width: 600px">Gestioo réunit les membres, les inscriptions par saison et par équipe, le planning des entraînements, la facturation des cotisations avec QR-facture suisse, la comptabilité en partie double et la communication avec les familles – avec un assistant IA intégré.</p>
+<div style="display: flex; flex-wrap: wrap; gap: 12px; margin-bottom: 28px">
+<a href="#contact" style="display: inline-flex; align-items: center; gap: 10px; min-height: 52px; padding: 0 24px; border-radius: 12px; background: {{accent}}; color: #FFFFFF; font-weight: 600; text-decoration: none">Nous contacter<dc-import name="Icon" icon="arrowRight" size="18" hint-size="18px,18px"></dc-import></a>
+<a href="#modules" style="display: inline-flex; align-items: center; gap: 10px; min-height: 52px; padding: 0 24px; border-radius: 12px; border: 1.5px solid #0E1B2C; color: #0E1B2C; font-weight: 600; text-decoration: none"><dc-import name="Icon" icon="compass" size="18" hint-size="18px,18px"></dc-import>Découvrir les fonctionnalités</a>
+</div>
+<ul style="list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 10px">
+<li style="display: inline-flex; align-items: center; gap: 8px; font-size: 14px; font-weight: 500; background: #FFFFFF; border: 1px solid #DDE3EA; border-radius: 999px; padding: 6px 14px"><dc-import name="Icon" icon="globe" size="16" hint-size="16px,16px"></dc-import>Français, allemand, anglais</li>
+<li style="display: inline-flex; align-items: center; gap: 8px; font-size: 14px; font-weight: 500; background: #FFFFFF; border: 1px solid #DDE3EA; border-radius: 999px; padding: 6px 14px"><dc-import name="Icon" icon="smartphone" size="16" hint-size="16px,16px"></dc-import>Installable sur smartphone</li>
+<li style="display: inline-flex; align-items: center; gap: 8px; font-size: 14px; font-weight: 500; background: #FFFFFF; border: 1px solid #DDE3EA; border-radius: 999px; padding: 6px 14px"><dc-import name="Icon" icon="qr" size="16" hint-size="16px,16px"></dc-import>QR-facture suisse</li>
+<li style="display: inline-flex; align-items: center; gap: 8px; font-size: 14px; font-weight: 500; background: #FFFFFF; border: 1px solid #DDE3EA; border-radius: 999px; padding: 6px 14px"><dc-import name="Icon" icon="moon" size="16" hint-size="16px,16px"></dc-import>Thème clair et sombre</li>
+</ul>
+</div>
+
+<!-- Aperçu illustratif de l'application (remplacé par une vraie capture) -->
+<figure style="flex: 1 1 420px; min-width: 0; margin: 0">
+<div style="background: #FFFFFF; border: 1px solid #DDE3EA; border-radius: 18px; box-shadow: 0 24px 60px rgba(14, 27, 44, 0.12); overflow: hidden">
+<div style="display: flex; align-items: center; gap: 6px; padding: 12px 16px; border-bottom: 1px solid #DDE3EA">
+<span style="width: 10px; height: 10px; border-radius: 50%; background: #DDE3EA"></span><span style="width: 10px; height: 10px; border-radius: 50%; background: #DDE3EA"></span><span style="width: 10px; height: 10px; border-radius: 50%; background: #DDE3EA"></span>
+</div>
+<div style="display: flex">
+<div style="flex: none; width: 150px; padding: 16px 12px; border-right: 1px solid #DDE3EA; display: flex; flex-direction: column; gap: 6px; font-size: 13px; font-weight: 500; color: #4A5568">
+<span style="display: flex; align-items: center; gap: 8px; padding: 6px 8px; border-radius: 8px; background: {{accentTint}}; color: {{accent}}"><dc-import name="Icon" icon="dashboard" size="16" hint-size="16px,16px"></dc-import>Tableau de bord</span>
+<span style="display: flex; align-items: center; gap: 8px; padding: 6px 8px"><dc-import name="Icon" icon="users" size="16" hint-size="16px,16px"></dc-import>Membres</span>
+<span style="display: flex; align-items: center; gap: 8px; padding: 6px 8px"><dc-import name="Icon" icon="calendar" size="16" hint-size="16px,16px"></dc-import>Planning</span>
+<span style="display: flex; align-items: center; gap: 8px; padding: 6px 8px"><dc-import name="Icon" icon="receipt" size="16" hint-size="16px,16px"></dc-import>Factures</span>
+<span style="display: flex; align-items: center; gap: 8px; padding: 6px 8px"><dc-import name="Icon" icon="landmark" size="16" hint-size="16px,16px"></dc-import>Trésorerie</span>
+<span style="display: flex; align-items: center; gap: 8px; padding: 6px 8px"><dc-import name="Icon" icon="chart" size="16" hint-size="16px,16px"></dc-import>Rapports</span>
+</div>
+<div style="flex: 1 1 auto; min-width: 0; padding: 18px; display: flex; flex-direction: column; gap: 14px">
+<div style="font-family: 'Bricolage Grotesque', sans-serif; font-weight: 600; font-size: 16px">Tableau de bord</div>
+<div style="display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 10px">
+<div style="border: 1px solid #DDE3EA; border-radius: 10px; padding: 10px; font-size: 11px; color: #4A5568">Membres actifs<div style="margin-top: 8px; height: 10px; width: 60%; border-radius: 4px; background: #DDE3EA"></div></div>
+<div style="border: 1px solid #DDE3EA; border-radius: 10px; padding: 10px; font-size: 11px; color: #4A5568">Cotisations encaissées<div style="margin-top: 8px; height: 10px; width: 70%; border-radius: 4px; background: #DDE3EA"></div></div>
+<div style="border: 1px solid #DDE3EA; border-radius: 10px; padding: 10px; font-size: 11px; color: #4A5568">Solde à percevoir<div style="margin-top: 8px; height: 10px; width: 50%; border-radius: 4px; background: #DDE3EA"></div></div>
+</div>
+<div style="border: 1px solid #DDE3EA; border-radius: 10px; padding: 12px; display: flex; align-items: flex-end; gap: 10px; height: 110px" aria-hidden="true">
+<span style="flex: 1; height: 35%; border-radius: 4px 4px 0 0; background: {{accentTint}}"></span>
+<span style="flex: 1; height: 55%; border-radius: 4px 4px 0 0; background: {{accentTint}}"></span>
+<span style="flex: 1; height: 45%; border-radius: 4px 4px 0 0; background: {{accentTint}}"></span>
+<span style="flex: 1; height: 70%; border-radius: 4px 4px 0 0; background: {{accentTint}}"></span>
+<span style="flex: 1; height: 60%; border-radius: 4px 4px 0 0; background: {{accentTint}}"></span>
+<span style="flex: 1; height: 90%; border-radius: 4px 4px 0 0; background: {{accent}}"></span>
+</div>
+<div style="border: 1px solid #DDE3EA; border-radius: 10px; padding: 10px 12px; font-size: 12px; display: flex; flex-direction: column; gap: 8px">
+<span style="font-weight: 600">À traiter</span>
+<span style="display: flex; align-items: center; gap: 8px; color: #4A5568"><dc-import name="Icon" icon="receipt" size="14" hint-size="14px,14px"></dc-import>Factures en brouillon à émettre</span>
+<span style="display: flex; align-items: center; gap: 8px; color: #4A5568"><dc-import name="Icon" icon="clipboard" size="14" hint-size="14px,14px"></dc-import>Inscriptions à valider</span>
+</div>
+</div>
+</div>
+</div>
+<figcaption style="margin-top: 12px; font-size: 13px; color: #4A5568; text-align: center">Aperçu illustratif — remplacé par une capture réelle de l'application</figcaption>
+</figure>
+</div>
+</section>
+
+<!-- Profils -->
+<section id="profils">
+<div style="max-width: 1180px; margin: 0 auto; padding: clamp(56px, 8vw, 104px) clamp(16px, 4vw, 40px)">
+<h2 style="margin: 0 0 12px; font-family: 'Bricolage Grotesque', sans-serif; font-weight: 800; font-size: clamp(30px, 3.6vw, 44px); line-height: 1.1; letter-spacing: -0.02em">Une solution pour chaque rôle du club</h2>
+<p style="margin: 0 0 40px; color: #4A5568; max-width: 640px">Que vous soyez bénévole au comité, entraîneur ou parent, chacun retrouve rapidement ce dont il a besoin.</p>
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 320px), 1fr)); gap: 20px">
+
+<article style="border: 1px solid #DDE3EA; border-radius: 16px; padding: 24px; display: flex; flex-direction: column; gap: 14px">
+<div style="display: flex; align-items: center; gap: 12px"><span style="display: inline-flex; align-items: center; justify-content: center; width: 48px; height: 48px; border-radius: 12px; background: {{accentTint}}; color: {{accent}}"><dc-import name="Icon" icon="wallet" size="24" hint-size="24px,24px"></dc-import></span><h3 style="margin: 0; font-family: 'Bricolage Grotesque', sans-serif; font-weight: 600; font-size: 22px">Trésorier</h3></div>
+<p style="margin: 0; display: flex; gap: 10px; color: #4A5568; font-size: 15px"><span style="flex: none; color: #8A94A6; margin-top: 3px"><dc-import name="Icon" icon="xCircle" size="18" hint-size="18px,18px"></dc-import></span><span><strong style="color: #0E1B2C">Avant :</strong> tableurs, relances manuelles, rapprochement bancaire à la main, clôture annuelle laborieuse.</span></p>
+<p style="margin: 0; display: flex; gap: 10px; font-size: 15px"><span style="flex: none; color: {{accent}}; margin-top: 3px"><dc-import name="Icon" icon="checkCircle" size="18" hint-size="18px,18px"></dc-import></span><span><strong>Avec Gestioo :</strong> factures QR générées et envoyées en masse, rappels, import des relevés bancaires camt et rapprochement, écritures comptables automatiques, clôture assistée avec bilan et compte de résultat en PDF, rapports financiers sur mesure exportés en Excel.</span></p>
+</article>
+
+<article style="border: 1px solid #DDE3EA; border-radius: 16px; padding: 24px; display: flex; flex-direction: column; gap: 14px">
+<div style="display: flex; align-items: center; gap: 12px"><span style="display: inline-flex; align-items: center; justify-content: center; width: 48px; height: 48px; border-radius: 12px; background: {{accentTint}}; color: {{accent}}"><dc-import name="Icon" icon="clipboard" size="24" hint-size="24px,24px"></dc-import></span><h3 style="margin: 0; font-family: 'Bricolage Grotesque', sans-serif; font-weight: 600; font-size: 22px">Secrétaire / comité</h3></div>
+<p style="margin: 0; display: flex; gap: 10px; color: #4A5568; font-size: 15px"><span style="flex: none; color: #8A94A6; margin-top: 3px"><dc-import name="Icon" icon="xCircle" size="18" hint-size="18px,18px"></dc-import></span><span><strong style="color: #0E1B2C">Avant :</strong> inscriptions papier ou par email, listes d'équipes éparpillées.</span></p>
+<p style="margin: 0; display: flex; gap: 10px; font-size: 15px"><span style="flex: none; color: {{accent}}; margin-top: 3px"><dc-import name="Icon" icon="checkCircle" size="18" hint-size="18px,18px"></dc-import></span><span><strong>Avec Gestioo :</strong> inscription en ligne par les familles, validation en un clic, équipes et effectifs à jour, emails groupés ciblés, listes et statistiques sur mesure exportables en CSV ou Excel.</span></p>
+</article>
+
+<article style="border: 1px solid #DDE3EA; border-radius: 16px; padding: 24px; display: flex; flex-direction: column; gap: 14px">
+<div style="display: flex; align-items: center; gap: 12px"><span style="display: inline-flex; align-items: center; justify-content: center; width: 48px; height: 48px; border-radius: 12px; background: {{accentTint}}; color: {{accent}}"><dc-import name="Icon" icon="timer" size="24" hint-size="24px,24px"></dc-import></span><h3 style="margin: 0; font-family: 'Bricolage Grotesque', sans-serif; font-weight: 600; font-size: 22px">Entraîneur / staff</h3></div>
+<p style="margin: 0; display: flex; gap: 10px; color: #4A5568; font-size: 15px"><span style="flex: none; color: #8A94A6; margin-top: 3px"><dc-import name="Icon" icon="xCircle" size="18" hint-size="18px,18px"></dc-import></span><span><strong style="color: #0E1B2C">Avant :</strong> feuilles de présence papier, planning partagé par messagerie.</span></p>
+<p style="margin: 0; display: flex; gap: 10px; font-size: 15px"><span style="flex: none; color: {{accent}}; margin-top: 3px"><dc-import name="Icon" icon="checkCircle" size="18" hint-size="18px,18px"></dc-import></span><span><strong>Avec Gestioo :</strong> prise de présence sur smartphone, même sans réseau, planning par équipe et par salle, notes de frais en ligne.</span></p>
+</article>
+
+<article style="border: 1px solid #DDE3EA; border-radius: 16px; padding: 24px; display: flex; flex-direction: column; gap: 14px">
+<div style="display: flex; align-items: center; gap: 12px"><span style="display: inline-flex; align-items: center; justify-content: center; width: 48px; height: 48px; border-radius: 12px; background: {{accentTint}}; color: {{accent}}"><dc-import name="Icon" icon="users" size="24" hint-size="24px,24px"></dc-import></span><h3 style="margin: 0; font-family: 'Bricolage Grotesque', sans-serif; font-weight: 600; font-size: 22px">Parent / membre</h3></div>
+<p style="margin: 0; display: flex; gap: 10px; color: #4A5568; font-size: 15px"><span style="flex: none; color: #8A94A6; margin-top: 3px"><dc-import name="Icon" icon="xCircle" size="18" hint-size="18px,18px"></dc-import></span><span><strong style="color: #0E1B2C">Avant :</strong> on ne sait pas où en est l'inscription ou le paiement de ses enfants.</span></p>
+<p style="margin: 0; display: flex; gap: 10px; font-size: 15px"><span style="flex: none; color: {{accent}}; margin-top: 3px"><dc-import name="Icon" icon="checkCircle" size="18" hint-size="18px,18px"></dc-import></span><span><strong>Avec Gestioo :</strong> l'espace « Ma famille » : inscription pas à pas, paiement en 1 à 4 fois, factures, prochains cours et annonces du club.</span></p>
+</article>
+
+<article style="border: 1px solid #DDE3EA; border-radius: 16px; padding: 24px; display: flex; flex-direction: column; gap: 14px">
+<div style="display: flex; align-items: center; gap: 12px"><span style="display: inline-flex; align-items: center; justify-content: center; width: 48px; height: 48px; border-radius: 12px; background: {{accentTint}}; color: {{accent}}"><dc-import name="Icon" icon="dashboard" size="24" hint-size="24px,24px"></dc-import></span><h3 style="margin: 0; font-family: 'Bricolage Grotesque', sans-serif; font-weight: 600; font-size: 22px">Président</h3></div>
+<p style="margin: 0; display: flex; gap: 10px; color: #4A5568; font-size: 15px"><span style="flex: none; color: #8A94A6; margin-top: 3px"><dc-import name="Icon" icon="xCircle" size="18" hint-size="18px,18px"></dc-import></span><span><strong style="color: #0E1B2C">Avant :</strong> pas de vue d'ensemble.</span></p>
+<p style="margin: 0; display: flex; gap: 10px; font-size: 15px"><span style="flex: none; color: {{accent}}; margin-top: 3px"><dc-import name="Icon" icon="checkCircle" size="18" hint-size="18px,18px"></dc-import></span><span><strong>Avec Gestioo :</strong> un tableau de bord (membres actifs, cotisations encaissées, solde à percevoir, tâches en attente) et des rapports personnalisés enregistrables, exportables vers Excel.</span></p>
+</article>
+
+</div>
+</div>
+</section>
+
+<!-- Points forts -->
+<section id="forces" style="background: #F4F6F9">
+<div style="max-width: 1180px; margin: 0 auto; padding: clamp(56px, 8vw, 104px) clamp(16px, 4vw, 40px)">
+<h2 style="margin: 0 0 40px; font-family: 'Bricolage Grotesque', sans-serif; font-weight: 800; font-size: clamp(30px, 3.6vw, 44px); line-height: 1.1; letter-spacing: -0.02em">Ce qui fait la différence</h2>
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px), 1fr)); gap: 20px">
+<div style="background: #FFFFFF; border-radius: 16px; padding: 24px"><span style="display: inline-flex; align-items: center; justify-content: center; width: 48px; height: 48px; border-radius: 50%; background: {{accent}}; color: #FFFFFF; margin-bottom: 14px"><dc-import name="Icon" icon="swiss" size="24" hint-size="24px,24px"></dc-import></span><h3 style="margin: 0 0 6px; font-family: 'Bricolage Grotesque', sans-serif; font-weight: 600; font-size: 20px">Pensé pour la Suisse</h3><p style="margin: 0; color: #4A5568; font-size: 15px">QR-facture suisse, relevés bancaires camt, numéro AVS, comptabilité suisse en partie double et interface en français, allemand et anglais.</p></div>
+<div style="background: #FFFFFF; border-radius: 16px; padding: 24px"><span style="display: inline-flex; align-items: center; justify-content: center; width: 48px; height: 48px; border-radius: 50%; background: {{accentTint}}; color: {{accent}}; margin-bottom: 14px"><dc-import name="Icon" icon="book" size="24" hint-size="24px,24px"></dc-import></span><h3 style="margin: 0 0 6px; font-family: 'Bricolage Grotesque', sans-serif; font-weight: 600; font-size: 20px">Comptabilité intégrée, pas ajoutée</h3><p style="margin: 0; color: #4A5568; font-size: 15px">Chaque facture, paiement, remboursement, note de frais ou facture fournisseur alimente automatiquement le grand livre.</p></div>
+<div style="background: #FFFFFF; border-radius: 16px; padding: 24px"><span style="display: inline-flex; align-items: center; justify-content: center; width: 48px; height: 48px; border-radius: 50%; background: {{accentTint}}; color: {{accent}}; margin-bottom: 14px"><dc-import name="Icon" icon="heart" size="24" hint-size="24px,24px"></dc-import></span><h3 style="margin: 0 0 6px; font-family: 'Bricolage Grotesque', sans-serif; font-weight: 600; font-size: 20px">Les familles au cœur</h3><p style="margin: 0; color: #4A5568; font-size: 15px">Un compte = une famille, plusieurs membres, paiement échelonné.</p></div>
+<div style="background: #FFFFFF; border-radius: 16px; padding: 24px"><span style="display: inline-flex; align-items: center; justify-content: center; width: 48px; height: 48px; border-radius: 50%; background: {{accentTint}}; color: {{accent}}; margin-bottom: 14px"><dc-import name="Icon" icon="wifiOff" size="24" hint-size="24px,24px"></dc-import></span><h3 style="margin: 0 0 6px; font-family: 'Bricolage Grotesque', sans-serif; font-weight: 600; font-size: 20px">Fonctionne hors ligne</h3><p style="margin: 0; color: #4A5568; font-size: 15px">La prise de présence au bord du terrain continue sans réseau et se synchronise au retour de la connexion.</p></div>
+<div style="background: #FFFFFF; border-radius: 16px; padding: 24px"><span style="display: inline-flex; align-items: center; justify-content: center; width: 48px; height: 48px; border-radius: 50%; background: {{accentTint}}; color: {{accent}}; margin-bottom: 14px"><dc-import name="Icon" icon="mic" size="24" hint-size="24px,24px"></dc-import></span><h3 style="margin: 0 0 6px; font-family: 'Bricolage Grotesque', sans-serif; font-weight: 600; font-size: 20px">Assistant IA vocal</h3><p style="margin: 0; color: #4A5568; font-size: 15px">Posez une question ou créez une inscription en parlant, avec confirmation avant toute action.</p></div>
+<div style="background: #FFFFFF; border-radius: 16px; padding: 24px"><span style="display: inline-flex; align-items: center; justify-content: center; width: 48px; height: 48px; border-radius: 50%; background: {{accentTint}}; color: {{accent}}; margin-bottom: 14px"><dc-import name="Icon" icon="shield" size="24" hint-size="24px,24px"></dc-import></span><h3 style="margin: 0 0 6px; font-family: 'Bricolage Grotesque', sans-serif; font-weight: 600; font-size: 20px">Droits par rôle</h3><p style="margin: 0; color: #4A5568; font-size: 15px">Chacun (administrateur, comité, staff, membre) ne voit que ce qui le concerne.</p></div>
+<div style="background: #FFFFFF; border-radius: 16px; padding: 24px"><span style="display: inline-flex; align-items: center; justify-content: center; width: 48px; height: 48px; border-radius: 50%; background: {{accentTint}}; color: {{accent}}; margin-bottom: 14px"><dc-import name="Icon" icon="smartphone" size="24" hint-size="24px,24px"></dc-import></span><h3 style="margin: 0 0 6px; font-family: 'Bricolage Grotesque', sans-serif; font-weight: 600; font-size: 20px">Installable sur smartphone</h3><p style="margin: 0; color: #4A5568; font-size: 15px">Sans passer par un store, et toujours à jour.</p></div>
+<div style="background: #FFFFFF; border-radius: 16px; padding: 24px"><span style="display: inline-flex; align-items: center; justify-content: center; width: 48px; height: 48px; border-radius: 50%; background: {{accentTint}}; color: {{accent}}; margin-bottom: 14px"><dc-import name="Icon" icon="palette" size="24" hint-size="24px,24px"></dc-import></span><h3 style="margin: 0 0 6px; font-family: 'Bricolage Grotesque', sans-serif; font-weight: 600; font-size: 20px">Aux couleurs du club</h3><p style="margin: 0; color: #4A5568; font-size: 15px">Logo, couleur principale et image de connexion de votre association.</p></div>
+<div style="background: #FFFFFF; border-radius: 16px; padding: 24px"><span style="display: inline-flex; align-items: center; justify-content: center; width: 48px; height: 48px; border-radius: 50%; background: {{accentTint}}; color: {{accent}}; margin-bottom: 14px"><dc-import name="Icon" icon="sheet" size="24" hint-size="24px,24px"></dc-import></span><h3 style="margin: 0 0 6px; font-family: 'Bricolage Grotesque', sans-serif; font-weight: 600; font-size: 20px">Rapports sur mesure, sans tableur</h3><p style="margin: 0; color: #4A5568; font-size: 15px">Le comité compose ses listes et statistiques (colonnes, filtres, totaux), les exporte en Excel ou en PDF et les enregistre comme modèles réutilisables.</p></div>
+</div>
+</div>
+</section>
+
+<!-- Modules -->
+<section id="modules">
+<div style="max-width: 1180px; margin: 0 auto; padding: clamp(56px, 8vw, 104px) clamp(16px, 4vw, 40px)">
+<h2 style="margin: 0 0 12px; font-family: 'Bricolage Grotesque', sans-serif; font-weight: 800; font-size: clamp(30px, 3.6vw, 44px); line-height: 1.1; letter-spacing: -0.02em">Tout ce qu'il faut pour faire tourner votre club</h2>
+<p style="margin: 0 0 40px; color: #4A5568">Un aperçu des modules disponibles aujourd'hui.</p>
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 340px), 1fr)); gap: 20px">
+
+<div style="border: 1px solid #DDE3EA; border-radius: 16px; padding: 24px"><div style="display: flex; align-items: center; gap: 12px; margin-bottom: 14px"><span style="display: inline-flex; align-items: center; justify-content: center; width: 44px; height: 44px; border-radius: 12px; background: {{accentTint}}; color: {{accent}}"><dc-import name="Icon" icon="users" size="22" hint-size="22px,22px"></dc-import></span><h3 style="margin: 0; font-family: 'Bricolage Grotesque', sans-serif; font-weight: 600; font-size: 19px">Membres et familles</h3></div><ul style="margin: 0; padding: 0; list-style: none; display: flex; flex-direction: column; gap: 8px; font-size: 15px; color: #4A5568"><li style="display: flex; gap: 8px"><span style="flex: none; color: {{accent}}; margin-top: 2px"><dc-import name="Icon" icon="check" size="16" hint-size="16px,16px"></dc-import></span>Fiche membre complète, historique des modifications et commentaires internes</li><li style="display: flex; gap: 8px"><span style="flex: none; color: {{accent}}; margin-top: 2px"><dc-import name="Icon" icon="check" size="16" hint-size="16px,16px"></dc-import></span>Statut actif / inactif, filtres et recherche</li><li style="display: flex; gap: 8px"><span style="flex: none; color: {{accent}}; margin-top: 2px"><dc-import name="Icon" icon="check" size="16" hint-size="16px,16px"></dc-import></span>Espace « Ma famille » : inscription pas à pas, actions requises, prochains cours sur 7 jours, annonces</li></ul></div>
+
+<div style="border: 1px solid #DDE3EA; border-radius: 16px; padding: 24px"><div style="display: flex; align-items: center; gap: 12px; margin-bottom: 14px"><span style="display: inline-flex; align-items: center; justify-content: center; width: 44px; height: 44px; border-radius: 12px; background: {{accentTint}}; color: {{accent}}"><dc-import name="Icon" icon="clipboard" size="22" hint-size="22px,22px"></dc-import></span><h3 style="margin: 0; font-family: 'Bricolage Grotesque', sans-serif; font-weight: 600; font-size: 19px">Saisons, équipes et inscriptions</h3></div><ul style="margin: 0; padding: 0; list-style: none; display: flex; flex-direction: column; gap: 8px; font-size: 15px; color: #4A5568"><li style="display: flex; gap: 8px"><span style="flex: none; color: {{accent}}; margin-top: 2px"><dc-import name="Icon" icon="check" size="16" hint-size="16px,16px"></dc-import></span>Saisons, équipes (couleur, effectif) et fonctions paramétrables</li><li style="display: flex; gap: 8px"><span style="flex: none; color: {{accent}}; margin-top: 2px"><dc-import name="Icon" icon="check" size="16" hint-size="16px,16px"></dc-import></span>Inscriptions avec validation par le comité, remises et paiement en plusieurs fois</li><li style="display: flex; gap: 8px"><span style="flex: none; color: {{accent}}; margin-top: 2px"><dc-import name="Icon" icon="check" size="16" hint-size="16px,16px"></dc-import></span>Emails automatiques d'inscription validée ou annulée</li></ul></div>
+
+<div style="border: 1px solid #DDE3EA; border-radius: 16px; padding: 24px"><div style="display: flex; align-items: center; gap: 12px; margin-bottom: 14px"><span style="display: inline-flex; align-items: center; justify-content: center; width: 44px; height: 44px; border-radius: 12px; background: {{accentTint}}; color: {{accent}}"><dc-import name="Icon" icon="calendar" size="22" hint-size="22px,22px"></dc-import></span><h3 style="margin: 0; font-family: 'Bricolage Grotesque', sans-serif; font-weight: 600; font-size: 19px">Planning et présences</h3></div><ul style="margin: 0; padding: 0; list-style: none; display: flex; flex-direction: column; gap: 8px; font-size: 15px; color: #4A5568"><li style="display: flex; gap: 8px"><span style="flex: none; color: {{accent}}; margin-top: 2px"><dc-import name="Icon" icon="check" size="16" hint-size="16px,16px"></dc-import></span>Salles, horaires récurrents par équipe et périodes de vacances</li><li style="display: flex; gap: 8px"><span style="flex: none; color: {{accent}}; margin-top: 2px"><dc-import name="Icon" icon="check" size="16" hint-size="16px,16px"></dc-import></span>Planning en vues semaine et jour, aux couleurs des équipes</li><li style="display: flex; gap: 8px"><span style="flex: none; color: {{accent}}; margin-top: 2px"><dc-import name="Icon" icon="check" size="16" hint-size="16px,16px"></dc-import></span>Présences sur smartphone, même hors ligne, avec synchronisation automatique</li></ul></div>
+
+<div style="border: 1px solid #DDE3EA; border-radius: 16px; padding: 24px"><div style="display: flex; align-items: center; gap: 12px; margin-bottom: 14px"><span style="display: inline-flex; align-items: center; justify-content: center; width: 44px; height: 44px; border-radius: 12px; background: {{accentTint}}; color: {{accent}}"><dc-import name="Icon" icon="idCard" size="22" hint-size="22px,22px"></dc-import></span><h3 style="margin: 0; font-family: 'Bricolage Grotesque', sans-serif; font-weight: 600; font-size: 19px">Licences fédérales</h3></div><ul style="margin: 0; padding: 0; list-style: none; display: flex; flex-direction: column; gap: 8px; font-size: 15px; color: #4A5568"><li style="display: flex; gap: 8px"><span style="flex: none; color: {{accent}}; margin-top: 2px"><dc-import name="Icon" icon="check" size="16" hint-size="16px,16px"></dc-import></span>Fédérations et licences par membre</li><li style="display: flex; gap: 8px"><span style="flex: none; color: {{accent}}; margin-top: 2px"><dc-import name="Icon" icon="check" size="16" hint-size="16px,16px"></dc-import></span>Licence prise en charge par le club, facturée au membre ou réglée directement par le membre</li><li style="display: flex; gap: 8px"><span style="flex: none; color: {{accent}}; margin-top: 2px"><dc-import name="Icon" icon="check" size="16" hint-size="16px,16px"></dc-import></span>Suivi des règlements à la fédération avec écriture comptable</li></ul></div>
+
+<div style="border: 1px solid #DDE3EA; border-radius: 16px; padding: 24px"><div style="display: flex; align-items: center; gap: 12px; margin-bottom: 14px"><span style="display: inline-flex; align-items: center; justify-content: center; width: 44px; height: 44px; border-radius: 12px; background: {{accentTint}}; color: {{accent}}"><dc-import name="Icon" icon="receipt" size="22" hint-size="22px,22px"></dc-import></span><h3 style="margin: 0; font-family: 'Bricolage Grotesque', sans-serif; font-weight: 600; font-size: 19px">Cotisations et facturation</h3></div><ul style="margin: 0; padding: 0; list-style: none; display: flex; flex-direction: column; gap: 8px; font-size: 15px; color: #4A5568"><li style="display: flex; gap: 8px"><span style="flex: none; color: {{accent}}; margin-top: 2px"><dc-import name="Icon" icon="check" size="16" hint-size="16px,16px"></dc-import></span>Factures PDF avec QR-facture suisse, envoi par email et historique des envois</li><li style="display: flex; gap: 8px"><span style="flex: none; color: {{accent}}; margin-top: 2px"><dc-import name="Icon" icon="check" size="16" hint-size="16px,16px"></dc-import></span>Paiement en 2, 3 ou 4 échéances, rappels unitaires ou en masse</li><li style="display: flex; gap: 8px"><span style="flex: none; color: {{accent}}; margin-top: 2px"><dc-import name="Icon" icon="check" size="16" hint-size="16px,16px"></dc-import></span>Paiements, annulation de créance, trop-perçus remboursés ou imputés</li></ul></div>
+
+<div style="border: 1px solid #DDE3EA; border-radius: 16px; padding: 24px"><div style="display: flex; align-items: center; gap: 12px; margin-bottom: 14px"><span style="display: inline-flex; align-items: center; justify-content: center; width: 44px; height: 44px; border-radius: 12px; background: {{accentTint}}; color: {{accent}}"><dc-import name="Icon" icon="landmark" size="22" hint-size="22px,22px"></dc-import></span><h3 style="margin: 0; font-family: 'Bricolage Grotesque', sans-serif; font-weight: 600; font-size: 19px">Comptabilité suisse en partie double</h3></div><ul style="margin: 0; padding: 0; list-style: none; display: flex; flex-direction: column; gap: 8px; font-size: 15px; color: #4A5568"><li style="display: flex; gap: 8px"><span style="flex: none; color: {{accent}}; margin-top: 2px"><dc-import name="Icon" icon="check" size="16" hint-size="16px,16px"></dc-import></span>Plan comptable paramétrable, écritures manuelles et automatiques</li><li style="display: flex; gap: 8px"><span style="flex: none; color: {{accent}}; margin-top: 2px"><dc-import name="Icon" icon="check" size="16" hint-size="16px,16px"></dc-import></span>Bilan et compte de résultat en direct, export PDF</li><li style="display: flex; gap: 8px"><span style="flex: none; color: {{accent}}; margin-top: 2px"><dc-import name="Icon" icon="check" size="16" hint-size="16px,16px"></dc-import></span>Clôture d'exercice assistée et rapprochement bancaire par import camt</li></ul></div>
+
+<div style="border: 1px solid #DDE3EA; border-radius: 16px; padding: 24px"><div style="display: flex; align-items: center; gap: 12px; margin-bottom: 14px"><span style="display: inline-flex; align-items: center; justify-content: center; width: 44px; height: 44px; border-radius: 12px; background: {{accentTint}}; color: {{accent}}"><dc-import name="Icon" icon="briefcase" size="22" hint-size="22px,22px"></dc-import></span><h3 style="margin: 0; font-family: 'Bricolage Grotesque', sans-serif; font-weight: 600; font-size: 19px">Notes de frais et fournisseurs</h3></div><ul style="margin: 0; padding: 0; list-style: none; display: flex; flex-direction: column; gap: 8px; font-size: 15px; color: #4A5568"><li style="display: flex; gap: 8px"><span style="flex: none; color: {{accent}}; margin-top: 2px"><dc-import name="Icon" icon="check" size="16" hint-size="16px,16px"></dc-import></span>Notes de frais avec justificatifs et workflow de validation</li><li style="display: flex; gap: 8px"><span style="flex: none; color: {{accent}}; margin-top: 2px"><dc-import name="Icon" icon="check" size="16" hint-size="16px,16px"></dc-import></span>Fournisseurs, contacts et factures fournisseurs avec pièces jointes</li><li style="display: flex; gap: 8px"><span style="flex: none; color: {{accent}}; margin-top: 2px"><dc-import name="Icon" icon="check" size="16" hint-size="16px,16px"></dc-import></span>Écritures comptables automatiques</li></ul></div>
+
+<div style="border: 1px solid #DDE3EA; border-radius: 16px; padding: 24px"><div style="display: flex; align-items: center; gap: 12px; margin-bottom: 14px"><span style="display: inline-flex; align-items: center; justify-content: center; width: 44px; height: 44px; border-radius: 12px; background: {{accentTint}}; color: {{accent}}"><dc-import name="Icon" icon="megaphone" size="22" hint-size="22px,22px"></dc-import></span><h3 style="margin: 0; font-family: 'Bricolage Grotesque', sans-serif; font-weight: 600; font-size: 19px">Communication</h3></div><ul style="margin: 0; padding: 0; list-style: none; display: flex; flex-direction: column; gap: 8px; font-size: 15px; color: #4A5568"><li style="display: flex; gap: 8px"><span style="flex: none; color: {{accent}}; margin-top: 2px"><dc-import name="Icon" icon="check" size="16" hint-size="16px,16px"></dc-import></span>Annonces avec priorité et audience</li><li style="display: flex; gap: 8px"><span style="flex: none; color: {{accent}}; margin-top: 2px"><dc-import name="Icon" icon="check" size="16" hint-size="16px,16px"></dc-import></span>Emails groupés ciblés (saison, équipe, âge, rôle…) avec historique</li><li style="display: flex; gap: 8px"><span style="flex: none; color: {{accent}}; margin-top: 2px"><dc-import name="Icon" icon="check" size="16" hint-size="16px,16px"></dc-import></span>Modèles d'emails personnalisables</li></ul></div>
+
+<div style="border: 1px solid #DDE3EA; border-radius: 16px; padding: 24px"><div style="display: flex; align-items: center; gap: 12px; margin-bottom: 14px"><span style="display: inline-flex; align-items: center; justify-content: center; width: 44px; height: 44px; border-radius: 12px; background: {{accentTint}}; color: {{accent}}"><dc-import name="Icon" icon="chart" size="22" hint-size="22px,22px"></dc-import></span><h3 style="margin: 0; font-family: 'Bricolage Grotesque', sans-serif; font-weight: 600; font-size: 19px">Tableau de bord et rapports</h3></div><ul style="margin: 0; padding: 0; list-style: none; display: flex; flex-direction: column; gap: 8px; font-size: 15px; color: #4A5568"><li style="display: flex; gap: 8px"><span style="flex: none; color: {{accent}}; margin-top: 2px"><dc-import name="Icon" icon="check" size="16" hint-size="16px,16px"></dc-import></span>Membres actifs, cotisations encaissées, solde à percevoir, tâches à traiter</li><li style="display: flex; gap: 8px"><span style="flex: none; color: {{accent}}; margin-top: 2px"><dc-import name="Icon" icon="check" size="16" hint-size="16px,16px"></dc-import></span>Générateur de rapports sur 9 sources de données, en liste ou regroupés avec totaux</li><li style="display: flex; gap: 8px"><span style="flex: none; color: {{accent}}; margin-top: 2px"><dc-import name="Icon" icon="check" size="16" hint-size="16px,16px"></dc-import></span>Export CSV, Excel et PDF ; modèles privés ou partagés avec le comité</li></ul></div>
+
+<div style="border: 1px solid #DDE3EA; border-radius: 16px; padding: 24px"><div style="display: flex; align-items: center; gap: 12px; margin-bottom: 14px"><span style="display: inline-flex; align-items: center; justify-content: center; width: 44px; height: 44px; border-radius: 12px; background: {{accentTint}}; color: {{accent}}"><dc-import name="Icon" icon="sliders" size="22" hint-size="22px,22px"></dc-import></span><h3 style="margin: 0; font-family: 'Bricolage Grotesque', sans-serif; font-weight: 600; font-size: 19px">Paramètres et accès</h3></div><ul style="margin: 0; padding: 0; list-style: none; display: flex; flex-direction: column; gap: 8px; font-size: 15px; color: #4A5568"><li style="display: flex; gap: 8px"><span style="flex: none; color: {{accent}}; margin-top: 2px"><dc-import name="Icon" icon="check" size="16" hint-size="16px,16px"></dc-import></span>Nom, logo, couleur principale et image de connexion du club</li><li style="display: flex; gap: 8px"><span style="flex: none; color: {{accent}}; margin-top: 2px"><dc-import name="Icon" icon="check" size="16" hint-size="16px,16px"></dc-import></span>Règles du club : AVS obligatoire, choix d'équipe en libre-service, délais de paiement et de rappel</li><li style="display: flex; gap: 8px"><span style="flex: none; color: {{accent}}; margin-top: 2px"><dc-import name="Icon" icon="check" size="16" hint-size="16px,16px"></dc-import></span>Comptes protégés : email vérifié, mots de passe robustes, protection anti-robots</li></ul></div>
+
+</div>
+
+<div style="margin-top: 28px; border-radius: 16px; background: #FFF6DB; color: #4A3500; padding: 22px 24px; display: flex; flex-wrap: wrap; gap: 14px">
+<span style="flex: none; margin-top: 2px"><dc-import name="Icon" icon="info" size="22" hint-size="22px,22px"></dc-import></span>
+<div style="flex: 1 1 280px; min-width: 0">
+<h3 style="margin: 0 0 8px; font-family: 'Bricolage Grotesque', sans-serif; font-weight: 600; font-size: 18px">Bon à savoir : pas encore disponible</h3>
+<ul style="margin: 0; padding-left: 18px; font-size: 15px; columns: 2 260px; column-gap: 32px">
+<li>La TVA</li>
+<li>Le paiement en ligne par carte</li>
+<li>Une application native iOS/Android (l'application web est installable sur smartphone)</li>
+<li>La création de comptes par l'administrateur (les comptes se créent par auto-inscription)</li>
+<li>Des graphiques dans les rapports personnalisés</li>
+<li>L'envoi programmé de rapports par email</li>
+</ul>
+</div>
+</div>
+</div>
+</section>
+
+<!-- Assistant IA -->
+<section id="assistant" style="background: #0E1B2C; color: #FFFFFF">
+<div style="max-width: 1180px; margin: 0 auto; padding: clamp(56px, 8vw, 104px) clamp(16px, 4vw, 40px); display: flex; flex-wrap: wrap; gap: 56px; align-items: center">
+<div style="flex: 1 1 440px; min-width: 0">
+<p style="margin: 0 0 16px; display: inline-flex; align-items: center; gap: 8px; font-size: 14px; font-weight: 600; color: #FFB3BD"><dc-import name="Icon" icon="sparkles" size="16" hint-size="16px,16px"></dc-import>Propulsé par Mistral AI, une IA européenne</p>
+<h2 style="margin: 0 0 16px; font-family: 'Bricolage Grotesque', sans-serif; font-weight: 800; font-size: clamp(30px, 3.6vw, 44px); line-height: 1.1; letter-spacing: -0.02em">Un assistant IA qui vous fait gagner du temps</h2>
+<p style="margin: 0 0 24px; color: #C5CEDB">Un assistant conversationnel est intégré à l'application.</p>
+<ul style="margin: 0 0 24px; padding: 0; list-style: none; display: flex; flex-direction: column; gap: 14px">
+<li style="display: flex; gap: 12px"><span style="flex: none; display: inline-flex; align-items: center; justify-content: center; width: 36px; height: 36px; border-radius: 10px; background: rgba(255, 255, 255, 0.08); color: #FFB3BD"><dc-import name="Icon" icon="mic" size="18" hint-size="18px,18px"></dc-import></span><span style="padding-top: 6px">Entrée vocale et réponse vocale</span></li>
+<li style="display: flex; gap: 12px"><span style="flex: none; display: inline-flex; align-items: center; justify-content: center; width: 36px; height: 36px; border-radius: 10px; background: rgba(255, 255, 255, 0.08); color: #FFB3BD"><dc-import name="Icon" icon="search" size="18" hint-size="18px,18px"></dc-import></span><span style="padding-top: 6px">Recherche de membres, saisons, équipes, inscriptions, cotisations, factures, utilisateurs et modèles de rapport</span></li>
+<li style="display: flex; gap: 12px"><span style="flex: none; display: inline-flex; align-items: center; justify-content: center; width: 36px; height: 36px; border-radius: 10px; background: rgba(255, 255, 255, 0.08); color: #FFB3BD"><dc-import name="Icon" icon="plusCircle" size="18" hint-size="18px,18px"></dc-import></span><span style="padding-top: 6px">Création d'un membre, d'une saison, d'une équipe, d'une inscription ou d'un paiement</span></li>
+<li style="display: flex; gap: 12px"><span style="flex: none; display: inline-flex; align-items: center; justify-content: center; width: 36px; height: 36px; border-radius: 10px; background: rgba(255, 255, 255, 0.08); color: #FFB3BD"><dc-import name="Icon" icon="compass" size="18" hint-size="18px,18px"></dc-import></span><span style="padding-top: 6px">Navigation vers la page de l'application que vous cherchez</span></li>
+</ul>
+<p style="margin: 0; display: flex; gap: 10px; color: #C5CEDB; font-size: 15px"><span style="flex: none; color: #FFB3BD"><dc-import name="Icon" icon="shield" size="20" hint-size="20px,20px"></dc-import></span>L'assistant respecte vos droits d'accès et ne crée jamais rien sans votre confirmation explicite.</p>
+</div>
+
+<!-- Exemple d'échange illustratif -->
+<figure style="flex: 1 1 380px; min-width: 0; margin: 0">
+<div style="background: #FFFFFF; color: #0E1B2C; border-radius: 18px; padding: 20px; display: flex; flex-direction: column; gap: 14px">
+<div style="display: flex; align-items: center; gap: 8px; font-weight: 600; font-size: 15px"><span style="color: {{accent}}"><dc-import name="Icon" icon="sparkles" size="18" hint-size="18px,18px"></dc-import></span>Assistant</div>
+<div style="align-self: flex-end; max-width: 85%; display: flex; align-items: center; gap: 8px; background: #0E1B2C; color: #FFFFFF; border-radius: 14px 14px 4px 14px; padding: 10px 14px; font-size: 15px"><dc-import name="Icon" icon="mic" size="16" hint-size="16px,16px"></dc-import>Inscris Léa dans l'équipe U12 pour cette saison.</div>
+<div style="align-self: flex-start; max-width: 92%; background: #F4F6F9; border-radius: 14px 14px 14px 4px; padding: 14px; font-size: 15px; display: flex; flex-direction: column; gap: 10px">
+<span>Je prépare cette inscription. Confirmez-vous ?</span>
+<div style="background: #FFFFFF; border: 1px solid #DDE3EA; border-radius: 10px; padding: 10px 12px; font-size: 14px; display: flex; flex-direction: column; gap: 4px">
+<span><strong>Membre :</strong> Léa</span>
+<span><strong>Équipe :</strong> U12</span>
+<span><strong>Saison :</strong> saison en cours</span>
+</div>
+<div style="display: flex; gap: 8px">
+<button type="button" style="display: inline-flex; align-items: center; gap: 6px; min-height: 44px; padding: 0 16px; border: 0; border-radius: 10px; background: {{accent}}; color: #FFFFFF; font: inherit; font-weight: 600"><dc-import name="Icon" icon="check" size="16" hint-size="16px,16px"></dc-import>Confirmer</button>
+<button type="button" style="min-height: 44px; padding: 0 16px; border: 1px solid #DDE3EA; border-radius: 10px; background: #FFFFFF; color: #0E1B2C; font: inherit; font-weight: 600">Annuler</button>
+</div>
+</div>
+</div>
+<figcaption style="margin-top: 12px; font-size: 13px; color: #C5CEDB; text-align: center">Exemple illustratif d'échange avec l'assistant</figcaption>
+</figure>
+</div>
+</section>
+
+<!-- Confiance -->
+<section id="confiance">
+<div style="max-width: 1180px; margin: 0 auto; padding: clamp(56px, 8vw, 104px) clamp(16px, 4vw, 40px)">
+<h2 style="margin: 0 0 40px; font-family: 'Bricolage Grotesque', sans-serif; font-weight: 800; font-size: clamp(30px, 3.6vw, 44px); line-height: 1.1; letter-spacing: -0.02em">Confiance et sécurité</h2>
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px), 1fr)); gap: 28px 32px">
+<div style="display: flex; gap: 16px"><span style="flex: none; display: inline-flex; align-items: center; justify-content: center; width: 48px; height: 48px; border-radius: 12px; border: 1.5px solid #0E1B2C"><dc-import name="Icon" icon="userCheck" size="24" hint-size="24px,24px"></dc-import></span><div><h3 style="margin: 0 0 4px; font-family: 'Bricolage Grotesque', sans-serif; font-weight: 600; font-size: 19px">Accès par rôle</h3><p style="margin: 0; color: #4A5568; font-size: 15px">Chaque utilisateur ne voit et ne modifie que ce que son rôle autorise ; les familles n'accèdent qu'à leurs propres données.</p></div></div>
+<div style="display: flex; gap: 16px"><span style="flex: none; display: inline-flex; align-items: center; justify-content: center; width: 48px; height: 48px; border-radius: 12px; border: 1.5px solid #0E1B2C"><dc-import name="Icon" icon="lock" size="24" hint-size="24px,24px"></dc-import></span><div><h3 style="margin: 0 0 4px; font-family: 'Bricolage Grotesque', sans-serif; font-weight: 600; font-size: 19px">Comptes protégés</h3><p style="margin: 0; color: #4A5568; font-size: 15px">Vérification de l'email, mots de passe robustes, protection anti-robots (Cloudflare Turnstile) et sessions sécurisées.</p></div></div>
+<div style="display: flex; gap: 16px"><span style="flex: none; display: inline-flex; align-items: center; justify-content: center; width: 48px; height: 48px; border-radius: 12px; border: 1.5px solid #0E1B2C"><dc-import name="Icon" icon="book" size="24" hint-size="24px,24px"></dc-import></span><div><h3 style="margin: 0 0 4px; font-family: 'Bricolage Grotesque', sans-serif; font-weight: 600; font-size: 19px">Comptabilité inaltérable</h3><p style="margin: 0; color: #4A5568; font-size: 15px">Une écriture validée est verrouillée ; une correction passe par une contre-passation traçable ; un exercice clôturé ne peut plus être modifié.</p></div></div>
+<div style="display: flex; gap: 16px"><span style="flex: none; display: inline-flex; align-items: center; justify-content: center; width: 48px; height: 48px; border-radius: 12px; border: 1.5px solid #0E1B2C"><dc-import name="Icon" icon="history" size="24" hint-size="24px,24px"></dc-import></span><div><h3 style="margin: 0 0 4px; font-family: 'Bricolage Grotesque', sans-serif; font-weight: 600; font-size: 19px">Traçabilité</h3><p style="margin: 0; color: #4A5568; font-size: 15px">Historique des modifications des fiches membres, historique des envois d'emails et de rappels par facture.</p></div></div>
+<div style="display: flex; gap: 16px"><span style="flex: none; display: inline-flex; align-items: center; justify-content: center; width: 48px; height: 48px; border-radius: 12px; border: 1.5px solid #0E1B2C"><dc-import name="Icon" icon="sparkles" size="24" hint-size="24px,24px"></dc-import></span><div><h3 style="margin: 0 0 4px; font-family: 'Bricolage Grotesque', sans-serif; font-weight: 600; font-size: 19px">IA sous contrôle</h3><p style="margin: 0; color: #4A5568; font-size: 15px">L'assistant ne crée jamais rien sans confirmation explicite de l'utilisateur ; IA européenne (Mistral AI).</p></div></div>
+<div style="display: flex; gap: 16px"><span style="flex: none; display: inline-flex; align-items: center; justify-content: center; width: 48px; height: 48px; border-radius: 12px; border: 1.5px solid #0E1B2C"><dc-import name="Icon" icon="checkCircle" size="24" hint-size="24px,24px"></dc-import></span><div><h3 style="margin: 0 0 4px; font-family: 'Bricolage Grotesque', sans-serif; font-weight: 600; font-size: 19px">Qualité logicielle</h3><p style="margin: 0; color: #4A5568; font-size: 15px">Chaque fonctionnalité du serveur est couverte par des tests automatisés.</p></div></div>
+</div>
+</div>
+</section>
+
+<!-- Nouveautés -->
+<section id="nouveautes" style="background: #F4F6F9">
+<div style="max-width: 1180px; margin: 0 auto; padding: clamp(56px, 8vw, 104px) clamp(16px, 4vw, 40px)">
+<h2 style="margin: 0 0 32px; font-family: 'Bricolage Grotesque', sans-serif; font-weight: 800; font-size: clamp(30px, 3.6vw, 44px); line-height: 1.1; letter-spacing: -0.02em">Nouveautés</h2>
+<article style="background: #FFFFFF; border-radius: 16px; padding: 24px; display: flex; flex-wrap: wrap; gap: 20px; align-items: flex-start">
+<div style="flex: none; display: flex; flex-direction: column; align-items: center; gap: 6px; min-width: 96px">
+<span style="display: inline-flex; align-items: center; justify-content: center; width: 48px; height: 48px; border-radius: 50%; background: {{accent}}; color: #FFFFFF"><dc-import name="Icon" icon="sparkles" size="22" hint-size="22px,22px"></dc-import></span>
+<time datetime="2026-10-16" style="font-size: 13px; font-weight: 600; color: #4A5568">16 oct. 2026</time>
+</div>
+<div style="flex: 1 1 320px; min-width: 0">
+<h3 style="margin: 0 0 6px; font-family: 'Bricolage Grotesque', sans-serif; font-weight: 600; font-size: 20px">Rapports personnalisés : exports CSV, Excel et PDF</h3>
+<p style="margin: 0; color: #4A5568; font-size: 15px">Le comité et les administrateurs composent leurs listes et statistiques sur 9 sources de données, les exportent en CSV, Excel ou PDF, et enregistrent des modèles privés ou partagés, exportables en un clic.</p>
+</div>
+</article>
+</div>
+</section>
+
+<!-- Contact -->
+<section id="contact">
+<div style="max-width: 1180px; margin: 0 auto; padding: clamp(56px, 8vw, 104px) clamp(16px, 4vw, 40px)">
+<div style="border-radius: 24px; background: {{accent}}; color: #FFFFFF; padding: clamp(32px, 5vw, 64px); display: flex; flex-wrap: wrap; gap: 32px; align-items: center; justify-content: space-between">
+<div style="flex: 1 1 420px; min-width: 0">
+<h2 style="margin: 0 0 12px; font-family: 'Bricolage Grotesque', sans-serif; font-weight: 800; font-size: clamp(30px, 3.6vw, 44px); line-height: 1.1; letter-spacing: -0.02em">Parlons de votre club</h2>
+<p style="margin: 0 0 16px; font-size: 18px">Une question, envie d'en voir plus ? Écrivez-nous.</p>
+<p style="margin: 0; display: inline-flex; align-items: center; gap: 8px; font-size: 15px; background: rgba(255, 255, 255, 0.14); border-radius: 999px; padding: 6px 14px"><dc-import name="Icon" icon="tag" size="16" hint-size="16px,16px"></dc-import>Tarifs : [TARIFS À DÉFINIR]</p>
+</div>
+<a href="#contact" style="display: inline-flex; align-items: center; gap: 10px; min-height: 56px; padding: 0 28px; border-radius: 14px; background: #FFFFFF; color: #0E1B2C; font-weight: 700; text-decoration: none"><dc-import name="Icon" icon="mail" size="20" hint-size="20px,20px"></dc-import>Écrire à [EMAIL DE CONTACT]</a>
+</div>
+</div>
+</section>
+
+<!-- Pied de page -->
+<footer style="border-top: 1px solid #DDE3EA">
+<div style="max-width: 1180px; margin: 0 auto; padding: 28px clamp(16px, 4vw, 40px); display: flex; flex-wrap: wrap; gap: 12px; justify-content: space-between; font-size: 14px; color: #4A5568">
+<span>Gestioo – ERP web pour associations multisport en Suisse et en France.</span>
+<span style="display: inline-flex; align-items: center; gap: 6px"><dc-import name="Icon" icon="globe" size="16" hint-size="16px,16px"></dc-import>FR · DE · EN</span>
+</div>
+</footer>
+
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"accent":{"editor":"color","default":"#C8102E","options":["#C8102E","#1D4ED8","#0F766E","#B45309"]},"$preview":{"width":1440,"height":6600}}'>
+class Component extends DCLogic {
+  renderVals() {
+    const accent = this.props.accent ?? '#C8102E';
+    const hex = accent.replace('#', '');
+    const r = parseInt(hex.substring(0, 2), 16);
+    const g = parseInt(hex.substring(2, 4), 16);
+    const b = parseInt(hex.substring(4, 6), 16);
+    const accentTint = 'rgba(' + r + ', ' + g + ', ' + b + ', 0.10)';
+    return { accent: accent, accentTint: accentTint };
+  }
+}
+</script>
+</body>
+</html>

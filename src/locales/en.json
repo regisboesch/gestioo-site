@@ -1,0 +1,308 @@
+{
+  "meta": {
+    "title": "Gestioo – Management software for multisport clubs (Switzerland & France)",
+    "description": "Members, registrations, schedules, Swiss QR-bill, double-entry accounting and an AI assistant: one web tool to run your club without spreadsheets.",
+    "ogLocale": "en_GB",
+    "ogImageAlt": "Gestioo"
+  },
+  "a11y": {
+    "skip": "Skip to content",
+    "home": "Gestioo – home",
+    "nav": "Main navigation",
+    "langs": "Site language"
+  },
+  "nav": {
+    "profiles": "Who is it for?",
+    "strengths": "Strengths",
+    "modules": "Features",
+    "assistant": "AI assistant",
+    "trust": "Trust",
+    "news": "What's new"
+  },
+  "media": {
+    "hero": "Preview of the Gestioo application",
+    "assistant": "The Gestioo AI assistant"
+  },
+  "hero": {
+    "eyebrow": "For multisport clubs and associations – Switzerland & France",
+    "title": "Run your club in one place, without spreadsheets",
+    "lead": "Gestioo brings together members, registrations by season and team, the training schedule, membership invoicing with the Swiss QR-bill, double-entry accounting and communication with families – with a built-in AI assistant.",
+    "cta": "Get in touch",
+    "ctaSecondary": "Explore the features",
+    "chips": [
+      "French, German, English",
+      "Installable on your phone",
+      "Swiss QR-bill",
+      "Light and dark theme"
+    ]
+  },
+  "profiles": {
+    "title": "A solution for every role in the club",
+    "intro": "Whether you volunteer on the committee, coach a team or are a parent, everyone quickly finds what they need.",
+    "before": "Before:",
+    "after": "With Gestioo:",
+    "items": [
+      {
+        "role": "Treasurer",
+        "before": "spreadsheets, manual reminders, bank reconciliation by hand, a painful year-end close.",
+        "after": "QR-bills generated and sent in bulk, reminders, camt bank statement import and reconciliation, automatic accounting entries, guided year-end close with balance sheet and income statement as PDF, tailor-made financial reports exported to Excel."
+      },
+      {
+        "role": "Secretary / committee",
+        "before": "paper or email registrations, team lists scattered everywhere.",
+        "after": "online registration by families, one-click approval, up-to-date teams and rosters, targeted group emails, custom lists and statistics exportable to CSV or Excel."
+      },
+      {
+        "role": "Coach / staff",
+        "before": "paper attendance sheets, a schedule shared over chat.",
+        "after": "attendance taken on a smartphone, even without a network, a schedule by team and by hall, expense claims online."
+      },
+      {
+        "role": "Parent / member",
+        "before": "no idea where their children's registration or payment stands.",
+        "after": "the “My family” space: step-by-step registration, payment in 1 to 4 instalments, invoices, upcoming classes and club announcements."
+      },
+      {
+        "role": "President",
+        "before": "no overview.",
+        "after": "a dashboard (active members, membership fees collected, balance to be received, pending tasks) and custom reports you can save and export to Excel."
+      }
+    ]
+  },
+  "strengths": {
+    "title": "What sets it apart",
+    "items": [
+      {
+        "title": "Designed for Switzerland",
+        "text": "Swiss QR-bill, camt bank statements, AHV number, Swiss double-entry accounting and an interface in French, German and English."
+      },
+      {
+        "title": "Accounting built in, not bolted on",
+        "text": "Every invoice, payment, refund, expense claim or supplier invoice automatically feeds the general ledger."
+      },
+      {
+        "title": "Families at the centre",
+        "text": "One account = one family, several members, payment in instalments."
+      },
+      {
+        "title": "Works offline",
+        "text": "Attendance taking at the pitch side keeps working without a network and syncs when the connection returns."
+      },
+      {
+        "title": "Voice AI assistant",
+        "text": "Ask a question or create a registration by speaking, with confirmation before any action."
+      },
+      {
+        "title": "Permissions by role",
+        "text": "Everyone (administrator, committee, staff, member) only sees what concerns them."
+      },
+      {
+        "title": "Installable on your phone",
+        "text": "No app store needed, and always up to date."
+      },
+      {
+        "title": "In your club's colours",
+        "text": "Your association's logo, main colour and login image."
+      },
+      {
+        "title": "Custom reports, no spreadsheet",
+        "text": "The committee builds its own lists and statistics (columns, filters, totals), exports them to Excel or PDF and saves them as reusable templates."
+      }
+    ]
+  },
+  "modules": {
+    "title": "Everything you need to run your club",
+    "intro": "An overview of the modules available today.",
+    "groups": [
+      {
+        "title": "Members and families",
+        "items": [
+          "Complete member record, change history and internal comments",
+          "Active / inactive status, filters and search",
+          "“My family” space: step-by-step registration, required actions, upcoming classes over 7 days, announcements"
+        ]
+      },
+      {
+        "title": "Seasons, teams and registrations",
+        "items": [
+          "Configurable seasons, teams (colour, roster) and roles",
+          "Registrations validated by the committee, discounts and payment in instalments",
+          "Automatic emails when a registration is approved or cancelled"
+        ]
+      },
+      {
+        "title": "Schedule and attendance",
+        "items": [
+          "Halls, recurring time slots per team and holiday periods",
+          "Week and day schedule views in team colours",
+          "Attendance on a smartphone, even offline, with automatic sync"
+        ]
+      },
+      {
+        "title": "Federation licences",
+        "items": [
+          "Federations and licences per member",
+          "Licence paid by the club, invoiced to the member or paid directly by the member",
+          "Tracking of payments to the federation with an accounting entry"
+        ]
+      },
+      {
+        "title": "Membership fees and invoicing",
+        "items": [
+          "PDF invoices with Swiss QR-bill, sent by email with a sending history",
+          "Payment in 2, 3 or 4 instalments, single or bulk reminders",
+          "Payments, write-offs, overpayments refunded or applied to another invoice"
+        ]
+      },
+      {
+        "title": "Swiss double-entry accounting",
+        "items": [
+          "Configurable chart of accounts, manual and automatic entries",
+          "Live balance sheet and income statement, PDF export",
+          "Guided year-end close and bank reconciliation by camt import"
+        ]
+      },
+      {
+        "title": "Expense claims and suppliers",
+        "items": [
+          "Expense claims with receipts and an approval workflow",
+          "Suppliers, contacts and supplier invoices with attachments",
+          "Automatic accounting entries"
+        ]
+      },
+      {
+        "title": "Communication",
+        "items": [
+          "Announcements with priority and audience",
+          "Targeted group emails (season, team, age, role…) with history",
+          "Customisable email templates"
+        ]
+      },
+      {
+        "title": "Dashboard and reports",
+        "items": [
+          "Active members, fees collected, balance to be received, tasks to handle",
+          "Report builder over 9 data sources, as a list or grouped with totals",
+          "CSV, Excel and PDF export; private templates or templates shared with the committee"
+        ]
+      },
+      {
+        "title": "Settings and access",
+        "items": [
+          "Club name, logo, main colour and login image",
+          "Club rules: mandatory AHV number, self-service team choice, payment and reminder deadlines",
+          "Protected accounts: verified email, strong passwords, anti-bot protection"
+        ]
+      }
+    ],
+    "notYetTitle": "Good to know: not available yet",
+    "notYet": [
+      "VAT",
+      "Online card payment",
+      "A native iOS/Android app (the web app can be installed on your phone)",
+      "Account creation by the administrator (accounts are created by self-registration)",
+      "Charts in custom reports",
+      "Scheduled email delivery of reports"
+    ]
+  },
+  "assistant": {
+    "title": "An AI assistant that saves you time",
+    "lead": "A conversational assistant is built into the application.",
+    "points": [
+      "Voice input and spoken answers",
+      "Search for members, seasons, teams, registrations, fees, invoices, users and report templates",
+      "Creation of a member, a season, a team, a registration or a payment",
+      "Navigation to the page of the application you are looking for"
+    ],
+    "safety": "The assistant respects your access rights and never creates anything without your explicit confirmation.",
+    "eyebrow": "Powered by Mistral AI, a European AI"
+  },
+  "trust": {
+    "title": "Trust and security",
+    "items": [
+      {
+        "title": "Access by role",
+        "text": "Each user only sees and edits what their role allows; families only access their own data."
+      },
+      {
+        "title": "Protected accounts",
+        "text": "Email verification, strong passwords, anti-bot protection (Cloudflare Turnstile) and secure sessions."
+      },
+      {
+        "title": "Tamper-proof accounting",
+        "text": "A validated entry is locked; a correction goes through a traceable reversal; a closed financial year can no longer be modified."
+      },
+      {
+        "title": "Traceability",
+        "text": "Change history of member records, history of emails and reminders sent per invoice."
+      },
+      {
+        "title": "AI under control",
+        "text": "The assistant never creates anything without the user's explicit confirmation; European AI (Mistral AI)."
+      },
+      {
+        "title": "Software quality",
+        "text": "Every server feature is covered by automated tests."
+      }
+    ]
+  },
+  "news": {
+    "title": "What's new",
+    "items": [
+      {
+        "date": "2026-10-16",
+        "title": "Custom reports: CSV, Excel and PDF exports",
+        "text": "The committee and administrators build lists and statistics over 9 data sources, export them as CSV, Excel or PDF, and save private or shared templates that can be exported in one click.",
+        "dateLabel": "Oct 16, 2026"
+      }
+    ]
+  },
+  "contact": {
+    "title": "Let's talk about your club",
+    "text": "A question, or want to see more? Write to us.",
+    "mail": "Email",
+    "pricing": "Pricing:"
+  },
+  "footer": {
+    "text": "Gestioo – web ERP for multisport associations in Switzerland and France."
+  },
+  "appPreview": {
+    "caption": "Illustrative preview — to be replaced by a real screenshot of the application",
+    "title": "Dashboard",
+    "menu": [
+      "Dashboard",
+      "Members",
+      "Schedule",
+      "Invoices",
+      "Treasury",
+      "Reports"
+    ],
+    "kpis": [
+      "Active members",
+      "Membership fees received",
+      "Balance to collect"
+    ],
+    "todo": "To do",
+    "todoItems": [
+      "Draft invoices to issue",
+      "Registrations to validate"
+    ]
+  },
+  "chat": {
+    "caption": "Illustrative example of an exchange with the assistant",
+    "name": "Assistant",
+    "user": "Register Léa in the U12 team for this season.",
+    "reply": "I'm preparing this registration. Do you confirm?",
+    "member": "Member:",
+    "memberVal": "Léa",
+    "team": "Team:",
+    "teamVal": "U12",
+    "season": "Season:",
+    "seasonVal": "current season",
+    "confirm": "Confirm",
+    "cancel": "Cancel"
+  },
+  "header": {
+    "contact": "Get in touch"
+  }
+}

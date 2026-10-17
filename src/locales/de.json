@@ -1,0 +1,308 @@
+{
+  "meta": {
+    "title": "Gestioo – Verwaltungssoftware für Multisport-Vereine (Schweiz & Frankreich)",
+    "description": "Mitglieder, Anmeldungen, Trainingsplan, Schweizer QR-Rechnung, doppelte Buchhaltung und KI-Assistent: ein Web-Tool, um Ihren Verein ohne Excel-Tabellen zu führen.",
+    "ogLocale": "de_CH",
+    "ogImageAlt": "Gestioo"
+  },
+  "a11y": {
+    "skip": "Zum Inhalt springen",
+    "home": "Gestioo – Startseite",
+    "nav": "Hauptnavigation",
+    "langs": "Sprache der Website"
+  },
+  "nav": {
+    "profiles": "Für wen?",
+    "strengths": "Stärken",
+    "modules": "Funktionen",
+    "assistant": "KI-Assistent",
+    "trust": "Vertrauen",
+    "news": "Neuigkeiten"
+  },
+  "media": {
+    "hero": "Vorschau der Gestioo-Anwendung",
+    "assistant": "Der KI-Assistent von Gestioo"
+  },
+  "hero": {
+    "eyebrow": "Für Multisport-Vereine und -Verbände – Schweiz & Frankreich",
+    "title": "Führen Sie Ihren Verein an einem Ort – ohne Excel-Tabellen",
+    "lead": "Gestioo vereint Mitglieder, Anmeldungen pro Saison und Team, den Trainingsplan, die Rechnungsstellung der Mitgliederbeiträge mit Schweizer QR-Rechnung, doppelte Buchhaltung und die Kommunikation mit den Familien – mit integriertem KI-Assistenten.",
+    "cta": "Kontakt aufnehmen",
+    "ctaSecondary": "Funktionen entdecken",
+    "chips": [
+      "Deutsch, Französisch, Englisch",
+      "Auf dem Smartphone installierbar",
+      "Schweizer QR-Rechnung",
+      "Helles und dunkles Design"
+    ]
+  },
+  "profiles": {
+    "title": "Eine Lösung für jede Rolle im Verein",
+    "intro": "Ob Sie im Vorstand mithelfen, ein Team trainieren oder Eltern sind: Jede und jeder findet schnell, was gebraucht wird.",
+    "before": "Vorher:",
+    "after": "Mit Gestioo:",
+    "items": [
+      {
+        "role": "Kassier / Kassierin",
+        "before": "Tabellen, manuelle Mahnungen, Bankabgleich von Hand, mühsamer Jahresabschluss.",
+        "after": "QR-Rechnungen werden gesammelt erstellt und versendet, Mahnungen, Import der camt-Kontoauszüge mit Abgleich, automatische Buchungen, geführter Abschluss mit Bilanz und Erfolgsrechnung als PDF, massgeschneiderte Finanzberichte als Excel-Export."
+      },
+      {
+        "role": "Sekretariat / Vorstand",
+        "before": "Anmeldungen auf Papier oder per E-Mail, verstreute Teamlisten.",
+        "after": "Online-Anmeldung durch die Familien, Freigabe mit einem Klick, aktuelle Teams und Bestände, gezielte Sammel-E-Mails, individuelle Listen und Statistiken als CSV oder Excel exportierbar."
+      },
+      {
+        "role": "Trainer / Staff",
+        "before": "Anwesenheitslisten auf Papier, Trainingsplan per Messenger.",
+        "after": "Anwesenheit auf dem Smartphone erfassen, auch ohne Netz, Plan pro Team und Halle, Spesenabrechnung online."
+      },
+      {
+        "role": "Eltern / Mitglied",
+        "before": "man weiss nicht, wie weit Anmeldung oder Zahlung der Kinder sind.",
+        "after": "der Bereich «Meine Familie»: Anmeldung Schritt für Schritt, Zahlung in 1 bis 4 Raten, Rechnungen, nächste Trainings und Mitteilungen des Vereins."
+      },
+      {
+        "role": "Präsidium",
+        "before": "kein Überblick.",
+        "after": "ein Dashboard (aktive Mitglieder, eingenommene Beiträge, ausstehender Betrag, offene Aufgaben) und eigene Berichte, die sich speichern und nach Excel exportieren lassen."
+      }
+    ]
+  },
+  "strengths": {
+    "title": "Das unterscheidet uns",
+    "items": [
+      {
+        "title": "Für die Schweiz gemacht",
+        "text": "Schweizer QR-Rechnung, camt-Kontoauszüge, AHV-Nummer, Schweizer doppelte Buchhaltung und Oberfläche auf Deutsch, Französisch und Englisch."
+      },
+      {
+        "title": "Buchhaltung eingebaut statt aufgesetzt",
+        "text": "Jede Rechnung, Zahlung, Rückerstattung, Spesenabrechnung oder Lieferantenrechnung fliesst automatisch ins Hauptbuch."
+      },
+      {
+        "title": "Die Familien im Mittelpunkt",
+        "text": "Ein Konto = eine Familie, mehrere Mitglieder, Ratenzahlung."
+      },
+      {
+        "title": "Funktioniert offline",
+        "text": "Die Anwesenheitskontrolle am Spielfeldrand läuft ohne Netz weiter und wird synchronisiert, sobald die Verbindung zurück ist."
+      },
+      {
+        "title": "KI-Assistent mit Sprachsteuerung",
+        "text": "Stellen Sie eine Frage oder erfassen Sie eine Anmeldung per Sprache – mit Bestätigung vor jeder Aktion."
+      },
+      {
+        "title": "Rechte nach Rolle",
+        "text": "Alle (Administration, Vorstand, Staff, Mitglied) sehen nur, was sie betrifft."
+      },
+      {
+        "title": "Auf dem Smartphone installierbar",
+        "text": "Ohne App-Store und immer auf dem neuesten Stand."
+      },
+      {
+        "title": "In den Farben Ihres Vereins",
+        "text": "Logo, Hauptfarbe und Anmeldebild Ihres Vereins."
+      },
+      {
+        "title": "Berichte nach Mass, ohne Tabellen",
+        "text": "Der Vorstand stellt Listen und Statistiken selbst zusammen (Spalten, Filter, Summen), exportiert sie nach Excel oder PDF und speichert sie als wiederverwendbare Vorlagen."
+      }
+    ]
+  },
+  "modules": {
+    "title": "Alles, was Ihr Verein braucht",
+    "intro": "Ein Überblick über die heute verfügbaren Module.",
+    "groups": [
+      {
+        "title": "Mitglieder und Familien",
+        "items": [
+          "Vollständiges Mitgliederprofil, Änderungsverlauf und interne Kommentare",
+          "Status aktiv / inaktiv, Filter und Suche",
+          "Bereich «Meine Familie»: Anmeldung Schritt für Schritt, erforderliche Aktionen, nächste Trainings der kommenden 7 Tage, Mitteilungen"
+        ]
+      },
+      {
+        "title": "Saisons, Teams und Anmeldungen",
+        "items": [
+          "Konfigurierbare Saisons, Teams (Farbe, Bestand) und Funktionen",
+          "Anmeldungen mit Freigabe durch den Vorstand, Rabatte und Ratenzahlung",
+          "Automatische E-Mails bei bestätigter oder stornierter Anmeldung"
+        ]
+      },
+      {
+        "title": "Trainingsplan und Anwesenheit",
+        "items": [
+          "Hallen, wiederkehrende Trainingszeiten pro Team und Ferienzeiten",
+          "Wochen- und Tagesansicht in den Teamfarben",
+          "Anwesenheit auf dem Smartphone, auch offline, mit automatischer Synchronisierung"
+        ]
+      },
+      {
+        "title": "Verbandslizenzen",
+        "items": [
+          "Verbände und Lizenzen pro Mitglied",
+          "Lizenz vom Verein übernommen, dem Mitglied verrechnet oder direkt vom Mitglied bezahlt",
+          "Verfolgung der Zahlungen an den Verband mit Buchung"
+        ]
+      },
+      {
+        "title": "Beiträge und Rechnungsstellung",
+        "items": [
+          "PDF-Rechnungen mit Schweizer QR-Rechnung, Versand per E-Mail mit Versandverlauf",
+          "Zahlung in 2, 3 oder 4 Raten, einzelne oder gesammelte Mahnungen",
+          "Zahlungen, Forderungsverzicht, Überzahlungen zurückerstattet oder verrechnet"
+        ]
+      },
+      {
+        "title": "Schweizer doppelte Buchhaltung",
+        "items": [
+          "Konfigurierbarer Kontenplan, manuelle und automatische Buchungen",
+          "Bilanz und Erfolgsrechnung live, PDF-Export",
+          "Geführter Jahresabschluss und Bankabgleich per camt-Import"
+        ]
+      },
+      {
+        "title": "Spesen und Lieferanten",
+        "items": [
+          "Spesenabrechnungen mit Belegen und Freigabe-Ablauf",
+          "Lieferanten, Kontakte und Lieferantenrechnungen mit Anhängen",
+          "Automatische Buchungen"
+        ]
+      },
+      {
+        "title": "Kommunikation",
+        "items": [
+          "Mitteilungen mit Priorität und Zielgruppe",
+          "Gezielte Sammel-E-Mails (Saison, Team, Alter, Rolle …) mit Verlauf",
+          "Anpassbare E-Mail-Vorlagen"
+        ]
+      },
+      {
+        "title": "Dashboard und Berichte",
+        "items": [
+          "Aktive Mitglieder, eingenommene Beiträge, ausstehender Betrag, offene Aufgaben",
+          "Berichtsgenerator über 9 Datenquellen, als Liste oder gruppiert mit Summen",
+          "Export als CSV, Excel und PDF; private Vorlagen oder mit dem Vorstand geteilte Vorlagen"
+        ]
+      },
+      {
+        "title": "Einstellungen und Zugriff",
+        "items": [
+          "Vereinsname, Logo, Hauptfarbe und Anmeldebild",
+          "Vereinsregeln: AHV-Nummer obligatorisch, Teamwahl in Eigenregie, Zahlungs- und Mahnfristen",
+          "Geschützte Konten: verifizierte E-Mail, sichere Passwörter, Schutz vor Bots"
+        ]
+      }
+    ],
+    "notYetTitle": "Gut zu wissen: noch nicht verfügbar",
+    "notYet": [
+      "Mehrwertsteuer",
+      "Online-Zahlung per Karte",
+      "Eine native iOS-/Android-App (die Web-App lässt sich auf dem Smartphone installieren)",
+      "Kontoerstellung durch die Administration (Konten werden per Selbstregistrierung angelegt)",
+      "Diagramme in den eigenen Berichten",
+      "Zeitgesteuerter E-Mail-Versand von Berichten"
+    ]
+  },
+  "assistant": {
+    "title": "Ein KI-Assistent, der Ihnen Zeit spart",
+    "lead": "Ein Chat-Assistent ist in die Anwendung integriert.",
+    "points": [
+      "Spracheingabe und Sprachausgabe",
+      "Suche nach Mitgliedern, Saisons, Teams, Anmeldungen, Beiträgen, Rechnungen, Benutzern und Berichtsvorlagen",
+      "Erfassen eines Mitglieds, einer Saison, eines Teams, einer Anmeldung oder einer Zahlung",
+      "Navigation zur gesuchten Seite der Anwendung"
+    ],
+    "safety": "Der Assistent hält Ihre Zugriffsrechte ein und legt nie etwas ohne Ihre ausdrückliche Bestätigung an.",
+    "eyebrow": "Betrieben von Mistral AI, einer europäischen KI"
+  },
+  "trust": {
+    "title": "Vertrauen und Sicherheit",
+    "items": [
+      {
+        "title": "Zugriff nach Rolle",
+        "text": "Jede Person sieht und ändert nur, was ihre Rolle erlaubt; Familien greifen nur auf ihre eigenen Daten zu."
+      },
+      {
+        "title": "Geschützte Konten",
+        "text": "E-Mail-Verifizierung, sichere Passwörter, Schutz vor Bots (Cloudflare Turnstile) und gesicherte Sitzungen."
+      },
+      {
+        "title": "Unveränderliche Buchhaltung",
+        "text": "Eine bestätigte Buchung ist gesperrt; Korrekturen laufen über eine nachvollziehbare Stornobuchung; ein abgeschlossenes Geschäftsjahr kann nicht mehr geändert werden."
+      },
+      {
+        "title": "Nachvollziehbarkeit",
+        "text": "Änderungsverlauf der Mitgliederprofile, Verlauf der versendeten E-Mails und Mahnungen pro Rechnung."
+      },
+      {
+        "title": "KI unter Kontrolle",
+        "text": "Der Assistent legt nie etwas ohne ausdrückliche Bestätigung der Benutzerin oder des Benutzers an; europäische KI (Mistral AI)."
+      },
+      {
+        "title": "Softwarequalität",
+        "text": "Jede Serverfunktion ist durch automatisierte Tests abgedeckt."
+      }
+    ]
+  },
+  "news": {
+    "title": "Neuigkeiten",
+    "items": [
+      {
+        "date": "2026-10-16",
+        "title": "Eigene Berichte: Export als CSV, Excel und PDF",
+        "text": "Vorstand und Administration stellen Listen und Statistiken über 9 Datenquellen zusammen, exportieren sie als CSV, Excel oder PDF und speichern private oder geteilte Vorlagen, die sich mit einem Klick exportieren lassen.",
+        "dateLabel": "16. Okt. 2026"
+      }
+    ]
+  },
+  "contact": {
+    "title": "Sprechen wir über Ihren Verein",
+    "text": "Eine Frage oder möchten Sie mehr sehen? Schreiben Sie uns.",
+    "mail": "E-Mail an",
+    "pricing": "Preise:"
+  },
+  "footer": {
+    "text": "Gestioo – Web-ERP für Multisport-Vereine in der Schweiz und in Frankreich."
+  },
+  "appPreview": {
+    "caption": "Illustrative Vorschau – wird durch einen echten Screenshot der Anwendung ersetzt",
+    "title": "Übersicht",
+    "menu": [
+      "Übersicht",
+      "Mitglieder",
+      "Planung",
+      "Rechnungen",
+      "Finanzen",
+      "Berichte"
+    ],
+    "kpis": [
+      "Aktive Mitglieder",
+      "Eingegangene Beiträge",
+      "Ausstehender Saldo"
+    ],
+    "todo": "Zu erledigen",
+    "todoItems": [
+      "Rechnungsentwürfe zum Ausstellen",
+      "Anmeldungen zu bestätigen"
+    ]
+  },
+  "chat": {
+    "caption": "Illustratives Beispiel eines Austauschs mit dem Assistenten",
+    "name": "Assistent",
+    "user": "Melde Léa für diese Saison im Team U12 an.",
+    "reply": "Ich bereite diese Anmeldung vor. Bestätigen Sie?",
+    "member": "Mitglied:",
+    "memberVal": "Léa",
+    "team": "Team:",
+    "teamVal": "U12",
+    "season": "Saison:",
+    "seasonVal": "laufende Saison",
+    "confirm": "Bestätigen",
+    "cancel": "Abbrechen"
+  },
+  "header": {
+    "contact": "Kontakt aufnehmen"
+  }
+}
