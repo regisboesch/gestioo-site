@@ -1,0 +1,94 @@
+{
+  "meta": {
+    "title": "MyERPPlus – Le logiciel de gestion pour associations multisport (Suisse & France)",
+    "description": "Membres, inscriptions, planning, QR-facture suisse, comptabilité en partie double et assistant IA : un seul outil web pour gérer votre club sans tableurs.",
+    "ogLocale": "fr_CH",
+    "ogImageAlt": "MyERPPlus"
+  },
+  "a11y": { "skip": "Aller au contenu", "home": "MyERPPlus – accueil", "nav": "Navigation principale", "langs": "Langue du site" },
+  "nav": { "profiles": "Pour qui ?", "strengths": "Points forts", "modules": "Fonctionnalités", "assistant": "Assistant IA", "trust": "Confiance", "news": "Nouveautés", "contact": "Contact" },
+  "media": { "hero": "Illustration : aperçu de l'application MyERPPlus", "assistant": "Illustration : l'assistant IA de MyERPPlus" },
+  "hero": {
+    "eyebrow": "Pour les clubs et associations multisport – Suisse & France",
+    "title": "Gérez votre club en un seul endroit, sans tableurs",
+    "lead": "MyERPPlus réunit les membres, les inscriptions par saison et par équipe, le planning des entraînements, la facturation des cotisations avec QR-facture suisse, la comptabilité en partie double et la communication avec les familles – avec un assistant IA intégré.",
+    "cta": "Nous contacter",
+    "ctaSecondary": "Découvrir les fonctionnalités",
+    "chips": ["Français, allemand, anglais", "Installable sur smartphone", "QR-facture suisse", "Thème clair et sombre"]
+  },
+  "profiles": {
+    "title": "Une solution pour chaque rôle du club",
+    "intro": "Que vous soyez bénévole au comité, entraîneur ou parent, chacun retrouve rapidement ce dont il a besoin.",
+    "before": "Avant :",
+    "after": "Avec MyERPPlus :",
+    "items": [
+      { "role": "Trésorier", "before": "tableurs, relances manuelles, rapprochement bancaire à la main, clôture annuelle laborieuse.", "after": "factures QR générées et envoyées en masse, rappels, import des relevés bancaires camt et rapprochement, écritures comptables automatiques, clôture assistée avec bilan et compte de résultat en PDF, rapports financiers sur mesure exportés en Excel." },
+      { "role": "Secrétaire / comité", "before": "inscriptions papier ou par email, listes d'équipes éparpillées.", "after": "inscription en ligne par les familles, validation en un clic, équipes et effectifs à jour, emails groupés ciblés, listes et statistiques sur mesure exportables en CSV ou Excel." },
+      { "role": "Entraîneur / staff", "before": "feuilles de présence papier, planning partagé par messagerie.", "after": "prise de présence sur smartphone, même sans réseau, planning par équipe et par salle, notes de frais en ligne." },
+      { "role": "Parent / membre", "before": "on ne sait pas où en est l'inscription ou le paiement de ses enfants.", "after": "l'espace « Ma famille » : inscription pas à pas, paiement en 1 à 4 fois, factures, prochains cours et annonces du club." },
+      { "role": "Président", "before": "pas de vue d'ensemble.", "after": "un tableau de bord (membres actifs, cotisations encaissées, solde à percevoir, tâches en attente) et des rapports personnalisés enregistrables, exportables vers Excel." }
+    ]
+  },
+  "strengths": {
+    "title": "Ce qui fait la différence",
+    "items": [
+      { "title": "Pensé pour la Suisse", "text": "QR-facture suisse, relevés bancaires camt, numéro AVS, comptabilité suisse en partie double et interface en français, allemand et anglais." },
+      { "title": "Comptabilité intégrée, pas ajoutée", "text": "Chaque facture, paiement, remboursement, note de frais ou facture fournisseur alimente automatiquement le grand livre." },
+      { "title": "Les familles au cœur", "text": "Un compte = une famille, plusieurs membres, paiement échelonné." },
+      { "title": "Fonctionne hors ligne", "text": "La prise de présence au bord du terrain continue sans réseau et se synchronise au retour de la connexion." },
+      { "title": "Assistant IA vocal", "text": "Posez une question ou créez une inscription en parlant, avec confirmation avant toute action." },
+      { "title": "Droits par rôle", "text": "Chacun (administrateur, comité, staff, membre) ne voit que ce qui le concerne." },
+      { "title": "Installable sur smartphone", "text": "Sans passer par un store, et toujours à jour." },
+      { "title": "Aux couleurs du club", "text": "Logo, couleur principale et image de connexion de votre association." },
+      { "title": "Rapports sur mesure, sans tableur", "text": "Le comité compose ses listes et statistiques (colonnes, filtres, totaux), les exporte en Excel ou en PDF et les enregistre comme modèles réutilisables." }
+    ]
+  },
+  "modules": {
+    "title": "Tout ce qu'il faut pour faire tourner votre club",
+    "intro": "Un aperçu des modules disponibles aujourd'hui.",
+    "groups": [
+      { "title": "Membres et familles", "items": ["Fiche membre complète, historique des modifications et commentaires internes", "Statut actif / inactif, filtres et recherche", "Espace « Ma famille » : inscription pas à pas, actions requises, prochains cours sur 7 jours, annonces"] },
+      { "title": "Saisons, équipes et inscriptions", "items": ["Saisons, équipes (couleur, effectif) et fonctions paramétrables", "Inscriptions avec validation par le comité, remises et paiement en plusieurs fois", "Emails automatiques d'inscription validée ou annulée"] },
+      { "title": "Planning et présences", "items": ["Salles, horaires récurrents par équipe et périodes de vacances", "Planning en vues semaine et jour, aux couleurs des équipes", "Présences sur smartphone, même hors ligne, avec synchronisation automatique"] },
+      { "title": "Licences fédérales", "items": ["Fédérations et licences par membre", "Licence prise en charge par le club, facturée au membre ou réglée directement par le membre", "Suivi des règlements à la fédération avec écriture comptable"] },
+      { "title": "Cotisations et facturation", "items": ["Factures PDF avec QR-facture suisse, envoi par email et historique des envois", "Paiement en 2, 3 ou 4 échéances, rappels unitaires ou en masse", "Paiements, annulation de créance, trop-perçus remboursés ou imputés"] },
+      { "title": "Comptabilité suisse en partie double", "items": ["Plan comptable paramétrable, écritures manuelles et automatiques", "Bilan et compte de résultat en direct, export PDF", "Clôture d'exercice assistée et rapprochement bancaire par import camt"] },
+      { "title": "Notes de frais et fournisseurs", "items": ["Notes de frais avec justificatifs et workflow de validation", "Fournisseurs, contacts et factures fournisseurs avec pièces jointes", "Écritures comptables automatiques"] },
+      { "title": "Communication", "items": ["Annonces avec priorité et audience", "Emails groupés ciblés (saison, équipe, âge, rôle…) avec historique", "Modèles d'emails personnalisables"] },
+      { "title": "Tableau de bord et rapports", "items": ["Membres actifs, cotisations encaissées, solde à percevoir, tâches à traiter", "Générateur de rapports sur 9 sources de données, en liste ou regroupés avec totaux", "Export CSV, Excel et PDF ; modèles privés ou partagés avec le comité"] },
+      { "title": "Paramètres et accès", "items": ["Nom, logo, couleur principale et image de connexion du club", "Règles du club : AVS obligatoire, choix d'équipe en libre-service, délais de paiement et de rappel", "Comptes protégés : email vérifié, mots de passe robustes, protection anti-robots"] }
+    ],
+    "notYetTitle": "Bon à savoir : pas encore disponible",
+    "notYet": ["La TVA", "Le paiement en ligne par carte", "Une application native iOS/Android (l'application web est installable sur smartphone)", "La création de comptes par l'administrateur (les comptes se créent par auto-inscription)", "Des graphiques dans les rapports personnalisés", "L'envoi programmé de rapports par email"]
+  },
+  "assistant": {
+    "title": "Un assistant IA qui vous fait gagner du temps",
+    "lead": "Un assistant conversationnel est intégré à l'application, propulsé par Mistral AI, une IA européenne.",
+    "points": ["Entrée vocale et réponse vocale", "Recherche de membres, saisons, équipes, inscriptions, cotisations, factures, utilisateurs et modèles de rapport", "Création d'un membre, d'une saison, d'une équipe, d'une inscription ou d'un paiement", "Navigation vers la page de l'application que vous cherchez"],
+    "safety": "L'assistant respecte vos droits d'accès et ne crée jamais rien sans votre confirmation explicite."
+  },
+  "trust": {
+    "title": "Confiance et sécurité",
+    "items": [
+      { "title": "Accès par rôle", "text": "Chaque utilisateur ne voit et ne modifie que ce que son rôle autorise ; les familles n'accèdent qu'à leurs propres données." },
+      { "title": "Comptes protégés", "text": "Vérification de l'email, mots de passe robustes, protection anti-robots (Cloudflare Turnstile) et sessions sécurisées." },
+      { "title": "Comptabilité inaltérable", "text": "Une écriture validée est verrouillée ; une correction passe par une contre-passation traçable ; un exercice clôturé ne peut plus être modifié." },
+      { "title": "Traçabilité", "text": "Historique des modifications des fiches membres, historique des envois d'emails et de rappels par facture." },
+      { "title": "IA sous contrôle", "text": "L'assistant ne crée jamais rien sans confirmation explicite de l'utilisateur ; IA européenne (Mistral AI)." },
+      { "title": "Qualité logicielle", "text": "Chaque fonctionnalité du serveur est couverte par des tests automatisés." }
+    ]
+  },
+  "news": {
+    "title": "Nouveautés",
+    "items": [
+      { "date": "2026-10-16", "title": "Rapports personnalisés : exports CSV, Excel et PDF", "text": "Le comité et les administrateurs composent leurs listes et statistiques sur 9 sources de données, les exportent en CSV, Excel ou PDF, et enregistrent des modèles privés ou partagés, exportables en un clic." }
+    ]
+  },
+  "contact": {
+    "title": "Parlons de votre club",
+    "text": "Une question, envie d'en voir plus ? Écrivez-nous.",
+    "mail": "Écrire à",
+    "pricing": "Tarifs :"
+  },
+  "footer": { "text": "MyERPPlus – ERP web pour associations multisport en Suisse et en France." }
+}
