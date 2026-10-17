@@ -17,7 +17,8 @@
     "modules": "Funktionen",
     "assistant": "KI-Assistent",
     "trust": "Vertrauen",
-    "news": "Neuigkeiten"
+    "news": "Neuigkeiten",
+    "gallery": "Bilder"
   },
   "media": {
     "hero": "Vorschau der Gestioo-Anwendung",
@@ -203,7 +204,8 @@
       "Kontoerstellung durch die Administration (Konten werden per Selbstregistrierung angelegt)",
       "Diagramme in den eigenen Berichten",
       "Zeitgesteuerter E-Mail-Versand von Berichten"
-    ]
+    ],
+    "seeImages": "In Bildern ansehen"
   },
   "assistant": {
     "title": "Ein KI-Assistent, der Ihnen Zeit spart",
@@ -304,5 +306,35 @@
   },
   "header": {
     "contact": "Kontakt aufnehmen"
+  },
+  "gallery": {
+    "eyebrow": "Videos und Screenshots der Anwendung",
+    "title": "Gestioo in Bildern",
+    "intro": "Lernen Sie die echte Anwendung kennen, Ablauf für Ablauf, am Computer und auf dem Smartphone. Die Bildschirme zeigen Demodaten.",
+    "device": "Bildschirmtyp",
+    "desktop": "Computer",
+    "mobile": "Mobil",
+    "play": "Video abspielen",
+    "prev": "Vorheriger Schritt",
+    "next": "Nächster Schritt",
+    "note": "Video ohne Ton und Screenshots der echten Anwendung, mit Demodaten.",
+    "dashboard": "Aktive Mitglieder, eingegangene Beiträge, offener Saldo, anstehende Aufgaben und kommende Termine: die Übersicht über den Verein auf einen Blick.",
+    "famille": "Familien melden ihre Kinder Schritt für Schritt an, wählen die Zahlung in 1 bis 4 Raten und verfolgen ihre Rechnungen.",
+    "facture-qr": "PDF-Rechnungen mit Schweizer QR-Rechnung, per E-Mail versendet, mit Verlauf der Versendungen und Mahnungen.",
+    "planning": "Trainings nach Team und Raum, in den Farben der Teams, in der Wochen- oder Tagesansicht.",
+    "presences-mobile": "Am Spielfeldrand hakt die Trainerin oder der Trainer die Anwesenden auf dem Smartphone ab, auch ohne Netz.",
+    "rapports": "Der Vorstand stellt seine Listen und Statistiken zusammen und exportiert sie als Excel, CSV oder PDF.",
+    "emails-groupes": "Empfänger wählen (Saison, Team, Alter, Rolle), Nachricht verfassen, prüfen und senden.",
+    "tresorerie": "Bilanz und Erfolgsrechnung werden live aus dem Hauptbuch berechnet und lassen sich als PDF exportieren."
+  },
+  "galleryTabs": {
+    "dashboard": "Dashboard",
+    "famille": "Meine Familie",
+    "facture-qr": "QR-Rechnung",
+    "planning": "Planung",
+    "presences-mobile": "Anwesenheit",
+    "rapports": "Berichte",
+    "emails-groupes": "Sammel-E-Mails",
+    "tresorerie": "Finanzen"
   }
 }

@@ -17,7 +17,8 @@
     "modules": "Fonctionnalités",
     "assistant": "Assistant IA",
     "trust": "Confiance",
-    "news": "Nouveautés"
+    "news": "Nouveautés",
+    "gallery": "En images"
   },
   "media": {
     "hero": "Aperçu de l'application Gestioo",
@@ -203,7 +204,8 @@
       "La création de comptes par l'administrateur (les comptes se créent par auto-inscription)",
       "Des graphiques dans les rapports personnalisés",
       "L'envoi programmé de rapports par email"
-    ]
+    ],
+    "seeImages": "Voir en images"
   },
   "assistant": {
     "title": "Un assistant IA qui vous fait gagner du temps",
@@ -304,5 +306,35 @@
   },
   "header": {
     "contact": "Nous contacter"
+  },
+  "gallery": {
+    "eyebrow": "Vidéos et captures de l'application",
+    "title": "Gestioo en images",
+    "intro": "Découvrez l'application réelle, parcours par parcours, sur ordinateur et sur smartphone. Les écrans montrent des données de démonstration.",
+    "device": "Type d'écran",
+    "desktop": "Ordinateur",
+    "mobile": "Mobile",
+    "play": "Lire la vidéo",
+    "prev": "Étape précédente",
+    "next": "Étape suivante",
+    "note": "Vidéo sans son et captures de l'application réelle, avec des données de démonstration.",
+    "dashboard": "Membres actifs, cotisations encaissées, solde à percevoir, tâches à traiter et événements à venir : la vue d'ensemble du club en un coup d'œil.",
+    "famille": "Les familles inscrivent leurs enfants pas à pas, choisissent le paiement en 1 à 4 fois et suivent leurs factures.",
+    "facture-qr": "Factures PDF avec QR-facture suisse, envoyées par email, avec l'historique des envois et des rappels.",
+    "planning": "Entraînements par équipe et par salle, aux couleurs des équipes, en vue semaine ou jour.",
+    "presences-mobile": "Au bord du terrain, l'entraîneur coche les présents sur son smartphone, même sans réseau.",
+    "rapports": "Le comité compose ses listes et statistiques, puis les exporte en Excel, CSV ou PDF.",
+    "emails-groupes": "Choisissez les destinataires (saison, équipe, âge, rôle), rédigez le message, vérifiez et envoyez.",
+    "tresorerie": "Bilan et compte de résultat calculés en direct à partir du grand livre, exportables en PDF."
+  },
+  "galleryTabs": {
+    "dashboard": "Tableau de bord",
+    "famille": "Ma famille",
+    "facture-qr": "QR-facture",
+    "planning": "Planning",
+    "presences-mobile": "Présences",
+    "rapports": "Rapports",
+    "emails-groupes": "Emails groupés",
+    "tresorerie": "Trésorerie"
   }
 }
