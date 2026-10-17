@@ -5,13 +5,15 @@ import MediaSlot from './components/MediaSlot';
 import AppPreview from './components/AppPreview';
 import ChatExample from './components/ChatExample';
 import Icon, { type IconName } from './components/Icon';
+import Gallery from './components/Gallery';
+import { getParcours } from './media';
 
 interface Pair { role: string; before: string; after: string }
 interface Card { title: string; text: string }
 interface ModuleGroup { title: string; items: string[] }
 interface NewsItem { date: string; dateLabel: string; title: string; text: string }
 
-const NAV = [['profiles', 'profils'], ['strengths', 'forces'], ['modules', 'modules'], ['assistant', 'assistant'], ['trust', 'confiance'], ['news', 'nouveautes']] as const;
+const NAV = [['profiles', 'profils'], ['strengths', 'forces'], ['modules', 'modules'], ['gallery', 'galerie'], ['assistant', 'assistant'], ['trust', 'confiance'], ['news', 'nouveautes']] as const;
 
 // Icônes par position, dans l'ordre des listes des fichiers de langue (cf. design/README.md).
 const HERO_CHIPS: IconName[] = ['globe', 'smartphone', 'qr', 'moon'];
@@ -19,11 +21,15 @@ const PROFILE_ICONS: IconName[] = ['wallet', 'clipboard', 'timer', 'users', 'das
 const STRENGTH_ICONS: IconName[] = ['swiss', 'book', 'heart', 'wifiOff', 'mic', 'shield', 'smartphone', 'palette', 'sheet'];
 const MODULE_ICONS: IconName[] = ['users', 'clipboard', 'calendar', 'idCard', 'receipt', 'landmark', 'briefcase', 'megaphone', 'chart', 'sliders'];
 const ASSISTANT_ICONS: IconName[] = ['mic', 'search', 'plusCircle', 'compass'];
+// Parcours de la galerie liés aux cartes de modules (par position).
+const MODULE_PARCOURS: Record<number, string> = { 0: 'famille', 2: 'planning', 4: 'facture-qr', 5: 'tresorerie', 7: 'emails-groupes', 8: 'dashboard' };
 const TRUST_ICONS: IconName[] = ['userCheck', 'lock', 'book', 'history', 'sparkles', 'checkCircle'];
 
 export default function App({ lang }: { lang: Lang }) {
   const { t } = useTranslation();
   const list = <T,>(key: string) => t(key, { returnObjects: true }) as T[];
+  const parcoursIds = getParcours().map((p) => p.id);
+  const nav = NAV.filter(([key]) => key !== 'gallery' || parcoursIds.length > 0);
   const mailto = `mailto:${PLACEHOLDER_EMAIL}`;
 
   return (
@@ -36,7 +42,7 @@ export default function App({ lang }: { lang: Lang }) {
             <span className="brand-name">Gestioo</span>
           </a>
           <nav aria-label={t('a11y.nav')} className="nav">
-            {NAV.map(([key, id]) => <a key={id} href={`#${id}`}>{t(`nav.${key}`)}</a>)}
+            {nav.map(([key, id]) => <a key={id} href={`#${id}`}>{t(`nav.${key}`)}</a>)}
           </nav>
           <div className="header-end">
             <nav aria-label={t('a11y.langs')} className="langs">
@@ -117,6 +123,9 @@ export default function App({ lang }: { lang: Lang }) {
                   <ul className="checks">
                     {g.items.map((it) => <li key={it}><span className="ico"><Icon name="check" /></span>{it}</li>)}
                   </ul>
+                  {MODULE_PARCOURS[i] && parcoursIds.includes(MODULE_PARCOURS[i]) && (
+                    <a className="see" href={`#galerie-${MODULE_PARCOURS[i]}`}><Icon name="play" size={14} />{t('modules.seeImages')}</a>
+                  )}
                 </article>
               ))}
             </div>
@@ -129,6 +138,8 @@ export default function App({ lang }: { lang: Lang }) {
             </aside>
           </div>
         </section>
+
+        <Gallery lang={lang} />
 
         <section id="assistant" className="band">
           <div className="wrap band-in">

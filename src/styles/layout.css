@@ -146,3 +146,42 @@ h2 + .grid, h2 + .news { margin-top: 40px; }
 .footer { border-top: 1px solid var(--line); }
 .footer-in { display: flex; flex-wrap: wrap; gap: 12px; justify-content: space-between; padding-block: 28px; font-size: 14px; color: var(--muted); }
 .foot-langs { display: inline-flex; align-items: center; gap: 6px; }
+
+/* Lien « Voir en images » (modules) */
+.see { display: inline-flex; align-items: center; gap: 6px; min-height: 44px; margin-top: 8px; color: var(--accent-fg); font-weight: 600; font-size: 15px; text-decoration: none; }
+.see:hover { text-decoration: underline; }
+.card:has(.see) { display: flex; flex-direction: column; align-items: flex-start; }
+
+/* Gestioo en images */
+#galerie .intro { margin-bottom: 32px; }
+.g-bar { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 16px; margin-bottom: 24px; }
+.g-tabs { display: flex; flex-wrap: wrap; gap: 8px; }
+.g-tab { display: inline-flex; align-items: center; gap: 8px; min-height: 44px; padding: 0 16px; border-radius: 999px; border: 1.5px solid var(--line); background: var(--card); color: var(--ink); font: inherit; font-size: 15px; font-weight: 600; cursor: pointer; }
+.g-tab[aria-pressed='true'] { background: var(--ink); border-color: var(--ink); color: var(--bg); }
+.g-device { display: flex; gap: 2px; border: 1px solid var(--line); background: var(--card); border-radius: 999px; padding: 3px; }
+.g-device button { display: inline-flex; align-items: center; gap: 6px; min-height: 44px; padding: 0 14px; border: 0; border-radius: 999px; background: transparent; color: var(--ink); font: inherit; font-size: 14px; font-weight: 600; cursor: pointer; }
+.g-device button[aria-pressed='true'] { background: var(--ink); color: var(--bg); }
+.g-main { display: flex; flex-wrap: wrap; gap: 32px; align-items: center; }
+.g-stage { flex: 999 1 560px; min-width: 0; display: flex; flex-direction: column; align-items: center; gap: 14px; }
+.g-browser, .g-phone { margin: 0; }
+.g-browser { width: 100%; background: var(--card); border: 1px solid var(--line); border-radius: 18px; box-shadow: 0 24px 60px rgba(14, 27, 44, 0.12); overflow: hidden; }
+.g-dots { display: flex; gap: 6px; padding: 10px 14px; border-bottom: 1px solid var(--line); }
+.g-dots span { width: 10px; height: 10px; border-radius: 50%; background: var(--line); }
+.g-phone { width: 300px; max-width: 100%; background: #0e1b2c; border-radius: 40px; padding: 12px; }
+.g-screen { position: relative; line-height: 0; background: #fff; }
+.g-phone .g-screen { border-radius: 30px; overflow: hidden; }
+.g-media { display: block; width: 100%; height: auto; object-fit: cover; object-position: top; background: #fff; }
+.g-browser .g-media { aspect-ratio: 1440 / 900; }
+.g-phone .g-media { aspect-ratio: 390 / 844; }
+video.g-media { object-fit: contain; }
+.g-play { position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); display: inline-flex; align-items: center; justify-content: center; width: 76px; height: 76px; border: 0; border-radius: 50%; background: var(--accent); color: var(--on-accent); box-shadow: 0 10px 30px rgba(14, 27, 44, 0.3); cursor: pointer; }
+.g-phone .g-play { width: 64px; height: 64px; }
+.g-steps { display: flex; align-items: center; gap: 12px; font-size: 14px; color: var(--muted); text-align: center; }
+.g-steps button { display: inline-flex; align-items: center; justify-content: center; width: 44px; height: 44px; border-radius: 50%; border: 1px solid var(--line); background: var(--card); color: var(--ink); cursor: pointer; }
+.g-steps button:disabled { opacity: 0.4; cursor: default; }
+.g-text { flex: 1 1 280px; min-width: 0; }
+.g-text .pill { margin-bottom: 14px; }
+.g-text h3 { font-size: 24px; line-height: 1.2; margin-bottom: 8px; }
+.g-sentence { color: var(--muted); margin-bottom: 16px; }
+.g-note { display: flex; gap: 8px; font-size: 13px; color: var(--muted); }
+.g-note-ico { flex: none; margin-top: 2px; display: inline-flex; }

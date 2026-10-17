@@ -17,7 +17,8 @@
     "modules": "Features",
     "assistant": "AI assistant",
     "trust": "Trust",
-    "news": "What's new"
+    "news": "What's new",
+    "gallery": "In pictures"
   },
   "media": {
     "hero": "Preview of the Gestioo application",
@@ -203,7 +204,8 @@
       "Account creation by the administrator (accounts are created by self-registration)",
       "Charts in custom reports",
       "Scheduled email delivery of reports"
-    ]
+    ],
+    "seeImages": "See it in pictures"
   },
   "assistant": {
     "title": "An AI assistant that saves you time",
@@ -304,5 +306,35 @@
   },
   "header": {
     "contact": "Get in touch"
+  },
+  "gallery": {
+    "eyebrow": "Videos and screenshots of the app",
+    "title": "Gestioo in pictures",
+    "intro": "See the real app, journey by journey, on a computer and on a smartphone. The screens show demo data.",
+    "device": "Screen type",
+    "desktop": "Desktop",
+    "mobile": "Mobile",
+    "play": "Play the video",
+    "prev": "Previous step",
+    "next": "Next step",
+    "note": "Silent video and screenshots of the real app, with demo data.",
+    "dashboard": "Active members, fees collected, balance to receive, tasks to handle and upcoming events: an overview of the club at a glance.",
+    "famille": "Families register their children step by step, choose to pay in 1 to 4 instalments and follow their invoices.",
+    "facture-qr": "PDF invoices with the Swiss QR-bill, sent by email, with the history of what was sent and of reminders.",
+    "planning": "Training sessions by team and room, in the teams’ colours, in week or day view.",
+    "presences-mobile": "At the side of the pitch, the coach ticks who is present on their smartphone, even without a network.",
+    "rapports": "The committee builds its lists and statistics, then exports them to Excel, CSV or PDF.",
+    "emails-groupes": "Choose the recipients (season, team, age, role), write the message, check and send.",
+    "tresorerie": "Balance sheet and income statement calculated live from the general ledger, exportable as PDF."
+  },
+  "galleryTabs": {
+    "dashboard": "Dashboard",
+    "famille": "My family",
+    "facture-qr": "QR-bill",
+    "planning": "Schedule",
+    "presences-mobile": "Attendance",
+    "rapports": "Reports",
+    "emails-groupes": "Group emails",
+    "tresorerie": "Treasury"
   }
 }
