@@ -14,7 +14,7 @@
 body{margin:0}
 </style>
 </helmet>
-<div style="width: 760px; height: 980px; box-sizing: border-box; padding: 40px; background: #FFFFFF; font-family: 'Figtree', system-ui, sans-serif; color: #0E1B2C">
+<div style="width: 760px; height: 1020px; box-sizing: border-box; padding: 40px; background: #FFFFFF; font-family: 'Figtree', system-ui, sans-serif; color: #0E1B2C">
 <h1 style="margin: 0 0 6px; font-family: 'Bricolage Grotesque', sans-serif; font-weight: 800; font-size: 32px; letter-spacing: -0.02em">Jeu d'icônes</h1>
 <p style="margin: 0 0 28px; color: #4A5568; font-size: 15px">Trait de 2 px, coins arrondis, une seule couleur (style Lucide). Taille de base 24 px.</p>
 <div style="display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 12px">
@@ -27,7 +27,7 @@ body{margin:0}
 </div>
 </div>
 </x-dc>
-<script type="text/x-dc" data-dc-script data-props='{"accent":{"editor":"color","default":"#C8102E","options":["#C8102E","#1D4ED8","#0F766E","#B45309"]},"$preview":{"width":760,"height":980}}'>
+<script type="text/x-dc" data-dc-script data-props='{"accent":{"editor":"color","default":"#C8102E","options":["#C8102E","#1D4ED8","#0F766E","#B45309"]},"$preview":{"width":760,"height":1020}}'>
 class Component extends DCLogic {
   renderVals() {
     const icons = [
@@ -69,7 +69,9 @@ class Component extends DCLogic {
       { icon: 'moon', label: 'Thème sombre' },
       { icon: 'mail', label: 'Contact' },
       { icon: 'tag', label: 'Tarifs' },
-      { icon: 'arrowRight', label: 'Action' }
+      { icon: 'arrowRight', label: 'Action' },
+      { icon: 'play', label: 'Lire la vidéo' },
+      { icon: 'monitor', label: 'Vue ordinateur' }
     ];
     return { icons: icons, accent: this.props.accent ?? '#C8102E' };
   }

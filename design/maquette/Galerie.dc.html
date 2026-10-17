@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<title>Gestioo — galerie en images</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&amp;family=Figtree:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0}
+</style>
+</helmet>
+<section id="galerie" style="width: 100%; background: #F4F6F9; font-family: 'Figtree', system-ui, sans-serif; color: #0E1B2C; line-height: 1.6">
+<div style="max-width: 1180px; margin: 0 auto; padding: clamp(56px, 8vw, 104px) clamp(16px, 4vw, 40px)">
+
+<p style="margin: 0 0 14px; display: inline-flex; align-items: center; gap: 8px; font-size: 14px; font-weight: 600; color: {{accent}}; background: {{accentTint}}; padding: 6px 12px; border-radius: 999px"><dc-import name="Icon" icon="play" size="14" hint-size="14px,14px"></dc-import>Vidéos et captures de l'application</p>
+<h2 style="margin: 0 0 12px; font-family: 'Bricolage Grotesque', sans-serif; font-weight: 800; font-size: clamp(30px, 3.6vw, 44px); line-height: 1.1; letter-spacing: -0.02em">Gestioo en images</h2>
+<p style="margin: 0 0 32px; color: #4A5568; max-width: 680px">Découvrez l'application réelle, parcours par parcours, sur ordinateur et sur smartphone. Les écrans montrent des données de démonstration.</p>
+
+<div style="display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 16px; margin-bottom: 24px">
+<div style="display: flex; flex-wrap: wrap; gap: 8px">
+<sc-for list="{{tabs}}" as="item" hint-placeholder-count="8">
+<button type="button" aria-pressed="{{item.pressed}}" onClick="{{item.pick}}" style="display: inline-flex; align-items: center; gap: 8px; min-height: 44px; padding: 0 16px; border-radius: 999px; border: 1.5px solid {{item.border}}; background: {{item.bg}}; color: {{item.color}}; font: inherit; font-size: 15px; font-weight: 600; cursor: pointer"><dc-import name="Icon" icon="{{item.icon}}" size="16" hint-size="16px,16px"></dc-import>{{item.label}}</button>
+</sc-for>
+</div>
+<div aria-label="Type d'écran" style="display: flex; gap: 2px; border: 1px solid #DDE3EA; background: #FFFFFF; border-radius: 999px; padding: 3px">
+<button type="button" aria-pressed="{{isDesktop}}" onClick="{{showDesktop}}" style="display: inline-flex; align-items: center; gap: 6px; min-height: 40px; padding: 0 14px; border: 0; border-radius: 999px; background: {{deskBg}}; color: {{deskColor}}; font: inherit; font-size: 14px; font-weight: 600; cursor: pointer"><dc-import name="Icon" icon="monitor" size="16" hint-size="16px,16px"></dc-import>Ordinateur</button>
+<button type="button" aria-pressed="{{isMobile}}" onClick="{{showMobile}}" style="display: inline-flex; align-items: center; gap: 6px; min-height: 40px; padding: 0 14px; border: 0; border-radius: 999px; background: {{mobBg}}; color: {{mobColor}}; font: inherit; font-size: 14px; font-weight: 600; cursor: pointer"><dc-import name="Icon" icon="smartphone" size="16" hint-size="16px,16px"></dc-import>Mobile</button>
+</div>
+</div>
+
+<div style="display: flex; flex-wrap: wrap; gap: 32px; align-items: center">
+<div style="flex: 999 1 560px; min-width: 0; display: flex; justify-content: center">
+
+<sc-if value="{{isDesktop}}" hint-placeholder-val="{{ true }}">
+<figure style="margin: 0; width: 100%; background: #FFFFFF; border: 1px solid #DDE3EA; border-radius: 18px; box-shadow: 0 24px 60px rgba(14, 27, 44, 0.12); overflow: hidden">
+<div style="display: flex; align-items: center; gap: 6px; padding: 10px 14px; border-bottom: 1px solid #DDE3EA"><span style="width: 10px; height: 10px; border-radius: 50%; background: #DDE3EA"></span><span style="width: 10px; height: 10px; border-radius: 50%; background: #DDE3EA"></span><span style="width: 10px; height: 10px; border-radius: 50%; background: #DDE3EA"></span></div>
+<div style="position: relative; line-height: 0">
+<img src="{{current.desktop}}" alt="{{current.alt}}" style="display: block; width: 100%; height: auto; aspect-ratio: 1440 / 900; object-fit: cover; object-position: top">
+<button type="button" aria-label="Lire la vidéo" style="position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); display: inline-flex; align-items: center; justify-content: center; width: 76px; height: 76px; border: 0; border-radius: 50%; background: {{accent}}; color: #FFFFFF; box-shadow: 0 10px 30px rgba(14, 27, 44, 0.3); cursor: pointer"><dc-import name="Icon" icon="play" size="30" hint-size="30px,30px"></dc-import></button>
+</div>
+</figure>
+</sc-if>
+
+<sc-if value="{{isMobile}}" hint-placeholder-val="{{ false }}">
+<figure style="margin: 0; width: 300px; max-width: 100%; background: #0E1B2C; border-radius: 40px; padding: 12px; box-shadow: 0 24px 60px rgba(14, 27, 44, 0.18)">
+<div style="position: relative; line-height: 0; border-radius: 30px; overflow: hidden; background: #FFFFFF">
+<img src="{{current.mobile}}" alt="{{current.alt}}" style="display: block; width: 100%; height: auto; aspect-ratio: 390 / 844; object-fit: cover; object-position: top">
+<button type="button" aria-label="Lire la vidéo" style="position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); display: inline-flex; align-items: center; justify-content: center; width: 64px; height: 64px; border: 0; border-radius: 50%; background: {{accent}}; color: #FFFFFF; box-shadow: 0 10px 30px rgba(14, 27, 44, 0.3); cursor: pointer"><dc-import name="Icon" icon="play" size="26" hint-size="26px,26px"></dc-import></button>
+</div>
+</figure>
+</sc-if>
+
+</div>
+<div style="flex: 1 1 280px; min-width: 0">
+<span style="display: inline-flex; align-items: center; justify-content: center; width: 48px; height: 48px; border-radius: 12px; background: {{accentTint}}; color: {{accent}}; margin-bottom: 14px"><dc-import name="Icon" icon="{{current.icon}}" size="24" hint-size="24px,24px"></dc-import></span>
+<h3 style="margin: 0 0 8px; font-family: 'Bricolage Grotesque', sans-serif; font-weight: 600; font-size: 24px; line-height: 1.2">{{current.title}}</h3>
+<p style="margin: 0 0 16px; color: #4A5568; font-size: 16px">{{current.caption}}</p>
+<p style="margin: 0; display: flex; gap: 8px; font-size: 13px; color: #4A5568"><span style="flex: none; margin-top: 2px"><dc-import name="Icon" icon="info" size="16" hint-size="16px,16px"></dc-import></span>Vidéo sans son et captures de l'application réelle, avec des données de démonstration.</p>
+</div>
+</div>
+
+</div>
+</section>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"accent":{"editor":"color","default":"#C8102E","options":["#C8102E","#1D4ED8","#0F766E","#B45309"]},"$preview":{"width":1440,"height":1250}}'>
+class Component extends DCLogic {
+  renderVals() {
+    const accent = this.props.accent ?? '#C8102E';
+    const hex = accent.replace('#', '');
+    const r = parseInt(hex.substring(0, 2), 16);
+    const g = parseInt(hex.substring(2, 4), 16);
+    const b = parseInt(hex.substring(4, 6), 16);
+    const accentTint = 'rgba(' + r + ', ' + g + ', ' + b + ', 0.10)';
+    const items = [
+      { id: 'dashboard', label: 'Tableau de bord', icon: 'dashboard', title: 'Tableau de bord gestionnaire', caption: 'Membres actifs, cotisations encaissées, solde à percevoir, tâches à traiter et événements à venir : la vue d’ensemble du club en un coup d’œil.', desktop: '/_blob/ce4e4dcf64ab558a56b6faa2be04d8ab', mobile: '/_blob/7a76308986656839ea52961777aff9f7' },
+      { id: 'famille', label: 'Ma famille', icon: 'users', title: 'Espace « Ma famille » et inscription', caption: 'Les familles inscrivent leurs enfants pas à pas, choisissent le paiement en 1 à 4 fois et suivent leurs factures.', desktop: '/_blob/2a0cb34b1cac14bc7ab05595e7a52505', mobile: '/_blob/d62d5ddb3866761e767ecc1ecaf2e39c' },
+      { id: 'facture-qr', label: 'QR-facture', icon: 'qr', title: 'Facture avec QR-facture suisse', caption: 'Factures PDF avec QR-facture suisse, envoyées par email, avec l’historique des envois et des rappels.', desktop: '/_blob/4edcaeb272c9e190d16b195a231e93f0', mobile: '/_blob/af26836a61e6812b093e85b632aa2629' },
+      { id: 'planning', label: 'Planning', icon: 'calendar', title: 'Planning de la semaine', caption: 'Entraînements par équipe et par salle, aux couleurs des équipes, en vue semaine ou jour.', desktop: '/_blob/dc79b3551fb8fc56e4d0fabc48550836', mobile: '/_blob/f9c0f2f7fc2e7a1b446d6f6fcc1d4fac' },
+      { id: 'presences-mobile', label: 'Présences', icon: 'userCheck', title: 'Prise de présence sur mobile', caption: 'Au bord du terrain, l’entraîneur coche les présents sur son smartphone, même sans réseau.', desktop: '/_blob/22c080b16783e0d8c3e0e161d4c31a60', mobile: '/_blob/59e04fe0d8eb7f79ada4734e774e2be5' },
+      { id: 'rapports', label: 'Rapports', icon: 'sheet', title: 'Générateur de rapports et export', caption: 'Le comité compose ses listes et statistiques, puis les exporte en Excel, CSV ou PDF.', desktop: '/_blob/6a9d69163f7833940ccd18f284abc694', mobile: '/_blob/8c7a91a6d601771e7c93f0ebce59394d' },
+      { id: 'emails-groupes', label: 'Emails groupés', icon: 'megaphone', title: 'Emails groupés en 3 étapes', caption: 'Choisissez les destinataires (saison, équipe, âge, rôle), rédigez le message, vérifiez et envoyez.', desktop: '/_blob/3ab867500f78581d8151c537b4dbcd08', mobile: '/_blob/69bd62da7b353fd0e113f8eb526b8ccb' },
+      { id: 'tresorerie', label: 'Trésorerie', icon: 'landmark', title: 'Trésorerie : bilan et compte de résultat', caption: 'Bilan et compte de résultat calculés en direct à partir du grand livre, exportables en PDF.', desktop: '/_blob/7562c2660fdf14d3f5cb42f7e246f7d8', mobile: '/_blob/76ef4fe4c1a8dd9c247ab95df1abc9fc' }
+    ];
+    const tab = (this.state && this.state.tab) || 'dashboard';
+    const device = (this.state && this.state.device) || 'desktop';
+    const current = items.find((i) => i.id === tab) || items[0];
+    const tabs = items.map((i) => {
+      const on = i.id === tab;
+      return {
+        id: i.id, label: i.label, icon: i.icon,
+        pressed: on ? 'true' : 'false',
+        bg: on ? '#0E1B2C' : '#FFFFFF',
+        color: on ? '#FFFFFF' : '#0E1B2C',
+        border: on ? '#0E1B2C' : '#DDE3EA',
+        pick: () => this.setState({ tab: i.id })
+      };
+    });
+    const isDesktop = device === 'desktop';
+    return {
+      accent: accent, accentTint: accentTint, tabs: tabs,
+      current: { title: current.title, caption: current.caption, icon: current.icon, desktop: current.desktop, mobile: current.mobile, alt: 'Gestioo : ' + current.title },
+      isDesktop: isDesktop, isMobile: !isDesktop,
+      deskBg: isDesktop ? '#0E1B2C' : 'transparent', deskColor: isDesktop ? '#FFFFFF' : '#0E1B2C',
+      mobBg: isDesktop ? 'transparent' : '#0E1B2C', mobColor: isDesktop ? '#0E1B2C' : '#FFFFFF',
+      showDesktop: () => this.setState({ device: 'desktop' }),
+      showMobile: () => this.setState({ device: 'mobile' })
+    };
+  }
+}
+</script>
+</body>
+</html>

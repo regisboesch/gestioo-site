@@ -7,6 +7,7 @@ Ce dossier contient la maquette validée du site, conçue dans Claude Design. El
   - `Main.dc.html` : page d'accueil complète (desktop, fluide).
   - `Mobile.dc.html` : la même page à 390 px de large.
   - `Icon.dc.html` et `Icones.dc.html` : le jeu d'icônes et son usage.
+  - `Galerie.dc.html` : la section interactive « Gestioo en images ». Ses images pointent vers des fichiers du canvas (`/_blob/…`), qui ne sont pas utilisables tels quels sur le site. Sur le site, les médias viennent du manifeste (voir « Données de la galerie »).
 
 Ce dossier n'est modifié que lorsqu'une nouvelle maquette est validée dans Claude Design. Il n'est jamais modifié par les routines automatiques.
 
@@ -105,6 +106,8 @@ Le contraste doit rester AA partout.
 | mail | `Mail` | contact |
 | tag | `Tag` | tarifs |
 | arrowRight | `ArrowRight` | bouton principal |
+| play | `Play` | lecture de vidéo, liens « Voir en images », sur-titre de la galerie |
+| monitor | `Monitor` | bascule « Ordinateur » de la galerie |
 
 **Règle** : chaque nouvel élément de liste, carte ou section reçoit une icône du même style, choisie dans Lucide.
 
@@ -114,7 +117,7 @@ La page suit cet ordre. Les fonds alternent blanc et `--bg-alt`, et le contenu e
 
 1. **En-tête**
    - logo : pastille accent avec un « G », puis « Gestioo » en Bricolage 800 ;
-   - navigation par ancres ;
+   - navigation par ancres, avec un lien « En images » vers `#galerie`, placé juste après « Fonctionnalités » ;
    - sélecteur de langue FR / DE / EN en pilule, la langue courante sur fond `--ink` ;
    - bouton « Nous contacter » avec icône `Mail`.
 2. **Accueil** (fond `--bg-alt`), sur deux colonnes qui passent l'une sous l'autre sur mobile :
@@ -130,6 +133,48 @@ La page suit cet ordre. Les fonds alternent blanc et `--bg-alt`, et le contenu e
    - la ligne « Avec Gestioo », avec `CircleCheck` en accent.
 4. **Points forts** (fond `--bg-alt`) : cartes blanches sans bordure, chacune avec une pastille ronde de 48 px. La première pastille, « Pensé pour la Suisse », est pleine (fond accent, icône blanche) ; les autres sont teintées.
 5. **Modules** : cartes à bordure, chacune avec une pastille de 44 px et le titre, puis une liste dont chaque élément commence par une coche `Check` en accent. Elles sont suivies de l'encadré **« Bon à savoir »**, sur fond `--note-bg` avec l'icône `Info`, présenté en deux colonnes sur desktop.
+   - **Lien « Voir en images »** sous la liste des cartes qui ont un parcours dans la galerie : texte accent, graisse 600, icône `Play` de 14 px, hauteur d'au moins 44 px. Le lien ouvre la galerie sur l'onglet du parcours (`#galerie-<id>`). Correspondances :
+     - Membres et familles → `famille` ;
+     - Planning et présences → `planning` ;
+     - Cotisations et facturation → `facture-qr` ;
+     - Comptabilité suisse → `tresorerie` ;
+     - Communication → `emails-groupes` ;
+     - Tableau de bord et rapports → `dashboard`.
+
+     Le lien n'apparaît que si le parcours existe dans le manifeste.
+5 bis. **Gestioo en images** (`id="galerie"`, fond `--bg-alt`), section interactive placée entre les modules et l'assistant IA (maquette : `Galerie.dc.html`).
+   - **En-tête** : un sur-titre en pilule teintée avec l'icône `Play` (« Vidéos et captures de l'application »), le h2 « Gestioo en images » et une phrase d'introduction qui précise que les écrans montrent des données de démonstration.
+   - **Onglets**, un par parcours du manifeste, dans l'ordre du manifeste.
+     - Ce sont de vrais `<button>` avec `aria-pressed`, en pilule, d'au moins 44 px de haut, avec l'icône du parcours et un libellé court.
+     - L'onglet actif est sur fond `--ink` avec un texte blanc ; les autres sont blancs avec une bordure `--line`.
+     - Les onglets passent à la ligne quand la place manque.
+     - Un ancrage `#galerie-<id>` ouvre directement l'onglet correspondant.
+   - **Bascule « Ordinateur » / « Mobile »** : deux boutons dans une pilule blanche, avec les icônes `Monitor` et `Smartphone`. Le bouton actif est sur fond `--ink`.
+   - **Zone de lecture**, à gauche (elle passe au-dessus du texte sur mobile).
+     - **Ordinateur** : un cadre de navigateur (barre avec trois points, bordure `--line`, rayon de 18 px, l'ombre de l'aperçu), avec la vidéo au format 16:10.
+     - **Mobile** : un cadre de téléphone (fond `--ink`, rayon de 40 px, 300 px de large au maximum), avec la vidéo au format 390:844.
+     - Avant la lecture, on affiche l'image d'aperçu du parcours et un bouton rond en accent de 64 à 76 px, avec l'icône `Play`, libellé « Lire la vidéo ».
+     - Au clic, on lit la vidéo : `<video controls muted playsinline preload="none" poster="…">` avec une source MP4, puis une source WebM.
+     - Si un parcours n'a pas de vidéo, on affiche ses captures, avec des flèches ou des vignettes s'il y a plusieurs étapes.
+   - **Texte**, à droite :
+     - une pastille teintée de 48 px avec l'icône du parcours ;
+     - le titre du parcours (h3, 24 px) ;
+     - une phrase sur le bénéfice pour le club, tirée de la fiche produit ;
+     - la mention « Vidéo sans son et captures de l'application réelle, avec des données de démonstration », avec l'icône `Info`.
+   - **Icônes des parcours** :
+
+     | Parcours | Icône |
+     |---|---|
+     | `dashboard` | `LayoutDashboard` |
+     | `famille` | `Users` |
+     | `facture-qr` | `QrCode` |
+     | `planning` | `Calendar` |
+     | `presences-mobile` | `UserCheck` |
+     | `rapports` | `Sheet` |
+     | `emails-groupes` | `Megaphone` |
+     | `tresorerie` | `Landmark` |
+
+     Un parcours inconnu reçoit l'icône `Play`.
 6. **Assistant IA** : bande `--ink`.
    - À gauche :
      - le sur-titre « Propulsé par Mistral AI » avec `Sparkles` ;
@@ -142,6 +187,31 @@ La page suit cet ordre. Les fonds alternent blanc et `--bg-alt`, et le contenu e
    - le titre, le texte et la pilule « Tarifs » avec `Tag` ;
    - à droite, un bouton blanc avec `Mail`.
 10. **Pied de page** : le texte, puis « FR · DE · EN » avec `Globe`.
+
+## Données de la galerie (contrat avec le manifeste)
+
+La galerie ne contient **aucune liste de parcours codée en dur**. Tout vient de `public/media/manifest.json`, produit par la routine des médias, et se résout au build (pré-rendu compris).
+
+- **Parcours** : la liste `parcours[]`, dans l'ordre du fichier. Chaque parcours apporte :
+  - `id`, qui sert d'ancre et à choisir l'icône ;
+  - `title` en `fr` / `de` / `en`, qui sert de titre et de libellé d'onglet (un libellé court peut être dérivé du titre) ;
+  - `files[]`.
+- **Fichiers d'un parcours** : chaque entrée de `files[]` porte :
+  - `file`, un chemin relatif à `public/media/`, à préfixer par `import.meta.env.BASE_URL` + `media/` ;
+  - `lang`, `theme` (`light` / `dark`), `device` (`desktop` / `mobile`) ;
+  - `format` (`png`, `mp4`, `webm`) et `step` ;
+  - `caption` et `alt`, en trois langues.
+- **Choix d'un fichier** :
+  1. On garde la langue de la page. À défaut, on se rabat sur `fr`.
+  2. On garde l'appareil choisi par la bascule.
+  3. Pour le thème, on propose les deux variantes via `<picture>` et `prefers-color-scheme` pour les images. Pour les vidéos, on choisit au clic selon `matchMedia('(prefers-color-scheme: dark)')`. Ce choix ne se fait jamais pendant le pré-rendu.
+- **Vidéos et image d'aperçu** :
+  - Une vidéo peut ne pas avoir de `theme`, ni de `device` ; elle vaut alors pour tous.
+  - S'il existe une vidéo MP4 ou WebM pour le parcours, elle est proposée à la lecture.
+  - L'image d'aperçu (`poster`) est la première capture PNG du parcours qui correspond à la langue, à l'appareil et au thème clair.
+- **Phrase de bénéfice** : elle se trouve dans les traductions du site, sous la clé `gallery.<id>`, et s'appuie sur `publicity.md`. Un parcours sans clé affiche la `caption` de sa première capture.
+- **Champ `items[]`** : les emplacements simples comme `hero` continuent d'utiliser `items[]` (`slot`, `lang`, `file`, `alt`), sans changement.
+- **Manifeste absent ou sans parcours** : la section et les liens « Voir en images » ne sont pas rendus.
 
 ## Règles
 
