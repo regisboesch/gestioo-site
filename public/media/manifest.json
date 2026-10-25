@@ -1,6 +1,6 @@
 {
- "source_commit": "f87e57566e01d3225d81be6fe0ebbb78bd8bfd96",
- "generated_at": "2026-10-17T11:25:32.247Z",
+ "source_commit": "3b13f46d2d5e25c9ac55bab2f3fafee2f75f94d4",
+ "generated_at": "2026-10-25T05:46:46.417Z",
  "items": [
   {
    "slot": "hero",
@@ -35,7 +35,7 @@
     "frontend/src/api/dashboard.ts",
     "frontend/src/lib/planning.ts"
    ],
-   "updated_at": "2026-10-17T11:25:32.247Z",
+   "updated_at": "2026-10-25T05:46:46.417Z",
    "files": [
     {
      "file": "fr/dashboard/tableau-de-bord-light-desktop.png",
@@ -317,7 +317,7 @@
     "frontend/src/pages/MassEmailCampaignsHistoryPage.tsx",
     "frontend/src/api/massEmails.ts"
    ],
-   "updated_at": "2026-10-17T11:25:32.247Z",
+   "updated_at": "2026-10-25T05:46:46.417Z",
    "files": [
     {
      "file": "fr/emails-groupes/1-destinataires-light-desktop.png",
@@ -1044,6 +1044,521 @@
    ]
   },
   {
+   "id": "evenements",
+   "title": {
+    "fr": "Agenda des événements",
+    "de": "Veranstaltungskalender",
+    "en": "Events calendar"
+   },
+   "deps": [
+    "frontend/src/pages/EvenementsPage.tsx",
+    "frontend/src/pages/EvenementDetailPage.tsx",
+    "frontend/src/components/EvenementImage.tsx",
+    "frontend/src/components/EvenementGallery.tsx",
+    "frontend/src/components/EvenementTeamChips.tsx",
+    "frontend/src/api/evenements.ts",
+    "frontend/src/lib/evenements.ts",
+    "frontend/src/styles/evenements.css"
+   ],
+   "updated_at": "2026-10-25T05:46:46.417Z",
+   "files": [
+    {
+     "file": "fr/evenements/agenda-light-desktop.png",
+     "parcours": "evenements",
+     "step": "agenda",
+     "lang": "fr",
+     "theme": "light",
+     "device": "desktop",
+     "format": "png",
+     "caption": {
+      "fr": "L’agenda des événements du club",
+      "de": "Der Veranstaltungskalender des Vereins",
+      "en": "The club’s events calendar"
+     },
+     "alt": {
+      "fr": "Gestioo : agenda des événements avec date, lieu, prix et nombre d’inscrits",
+      "de": "Gestioo: Veranstaltungskalender mit Datum, Ort, Preis und Anzahl Anmeldungen",
+      "en": "Gestioo: events calendar with date, place, price and number of registrations"
+     }
+    },
+    {
+     "file": "fr/evenements/evenement-light-desktop.png",
+     "parcours": "evenements",
+     "step": "evenement",
+     "lang": "fr",
+     "theme": "light",
+     "device": "desktop",
+     "format": "png",
+     "caption": {
+      "fr": "Un événement et la liste de ses participants",
+      "de": "Eine Veranstaltung und ihre Teilnehmerliste",
+      "en": "An event and its participant list"
+     },
+     "alt": {
+      "fr": "Gestioo : fiche d’un événement avec ses inscrits, y compris des participants externes",
+      "de": "Gestioo: Veranstaltung mit Anmeldungen, auch externen Teilnehmern",
+      "en": "Gestioo: event page with registrations, including external participants"
+     }
+    },
+    {
+     "file": "fr/evenements/agenda-light-mobile.png",
+     "parcours": "evenements",
+     "step": "agenda",
+     "lang": "fr",
+     "theme": "light",
+     "device": "mobile",
+     "format": "png",
+     "caption": {
+      "fr": "L’agenda des événements du club",
+      "de": "Der Veranstaltungskalender des Vereins",
+      "en": "The club’s events calendar"
+     },
+     "alt": {
+      "fr": "Gestioo : agenda des événements avec date, lieu, prix et nombre d’inscrits",
+      "de": "Gestioo: Veranstaltungskalender mit Datum, Ort, Preis und Anzahl Anmeldungen",
+      "en": "Gestioo: events calendar with date, place, price and number of registrations"
+     }
+    },
+    {
+     "file": "fr/evenements/evenement-light-mobile.png",
+     "parcours": "evenements",
+     "step": "evenement",
+     "lang": "fr",
+     "theme": "light",
+     "device": "mobile",
+     "format": "png",
+     "caption": {
+      "fr": "Un événement et la liste de ses participants",
+      "de": "Eine Veranstaltung und ihre Teilnehmerliste",
+      "en": "An event and its participant list"
+     },
+     "alt": {
+      "fr": "Gestioo : fiche d’un événement avec ses inscrits, y compris des participants externes",
+      "de": "Gestioo: Veranstaltung mit Anmeldungen, auch externen Teilnehmern",
+      "en": "Gestioo: event page with registrations, including external participants"
+     }
+    },
+    {
+     "file": "fr/evenements/agenda-dark-desktop.png",
+     "parcours": "evenements",
+     "step": "agenda",
+     "lang": "fr",
+     "theme": "dark",
+     "device": "desktop",
+     "format": "png",
+     "caption": {
+      "fr": "L’agenda des événements du club",
+      "de": "Der Veranstaltungskalender des Vereins",
+      "en": "The club’s events calendar"
+     },
+     "alt": {
+      "fr": "Gestioo : agenda des événements avec date, lieu, prix et nombre d’inscrits",
+      "de": "Gestioo: Veranstaltungskalender mit Datum, Ort, Preis und Anzahl Anmeldungen",
+      "en": "Gestioo: events calendar with date, place, price and number of registrations"
+     }
+    },
+    {
+     "file": "fr/evenements/evenement-dark-desktop.png",
+     "parcours": "evenements",
+     "step": "evenement",
+     "lang": "fr",
+     "theme": "dark",
+     "device": "desktop",
+     "format": "png",
+     "caption": {
+      "fr": "Un événement et la liste de ses participants",
+      "de": "Eine Veranstaltung und ihre Teilnehmerliste",
+      "en": "An event and its participant list"
+     },
+     "alt": {
+      "fr": "Gestioo : fiche d’un événement avec ses inscrits, y compris des participants externes",
+      "de": "Gestioo: Veranstaltung mit Anmeldungen, auch externen Teilnehmern",
+      "en": "Gestioo: event page with registrations, including external participants"
+     }
+    },
+    {
+     "file": "fr/evenements/agenda-dark-mobile.png",
+     "parcours": "evenements",
+     "step": "agenda",
+     "lang": "fr",
+     "theme": "dark",
+     "device": "mobile",
+     "format": "png",
+     "caption": {
+      "fr": "L’agenda des événements du club",
+      "de": "Der Veranstaltungskalender des Vereins",
+      "en": "The club’s events calendar"
+     },
+     "alt": {
+      "fr": "Gestioo : agenda des événements avec date, lieu, prix et nombre d’inscrits",
+      "de": "Gestioo: Veranstaltungskalender mit Datum, Ort, Preis und Anzahl Anmeldungen",
+      "en": "Gestioo: events calendar with date, place, price and number of registrations"
+     }
+    },
+    {
+     "file": "fr/evenements/evenement-dark-mobile.png",
+     "parcours": "evenements",
+     "step": "evenement",
+     "lang": "fr",
+     "theme": "dark",
+     "device": "mobile",
+     "format": "png",
+     "caption": {
+      "fr": "Un événement et la liste de ses participants",
+      "de": "Eine Veranstaltung und ihre Teilnehmerliste",
+      "en": "An event and its participant list"
+     },
+     "alt": {
+      "fr": "Gestioo : fiche d’un événement avec ses inscrits, y compris des participants externes",
+      "de": "Gestioo: Veranstaltung mit Anmeldungen, auch externen Teilnehmern",
+      "en": "Gestioo: event page with registrations, including external participants"
+     }
+    },
+    {
+     "file": "de/evenements/agenda-light-desktop.png",
+     "parcours": "evenements",
+     "step": "agenda",
+     "lang": "de",
+     "theme": "light",
+     "device": "desktop",
+     "format": "png",
+     "caption": {
+      "fr": "L’agenda des événements du club",
+      "de": "Der Veranstaltungskalender des Vereins",
+      "en": "The club’s events calendar"
+     },
+     "alt": {
+      "fr": "Gestioo : agenda des événements avec date, lieu, prix et nombre d’inscrits",
+      "de": "Gestioo: Veranstaltungskalender mit Datum, Ort, Preis und Anzahl Anmeldungen",
+      "en": "Gestioo: events calendar with date, place, price and number of registrations"
+     }
+    },
+    {
+     "file": "de/evenements/evenement-light-desktop.png",
+     "parcours": "evenements",
+     "step": "evenement",
+     "lang": "de",
+     "theme": "light",
+     "device": "desktop",
+     "format": "png",
+     "caption": {
+      "fr": "Un événement et la liste de ses participants",
+      "de": "Eine Veranstaltung und ihre Teilnehmerliste",
+      "en": "An event and its participant list"
+     },
+     "alt": {
+      "fr": "Gestioo : fiche d’un événement avec ses inscrits, y compris des participants externes",
+      "de": "Gestioo: Veranstaltung mit Anmeldungen, auch externen Teilnehmern",
+      "en": "Gestioo: event page with registrations, including external participants"
+     }
+    },
+    {
+     "file": "de/evenements/agenda-light-mobile.png",
+     "parcours": "evenements",
+     "step": "agenda",
+     "lang": "de",
+     "theme": "light",
+     "device": "mobile",
+     "format": "png",
+     "caption": {
+      "fr": "L’agenda des événements du club",
+      "de": "Der Veranstaltungskalender des Vereins",
+      "en": "The club’s events calendar"
+     },
+     "alt": {
+      "fr": "Gestioo : agenda des événements avec date, lieu, prix et nombre d’inscrits",
+      "de": "Gestioo: Veranstaltungskalender mit Datum, Ort, Preis und Anzahl Anmeldungen",
+      "en": "Gestioo: events calendar with date, place, price and number of registrations"
+     }
+    },
+    {
+     "file": "de/evenements/evenement-light-mobile.png",
+     "parcours": "evenements",
+     "step": "evenement",
+     "lang": "de",
+     "theme": "light",
+     "device": "mobile",
+     "format": "png",
+     "caption": {
+      "fr": "Un événement et la liste de ses participants",
+      "de": "Eine Veranstaltung und ihre Teilnehmerliste",
+      "en": "An event and its participant list"
+     },
+     "alt": {
+      "fr": "Gestioo : fiche d’un événement avec ses inscrits, y compris des participants externes",
+      "de": "Gestioo: Veranstaltung mit Anmeldungen, auch externen Teilnehmern",
+      "en": "Gestioo: event page with registrations, including external participants"
+     }
+    },
+    {
+     "file": "de/evenements/agenda-dark-desktop.png",
+     "parcours": "evenements",
+     "step": "agenda",
+     "lang": "de",
+     "theme": "dark",
+     "device": "desktop",
+     "format": "png",
+     "caption": {
+      "fr": "L’agenda des événements du club",
+      "de": "Der Veranstaltungskalender des Vereins",
+      "en": "The club’s events calendar"
+     },
+     "alt": {
+      "fr": "Gestioo : agenda des événements avec date, lieu, prix et nombre d’inscrits",
+      "de": "Gestioo: Veranstaltungskalender mit Datum, Ort, Preis und Anzahl Anmeldungen",
+      "en": "Gestioo: events calendar with date, place, price and number of registrations"
+     }
+    },
+    {
+     "file": "de/evenements/evenement-dark-desktop.png",
+     "parcours": "evenements",
+     "step": "evenement",
+     "lang": "de",
+     "theme": "dark",
+     "device": "desktop",
+     "format": "png",
+     "caption": {
+      "fr": "Un événement et la liste de ses participants",
+      "de": "Eine Veranstaltung und ihre Teilnehmerliste",
+      "en": "An event and its participant list"
+     },
+     "alt": {
+      "fr": "Gestioo : fiche d’un événement avec ses inscrits, y compris des participants externes",
+      "de": "Gestioo: Veranstaltung mit Anmeldungen, auch externen Teilnehmern",
+      "en": "Gestioo: event page with registrations, including external participants"
+     }
+    },
+    {
+     "file": "de/evenements/agenda-dark-mobile.png",
+     "parcours": "evenements",
+     "step": "agenda",
+     "lang": "de",
+     "theme": "dark",
+     "device": "mobile",
+     "format": "png",
+     "caption": {
+      "fr": "L’agenda des événements du club",
+      "de": "Der Veranstaltungskalender des Vereins",
+      "en": "The club’s events calendar"
+     },
+     "alt": {
+      "fr": "Gestioo : agenda des événements avec date, lieu, prix et nombre d’inscrits",
+      "de": "Gestioo: Veranstaltungskalender mit Datum, Ort, Preis und Anzahl Anmeldungen",
+      "en": "Gestioo: events calendar with date, place, price and number of registrations"
+     }
+    },
+    {
+     "file": "de/evenements/evenement-dark-mobile.png",
+     "parcours": "evenements",
+     "step": "evenement",
+     "lang": "de",
+     "theme": "dark",
+     "device": "mobile",
+     "format": "png",
+     "caption": {
+      "fr": "Un événement et la liste de ses participants",
+      "de": "Eine Veranstaltung und ihre Teilnehmerliste",
+      "en": "An event and its participant list"
+     },
+     "alt": {
+      "fr": "Gestioo : fiche d’un événement avec ses inscrits, y compris des participants externes",
+      "de": "Gestioo: Veranstaltung mit Anmeldungen, auch externen Teilnehmern",
+      "en": "Gestioo: event page with registrations, including external participants"
+     }
+    },
+    {
+     "file": "en/evenements/agenda-light-desktop.png",
+     "parcours": "evenements",
+     "step": "agenda",
+     "lang": "en",
+     "theme": "light",
+     "device": "desktop",
+     "format": "png",
+     "caption": {
+      "fr": "L’agenda des événements du club",
+      "de": "Der Veranstaltungskalender des Vereins",
+      "en": "The club’s events calendar"
+     },
+     "alt": {
+      "fr": "Gestioo : agenda des événements avec date, lieu, prix et nombre d’inscrits",
+      "de": "Gestioo: Veranstaltungskalender mit Datum, Ort, Preis und Anzahl Anmeldungen",
+      "en": "Gestioo: events calendar with date, place, price and number of registrations"
+     }
+    },
+    {
+     "file": "en/evenements/evenement-light-desktop.png",
+     "parcours": "evenements",
+     "step": "evenement",
+     "lang": "en",
+     "theme": "light",
+     "device": "desktop",
+     "format": "png",
+     "caption": {
+      "fr": "Un événement et la liste de ses participants",
+      "de": "Eine Veranstaltung und ihre Teilnehmerliste",
+      "en": "An event and its participant list"
+     },
+     "alt": {
+      "fr": "Gestioo : fiche d’un événement avec ses inscrits, y compris des participants externes",
+      "de": "Gestioo: Veranstaltung mit Anmeldungen, auch externen Teilnehmern",
+      "en": "Gestioo: event page with registrations, including external participants"
+     }
+    },
+    {
+     "file": "en/evenements/agenda-light-mobile.png",
+     "parcours": "evenements",
+     "step": "agenda",
+     "lang": "en",
+     "theme": "light",
+     "device": "mobile",
+     "format": "png",
+     "caption": {
+      "fr": "L’agenda des événements du club",
+      "de": "Der Veranstaltungskalender des Vereins",
+      "en": "The club’s events calendar"
+     },
+     "alt": {
+      "fr": "Gestioo : agenda des événements avec date, lieu, prix et nombre d’inscrits",
+      "de": "Gestioo: Veranstaltungskalender mit Datum, Ort, Preis und Anzahl Anmeldungen",
+      "en": "Gestioo: events calendar with date, place, price and number of registrations"
+     }
+    },
+    {
+     "file": "en/evenements/evenement-light-mobile.png",
+     "parcours": "evenements",
+     "step": "evenement",
+     "lang": "en",
+     "theme": "light",
+     "device": "mobile",
+     "format": "png",
+     "caption": {
+      "fr": "Un événement et la liste de ses participants",
+      "de": "Eine Veranstaltung und ihre Teilnehmerliste",
+      "en": "An event and its participant list"
+     },
+     "alt": {
+      "fr": "Gestioo : fiche d’un événement avec ses inscrits, y compris des participants externes",
+      "de": "Gestioo: Veranstaltung mit Anmeldungen, auch externen Teilnehmern",
+      "en": "Gestioo: event page with registrations, including external participants"
+     }
+    },
+    {
+     "file": "en/evenements/agenda-dark-desktop.png",
+     "parcours": "evenements",
+     "step": "agenda",
+     "lang": "en",
+     "theme": "dark",
+     "device": "desktop",
+     "format": "png",
+     "caption": {
+      "fr": "L’agenda des événements du club",
+      "de": "Der Veranstaltungskalender des Vereins",
+      "en": "The club’s events calendar"
+     },
+     "alt": {
+      "fr": "Gestioo : agenda des événements avec date, lieu, prix et nombre d’inscrits",
+      "de": "Gestioo: Veranstaltungskalender mit Datum, Ort, Preis und Anzahl Anmeldungen",
+      "en": "Gestioo: events calendar with date, place, price and number of registrations"
+     }
+    },
+    {
+     "file": "en/evenements/evenement-dark-desktop.png",
+     "parcours": "evenements",
+     "step": "evenement",
+     "lang": "en",
+     "theme": "dark",
+     "device": "desktop",
+     "format": "png",
+     "caption": {
+      "fr": "Un événement et la liste de ses participants",
+      "de": "Eine Veranstaltung und ihre Teilnehmerliste",
+      "en": "An event and its participant list"
+     },
+     "alt": {
+      "fr": "Gestioo : fiche d’un événement avec ses inscrits, y compris des participants externes",
+      "de": "Gestioo: Veranstaltung mit Anmeldungen, auch externen Teilnehmern",
+      "en": "Gestioo: event page with registrations, including external participants"
+     }
+    },
+    {
+     "file": "en/evenements/agenda-dark-mobile.png",
+     "parcours": "evenements",
+     "step": "agenda",
+     "lang": "en",
+     "theme": "dark",
+     "device": "mobile",
+     "format": "png",
+     "caption": {
+      "fr": "L’agenda des événements du club",
+      "de": "Der Veranstaltungskalender des Vereins",
+      "en": "The club’s events calendar"
+     },
+     "alt": {
+      "fr": "Gestioo : agenda des événements avec date, lieu, prix et nombre d’inscrits",
+      "de": "Gestioo: Veranstaltungskalender mit Datum, Ort, Preis und Anzahl Anmeldungen",
+      "en": "Gestioo: events calendar with date, place, price and number of registrations"
+     }
+    },
+    {
+     "file": "en/evenements/evenement-dark-mobile.png",
+     "parcours": "evenements",
+     "step": "evenement",
+     "lang": "en",
+     "theme": "dark",
+     "device": "mobile",
+     "format": "png",
+     "caption": {
+      "fr": "Un événement et la liste de ses participants",
+      "de": "Eine Veranstaltung und ihre Teilnehmerliste",
+      "en": "An event and its participant list"
+     },
+     "alt": {
+      "fr": "Gestioo : fiche d’un événement avec ses inscrits, y compris des participants externes",
+      "de": "Gestioo: Veranstaltung mit Anmeldungen, auch externen Teilnehmern",
+      "en": "Gestioo: event page with registrations, including external participants"
+     }
+    },
+    {
+     "file": "fr/evenements/evenements.mp4",
+     "parcours": "evenements",
+     "step": "video",
+     "lang": "fr",
+     "theme": "light",
+     "device": "desktop",
+     "format": "mp4",
+     "caption": {
+      "fr": "Agenda des événements",
+      "de": "Veranstaltungskalender",
+      "en": "Events calendar"
+     },
+     "alt": {
+      "fr": "Agenda des événements",
+      "de": "Veranstaltungskalender",
+      "en": "Events calendar"
+     }
+    },
+    {
+     "file": "fr/evenements/evenements.webm",
+     "parcours": "evenements",
+     "step": "video",
+     "lang": "fr",
+     "theme": "light",
+     "device": "desktop",
+     "format": "webm",
+     "caption": {
+      "fr": "Agenda des événements",
+      "de": "Veranstaltungskalender",
+      "en": "Events calendar"
+     },
+     "alt": {
+      "fr": "Agenda des événements",
+      "de": "Veranstaltungskalender",
+      "en": "Events calendar"
+     }
+    }
+   ]
+  },
+  {
    "id": "facture-qr",
    "title": {
     "fr": "Facture avec QR-facture suisse",
@@ -1056,7 +1571,7 @@
     "frontend/src/api/invoices.ts",
     "backend-php/src/Support/InvoicePdf*.php"
    ],
-   "updated_at": "2026-10-17T11:22:48.522Z",
+   "updated_at": "2026-10-25T05:46:46.417Z",
    "files": [
     {
      "file": "fr/facture-qr/facture-light-desktop.png",
@@ -1567,7 +2082,7 @@
     "frontend/src/components/AnnoncesWidget.tsx",
     "frontend/src/api/membres.ts"
    ],
-   "updated_at": "2026-10-17T11:22:48.522Z",
+   "updated_at": "2026-10-25T05:46:46.417Z",
    "files": [
     {
      "file": "fr/famille/ma-famille-light-desktop.png",
@@ -1851,7 +2366,7 @@
     "frontend/src/api/teamSchedules.ts",
     "frontend/src/api/vacations.ts"
    ],
-   "updated_at": "2026-10-17T11:22:48.522Z",
+   "updated_at": "2026-10-25T05:46:46.417Z",
    "files": [
     {
      "file": "fr/planning/planning-semaine-light-desktop.png",
@@ -2363,44 +2878,6 @@
       "de": "Gestioo: Anwesenheitskontrolle eines Teams auf dem Handy mit Anwesend- und Abwesend-Schaltflächen",
       "en": "Gestioo: a team’s attendance sheet on mobile with Present and Absent buttons"
      }
-    },
-    {
-     "file": "fr/presences-mobile/presences-mobile.mp4",
-     "parcours": "presences-mobile",
-     "step": "video",
-     "lang": "fr",
-     "theme": "light",
-     "device": "mobile",
-     "format": "mp4",
-     "caption": {
-      "fr": "Prise de présence sur mobile",
-      "de": "Anwesenheitskontrolle auf dem Handy",
-      "en": "Taking attendance on mobile"
-     },
-     "alt": {
-      "fr": "Prise de présence sur mobile",
-      "de": "Anwesenheitskontrolle auf dem Handy",
-      "en": "Taking attendance on mobile"
-     }
-    },
-    {
-     "file": "fr/presences-mobile/presences-mobile.webm",
-     "parcours": "presences-mobile",
-     "step": "video",
-     "lang": "fr",
-     "theme": "light",
-     "device": "mobile",
-     "format": "webm",
-     "caption": {
-      "fr": "Prise de présence sur mobile",
-      "de": "Anwesenheitskontrolle auf dem Handy",
-      "en": "Taking attendance on mobile"
-     },
-     "alt": {
-      "fr": "Prise de présence sur mobile",
-      "de": "Anwesenheitskontrolle auf dem Handy",
-      "en": "Taking attendance on mobile"
-     }
     }
    ]
   },
@@ -2417,7 +2894,7 @@
     "frontend/src/components/Report*.tsx",
     "frontend/src/api/reports.ts"
    ],
-   "updated_at": "2026-10-17T11:22:48.522Z",
+   "updated_at": "2026-10-25T05:46:46.417Z",
    "files": [
     {
      "file": "fr/rapports/liste-modeles-light-desktop.png",
@@ -2928,7 +3405,7 @@
     "frontend/src/components/TresorerieLayout.tsx",
     "frontend/src/api/accountingPeriods.ts"
    ],
-   "updated_at": "2026-10-17T11:22:48.522Z",
+   "updated_at": "2026-10-25T05:46:46.417Z",
    "files": [
     {
      "file": "fr/tresorerie/bilan-light-desktop.png",
