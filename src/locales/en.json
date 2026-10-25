@@ -17,6 +17,7 @@
     "modules": "Features",
     "assistant": "AI assistant",
     "trust": "Trust",
+    "pricing": "Pricing",
     "news": "What's new",
     "gallery": "In pictures"
   },
@@ -25,17 +26,21 @@
     "assistant": "The Gestioo AI assistant"
   },
   "hero": {
-    "eyebrow": "Made in Switzerland for multisport clubs and associations – Switzerland & France",
-    "title": "Gestioo: run your club in a single move!",
+    "eyebrow": "For multisport clubs and associations – Switzerland & France",
+    "title": "Gestioo: run your club ",
     "lead": "Gestioo brings together members, registrations by season and team, the training schedule, membership invoicing with the Swiss QR-bill, double-entry accounting and communication with families – with a built-in AI assistant.",
     "cta": "Get in touch",
     "ctaSecondary": "Explore the features",
     "chips": [
+      "Made in Switzerland",
+      "CHF 800 per year, all included",
       "French, German, English",
       "Installable on your phone",
       "Swiss QR-bill",
       "Light and dark theme"
-    ]
+    ],
+    "titleAccent": "in a single move",
+    "titleEnd": "!"
   },
   "profiles": {
     "title": "A solution for every role in the club",
@@ -312,10 +317,10 @@
     "title": "Let's talk about your club",
     "text": "A question, or want to see more? Write to us.",
     "mail": "Email",
-    "pricing": "Price: CHF 800 per year, all modules and updates included, no hidden costs."
+    "pricing": "Price: CHF 800 per year, all included"
   },
   "footer": {
-    "text": "Gestioo – web ERP made in Switzerland for multisport associations in Switzerland and France."
+    "text": "Gestioo – web ERP for multisport associations in Switzerland and France. Made in Switzerland."
   },
   "appPreview": {
     "caption": "Illustrative preview — to be replaced by a real screenshot of the application",
@@ -385,5 +390,39 @@
     "rapports": "Reports",
     "emails-groupes": "Group emails",
     "tresorerie": "Treasury"
+  },
+  "team": {
+    "title": "Built by people from the field",
+    "intro": "A team that knows the needs of sports associations from the inside.",
+    "items": [
+      {
+        "title": "Made in Switzerland",
+        "text": "Software designed for the reality of Swiss clubs: QR-bill, AVS number, double-entry accounting."
+      },
+      {
+        "big": "20 years",
+        "title": "of association experience",
+        "text": "Hands-on knowledge of sports associations' needs, notably in basketball and boxing."
+      },
+      {
+        "title": "Developed by a computer engineer",
+        "text": "Rigorous design: every server feature is covered by automated tests."
+      }
+    ]
+  },
+  "pricing": {
+    "eyebrow": "Pricing",
+    "title": "A simple, clear price",
+    "lead": "All included, every module, every update. No hidden costs.",
+    "label": "Gestioo, all included",
+    "amount": "800",
+    "currency": "CHF",
+    "per": "per year",
+    "points": [
+      "All modules included",
+      "All updates included",
+      "No hidden costs"
+    ],
+    "cta": "Contact us"
   }
 }

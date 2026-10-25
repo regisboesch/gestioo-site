@@ -17,6 +17,7 @@
     "modules": "Funktionen",
     "assistant": "KI-Assistent",
     "trust": "Vertrauen",
+    "pricing": "Preis",
     "news": "Neuigkeiten",
     "gallery": "Bilder"
   },
@@ -25,17 +26,21 @@
     "assistant": "Der KI-Assistent von Gestioo"
   },
   "hero": {
-    "eyebrow": "In der Schweiz entwickelt für Sportvereine und Multisport-Clubs – Schweiz & Frankreich",
-    "title": "Gestioo – Ihren Verein mit einem Handgriff verwalten!",
+    "eyebrow": "Für Sportvereine und Multisport-Clubs – Schweiz & Frankreich",
+    "title": "Gestioo – Ihren Verein ",
     "lead": "Gestioo vereint Mitglieder, Anmeldungen pro Saison und Team, den Trainingsplan, die Rechnungsstellung der Mitgliederbeiträge mit Schweizer QR-Rechnung, doppelte Buchhaltung und die Kommunikation mit den Familien – mit integriertem KI-Assistenten.",
     "cta": "Kontakt aufnehmen",
     "ctaSecondary": "Funktionen entdecken",
     "chips": [
+      "In der Schweiz entwickelt",
+      "800 CHF pro Jahr, alles inklusive",
       "Deutsch, Französisch, Englisch",
       "Auf dem Smartphone installierbar",
       "Schweizer QR-Rechnung",
       "Helles und dunkles Design"
-    ]
+    ],
+    "titleAccent": "mit einem Handgriff",
+    "titleEnd": " verwalten!"
   },
   "profiles": {
     "title": "Eine Lösung für jede Rolle im Verein",
@@ -312,10 +317,10 @@
     "title": "Sprechen wir über Ihren Verein",
     "text": "Eine Frage oder möchten Sie mehr sehen? Schreiben Sie uns.",
     "mail": "E-Mail an",
-    "pricing": "Preis: 800 CHF pro Jahr, alle Module und Updates inklusive, ohne versteckte Kosten."
+    "pricing": "Preis: 800 CHF pro Jahr, alles inklusive"
   },
   "footer": {
-    "text": "Gestioo – in der Schweiz entwickelte Web-ERP-Software für Multisport-Vereine in der Schweiz und in Frankreich."
+    "text": "Gestioo – Web-ERP für Multisport-Vereine in der Schweiz und in Frankreich. In der Schweiz entwickelt."
   },
   "appPreview": {
     "caption": "Illustrative Vorschau – wird durch einen echten Screenshot der Anwendung ersetzt",
@@ -385,5 +390,39 @@
     "rapports": "Berichte",
     "emails-groupes": "Sammel-E-Mails",
     "tresorerie": "Finanzen"
+  },
+  "team": {
+    "title": "Von Praktikern entwickelt",
+    "intro": "Ein Team, das die Bedürfnisse von Sportvereinen aus eigener Erfahrung kennt.",
+    "items": [
+      {
+        "title": "In der Schweiz entwickelt",
+        "text": "Eine Software für die Realität Schweizer Vereine: QR-Rechnung, AHV-Nummer, doppelte Buchhaltung."
+      },
+      {
+        "big": "20 Jahre",
+        "title": "Vereinserfahrung",
+        "text": "Konkrete Kenntnis der Bedürfnisse von Sportvereinen, insbesondere im Basketball und im Boxen."
+      },
+      {
+        "title": "Von einem Informatik-Ingenieur entwickelt",
+        "text": "Eine sorgfältige Konstruktion: Jede Funktion des Servers ist durch automatisierte Tests abgedeckt."
+      }
+    ]
+  },
+  "pricing": {
+    "eyebrow": "Preis",
+    "title": "Ein einfacher, klarer Preis",
+    "lead": "Alles inklusive, alle Module, alle Updates. Keine versteckten Kosten.",
+    "label": "Gestioo, alles inklusive",
+    "amount": "800",
+    "currency": "CHF",
+    "per": "pro Jahr",
+    "points": [
+      "Alle Module inklusive",
+      "Alle Updates inklusive",
+      "Keine versteckten Kosten"
+    ],
+    "cta": "Kontakt aufnehmen"
   }
 }

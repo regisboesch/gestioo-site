@@ -11,18 +11,20 @@ import { getParcours } from './media';
 interface Pair { role: string; before: string; after: string }
 interface Card { title: string; text: string }
 interface ModuleGroup { title: string; items: string[] }
+interface TeamCard { big?: string; title: string; text: string }
 interface NewsItem { date: string; dateLabel: string; title: string; text: string }
 
-const NAV = [['profiles', 'profils'], ['strengths', 'forces'], ['modules', 'modules'], ['gallery', 'galerie'], ['assistant', 'assistant'], ['trust', 'confiance'], ['news', 'nouveautes']] as const;
+const NAV = [['profiles', 'profils'], ['strengths', 'forces'], ['modules', 'modules'], ['gallery', 'galerie'], ['assistant', 'assistant'], ['trust', 'confiance'], ['pricing', 'tarif'], ['news', 'nouveautes']] as const;
 
 // Icônes par position, dans l'ordre des listes des fichiers de langue (cf. design/README.md).
-const HERO_CHIPS: IconName[] = ['globe', 'smartphone', 'qr', 'moon'];
+const HERO_CHIPS: IconName[] = ['swiss', 'tag', 'globe', 'smartphone', 'qr', 'moon'];
 const PROFILE_ICONS: IconName[] = ['wallet', 'clipboard', 'timer', 'users', 'dashboard'];
-const STRENGTH_ICONS: IconName[] = ['swiss', 'book', 'heart', 'wifiOff', 'mic', 'shield', 'smartphone', 'palette', 'sheet', 'megaphone', 'calendarDays', 'users', 'tag', 'userCheck'];
+const STRENGTH_ICONS: IconName[] = ['swiss', 'book', 'heart', 'wifiOff', 'mic', 'shield', 'smartphone', 'palette', 'sheet', 'megaphone', 'calendarDays', 'users', 'tag', 'users'];
 const MODULE_ICONS: IconName[] = ['users', 'clipboard', 'calendar', 'idCard', 'receipt', 'landmark', 'briefcase', 'megaphone', 'calendarDays', 'chart', 'sliders'];
 const ASSISTANT_ICONS: IconName[] = ['mic', 'search', 'plusCircle', 'compass'];
 // Parcours de la galerie liés aux cartes de modules (par position).
 const MODULE_PARCOURS: Record<number, string> = { 0: 'famille', 2: 'planning', 4: 'facture-qr', 5: 'tresorerie', 7: 'emails-groupes', 9: 'dashboard' };
+const TEAM_ICONS: IconName[] = ['swiss', 'swiss', 'monitor'];
 const TRUST_ICONS: IconName[] = ['userCheck', 'lock', 'book', 'history', 'sparkles', 'checkCircle'];
 
 export default function App({ lang }: { lang: Lang }) {
@@ -61,7 +63,7 @@ export default function App({ lang }: { lang: Lang }) {
           <div className="wrap hero-in">
             <div className="hero-text">
               <p className="eyebrow"><Icon name="swiss" />{t('hero.eyebrow')}</p>
-              <h1>{t('hero.title')}</h1>
+              <h1>{t('hero.title')}<span className="accent-text">{t('hero.titleAccent')}</span>{t('hero.titleEnd')}</h1>
               <p className="lead">{t('hero.lead')}</p>
               <div className="cta-row">
                 <a className="btn btn-lg" href="#contact">{t('hero.cta')}<Icon name="arrowRight" size={18} /></a>
@@ -171,6 +173,46 @@ export default function App({ lang }: { lang: Lang }) {
                   </div>
                 </article>
               ))}
+            </div>
+          </div>
+        </section>
+
+        <section id="equipe" className="section alt">
+          <div className="wrap">
+            <h2>{t('team.title')}</h2>
+            <p className="intro">{t('team.intro')}</p>
+            <div className="grid g-300">
+              {list<TeamCard>('team.items').map((c, i) => (
+                <article className="card plain team-card" key={c.title}>
+                  {c.big
+                    ? <p className="big">{c.big}</p>
+                    : <span className="pill sq56"><Icon name={TEAM_ICONS[i]} size={28} /></span>}
+                  <h3>{c.title}</h3>
+                  <p>{c.text}</p>
+                </article>
+              ))}
+            </div>
+          </div>
+        </section>
+
+        <section id="tarif" className="section">
+          <div className="wrap pricing-in">
+            <div className="pricing-text">
+              <p className="eyebrow"><Icon name="tag" />{t('pricing.eyebrow')}</p>
+              <h2>{t('pricing.title')}</h2>
+              <p className="pricing-lead">{t('pricing.lead')}</p>
+            </div>
+            <div className="price-card">
+              <p className="price-label">{t('pricing.label')}</p>
+              <p className="price-line">
+                <span className="price-amount">{t('pricing.amount')}</span>
+                <span className="price-cur">{t('pricing.currency')}</span>
+                <span className="price-per">{t('pricing.per')}</span>
+              </p>
+              <ul className="price-points">
+                {list<string>('pricing.points').map((x) => <li key={x}><span className="ico"><Icon name="check" size={18} /></span>{x}</li>)}
+              </ul>
+              <a className="btn btn-lg btn-block" href="#contact">{t('pricing.cta')}<Icon name="arrowRight" size={18} /></a>
             </div>
           </div>
         </section>
