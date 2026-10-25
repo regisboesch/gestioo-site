@@ -59,7 +59,7 @@ await browser.close();
 
 // Vidéos : une par parcours, FR / thème clair, uniquement si au moins une capture a changé (ou si elle n'existe pas encore).
 if (withVideo) {
-  const slow = await chromium.launch({ slowMo: 300 });
+  const slow = await chromium.launch({ slowMo: 300, ...(process.env.CHROMIUM_PATH ? { executablePath: process.env.CHROMIUM_PATH } : {}) });
   for (const j of journeys) {
     const rep = report[j.id];
     const dev = j.videoDevice || 'desktop';

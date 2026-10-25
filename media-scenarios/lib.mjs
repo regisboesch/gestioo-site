@@ -21,7 +21,7 @@ export const USERS = {
 const NO_ANIM = '*,*::before,*::after{animation:none!important;transition:none!important;caret-color:transparent!important;scroll-behavior:auto!important}';
 
 export async function launch() {
-  return chromium.launch({ args: ['--font-render-hinting=none', '--disable-lcd-text'] });
+  return chromium.launch({ ...(process.env.CHROMIUM_PATH ? { executablePath: process.env.CHROMIUM_PATH } : {}), args: ['--font-render-hinting=none', '--disable-lcd-text'] });
 }
 
 // Contexte Playwright déterministe + connexion par l'API (le jeton Turnstile de test est accepté tel quel).
