@@ -25,8 +25,8 @@
     "assistant": "Der KI-Assistent von Gestioo"
   },
   "hero": {
-    "eyebrow": "Für Multisport-Vereine und -Verbände – Schweiz & Frankreich",
-    "title": "Führen Sie Ihren Verein an einem Ort – ohne Excel-Tabellen",
+    "eyebrow": "In der Schweiz entwickelt für Sportvereine und Multisport-Clubs – Schweiz & Frankreich",
+    "title": "Gestioo – Ihren Verein mit einem Handgriff verwalten!",
     "lead": "Gestioo vereint Mitglieder, Anmeldungen pro Saison und Team, den Trainingsplan, die Rechnungsstellung der Mitgliederbeiträge mit Schweizer QR-Rechnung, doppelte Buchhaltung und die Kommunikation mit den Familien – mit integriertem KI-Assistenten.",
     "cta": "Kontakt aufnehmen",
     "ctaSecondary": "Funktionen entdecken",
@@ -50,8 +50,8 @@
       },
       {
         "role": "Sekretariat / Vorstand",
-        "before": "Anmeldungen auf Papier oder per E-Mail, verstreute Teamlisten.",
-        "after": "Online-Anmeldung durch die Familien, Freigabe mit einem Klick, aktuelle Teams und Bestände, gezielte Sammel-E-Mails, individuelle Listen und Statistiken als CSV oder Excel exportierbar."
+        "before": "Anmeldungen auf Papier oder per E-Mail, verstreute Teamlisten, Turnier- und Ausflugsanmeldungen per Chat.",
+        "after": "Online-Anmeldung durch die Familien, Freigabe mit einem Klick, aktuelle Teams und Bestände, Veranstaltungskalender mit Online-Anmeldung und Teilnehmerliste, gezielte Sammelmails, individuelle Listen und Statistiken als CSV oder Excel."
       },
       {
         "role": "Trainer / Staff",
@@ -61,12 +61,12 @@
       {
         "role": "Eltern / Mitglied",
         "before": "man weiss nicht, wie weit Anmeldung oder Zahlung der Kinder sind.",
-        "after": "der Bereich «Meine Familie»: Anmeldung Schritt für Schritt, Zahlung in 1 bis 4 Raten, Rechnungen, nächste Trainings und Mitteilungen des Vereins."
+        "after": "der Bereich «Meine Familie»: Anmeldung Schritt für Schritt, Zahlung in 1 bis 4 Raten, Rechnungen, nächste Trainings, nächste Veranstaltungen mit Anmeldung per Klick und Vereinsmitteilungen."
       },
       {
         "role": "Präsidium",
         "before": "kein Überblick.",
-        "after": "ein Dashboard (aktive Mitglieder, eingenommene Beiträge, ausstehender Betrag, offene Aufgaben) und eigene Berichte, die sich speichern und nach Excel exportieren lassen."
+        "after": "ein Dashboard (aktive Mitglieder, eingegangene Beiträge, gültige Lizenzen, ausstehender Saldo, offene Aufgaben, nächste Veranstaltungen) und individuelle Berichte, speicherbar und als Excel exportierbar."
       }
     ]
   },
@@ -74,8 +74,8 @@
     "title": "Das unterscheidet uns",
     "items": [
       {
-        "title": "Für die Schweiz gemacht",
-        "text": "Schweizer QR-Rechnung, camt-Kontoauszüge, AHV-Nummer, Schweizer doppelte Buchhaltung und Oberfläche auf Deutsch, Französisch und Englisch."
+        "title": "In der Schweiz gedacht und entwickelt",
+        "text": "Schweizer QR-Rechnung, camt-Bankauszüge, AHV-Nummer, Schweizer doppelte Buchhaltung und Oberfläche auf Französisch, Deutsch und Englisch."
       },
       {
         "title": "Buchhaltung eingebaut statt aufgesetzt",
@@ -108,6 +108,26 @@
       {
         "title": "Berichte nach Mass, ohne Tabellen",
         "text": "Der Vorstand stellt Listen und Statistiken selbst zusammen (Spalten, Filter, Summen), exportiert sie nach Excel oder PDF und speichert sie als wiederverwendbare Vorlagen."
+      },
+      {
+        "title": "Sponsoren besser sichtbar",
+        "text": "Partnerhinweise für die Familien und eine Reichweitenauswertung mit Zahlen (Aufrufe, Klicks) für den Sponsor."
+      },
+      {
+        "title": "Kostenlose oder kostenpflichtige Veranstaltungen, ganz einfach",
+        "text": "Die Familien melden ihre Kinder online an; bei einer kostenpflichtigen Veranstaltung wird die QR-Rechnung automatisch erstellt und verbucht."
+      },
+      {
+        "title": "Veranstaltungen auch für Externe",
+        "text": "Mit einem teilbaren Anmeldelink können sich Personen ausserhalb des Vereins (Turniere, Lager, Tage der offenen Tür) anmelden und ihre QR-Rechnung erhalten – getrennt von den Vereinsmitgliedern."
+      },
+      {
+        "title": "Ein einfacher Preis, alles inklusive",
+        "text": "800 CHF pro Jahr für alle Module und alle Updates, ohne versteckte Kosten."
+      },
+      {
+        "title": "Von Praktikern entwickelt",
+        "text": "Ein Team mit 20 Jahren Erfahrung mit den Bedürfnissen von Sportvereinen (insbesondere Basketball und Boxen) und eine Software, die von einem Informatik-Ingenieur entwickelt wurde."
       }
     ]
   },
@@ -120,13 +140,13 @@
         "items": [
           "Vollständiges Mitgliederprofil, Änderungsverlauf und interne Kommentare",
           "Status aktiv / inaktiv, Filter und Suche",
-          "Bereich «Meine Familie»: Anmeldung Schritt für Schritt, erforderliche Aktionen, nächste Trainings der kommenden 7 Tage, Mitteilungen"
+          "Bereich «Meine Familie»: Anmeldung Schritt für Schritt, offene Aufgaben, nächste Trainings der kommenden 7 Tage, nächste Veranstaltungen, Mitteilungen und direkte Bearbeitung der Mitgliederkarte"
         ]
       },
       {
         "title": "Saisons, Teams und Anmeldungen",
         "items": [
-          "Konfigurierbare Saisons, Teams (Farbe, Bestand) und Funktionen",
+          "Saisons, Teams (Farbe, Bestand, nächste Veranstaltungen und Spiele) und konfigurierbare Funktionen",
           "Anmeldungen mit Freigabe durch den Vorstand, Rabatte und Ratenzahlung",
           "Automatische E-Mails bei bestätigter oder stornierter Anmeldung"
         ]
@@ -174,17 +194,28 @@
       {
         "title": "Kommunikation",
         "items": [
-          "Mitteilungen mit Priorität und Zielgruppe",
-          "Gezielte Sammel-E-Mails (Saison, Team, Alter, Rolle …) mit Verlauf",
+          "Planbare Mitteilungen (Veröffentlichungszeitraum), im Familienbereich, im Backoffice oder in beiden angezeigt",
+          "Partner-Mitteilungen (Sponsoren) mit Statistiken zu Aufrufen und Klicks, Tag für Tag",
+          "Gezielte Sammelmails (Saison, Team, Alter, Rolle, Teilnehmende einer Veranstaltung …) mit Verlauf",
           "Anpassbare E-Mail-Vorlagen"
+        ]
+      },
+      {
+        "title": "Veranstaltungen",
+        "items": [
+          "Veranstaltungskalender des Vereins (Turniere, Feste, Ausflüge, Sitzungen) mit Beschreibung, Fotos, Datum und Ort",
+          "Team-Veranstaltungen, mit Aufgebot des ganzen Teams per Klick",
+          "Kostenlose oder kostenpflichtige Online-Anmeldungen: Die QR-Rechnung wird automatisch erstellt und verbucht",
+          "Externe Teilnehmende über einen öffentlichen Anmeldelink, mit Umwandlung in Vereinsmitglieder",
+          "Teilnehmerliste mit Zahlungsstatus; Abmeldung möglich, solange nichts bezahlt ist"
         ]
       },
       {
         "title": "Dashboard und Berichte",
         "items": [
-          "Aktive Mitglieder, eingenommene Beiträge, ausstehender Betrag, offene Aufgaben",
-          "Berichtsgenerator über 9 Datenquellen, als Liste oder gruppiert mit Summen",
-          "Export als CSV, Excel und PDF; private Vorlagen oder mit dem Vorstand geteilte Vorlagen"
+          "Aktive Mitglieder, eingegangene Beiträge, gültige Lizenzen, ausstehender Saldo, offene Aufgaben, nächste Veranstaltungen",
+          "Berichtsgenerator mit 11 Datenquellen, als Liste oder gruppiert mit Summen",
+          "Export als CSV, Excel und PDF; private oder mit dem Vorstand geteilte Vorlagen"
         ]
       },
       {
@@ -212,7 +243,7 @@
     "lead": "Ein Chat-Assistent ist in die Anwendung integriert.",
     "points": [
       "Spracheingabe und Sprachausgabe",
-      "Suche nach Mitgliedern, Saisons, Teams, Anmeldungen, Beiträgen, Rechnungen, Benutzern und Berichtsvorlagen",
+      "Suche nach Mitgliedern, Saisons, Teams, Anmeldungen, Beiträgen, Rechnungen, Benutzern, Berichtsvorlagen und nächsten Veranstaltungen",
       "Erfassen eines Mitglieds, einer Saison, eines Teams, einer Anmeldung oder einer Zahlung",
       "Navigation zur gesuchten Seite der Anwendung"
     ],
@@ -252,6 +283,24 @@
     "title": "Neuigkeiten",
     "items": [
       {
+        "date": "2026-10-24",
+        "dateLabel": "24. Okt. 2026",
+        "title": "Veranstaltungen: kostenlose oder kostenpflichtige Anmeldungen, auch für Externe",
+        "text": "Der Verein führt seinen Veranstaltungskalender, bietet ein Team per Klick auf und öffnet die Anmeldung für Familien – dank öffentlichem Link auch für Externe. Bei kostenpflichtigen Veranstaltungen wird die QR-Rechnung automatisch erstellt und verbucht."
+      },
+      {
+        "date": "2026-10-18",
+        "dateLabel": "18. Okt. 2026",
+        "title": "Geplante Mitteilungen und Partner-Mitteilungen mit Statistiken",
+        "text": "Mitteilungen haben einen Veröffentlichungszeitraum und können im Familienbereich, im Backoffice oder in beiden erscheinen. Partner-Mitteilungen zeigen eine Auswertung von Aufrufen und Klicks für die Sponsoren."
+      },
+      {
+        "date": "2026-10-18",
+        "dateLabel": "18. Okt. 2026",
+        "title": "Familienbereich: Mitgliederkarte direkt bearbeiten",
+        "text": "Aus der Familienliste lassen sich Kontaktdaten, Adresse, Notfallkontakt, Gesundheitsdaten und Standardzahlung bearbeiten, ohne die Seite zu verlassen."
+      },
+      {
         "date": "2026-10-16",
         "title": "Eigene Berichte: Export als CSV, Excel und PDF",
         "text": "Vorstand und Administration stellen Listen und Statistiken über 9 Datenquellen zusammen, exportieren sie als CSV, Excel oder PDF und speichern private oder geteilte Vorlagen, die sich mit einem Klick exportieren lassen.",
@@ -263,10 +312,10 @@
     "title": "Sprechen wir über Ihren Verein",
     "text": "Eine Frage oder möchten Sie mehr sehen? Schreiben Sie uns.",
     "mail": "E-Mail an",
-    "pricing": "Preise:"
+    "pricing": "Preis: 800 CHF pro Jahr, alle Module und Updates inklusive, ohne versteckte Kosten."
   },
   "footer": {
-    "text": "Gestioo – Web-ERP für Multisport-Vereine in der Schweiz und in Frankreich."
+    "text": "Gestioo – in der Schweiz entwickelte Web-ERP-Software für Multisport-Vereine in der Schweiz und in Frankreich."
   },
   "appPreview": {
     "caption": "Illustrative Vorschau – wird durch einen echten Screenshot der Anwendung ersetzt",
