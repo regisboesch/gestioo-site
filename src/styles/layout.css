@@ -36,6 +36,7 @@ h2 + .grid, h2 + .news { margin-top: 40px; }
 .pill { display: inline-flex; align-items: center; justify-content: center; flex: none; background: var(--accent-tint); color: var(--accent-fg); }
 .sq48 { width: 48px; height: 48px; border-radius: 12px; }
 .sq44 { width: 44px; height: 44px; border-radius: 12px; }
+.sq56 { width: 56px; height: 56px; border-radius: 14px; }
 .sq36 { width: 36px; height: 36px; border-radius: 10px; background: rgba(255, 255, 255, 0.08); color: var(--on-dark-accent); }
 .round48 { width: 48px; height: 48px; border-radius: 50%; }
 .solid { background: var(--accent); color: var(--on-accent); }
@@ -185,3 +186,24 @@ video.g-media { object-fit: contain; }
 .g-sentence { color: var(--muted); margin-bottom: 16px; }
 .g-note { display: flex; gap: 8px; font-size: 13px; color: var(--muted); }
 .g-note-ico { flex: none; margin-top: 2px; display: inline-flex; }
+
+/* Slogan, équipe, tarif */
+.accent-text { color: var(--accent-fg); }
+.team-card { padding: 28px; }
+.team-card .pill { margin-bottom: 18px; }
+.team-card h3 { font-size: 22px; margin-bottom: 8px; }
+.team-card .big { height: 56px; margin-bottom: 18px; display: flex; align-items: center; font-family: var(--font-title); font-weight: 800; font-size: 56px; line-height: 1; letter-spacing: -0.03em; color: var(--accent-fg); }
+.pricing-in { display: flex; flex-wrap: wrap; gap: 56px; align-items: center; }
+.pricing-text { flex: 1 1 420px; min-width: 0; }
+.pricing-text .eyebrow { margin-bottom: 16px; }
+.pricing-text h2 { margin-bottom: 16px; }
+.pricing-lead { font-size: 19px; color: var(--muted); max-width: 520px; }
+.price-card { flex: 1 1 380px; min-width: 0; background: var(--card); border: 2px solid var(--accent); border-radius: 24px; padding: clamp(24px, 4vw, 40px); box-shadow: 0 24px 60px rgba(14, 27, 44, 0.08); }
+.price-label { font-size: 15px; font-weight: 600; color: var(--muted); margin-bottom: 12px; }
+.price-line { display: flex; flex-wrap: wrap; align-items: baseline; gap: 6px 10px; margin-bottom: 24px; }
+.price-amount { font-family: var(--font-title); font-weight: 800; font-size: 72px; line-height: 1; letter-spacing: -0.03em; }
+.price-cur { font-family: var(--font-title); font-weight: 600; font-size: 28px; }
+.price-per { font-size: 17px; color: var(--muted); }
+.price-points { list-style: none; padding: 0; margin-bottom: 28px; display: flex; flex-direction: column; gap: 12px; font-size: 16px; }
+.price-points li { display: flex; gap: 10px; }
+.btn-block { display: flex; justify-content: center; width: 100%; }

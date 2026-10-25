@@ -17,6 +17,7 @@
     "modules": "Fonctionnalités",
     "assistant": "Assistant IA",
     "trust": "Confiance",
+    "pricing": "Tarif",
     "news": "Nouveautés",
     "gallery": "En images"
   },
@@ -25,17 +26,21 @@
     "assistant": "L'assistant IA de Gestioo"
   },
   "hero": {
-    "eyebrow": "Élaboré en Suisse pour les clubs et associations multisport – Suisse & France",
-    "title": "Gestioo, gérer son association d'un seul geste !",
+    "eyebrow": "Pour les clubs et associations multisport – Suisse & France",
+    "title": "Gestioo, gérer son association ",
     "lead": "Gestioo réunit les membres, les inscriptions par saison et par équipe, le planning des entraînements, la facturation des cotisations avec QR-facture suisse, la comptabilité en partie double et la communication avec les familles – avec un assistant IA intégré.",
     "cta": "Nous contacter",
     "ctaSecondary": "Découvrir les fonctionnalités",
     "chips": [
+      "Élaboré en Suisse",
+      "800 CHF par an, tout compris",
       "Français, allemand, anglais",
       "Installable sur smartphone",
       "QR-facture suisse",
       "Thème clair et sombre"
-    ]
+    ],
+    "titleAccent": "d'un seul geste",
+    "titleEnd": " !"
   },
   "profiles": {
     "title": "Une solution pour chaque rôle du club",
@@ -312,10 +317,10 @@
     "title": "Parlons de votre club",
     "text": "Une question, envie d'en voir plus ? Écrivez-nous.",
     "mail": "Écrire à",
-    "pricing": "Tarif : 800 CHF par an, tous modules et mises à jour compris, sans prix cachés."
+    "pricing": "Tarif : 800 CHF par an, tout compris"
   },
   "footer": {
-    "text": "Gestioo – ERP web élaboré en Suisse pour associations multisport en Suisse et en France."
+    "text": "Gestioo – ERP web pour associations multisport en Suisse et en France. Élaboré en Suisse."
   },
   "appPreview": {
     "caption": "Aperçu illustratif — remplacé par une capture réelle de l'application",
@@ -385,5 +390,39 @@
     "rapports": "Rapports",
     "emails-groupes": "Emails groupés",
     "tresorerie": "Trésorerie"
+  },
+  "team": {
+    "title": "Créé par des gens du terrain",
+    "intro": "Une équipe qui connaît de l'intérieur les besoins des associations sportives.",
+    "items": [
+      {
+        "title": "Élaboré en Suisse",
+        "text": "Un logiciel pensé pour les réalités des clubs suisses : QR-facture, numéro AVS, comptabilité en partie double."
+      },
+      {
+        "big": "20 ans",
+        "title": "d'expérience associative",
+        "text": "Une connaissance concrète des besoins des associations sportives, notamment en basket et en boxe."
+      },
+      {
+        "title": "Développé par un ingénieur en informatique",
+        "text": "Une conception rigoureuse : chaque fonctionnalité du serveur est couverte par des tests automatisés."
+      }
+    ]
+  },
+  "pricing": {
+    "eyebrow": "Tarif",
+    "title": "Un prix simple et clair",
+    "lead": "Tout compris, tous les modules, toutes les mises à jour. Pas de prix cachés.",
+    "label": "Gestioo, tout compris",
+    "amount": "800",
+    "currency": "CHF",
+    "per": "par an",
+    "points": [
+      "Tous les modules inclus",
+      "Toutes les mises à jour incluses",
+      "Pas de prix cachés"
+    ],
+    "cta": "Nous contacter"
   }
 }
