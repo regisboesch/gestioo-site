@@ -25,8 +25,8 @@
     "assistant": "The Gestioo AI assistant"
   },
   "hero": {
-    "eyebrow": "For multisport clubs and associations – Switzerland & France",
-    "title": "Run your club in one place, without spreadsheets",
+    "eyebrow": "Made in Switzerland for multisport clubs and associations – Switzerland & France",
+    "title": "Gestioo: run your club in a single move!",
     "lead": "Gestioo brings together members, registrations by season and team, the training schedule, membership invoicing with the Swiss QR-bill, double-entry accounting and communication with families – with a built-in AI assistant.",
     "cta": "Get in touch",
     "ctaSecondary": "Explore the features",
@@ -50,8 +50,8 @@
       },
       {
         "role": "Secretary / committee",
-        "before": "paper or email registrations, team lists scattered everywhere.",
-        "after": "online registration by families, one-click approval, up-to-date teams and rosters, targeted group emails, custom lists and statistics exportable to CSV or Excel."
+        "before": "paper or email registrations, scattered team lists, tournament and trip sign-ups handled by chat.",
+        "after": "online registration by families, one-click approval, up-to-date teams and rosters, event calendar with online sign-up and participant list, targeted bulk emails, custom lists and statistics exportable to CSV or Excel."
       },
       {
         "role": "Coach / staff",
@@ -61,12 +61,12 @@
       {
         "role": "Parent / member",
         "before": "no idea where their children's registration or payment stands.",
-        "after": "the “My family” space: step-by-step registration, payment in 1 to 4 instalments, invoices, upcoming classes and club announcements."
+        "after": "the “My family” area: step-by-step registration, payment in 1 to 4 instalments, invoices, upcoming sessions, upcoming events with one-click sign-up, and club announcements."
       },
       {
         "role": "President",
         "before": "no overview.",
-        "after": "a dashboard (active members, membership fees collected, balance to be received, pending tasks) and custom reports you can save and export to Excel."
+        "after": "a dashboard (active members, fees collected, valid licences, balance to collect, pending tasks, upcoming events) and custom reports that can be saved and exported to Excel."
       }
     ]
   },
@@ -74,8 +74,8 @@
     "title": "What sets it apart",
     "items": [
       {
-        "title": "Designed for Switzerland",
-        "text": "Swiss QR-bill, camt bank statements, AHV number, Swiss double-entry accounting and an interface in French, German and English."
+        "title": "Designed and made in Switzerland",
+        "text": "Swiss QR-bill, camt bank statements, AVS number, Swiss double-entry accounting and an interface in French, German and English."
       },
       {
         "title": "Accounting built in, not bolted on",
@@ -108,6 +108,26 @@
       {
         "title": "Custom reports, no spreadsheet",
         "text": "The committee builds its own lists and statistics (columns, filters, totals), exports them to Excel or PDF and saves them as reusable templates."
+      },
+      {
+        "title": "Sponsors put in the spotlight",
+        "text": "Partner announcements visible to families and an audience report with figures (views, clicks) to hand to the sponsor."
+      },
+      {
+        "title": "Free or paid events, effortlessly",
+        "text": "Families sign their children up online; for a paid event, the QR invoice is issued and booked automatically."
+      },
+      {
+        "title": "Events open to outsiders",
+        "text": "A shareable sign-up link lets people outside the club (tournaments, camps, open days) register and receive their QR invoice, kept separate from club members."
+      },
+      {
+        "title": "One simple price, all included",
+        "text": "CHF 800 per year for all modules and all updates, with no hidden costs."
+      },
+      {
+        "title": "Built by people from the field",
+        "text": "A team with 20 years of experience of sports associations' needs (notably basketball and boxing), and software developed by a computer engineer."
       }
     ]
   },
@@ -120,13 +140,13 @@
         "items": [
           "Complete member record, change history and internal comments",
           "Active / inactive status, filters and search",
-          "“My family” space: step-by-step registration, required actions, upcoming classes over 7 days, announcements"
+          "“My family” area: step-by-step registration, required actions, upcoming sessions over 7 days, upcoming events, announcements and direct editing of a member's record"
         ]
       },
       {
         "title": "Seasons, teams and registrations",
         "items": [
-          "Configurable seasons, teams (colour, roster) and roles",
+          "Seasons, teams (colour, roster, upcoming events and matches) and configurable roles",
           "Registrations validated by the committee, discounts and payment in instalments",
           "Automatic emails when a registration is approved or cancelled"
         ]
@@ -174,16 +194,27 @@
       {
         "title": "Communication",
         "items": [
-          "Announcements with priority and audience",
-          "Targeted group emails (season, team, age, role…) with history",
+          "Schedulable announcements (publication period), shown in the family area, the back office or both",
+          "Partner (sponsor) announcements with view and click statistics, day by day",
+          "Targeted bulk emails (season, team, age, role, event participants…) with history",
           "Customisable email templates"
+        ]
+      },
+      {
+        "title": "Events",
+        "items": [
+          "Club event calendar (tournaments, galas, outings, meetings) with description, photos, date and venue",
+          "Team events, with the whole team summoned in one click",
+          "Free or paid online sign-ups: the QR invoice is issued and booked automatically",
+          "External participants via a public sign-up link, with conversion into club members",
+          "Participant list with payment status; unregistering possible as long as nothing is paid"
         ]
       },
       {
         "title": "Dashboard and reports",
         "items": [
-          "Active members, fees collected, balance to be received, tasks to handle",
-          "Report builder over 9 data sources, as a list or grouped with totals",
+          "Active members, fees collected, valid licences, balance to collect, tasks to handle, upcoming events",
+          "Report builder on 11 data sources, as a list or grouped with totals",
           "CSV, Excel and PDF export; private templates or templates shared with the committee"
         ]
       },
@@ -212,7 +243,7 @@
     "lead": "A conversational assistant is built into the application.",
     "points": [
       "Voice input and spoken answers",
-      "Search for members, seasons, teams, registrations, fees, invoices, users and report templates",
+      "Search members, seasons, teams, registrations, fees, invoices, users, report templates and upcoming events",
       "Creation of a member, a season, a team, a registration or a payment",
       "Navigation to the page of the application you are looking for"
     ],
@@ -252,6 +283,24 @@
     "title": "What's new",
     "items": [
       {
+        "date": "2026-10-24",
+        "dateLabel": "24 Oct 2026",
+        "title": "Events: free or paid sign-ups, including for outsiders",
+        "text": "The club keeps its event calendar, summons a team in one click and opens sign-ups to families – and, through a public link, to outside participants. For a paid event, the QR invoice is issued and booked automatically."
+      },
+      {
+        "date": "2026-10-18",
+        "dateLabel": "18 Oct 2026",
+        "title": "Scheduled announcements and partner announcements with statistics",
+        "text": "Announcements have a publication period and can be shown in the family area, the back office or both. Partner announcements come with a report of views and clicks to show sponsors."
+      },
+      {
+        "date": "2026-10-18",
+        "dateLabel": "18 Oct 2026",
+        "title": "Family area: edit a member's record directly",
+        "text": "From the family list, contact details, address, emergency contact, health data and default payment can be edited without leaving the page."
+      },
+      {
         "date": "2026-10-16",
         "title": "Custom reports: CSV, Excel and PDF exports",
         "text": "The committee and administrators build lists and statistics over 9 data sources, export them as CSV, Excel or PDF, and save private or shared templates that can be exported in one click.",
@@ -263,10 +312,10 @@
     "title": "Let's talk about your club",
     "text": "A question, or want to see more? Write to us.",
     "mail": "Email",
-    "pricing": "Pricing:"
+    "pricing": "Price: CHF 800 per year, all modules and updates included, no hidden costs."
   },
   "footer": {
-    "text": "Gestioo – web ERP for multisport associations in Switzerland and France."
+    "text": "Gestioo – web ERP made in Switzerland for multisport associations in Switzerland and France."
   },
   "appPreview": {
     "caption": "Illustrative preview — to be replaced by a real screenshot of the application",

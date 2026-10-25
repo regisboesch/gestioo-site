@@ -1,6 +1,6 @@
 import { useTranslation } from 'react-i18next';
 import { LANGS, type Lang } from './i18n';
-import { langHref, PLACEHOLDER_EMAIL, PLACEHOLDER_PRICING } from './site';
+import { langHref, PLACEHOLDER_EMAIL } from './site';
 import MediaSlot from './components/MediaSlot';
 import AppPreview from './components/AppPreview';
 import ChatExample from './components/ChatExample';
@@ -18,11 +18,11 @@ const NAV = [['profiles', 'profils'], ['strengths', 'forces'], ['modules', 'modu
 // Icônes par position, dans l'ordre des listes des fichiers de langue (cf. design/README.md).
 const HERO_CHIPS: IconName[] = ['globe', 'smartphone', 'qr', 'moon'];
 const PROFILE_ICONS: IconName[] = ['wallet', 'clipboard', 'timer', 'users', 'dashboard'];
-const STRENGTH_ICONS: IconName[] = ['swiss', 'book', 'heart', 'wifiOff', 'mic', 'shield', 'smartphone', 'palette', 'sheet'];
-const MODULE_ICONS: IconName[] = ['users', 'clipboard', 'calendar', 'idCard', 'receipt', 'landmark', 'briefcase', 'megaphone', 'chart', 'sliders'];
+const STRENGTH_ICONS: IconName[] = ['swiss', 'book', 'heart', 'wifiOff', 'mic', 'shield', 'smartphone', 'palette', 'sheet', 'megaphone', 'calendarDays', 'users', 'tag', 'userCheck'];
+const MODULE_ICONS: IconName[] = ['users', 'clipboard', 'calendar', 'idCard', 'receipt', 'landmark', 'briefcase', 'megaphone', 'calendarDays', 'chart', 'sliders'];
 const ASSISTANT_ICONS: IconName[] = ['mic', 'search', 'plusCircle', 'compass'];
 // Parcours de la galerie liés aux cartes de modules (par position).
-const MODULE_PARCOURS: Record<number, string> = { 0: 'famille', 2: 'planning', 4: 'facture-qr', 5: 'tresorerie', 7: 'emails-groupes', 8: 'dashboard' };
+const MODULE_PARCOURS: Record<number, string> = { 0: 'famille', 2: 'planning', 4: 'facture-qr', 5: 'tresorerie', 7: 'emails-groupes', 9: 'dashboard' };
 const TRUST_ICONS: IconName[] = ['userCheck', 'lock', 'book', 'history', 'sparkles', 'checkCircle'];
 
 export default function App({ lang }: { lang: Lang }) {
@@ -201,7 +201,7 @@ export default function App({ lang }: { lang: Lang }) {
               <div className="contact-text">
                 <h2>{t('contact.title')}</h2>
                 <p className="contact-lead">{t('contact.text')}</p>
-                <p className="price"><Icon name="tag" />{t('contact.pricing')} {PLACEHOLDER_PRICING}</p>
+                <p className="price"><Icon name="tag" />{t('contact.pricing')}</p>
               </div>
               <a className="btn btn-white" href={mailto}><Icon name="mail" size={20} />{t('contact.mail')} {PLACEHOLDER_EMAIL}</a>
             </div>

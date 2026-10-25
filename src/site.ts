@@ -15,4 +15,3 @@ export { LANGS };
 
 // Placeholders volontairement visibles tant que l'information n'est pas fournie.
 export const PLACEHOLDER_EMAIL = '[EMAIL DE CONTACT]';
-export const PLACEHOLDER_PRICING = '[TARIFS À DÉFINIR]';
