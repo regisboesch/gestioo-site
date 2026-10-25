@@ -23,7 +23,7 @@ Le produit s'appelle **Gestioo**. « MyERPPlus » est seulement le nom interne d
 | `--muted` | `#4A5568` | texte secondaire |
 | `--line` | `#DDE3EA` | bordures des cartes et séparateurs |
 | `--bg` | `#FFFFFF` | fond |
-| `--bg-alt` | `#F4F6F9` | fond des sections alternées (accueil, points forts, nouveautés) |
+| `--bg-alt` | `#F4F6F9` | fond des sections alternées (accueil, points forts, galerie, équipe, nouveautés) |
 | `--accent` | `#C8102E` | rouge suisse : boutons principaux, icônes, bandeau de contact |
 | `--accent-tint` | `rgba(200, 16, 46, 0.10)` | fond des pastilles d'icônes |
 | `--on-dark-muted` | `#C5CEDB` | texte secondaire sur la bande sombre |
@@ -51,7 +51,7 @@ Le contraste doit rester AA partout.
 ## Typographie
 
 - **Titres** : Bricolage Grotesque, graisses 600 et 800, interlettrage négatif (-0.02 à -0.03 em).
-  - h1 : `clamp(38px, 5.2vw, 64px)`, hauteur de ligne 1.05.
+  - h1 : `clamp(38px, 5.2vw, 64px)`, hauteur de ligne 1.05. La fin du slogan (« d'un seul geste ») est en couleur accent.
   - h2 : `clamp(30px, 3.6vw, 44px)`, hauteur de ligne 1.1.
   - h3 : 19 à 22 px, graisse 600.
 - **Texte** : Figtree, graisses 400 à 700, 17 px de base, hauteur de ligne 1.6. Le texte des cartes est à 15 px.
@@ -70,9 +70,9 @@ Le contraste doit rester AA partout.
 | wallet | `Wallet` | Trésorier |
 | clipboard | `ClipboardCheck` | Secrétaire / comité, inscriptions, « À traiter » |
 | timer | `Timer` | Entraîneur / staff |
-| users | `Users` | Parent / membre, module Membres et familles |
+| users | `Users` | Parent / membre, module Membres et familles, point fort « Créé par des gens du terrain » |
 | dashboard | `LayoutDashboard` | Président, tableau de bord |
-| swiss | `SquarePlus` | Pensé pour la Suisse, sur-titre de l'accueil |
+| swiss | `SquarePlus` | Pensé et élaboré en Suisse, sur-titre et pastille « Élaboré en Suisse » de l'accueil, carte « Élaboré en Suisse » de l'équipe |
 | book | `BookOpen` | Comptabilité intégrée, comptabilité inaltérable |
 | heart | `Heart` | Les familles au cœur |
 | wifiOff | `WifiOff` | Fonctionne hors ligne |
@@ -104,10 +104,10 @@ Le contraste doit rester AA partout.
 | qr | `QrCode` | QR-facture suisse |
 | moon | `Moon` | thème clair et sombre |
 | mail | `Mail` | contact |
-| tag | `Tag` | tarifs |
+| tag | `Tag` | tarif : pastille de l'accueil, point fort « Un prix simple », sur-titre de la section Tarif, pilule du contact |
 | arrowRight | `ArrowRight` | bouton principal |
 | play | `Play` | lecture de vidéo, liens « Voir en images », sur-titre de la galerie |
-| monitor | `Monitor` | bascule « Ordinateur » de la galerie |
+| monitor | `Monitor` | bascule « Ordinateur » de la galerie, carte « Développé par un ingénieur en informatique » de l'équipe |
 
 **Règle** : chaque nouvel élément de liste, carte ou section reçoit une icône du même style, choisie dans Lucide.
 
@@ -117,21 +117,21 @@ La page suit cet ordre. Les fonds alternent blanc et `--bg-alt`, et le contenu e
 
 1. **En-tête**
    - logo : pastille accent avec un « G », puis « Gestioo » en Bricolage 800 ;
-   - navigation par ancres, avec un lien « En images » vers `#galerie`, placé juste après « Fonctionnalités » ;
+   - navigation par ancres, avec un lien « En images » vers `#galerie`, placé juste après « Fonctionnalités », et un lien « Tarif » vers `#tarif`, placé juste avant « Nouveautés » ;
    - sélecteur de langue FR / DE / EN en pilule, la langue courante sur fond `--ink` ;
    - bouton « Nous contacter » avec icône `Mail`.
 2. **Accueil** (fond `--bg-alt`), sur deux colonnes qui passent l'une sous l'autre sur mobile :
    - à gauche :
      - le sur-titre en pilule teintée, avec l'icône `SquarePlus` ;
-     - le h1 et le paragraphe d'introduction ;
+     - le h1 (le slogan, dont la fin est en accent) et le paragraphe d'introduction ;
      - deux boutons : le principal en accent avec `ArrowRight`, le secondaire avec contour `--ink` et `Compass` ;
-     - quatre pastilles blanches, chacune avec son icône.
+     - six pastilles blanches, chacune avec son icône, dans cet ordre : « Élaboré en Suisse » (`SquarePlus`), le tarif annuel (`Tag`), puis les langues (`Globe`), le smartphone (`Smartphone`), la QR-facture (`QrCode`) et le thème clair et sombre (`Moon`).
    - à droite : un **aperçu illustratif** de l'application, sans aucun chiffre et légendé comme tel, qui sera remplacé par une vraie capture dès que `public/media/manifest.json` en fournit une.
 3. **Profils** : grille de cartes à bordure (`repeat(auto-fit, minmax(320px, 1fr))`). Chaque carte contient :
    - une pastille teintée de 48 px avec l'icône du rôle, suivie du titre ;
    - la ligne « Avant », avec `CircleX` gris et du texte secondaire ;
    - la ligne « Avec Gestioo », avec `CircleCheck` en accent.
-4. **Points forts** (fond `--bg-alt`) : cartes blanches sans bordure, chacune avec une pastille ronde de 48 px. La première pastille, « Pensé pour la Suisse », est pleine (fond accent, icône blanche) ; les autres sont teintées.
+4. **Points forts** (fond `--bg-alt`) : cartes blanches sans bordure, chacune avec une pastille ronde de 48 px. La première pastille, « Pensé et élaboré en Suisse », est pleine (fond accent, icône blanche) ; les autres sont teintées. Les deux dernières cartes sont « Un prix simple, tout compris » (`Tag`) et « Créé par des gens du terrain » (`Users`).
 5. **Modules** : cartes à bordure, chacune avec une pastille de 44 px et le titre, puis une liste dont chaque élément commence par une coche `Check` en accent. Elles sont suivies de l'encadré **« Bon à savoir »**, sur fond `--note-bg` avec l'icône `Info`, présenté en deux colonnes sur desktop.
    - **Lien « Voir en images »** sous la liste des cartes qui ont un parcours dans la galerie : texte accent, graisse 600, icône `Play` de 14 px, hauteur d'au moins 44 px. Le lien ouvre la galerie sur l'onglet du parcours (`#galerie-<id>`). Correspondances :
      - Membres et familles → `famille` ;
@@ -182,11 +182,22 @@ La page suit cet ordre. Les fonds alternent blanc et `--bg-alt`, et le contenu e
      - la phrase de sécurité, avec `ShieldCheck`.
    - À droite : un **exemple illustratif d'échange**, légendé comme tel. On y voit une bulle utilisateur avec `Mic`, puis la réponse de l'assistant avec une carte récapitulative et les boutons « Confirmer » et « Annuler ».
 7. **Confiance et sécurité** : grille avec, pour chaque point, une pastille de 48 px à contour `--ink` contenant l'icône, puis le titre et le texte.
+7 bis. **Équipe** (`id="equipe"`, fond `--bg-alt`) : le h2 « Créé par des gens du terrain », une phrase d'introduction en texte secondaire, puis une grille de trois cartes blanches sans bordure (`repeat(auto-fit, minmax(min(100%, 300px), 1fr))`, rayon de 16 px, marge intérieure de 28 px). Chaque carte contient un visuel de 56 px de haut, puis un h3 de 22 px et le texte à 15 px :
+   - « Élaboré en Suisse » : pastille carrée teintée de 56 px (rayon de 14 px) avec `SquarePlus` à 28 px ;
+   - « 20 ans d'expérience associative » : à la place de la pastille, le chiffre « 20 ans » en Bricolage 800 à 56 px, en accent, suivi du h3 « d'expérience associative » ;
+   - « Développé par un ingénieur en informatique » : pastille carrée teintée de 56 px avec `Monitor` à 28 px.
+7 ter. **Tarif** (`id="tarif"`, fond blanc), sur deux colonnes qui passent l'une sous l'autre sur mobile :
+   - à gauche : le sur-titre « Tarif » en pilule teintée avec `Tag`, le h2 « Un prix simple et clair », puis une phrase à 19 px en texte secondaire ;
+   - à droite, la **carte de prix** : bordure de 2 px en accent, rayon de 24 px, marge intérieure de `clamp(24px, 4vw, 40px)`, ombre `0 24px 60px rgba(14,27,44,.08)`. Elle contient :
+     - le libellé « Gestioo, tout compris » (15 px, graisse 600, texte secondaire) ;
+     - le prix sur une ligne : « 800 » en Bricolage 800 à 72 px, « CHF » en Bricolage 600 à 28 px, « par an » à 17 px en texte secondaire ;
+     - trois puces avec une coche `Check` en accent (tous les modules, toutes les mises à jour, pas de prix cachés) ;
+     - le bouton principal « Nous contacter » en accent, pleine largeur, avec `ArrowRight`.
 8. **Nouveautés** (fond `--bg-alt`) : une carte par entrée, avec à gauche une pastille ronde accent et `Sparkles` au-dessus de la date (`<time>`), et à droite le titre et le texte.
 9. **Contact** : grand bandeau arrondi (24 px) en accent, avec :
-   - le titre, le texte et la pilule « Tarifs » avec `Tag` ;
+   - le titre, le texte et la pilule du tarif (« Tarif : 800 CHF par an, tout compris ») avec `Tag` ;
    - à droite, un bouton blanc avec `Mail`.
-10. **Pied de page** : le texte, puis « FR · DE · EN » avec `Globe`.
+10. **Pied de page** : le texte, terminé par « Élaboré en Suisse. », puis « FR · DE · EN » avec `Globe`.
 
 ## Données de la galerie (contrat avec le manifeste)
 
@@ -217,10 +228,11 @@ La galerie ne contient **aucune liste de parcours codée en dur**. Tout vient de
 
 - **Rayons** :
   - cartes : 16 px ;
+  - carte de prix et bandeau de contact : 24 px ;
   - boutons : 10 à 14 px ;
-  - pastilles d'icône : 12 px pour les carrées, 50 % pour les rondes.
+  - pastilles d'icône : 12 px pour les carrées (14 px pour celles de 56 px de l'équipe), 50 % pour les rondes.
 - Zones cliquables d'au moins 44 px de haut.
-- Aucune ombre sauf sur l'aperçu de l'application (`0 24px 60px rgba(14,27,44,.12)`).
+- Aucune ombre sauf sur l'aperçu de l'application et les cadres de la galerie (`0 24px 60px rgba(14,27,44,.12)`), et sur la carte de prix (`0 24px 60px rgba(14,27,44,.08)`).
 - Aucun chiffre inventé dans les illustrations : barres et blocs neutres uniquement. Les illustrations sont toujours légendées comme illustratives.
 - Pas de dégradés, pas d'emoji, pas de cartes à bordure gauche colorée.
 - La mise en page s'adapte par `flex-wrap` et des grilles `auto-fit`, sans défilement horizontal à 390 px.
