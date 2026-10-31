@@ -153,6 +153,7 @@
         "items": [
           "Saisons, équipes (couleur, effectif, prochains événements et matchs) et fonctions paramétrables",
           "Inscriptions avec validation par le comité, remises et paiement en plusieurs fois",
+          "Réinscription dans la même équipe après une annulation ; l'inscription et la facture annulées restent dans l'historique",
           "Emails automatiques d'inscription validée ou annulée"
         ]
       },
@@ -287,6 +288,12 @@
   "news": {
     "title": "Nouveautés",
     "items": [
+      {
+        "date": "2026-10-31",
+        "dateLabel": "31 oct. 2026",
+        "title": "Inscriptions : réinscription après annulation",
+        "text": "Un membre dont l'inscription a été annulée (par exemple suite à une erreur sur le nombre de paiements) peut être réinscrit dans la même équipe. L'inscription et la facture annulées restent consultables dans l'historique."
+      },
       {
         "date": "2026-10-24",
         "dateLabel": "24 oct. 2026",

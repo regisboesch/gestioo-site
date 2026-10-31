@@ -153,6 +153,7 @@
         "items": [
           "Saisons, Teams (Farbe, Bestand, nächste Veranstaltungen und Spiele) und konfigurierbare Funktionen",
           "Anmeldungen mit Freigabe durch den Vorstand, Rabatte und Ratenzahlung",
+          "Erneute Anmeldung im selben Team nach einer Stornierung; die stornierte Anmeldung und Rechnung bleiben im Verlauf erhalten",
           "Automatische E-Mails bei bestätigter oder stornierter Anmeldung"
         ]
       },
@@ -287,6 +288,12 @@
   "news": {
     "title": "Neuigkeiten",
     "items": [
+      {
+        "date": "2026-10-31",
+        "dateLabel": "31. Okt. 2026",
+        "title": "Anmeldungen: erneute Anmeldung nach Stornierung",
+        "text": "Ein Mitglied, dessen Anmeldung storniert wurde (z. B. wegen eines Fehlers bei der Anzahl der Raten), kann im selben Team erneut angemeldet werden. Die stornierte Anmeldung und Rechnung bleiben im Verlauf einsehbar."
+      },
       {
         "date": "2026-10-24",
         "dateLabel": "24. Okt. 2026",
