@@ -55,8 +55,8 @@
       },
       {
         "role": "Sekretariat / Vorstand",
-        "before": "Anmeldungen auf Papier oder per E-Mail, verstreute Teamlisten, Turnier- und Ausflugsanmeldungen per Chat.",
-        "after": "Online-Anmeldung durch die Familien, Freigabe mit einem Klick, aktuelle Teams und Bestände, Veranstaltungskalender mit Online-Anmeldung und Teilnehmerliste, gezielte Sammelmails, individuelle Listen und Statistiken als CSV oder Excel."
+        "before": "Anmeldungen auf Papier oder per E-Mail, verstreute Teamlisten, Turnier- und Ausflugsanmeldungen per Chat, durch Abmeldungen frei gewordene Plätze von Hand neu zu vergeben, Stornorückerstattungen von Fall zu Fall berechnet.",
+        "after": "Online-Anmeldung durch die Familien, Freigabe mit einem Klick, aktuelle Teams und Bestände, Veranstaltungskalender mit Online-Anmeldung, Warteliste, die frei gewordene Plätze automatisch neu vergibt, und Stornobedingungen ohne manuelle Berechnung, gezielte Sammelmails, individuelle Listen und Statistiken als CSV oder Excel."
       },
       {
         "role": "Trainer / Staff",
@@ -66,7 +66,7 @@
       {
         "role": "Eltern / Mitglied",
         "before": "man weiss nicht, wie weit Anmeldung oder Zahlung der Kinder sind.",
-        "after": "der Bereich «Meine Familie»: Anmeldung Schritt für Schritt, Zahlung in 1 bis 4 Raten, Rechnungen, nächste Trainings, nächste Veranstaltungen mit Anmeldung per Klick und Vereinsmitteilungen."
+        "after": "der Bereich «Meine Familie»: Anmeldung Schritt für Schritt, Zahlung in 1 bis 4 Raten, Rechnungen, nächste Trainings, nächste Veranstaltungen mit Anmeldung per Klick (oder Warteliste, wenn ausgebucht), angezeigte Stornobedingungen mit bekanntem Rückerstattungsbetrag vor der Stornierung und Vereinsmitteilungen."
       },
       {
         "role": "Präsidium",
@@ -127,6 +127,10 @@
         "text": "Mit einem teilbaren Anmeldelink können sich Personen ausserhalb des Vereins (Turniere, Lager, Tage der offenen Tür) anmelden und ihre QR-Rechnung erhalten – getrennt von den Vereinsmitgliedern."
       },
       {
+        "title": "Stornierungen und Rückerstattungen ohne Tabelle",
+        "text": "Stornobedingungen frei pro Veranstaltung wählbar (Stufen nach Datum, Bearbeitungsgebühr), bei der Anmeldung festgehalten; bei einer Stornierung wird die Rechnung storniert oder automatisch eine Gutschrift erstellt, und die Überzahlung ist bereit zur Rückerstattung – in der Buchhaltung wie für die Familie. Die Warteliste vergibt den frei gewordenen Platz ohne Zutun neu."
+      },
+      {
         "title": "Ein einfacher Preis, alles inklusive",
         "text": "800 CHF pro Jahr für alle Module und alle Updates, ohne versteckte Kosten."
       },
@@ -178,7 +182,7 @@
         "items": [
           "PDF-Rechnungen mit Schweizer QR-Rechnung, Versand per E-Mail mit Versandverlauf",
           "Zahlung in 2, 3 oder 4 Raten, einzelne oder gesammelte Mahnungen",
-          "Zahlungen, Forderungsverzicht, Überzahlungen zurückerstattet oder verrechnet"
+          "Zahlungen, Forderungsverzicht, Überzahlungen zurückerstattet oder verrechnet, nummerierte Gutschriften bei einer erstatteten Stornierung"
         ]
       },
       {
@@ -213,14 +217,17 @@
           "Team-Veranstaltungen, mit Aufgebot des ganzen Teams per Klick",
           "Kostenlose oder kostenpflichtige Online-Anmeldungen: Die QR-Rechnung wird automatisch erstellt und verbucht",
           "Externe Teilnehmende über einen öffentlichen Anmeldelink, mit Umwandlung in Vereinsmitglieder",
-          "Teilnehmerliste mit Zahlungsstatus; Abmeldung möglich, solange nichts bezahlt ist"
+          "Warteliste für ausgebuchte Veranstaltungen: Sobald ein Platz frei wird, wird die erste wartende Person automatisch angemeldet, bei kostenpflichtigen Veranstaltungen in Rechnung gestellt und per E-Mail informiert",
+          "Wiederverwendbare Stornobedingungen (Stufen nach Datum, Bearbeitungsgebühr), bei der Anmeldung festgehalten; Rückerstattung vor der Bestätigung angezeigt, Gutschrift automatisch erstellt, begründete manuelle Anpassung möglich",
+          "Absage der ganzen Veranstaltung durch den Verein: Anmeldungen vollständig erstattet, Begründung geht an jede Familie",
+          "Teilnehmerliste mit Zahlungsstatus, geordneter Warteliste und gewährten Rückerstattungen"
         ]
       },
       {
         "title": "Dashboard und Berichte",
         "items": [
           "Aktive Mitglieder, eingegangene Beiträge, gültige Lizenzen, ausstehender Saldo, offene Aufgaben, nächste Veranstaltungen",
-          "Berichtsgenerator mit 11 Datenquellen, als Liste oder gruppiert mit Summen",
+          "Berichtsgenerator mit 12 Datenquellen, als Liste oder gruppiert mit Summen",
           "Export als CSV, Excel und PDF; private oder mit dem Vorstand geteilte Vorlagen"
         ]
       },
@@ -288,6 +295,12 @@
   "news": {
     "title": "Neuigkeiten",
     "items": [
+      {
+        "date": "2026-10-31",
+        "dateLabel": "31. Okt. 2026",
+        "title": "Veranstaltungen: Warteliste, Stornobedingungen und Gutschriften",
+        "text": "Ist eine Veranstaltung ausgebucht, tragen sich Familien auf eine Warteliste ein, und die erste Person wird automatisch angemeldet, sobald ein Platz frei wird. Der Verein legt seine Stornobedingungen fest; die Rückerstattung wird vor der Stornierung angezeigt, und die Rechnung wird storniert oder automatisch eine Gutschrift mit den passenden Buchungen erstellt. Der Verein kann auch eine ganze Veranstaltung absagen, mit vollständiger Rückerstattung jeder Anmeldung."
+      },
       {
         "date": "2026-10-31",
         "dateLabel": "31. Okt. 2026",

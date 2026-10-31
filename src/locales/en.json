@@ -55,8 +55,8 @@
       },
       {
         "role": "Secretary / committee",
-        "before": "paper or email registrations, scattered team lists, tournament and trip sign-ups handled by chat.",
-        "after": "online registration by families, one-click approval, up-to-date teams and rosters, event calendar with online sign-up and participant list, targeted bulk emails, custom lists and statistics exportable to CSV or Excel."
+        "before": "paper or email registrations, scattered team lists, tournament and trip sign-ups handled by chat, places freed by a withdrawal to reassign by hand, cancellation refunds worked out case by case.",
+        "after": "online registration by families, one-click approval, up-to-date teams and rosters, event calendar with online sign-up, a waiting list that automatically reassigns freed places and cancellation terms applied without manual calculation, targeted bulk emails, custom lists and statistics exportable to CSV or Excel."
       },
       {
         "role": "Coach / staff",
@@ -66,7 +66,7 @@
       {
         "role": "Parent / member",
         "before": "no idea where their children's registration or payment stands.",
-        "after": "the “My family” area: step-by-step registration, payment in 1 to 4 instalments, invoices, upcoming sessions, upcoming events with one-click sign-up, and club announcements."
+        "after": "the “My family” area: step-by-step registration, payment in 1 to 4 instalments, invoices, upcoming sessions, upcoming events with one-click sign-up (or waiting list when full), cancellation terms displayed and refund amount known before cancelling, and club announcements."
       },
       {
         "role": "President",
@@ -127,6 +127,10 @@
         "text": "A shareable sign-up link lets people outside the club (tournaments, camps, open days) register and receive their QR invoice, kept separate from club members."
       },
       {
+        "title": "Cancellations and refunds without a spreadsheet",
+        "text": "Cancellation terms chosen per event (tiers by date, administration fee), fixed at sign-up; on cancellation, the invoice is cancelled or a credit note is issued automatically and any overpayment is ready to refund, in the books and for the family alike. The waiting list reassigns the freed place with no intervention."
+      },
+      {
         "title": "One simple price, all included",
         "text": "CHF 800 per year for all modules and all updates, with no hidden costs."
       },
@@ -178,7 +182,7 @@
         "items": [
           "PDF invoices with Swiss QR-bill, sent by email with a sending history",
           "Payment in 2, 3 or 4 instalments, single or bulk reminders",
-          "Payments, write-offs, overpayments refunded or applied to another invoice"
+          "Payments, write-offs, overpayments refunded or applied to another invoice, numbered credit notes issued on a refunded cancellation"
         ]
       },
       {
@@ -213,14 +217,17 @@
           "Team events, with the whole team summoned in one click",
           "Free or paid online sign-ups: the QR invoice is issued and booked automatically",
           "External participants via a public sign-up link, with conversion into club members",
-          "Participant list with payment status; unregistering possible as long as nothing is paid"
+          "Waiting list for full events: the first person waiting is registered automatically as soon as a place frees up, invoiced if the event is paid and notified by email",
+          "Reusable cancellation terms (tiers by date, administration fee), fixed at sign-up; refund shown before confirming, credit note issued automatically, justified manual adjustment possible",
+          "Cancellation of a whole event by the club: registrations fully refunded and the reason sent to each family",
+          "Participant list with payment status, ordered waiting list and refunds granted"
         ]
       },
       {
         "title": "Dashboard and reports",
         "items": [
           "Active members, fees collected, valid licences, balance to collect, tasks to handle, upcoming events",
-          "Report builder on 11 data sources, as a list or grouped with totals",
+          "Report builder on 12 data sources, as a list or grouped with totals",
           "CSV, Excel and PDF export; private templates or templates shared with the committee"
         ]
       },
@@ -288,6 +295,12 @@
   "news": {
     "title": "What's new",
     "items": [
+      {
+        "date": "2026-10-31",
+        "dateLabel": "31 Oct 2026",
+        "title": "Events: waiting list, cancellation terms and credit notes",
+        "text": "When an event is full, families join a waiting list and the first person is registered automatically as soon as a place frees up. The club sets its cancellation terms; the refund is shown before cancelling, and the invoice is cancelled or a credit note is issued automatically, with the matching accounting entries. The club can also cancel a whole event, with each registration fully refunded."
+      },
       {
         "date": "2026-10-31",
         "dateLabel": "31 Oct 2026",
