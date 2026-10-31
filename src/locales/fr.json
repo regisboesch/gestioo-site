@@ -55,8 +55,8 @@
       },
       {
         "role": "Secrétaire / comité",
-        "before": "inscriptions papier ou par email, listes d'équipes éparpillées, inscriptions aux tournois et sorties gérées par messagerie.",
-        "after": "inscription en ligne par les familles, validation en un clic, équipes et effectifs à jour, agenda des événements avec inscriptions en ligne et liste des participants, emails groupés ciblés, listes et statistiques sur mesure exportables en CSV ou Excel."
+        "before": "inscriptions papier ou par email, listes d'équipes éparpillées, inscriptions aux tournois et sorties gérées par messagerie, places libérées par un désistement à réattribuer à la main, remboursements d'annulation calculés au cas par cas.",
+        "after": "inscription en ligne par les familles, validation en un clic, équipes et effectifs à jour, agenda des événements avec inscriptions en ligne, liste d'attente qui réattribue automatiquement les places libérées et conditions d'annulation appliquées sans calcul manuel, emails groupés ciblés, listes et statistiques sur mesure exportables en CSV ou Excel."
       },
       {
         "role": "Entraîneur / staff",
@@ -66,7 +66,7 @@
       {
         "role": "Parent / membre",
         "before": "on ne sait pas où en est l'inscription ou le paiement de ses enfants.",
-        "after": "l'espace « Ma famille » : inscription pas à pas, paiement en 1 à 4 fois, factures, prochains cours, prochains événements avec inscription en un clic et annonces du club."
+        "after": "l'espace « Ma famille » : inscription pas à pas, paiement en 1 à 4 fois, factures, prochains cours, prochains événements avec inscription en un clic (ou liste d'attente si complet), conditions d'annulation affichées et montant remboursé connu avant d'annuler, et annonces du club."
       },
       {
         "role": "Président",
@@ -127,6 +127,10 @@
         "text": "Un lien d'inscription à partager permet à des personnes extérieures au club (tournois, camps, portes ouvertes) de s'inscrire et de recevoir leur facture QR, sans les mélanger aux membres du club."
       },
       {
+        "title": "Annulations et remboursements sans tableur",
+        "text": "Conditions d'annulation au choix par événement (paliers selon la date, frais de dossier), figées à l'inscription ; à l'annulation, la facture est annulée ou un avoir est établi automatiquement et le trop-perçu est prêt à être remboursé, en comptabilité comme pour la famille. La liste d'attente réattribue la place libérée sans intervention."
+      },
+      {
         "title": "Un prix simple, tout compris",
         "text": "800 CHF par an pour tous les modules et toutes les mises à jour, sans prix cachés."
       },
@@ -178,7 +182,7 @@
         "items": [
           "Factures PDF avec QR-facture suisse, envoi par email et historique des envois",
           "Paiement en 2, 3 ou 4 échéances, rappels unitaires ou en masse",
-          "Paiements, annulation de créance, trop-perçus remboursés ou imputés"
+          "Paiements, annulation de créance, trop-perçus remboursés ou imputés, avoirs numérotés établis lors d'une annulation remboursée"
         ]
       },
       {
@@ -213,14 +217,17 @@
           "Événements d'équipe, avec convocation de toute l'équipe en un clic",
           "Inscriptions en ligne gratuites ou payantes : la facture QR est émise et comptabilisée automatiquement",
           "Participants externes via un lien d'inscription public, conversion possible en membres du club",
-          "Liste des participants avec statut de paiement ; désinscription possible tant que rien n'est payé"
+          "Liste d'attente pour les événements complets : la première personne en attente est inscrite automatiquement dès qu'une place se libère, facturée si l'événement est payant et prévenue par email",
+          "Conditions d'annulation réutilisables (paliers selon la date, frais de dossier), figées à l'inscription ; remboursement indiqué avant de confirmer, avoir établi automatiquement, ajustement manuel motivé possible",
+          "Annulation de tout l'événement par le club : inscriptions intégralement remboursées et motif envoyé à chaque famille",
+          "Liste des participants avec statut de paiement, liste d'attente ordonnée et remboursements accordés"
         ]
       },
       {
         "title": "Tableau de bord et rapports",
         "items": [
           "Membres actifs, cotisations encaissées, licences à jour, solde à percevoir, tâches à traiter, prochains événements",
-          "Générateur de rapports sur 11 sources de données, en liste ou regroupés avec totaux",
+          "Générateur de rapports sur 12 sources de données, en liste ou regroupés avec totaux",
           "Export CSV, Excel et PDF ; modèles privés ou partagés avec le comité"
         ]
       },
@@ -288,6 +295,12 @@
   "news": {
     "title": "Nouveautés",
     "items": [
+      {
+        "date": "2026-10-31",
+        "dateLabel": "31 oct. 2026",
+        "title": "Événements : liste d'attente, conditions d'annulation et avoirs",
+        "text": "Quand un événement est complet, les familles rejoignent une liste d'attente et la première personne est inscrite automatiquement dès qu'une place se libère. Le club définit ses conditions d'annulation ; le remboursement est affiché avant d'annuler, et la facture est annulée ou un avoir est établi automatiquement, avec les écritures comptables correspondantes. Le club peut aussi annuler tout un événement, avec remboursement intégral de chaque inscription."
+      },
       {
         "date": "2026-10-31",
         "dateLabel": "31 oct. 2026",

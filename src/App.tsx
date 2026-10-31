@@ -19,7 +19,7 @@ const NAV = [['profiles', 'profils'], ['strengths', 'forces'], ['modules', 'modu
 // Icônes par position, dans l'ordre des listes des fichiers de langue (cf. design/README.md).
 const HERO_CHIPS: IconName[] = ['swiss', 'tag', 'globe', 'smartphone', 'qr', 'moon'];
 const PROFILE_ICONS: IconName[] = ['wallet', 'clipboard', 'timer', 'users', 'dashboard'];
-const STRENGTH_ICONS: IconName[] = ['swiss', 'book', 'heart', 'wifiOff', 'mic', 'shield', 'smartphone', 'palette', 'sheet', 'megaphone', 'calendarDays', 'users', 'tag', 'users'];
+const STRENGTH_ICONS: IconName[] = ['swiss', 'book', 'heart', 'wifiOff', 'mic', 'shield', 'smartphone', 'palette', 'sheet', 'megaphone', 'calendarDays', 'users', 'receipt', 'tag', 'users'];
 const MODULE_ICONS: IconName[] = ['users', 'clipboard', 'calendar', 'idCard', 'receipt', 'landmark', 'briefcase', 'megaphone', 'calendarDays', 'chart', 'sliders'];
 const ASSISTANT_ICONS: IconName[] = ['mic', 'search', 'plusCircle', 'compass'];
 // Parcours de la galerie liés aux cartes de modules (par position).
