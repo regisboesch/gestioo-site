@@ -153,6 +153,7 @@
         "items": [
           "Seasons, teams (colour, roster, upcoming events and matches) and configurable roles",
           "Registrations validated by the committee, discounts and payment in instalments",
+          "Re-registration in the same team after a cancellation; the cancelled registration and invoice stay in the history",
           "Automatic emails when a registration is approved or cancelled"
         ]
       },
@@ -287,6 +288,12 @@
   "news": {
     "title": "What's new",
     "items": [
+      {
+        "date": "2026-10-31",
+        "dateLabel": "31 Oct 2026",
+        "title": "Registrations: re-register after a cancellation",
+        "text": "A member whose registration was cancelled (for example because of a mistake in the number of payments) can be registered again in the same team. The cancelled registration and invoice remain available in the history."
+      },
       {
         "date": "2026-10-24",
         "dateLabel": "24 Oct 2026",
