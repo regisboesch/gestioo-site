@@ -14,16 +14,17 @@ interface ModuleGroup { title: string; items: string[] }
 interface TeamCard { big?: string; title: string; text: string }
 interface NewsItem { date: string; dateLabel: string; title: string; text: string }
 
-const NAV = [['profiles', 'profils'], ['strengths', 'forces'], ['modules', 'modules'], ['gallery', 'galerie'], ['assistant', 'assistant'], ['trust', 'confiance'], ['pricing', 'tarif'], ['news', 'nouveautes']] as const;
+const NAV = [['profiles', 'profils'], ['strengths', 'forces'], ['modules', 'modules'], ['events', 'evenements'], ['gallery', 'galerie'], ['assistant', 'assistant'], ['trust', 'confiance'], ['pricing', 'tarif'], ['news', 'nouveautes']] as const;
 
 // Icônes par position, dans l'ordre des listes des fichiers de langue (cf. design/README.md).
 const HERO_CHIPS: IconName[] = ['swiss', 'tag', 'globe', 'smartphone', 'qr', 'moon'];
 const PROFILE_ICONS: IconName[] = ['wallet', 'clipboard', 'timer', 'users', 'dashboard'];
 const STRENGTH_ICONS: IconName[] = ['swiss', 'book', 'heart', 'wifiOff', 'mic', 'shield', 'smartphone', 'palette', 'sheet', 'megaphone', 'calendarDays', 'users', 'receipt', 'tag', 'users'];
-const MODULE_ICONS: IconName[] = ['users', 'clipboard', 'calendar', 'idCard', 'receipt', 'landmark', 'briefcase', 'megaphone', 'calendarDays', 'chart', 'sliders'];
+const MODULE_ICONS: IconName[] = ['users', 'clipboard', 'calendar', 'idCard', 'receipt', 'landmark', 'briefcase', 'megaphone', 'chart', 'sliders'];
 const ASSISTANT_ICONS: IconName[] = ['mic', 'search', 'plusCircle', 'compass'];
 // Parcours de la galerie liés aux cartes de modules (par position).
-const MODULE_PARCOURS: Record<number, string> = { 0: 'famille', 2: 'planning', 4: 'facture-qr', 5: 'tresorerie', 7: 'emails-groupes', 9: 'dashboard' };
+const MODULE_PARCOURS: Record<number, string> = { 0: 'famille', 2: 'planning', 4: 'facture-qr', 5: 'tresorerie', 7: 'emails-groupes', 8: 'dashboard' };
+const EVENT_ICONS: IconName[] = ['calendarDays', 'receipt', 'globe', 'timer', 'wallet', 'mail'];
 const TEAM_ICONS: IconName[] = ['swiss', 'swiss', 'monitor'];
 const TRUST_ICONS: IconName[] = ['userCheck', 'lock', 'book', 'history', 'sparkles', 'checkCircle'];
 
@@ -138,6 +139,22 @@ export default function App({ lang }: { lang: Lang }) {
                 <ul>{list<string>('modules.notYet').map((n) => <li key={n}>{n}</li>)}</ul>
               </div>
             </aside>
+          </div>
+        </section>
+
+        <section id="evenements" className="section alt">
+          <div className="wrap">
+            <h2>{t('events.title')}</h2>
+            <p className="intro">{t('events.intro')}</p>
+            <div className="grid g-300">
+              {list<Card>('events.items').map((c, i) => (
+                <article className="card plain" key={c.title}>
+                  <span className="pill round48"><Icon name={EVENT_ICONS[i]} size={24} /></span>
+                  <h3>{c.title}</h3>
+                  <p>{c.text}</p>
+                </article>
+              ))}
+            </div>
           </div>
         </section>
 

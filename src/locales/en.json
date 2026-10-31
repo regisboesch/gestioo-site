@@ -19,7 +19,8 @@
     "trust": "Trust",
     "pricing": "Pricing",
     "news": "What's new",
-    "gallery": "In pictures"
+    "gallery": "In pictures",
+    "events": "Events"
   },
   "media": {
     "hero": "Preview of the Gestioo application",
@@ -208,19 +209,6 @@
           "Partner (sponsor) announcements with view and click statistics, day by day",
           "Targeted bulk emails (season, team, age, role, event participants…) with history",
           "Customisable email templates"
-        ]
-      },
-      {
-        "title": "Events",
-        "items": [
-          "Club event calendar (tournaments, galas, outings, meetings) with description, photos, date and venue",
-          "Team events, with the whole team summoned in one click",
-          "Free or paid online sign-ups: the QR invoice is issued and booked automatically",
-          "External participants via a public sign-up link, with conversion into club members",
-          "Waiting list for full events: the first person waiting is registered automatically as soon as a place frees up, invoiced if the event is paid and notified by email",
-          "Reusable cancellation terms (tiers by date, administration fee), fixed at sign-up; refund shown before confirming, credit note issued automatically, justified manual adjustment possible",
-          "Cancellation of a whole event by the club: registrations fully refunded and the reason sent to each family",
-          "Participant list with payment status, ordered waiting list and refunds granted"
         ]
       },
       {
@@ -444,5 +432,35 @@
       "No hidden costs"
     ],
     "cta": "Contact us"
+  },
+  "events": {
+    "title": "Club events, from the calendar to the refund",
+    "intro": "Tournaments, galas, outings, camps: the club handles everything in one place, with no chat threads or spreadsheets.",
+    "items": [
+      {
+        "title": "One calendar for the whole club",
+        "text": "Formatted description, photos, date and venue. For a team event, the whole team is summoned in one click."
+      },
+      {
+        "title": "Free or paid, effortlessly",
+        "text": "Families sign their children up online. For a paid event, the QR invoice is issued and booked automatically."
+      },
+      {
+        "title": "Open to outsiders",
+        "text": "A shareable sign-up link lets people outside the club register and receive their QR invoice, kept apart from members. They can later become members in one click."
+      },
+      {
+        "title": "Automatic waiting list",
+        "text": "When an event is full, families join the waiting list. As soon as a place frees up, the first person is registered, invoiced if needed and notified by email."
+      },
+      {
+        "title": "Cancellations and refunds",
+        "text": "Cancellation terms of your choice (tiers by date, administration fee), shown to families. The refund is known before cancelling; the invoice is cancelled or a credit note is issued automatically."
+      },
+      {
+        "title": "Participants and communication",
+        "text": "Participant list with payment status, waiting list and refunds. The club can write to them in one bulk email, or cancel the whole event with full refunds."
+      }
+    ]
   }
 }

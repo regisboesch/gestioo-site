@@ -19,7 +19,8 @@
     "trust": "Confiance",
     "pricing": "Tarif",
     "news": "Nouveautés",
-    "gallery": "En images"
+    "gallery": "En images",
+    "events": "Événements"
   },
   "media": {
     "hero": "Aperçu de l'application Gestioo",
@@ -208,19 +209,6 @@
           "Annonces partenaires (sponsors) avec statistiques de vues et de clics, jour par jour",
           "Emails groupés ciblés (saison, équipe, âge, rôle, participants d'un événement…) avec historique",
           "Modèles d'emails personnalisables"
-        ]
-      },
-      {
-        "title": "Événements",
-        "items": [
-          "Agenda des événements du club (tournois, galas, sorties, réunions) avec description, photos, date et lieu",
-          "Événements d'équipe, avec convocation de toute l'équipe en un clic",
-          "Inscriptions en ligne gratuites ou payantes : la facture QR est émise et comptabilisée automatiquement",
-          "Participants externes via un lien d'inscription public, conversion possible en membres du club",
-          "Liste d'attente pour les événements complets : la première personne en attente est inscrite automatiquement dès qu'une place se libère, facturée si l'événement est payant et prévenue par email",
-          "Conditions d'annulation réutilisables (paliers selon la date, frais de dossier), figées à l'inscription ; remboursement indiqué avant de confirmer, avoir établi automatiquement, ajustement manuel motivé possible",
-          "Annulation de tout l'événement par le club : inscriptions intégralement remboursées et motif envoyé à chaque famille",
-          "Liste des participants avec statut de paiement, liste d'attente ordonnée et remboursements accordés"
         ]
       },
       {
@@ -444,5 +432,35 @@
       "Pas de prix cachés"
     ],
     "cta": "Nous contacter"
+  },
+  "events": {
+    "title": "Les événements du club, de l'agenda au remboursement",
+    "intro": "Tournois, galas, sorties, camps : le club gère tout au même endroit, sans messagerie ni tableur.",
+    "items": [
+      {
+        "title": "Un agenda pour tout le club",
+        "text": "Description mise en forme, photos, date et lieu. Pour une équipe, convocation de tout le monde en un clic."
+      },
+      {
+        "title": "Gratuit ou payant, sans effort",
+        "text": "Les familles inscrivent leurs enfants en ligne. Pour un événement payant, la facture QR est émise et comptabilisée automatiquement."
+      },
+      {
+        "title": "Ouvert aux externes",
+        "text": "Un lien d'inscription à partager permet à des personnes extérieures au club de s'inscrire et de recevoir leur facture QR, sans les mélanger aux membres. Elles peuvent ensuite devenir membres en un clic."
+      },
+      {
+        "title": "Liste d'attente automatique",
+        "text": "Quand un événement est complet, les familles rejoignent la liste d'attente. Dès qu'une place se libère, la première personne est inscrite, facturée si besoin et prévenue par email."
+      },
+      {
+        "title": "Annulations et remboursements",
+        "text": "Conditions d'annulation au choix (paliers selon la date, frais de dossier), affichées aux familles. Le remboursement est connu avant d'annuler ; la facture est annulée ou un avoir est établi automatiquement."
+      },
+      {
+        "title": "Participants et communication",
+        "text": "Liste des participants avec statut de paiement, liste d'attente et remboursements. Le club peut leur écrire en un envoi groupé, ou annuler tout l'événement avec remboursement intégral."
+      }
+    ]
   }
 }
