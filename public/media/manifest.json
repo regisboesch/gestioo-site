@@ -1,6 +1,6 @@
 {
- "source_commit": "3b13f46d2d5e25c9ac55bab2f3fafee2f75f94d4",
- "generated_at": "2026-10-25T05:46:46.417Z",
+ "source_commit": "9e6aaee915b7b6b1d6ae0d1e3792c3668381c54c",
+ "generated_at": "2026-10-31T21:31:30.293Z",
  "items": [
   {
    "slot": "hero",
@@ -263,44 +263,6 @@
       "fr": "Gestioo : tableau de bord avec indicateurs, annonces, factures à traiter et événements à venir",
       "de": "Gestioo: Dashboard mit Kennzahlen, Mitteilungen, offenen Rechnungen und anstehenden Terminen",
       "en": "Gestioo: dashboard with key figures, announcements, invoices to process and upcoming events"
-     }
-    },
-    {
-     "file": "fr/dashboard/dashboard.mp4",
-     "parcours": "dashboard",
-     "step": "video",
-     "lang": "fr",
-     "theme": "light",
-     "device": "desktop",
-     "format": "mp4",
-     "caption": {
-      "fr": "Tableau de bord gestionnaire",
-      "de": "Dashboard für Verantwortliche",
-      "en": "Manager dashboard"
-     },
-     "alt": {
-      "fr": "Tableau de bord gestionnaire",
-      "de": "Dashboard für Verantwortliche",
-      "en": "Manager dashboard"
-     }
-    },
-    {
-     "file": "fr/dashboard/dashboard.webm",
-     "parcours": "dashboard",
-     "step": "video",
-     "lang": "fr",
-     "theme": "light",
-     "device": "desktop",
-     "format": "webm",
-     "caption": {
-      "fr": "Tableau de bord gestionnaire",
-      "de": "Dashboard für Verantwortliche",
-      "en": "Manager dashboard"
-     },
-     "alt": {
-      "fr": "Tableau de bord gestionnaire",
-      "de": "Dashboard für Verantwortliche",
-      "en": "Manager dashboard"
      }
     }
    ]
@@ -1002,44 +964,6 @@
       "de": "Gestioo: Sammel-E-Mail-Assistent, Zusammenfassung vor dem Versand",
       "en": "Gestioo: group email wizard, summary before sending"
      }
-    },
-    {
-     "file": "fr/emails-groupes/emails-groupes.mp4",
-     "parcours": "emails-groupes",
-     "step": "video",
-     "lang": "fr",
-     "theme": "light",
-     "device": "desktop",
-     "format": "mp4",
-     "caption": {
-      "fr": "Emails groupés en 3 étapes",
-      "de": "Sammel-E-Mails in 3 Schritten",
-      "en": "Group emails in 3 steps"
-     },
-     "alt": {
-      "fr": "Emails groupés en 3 étapes",
-      "de": "Sammel-E-Mails in 3 Schritten",
-      "en": "Group emails in 3 steps"
-     }
-    },
-    {
-     "file": "fr/emails-groupes/emails-groupes.webm",
-     "parcours": "emails-groupes",
-     "step": "video",
-     "lang": "fr",
-     "theme": "light",
-     "device": "desktop",
-     "format": "webm",
-     "caption": {
-      "fr": "Emails groupés en 3 étapes",
-      "de": "Sammel-E-Mails in 3 Schritten",
-      "en": "Group emails in 3 steps"
-     },
-     "alt": {
-      "fr": "Emails groupés en 3 étapes",
-      "de": "Sammel-E-Mails in 3 Schritten",
-      "en": "Group emails in 3 steps"
-     }
     }
    ]
   },
@@ -1058,9 +982,11 @@
     "frontend/src/components/EvenementTeamChips.tsx",
     "frontend/src/api/evenements.ts",
     "frontend/src/lib/evenements.ts",
-    "frontend/src/styles/evenements.css"
+    "frontend/src/styles/evenements.css",
+    "frontend/src/pages/EvenementRefundPoliciesPage.tsx",
+    "frontend/src/components/RefundPolicySummary.tsx"
    ],
-   "updated_at": "2026-10-25T05:46:46.417Z",
+   "updated_at": "2026-10-31T21:31:30.293Z",
    "files": [
     {
      "file": "fr/evenements/agenda-light-desktop.png",
@@ -1098,6 +1024,25 @@
       "fr": "Gestioo : fiche d’un événement avec ses inscrits, y compris des participants externes",
       "de": "Gestioo: Veranstaltung mit Anmeldungen, auch externen Teilnehmern",
       "en": "Gestioo: event page with registrations, including external participants"
+     }
+    },
+    {
+     "file": "fr/evenements/conditions-annulation-light-desktop.png",
+     "parcours": "evenements",
+     "step": "conditions-annulation",
+     "lang": "fr",
+     "theme": "light",
+     "device": "desktop",
+     "format": "png",
+     "caption": {
+      "fr": "Les conditions d’annulation et de remboursement des événements",
+      "de": "Die Stornierungs- und Rückerstattungsbedingungen der Veranstaltungen",
+      "en": "Event cancellation and refund conditions"
+     },
+     "alt": {
+      "fr": "Gestioo : conditions d’annulation réutilisables avec paliers de remboursement",
+      "de": "Gestioo: wiederverwendbare Stornierungsbedingungen mit Rückerstattungsstufen",
+      "en": "Gestioo: reusable cancellation conditions with refund tiers"
      }
     },
     {
@@ -1139,6 +1084,25 @@
      }
     },
     {
+     "file": "fr/evenements/conditions-annulation-light-mobile.png",
+     "parcours": "evenements",
+     "step": "conditions-annulation",
+     "lang": "fr",
+     "theme": "light",
+     "device": "mobile",
+     "format": "png",
+     "caption": {
+      "fr": "Les conditions d’annulation et de remboursement des événements",
+      "de": "Die Stornierungs- und Rückerstattungsbedingungen der Veranstaltungen",
+      "en": "Event cancellation and refund conditions"
+     },
+     "alt": {
+      "fr": "Gestioo : conditions d’annulation réutilisables avec paliers de remboursement",
+      "de": "Gestioo: wiederverwendbare Stornierungsbedingungen mit Rückerstattungsstufen",
+      "en": "Gestioo: reusable cancellation conditions with refund tiers"
+     }
+    },
+    {
      "file": "fr/evenements/agenda-dark-desktop.png",
      "parcours": "evenements",
      "step": "agenda",
@@ -1174,6 +1138,25 @@
       "fr": "Gestioo : fiche d’un événement avec ses inscrits, y compris des participants externes",
       "de": "Gestioo: Veranstaltung mit Anmeldungen, auch externen Teilnehmern",
       "en": "Gestioo: event page with registrations, including external participants"
+     }
+    },
+    {
+     "file": "fr/evenements/conditions-annulation-dark-desktop.png",
+     "parcours": "evenements",
+     "step": "conditions-annulation",
+     "lang": "fr",
+     "theme": "dark",
+     "device": "desktop",
+     "format": "png",
+     "caption": {
+      "fr": "Les conditions d’annulation et de remboursement des événements",
+      "de": "Die Stornierungs- und Rückerstattungsbedingungen der Veranstaltungen",
+      "en": "Event cancellation and refund conditions"
+     },
+     "alt": {
+      "fr": "Gestioo : conditions d’annulation réutilisables avec paliers de remboursement",
+      "de": "Gestioo: wiederverwendbare Stornierungsbedingungen mit Rückerstattungsstufen",
+      "en": "Gestioo: reusable cancellation conditions with refund tiers"
      }
     },
     {
@@ -1215,6 +1198,25 @@
      }
     },
     {
+     "file": "fr/evenements/conditions-annulation-dark-mobile.png",
+     "parcours": "evenements",
+     "step": "conditions-annulation",
+     "lang": "fr",
+     "theme": "dark",
+     "device": "mobile",
+     "format": "png",
+     "caption": {
+      "fr": "Les conditions d’annulation et de remboursement des événements",
+      "de": "Die Stornierungs- und Rückerstattungsbedingungen der Veranstaltungen",
+      "en": "Event cancellation and refund conditions"
+     },
+     "alt": {
+      "fr": "Gestioo : conditions d’annulation réutilisables avec paliers de remboursement",
+      "de": "Gestioo: wiederverwendbare Stornierungsbedingungen mit Rückerstattungsstufen",
+      "en": "Gestioo: reusable cancellation conditions with refund tiers"
+     }
+    },
+    {
      "file": "de/evenements/agenda-light-desktop.png",
      "parcours": "evenements",
      "step": "agenda",
@@ -1250,6 +1252,25 @@
       "fr": "Gestioo : fiche d’un événement avec ses inscrits, y compris des participants externes",
       "de": "Gestioo: Veranstaltung mit Anmeldungen, auch externen Teilnehmern",
       "en": "Gestioo: event page with registrations, including external participants"
+     }
+    },
+    {
+     "file": "de/evenements/conditions-annulation-light-desktop.png",
+     "parcours": "evenements",
+     "step": "conditions-annulation",
+     "lang": "de",
+     "theme": "light",
+     "device": "desktop",
+     "format": "png",
+     "caption": {
+      "fr": "Les conditions d’annulation et de remboursement des événements",
+      "de": "Die Stornierungs- und Rückerstattungsbedingungen der Veranstaltungen",
+      "en": "Event cancellation and refund conditions"
+     },
+     "alt": {
+      "fr": "Gestioo : conditions d’annulation réutilisables avec paliers de remboursement",
+      "de": "Gestioo: wiederverwendbare Stornierungsbedingungen mit Rückerstattungsstufen",
+      "en": "Gestioo: reusable cancellation conditions with refund tiers"
      }
     },
     {
@@ -1291,6 +1312,25 @@
      }
     },
     {
+     "file": "de/evenements/conditions-annulation-light-mobile.png",
+     "parcours": "evenements",
+     "step": "conditions-annulation",
+     "lang": "de",
+     "theme": "light",
+     "device": "mobile",
+     "format": "png",
+     "caption": {
+      "fr": "Les conditions d’annulation et de remboursement des événements",
+      "de": "Die Stornierungs- und Rückerstattungsbedingungen der Veranstaltungen",
+      "en": "Event cancellation and refund conditions"
+     },
+     "alt": {
+      "fr": "Gestioo : conditions d’annulation réutilisables avec paliers de remboursement",
+      "de": "Gestioo: wiederverwendbare Stornierungsbedingungen mit Rückerstattungsstufen",
+      "en": "Gestioo: reusable cancellation conditions with refund tiers"
+     }
+    },
+    {
      "file": "de/evenements/agenda-dark-desktop.png",
      "parcours": "evenements",
      "step": "agenda",
@@ -1326,6 +1366,25 @@
       "fr": "Gestioo : fiche d’un événement avec ses inscrits, y compris des participants externes",
       "de": "Gestioo: Veranstaltung mit Anmeldungen, auch externen Teilnehmern",
       "en": "Gestioo: event page with registrations, including external participants"
+     }
+    },
+    {
+     "file": "de/evenements/conditions-annulation-dark-desktop.png",
+     "parcours": "evenements",
+     "step": "conditions-annulation",
+     "lang": "de",
+     "theme": "dark",
+     "device": "desktop",
+     "format": "png",
+     "caption": {
+      "fr": "Les conditions d’annulation et de remboursement des événements",
+      "de": "Die Stornierungs- und Rückerstattungsbedingungen der Veranstaltungen",
+      "en": "Event cancellation and refund conditions"
+     },
+     "alt": {
+      "fr": "Gestioo : conditions d’annulation réutilisables avec paliers de remboursement",
+      "de": "Gestioo: wiederverwendbare Stornierungsbedingungen mit Rückerstattungsstufen",
+      "en": "Gestioo: reusable cancellation conditions with refund tiers"
      }
     },
     {
@@ -1367,6 +1426,25 @@
      }
     },
     {
+     "file": "de/evenements/conditions-annulation-dark-mobile.png",
+     "parcours": "evenements",
+     "step": "conditions-annulation",
+     "lang": "de",
+     "theme": "dark",
+     "device": "mobile",
+     "format": "png",
+     "caption": {
+      "fr": "Les conditions d’annulation et de remboursement des événements",
+      "de": "Die Stornierungs- und Rückerstattungsbedingungen der Veranstaltungen",
+      "en": "Event cancellation and refund conditions"
+     },
+     "alt": {
+      "fr": "Gestioo : conditions d’annulation réutilisables avec paliers de remboursement",
+      "de": "Gestioo: wiederverwendbare Stornierungsbedingungen mit Rückerstattungsstufen",
+      "en": "Gestioo: reusable cancellation conditions with refund tiers"
+     }
+    },
+    {
      "file": "en/evenements/agenda-light-desktop.png",
      "parcours": "evenements",
      "step": "agenda",
@@ -1402,6 +1480,25 @@
       "fr": "Gestioo : fiche d’un événement avec ses inscrits, y compris des participants externes",
       "de": "Gestioo: Veranstaltung mit Anmeldungen, auch externen Teilnehmern",
       "en": "Gestioo: event page with registrations, including external participants"
+     }
+    },
+    {
+     "file": "en/evenements/conditions-annulation-light-desktop.png",
+     "parcours": "evenements",
+     "step": "conditions-annulation",
+     "lang": "en",
+     "theme": "light",
+     "device": "desktop",
+     "format": "png",
+     "caption": {
+      "fr": "Les conditions d’annulation et de remboursement des événements",
+      "de": "Die Stornierungs- und Rückerstattungsbedingungen der Veranstaltungen",
+      "en": "Event cancellation and refund conditions"
+     },
+     "alt": {
+      "fr": "Gestioo : conditions d’annulation réutilisables avec paliers de remboursement",
+      "de": "Gestioo: wiederverwendbare Stornierungsbedingungen mit Rückerstattungsstufen",
+      "en": "Gestioo: reusable cancellation conditions with refund tiers"
      }
     },
     {
@@ -1443,6 +1540,25 @@
      }
     },
     {
+     "file": "en/evenements/conditions-annulation-light-mobile.png",
+     "parcours": "evenements",
+     "step": "conditions-annulation",
+     "lang": "en",
+     "theme": "light",
+     "device": "mobile",
+     "format": "png",
+     "caption": {
+      "fr": "Les conditions d’annulation et de remboursement des événements",
+      "de": "Die Stornierungs- und Rückerstattungsbedingungen der Veranstaltungen",
+      "en": "Event cancellation and refund conditions"
+     },
+     "alt": {
+      "fr": "Gestioo : conditions d’annulation réutilisables avec paliers de remboursement",
+      "de": "Gestioo: wiederverwendbare Stornierungsbedingungen mit Rückerstattungsstufen",
+      "en": "Gestioo: reusable cancellation conditions with refund tiers"
+     }
+    },
+    {
      "file": "en/evenements/agenda-dark-desktop.png",
      "parcours": "evenements",
      "step": "agenda",
@@ -1481,6 +1597,25 @@
      }
     },
     {
+     "file": "en/evenements/conditions-annulation-dark-desktop.png",
+     "parcours": "evenements",
+     "step": "conditions-annulation",
+     "lang": "en",
+     "theme": "dark",
+     "device": "desktop",
+     "format": "png",
+     "caption": {
+      "fr": "Les conditions d’annulation et de remboursement des événements",
+      "de": "Die Stornierungs- und Rückerstattungsbedingungen der Veranstaltungen",
+      "en": "Event cancellation and refund conditions"
+     },
+     "alt": {
+      "fr": "Gestioo : conditions d’annulation réutilisables avec paliers de remboursement",
+      "de": "Gestioo: wiederverwendbare Stornierungsbedingungen mit Rückerstattungsstufen",
+      "en": "Gestioo: reusable cancellation conditions with refund tiers"
+     }
+    },
+    {
      "file": "en/evenements/agenda-dark-mobile.png",
      "parcours": "evenements",
      "step": "agenda",
@@ -1516,6 +1651,25 @@
       "fr": "Gestioo : fiche d’un événement avec ses inscrits, y compris des participants externes",
       "de": "Gestioo: Veranstaltung mit Anmeldungen, auch externen Teilnehmern",
       "en": "Gestioo: event page with registrations, including external participants"
+     }
+    },
+    {
+     "file": "en/evenements/conditions-annulation-dark-mobile.png",
+     "parcours": "evenements",
+     "step": "conditions-annulation",
+     "lang": "en",
+     "theme": "dark",
+     "device": "mobile",
+     "format": "png",
+     "caption": {
+      "fr": "Les conditions d’annulation et de remboursement des événements",
+      "de": "Die Stornierungs- und Rückerstattungsbedingungen der Veranstaltungen",
+      "en": "Event cancellation and refund conditions"
+     },
+     "alt": {
+      "fr": "Gestioo : conditions d’annulation réutilisables avec paliers de remboursement",
+      "de": "Gestioo: wiederverwendbare Stornierungsbedingungen mit Rückerstattungsstufen",
+      "en": "Gestioo: reusable cancellation conditions with refund tiers"
      }
     },
     {
@@ -1571,7 +1725,7 @@
     "frontend/src/api/invoices.ts",
     "backend-php/src/Support/InvoicePdf*.php"
    ],
-   "updated_at": "2026-10-25T05:46:46.417Z",
+   "updated_at": "2026-10-31T21:31:30.293Z",
    "files": [
     {
      "file": "fr/facture-qr/facture-light-desktop.png",
@@ -2311,44 +2465,6 @@
       "de": "Gestioo: Bereich Meine Familie mit Mitgliedern und Beiträgen",
       "en": "Gestioo: My family space with household members and fees"
      }
-    },
-    {
-     "file": "fr/famille/famille.mp4",
-     "parcours": "famille",
-     "step": "video",
-     "lang": "fr",
-     "theme": "light",
-     "device": "desktop",
-     "format": "mp4",
-     "caption": {
-      "fr": "Espace « Ma famille » et inscription",
-      "de": "Bereich « Meine Familie » und Anmeldung",
-      "en": "“My family” space and registration"
-     },
-     "alt": {
-      "fr": "Espace « Ma famille » et inscription",
-      "de": "Bereich « Meine Familie » und Anmeldung",
-      "en": "“My family” space and registration"
-     }
-    },
-    {
-     "file": "fr/famille/famille.webm",
-     "parcours": "famille",
-     "step": "video",
-     "lang": "fr",
-     "theme": "light",
-     "device": "desktop",
-     "format": "webm",
-     "caption": {
-      "fr": "Espace « Ma famille » et inscription",
-      "de": "Bereich « Meine Familie » und Anmeldung",
-      "en": "“My family” space and registration"
-     },
-     "alt": {
-      "fr": "Espace « Ma famille » et inscription",
-      "de": "Bereich « Meine Familie » und Anmeldung",
-      "en": "“My family” space and registration"
-     }
     }
    ]
   },
@@ -2594,44 +2710,6 @@
       "fr": "Gestioo : planning de la semaine avec les entraînements de chaque équipe",
       "de": "Gestioo: Wochenplan mit den Trainings jedes Teams",
       "en": "Gestioo: weekly schedule with each team’s training sessions"
-     }
-    },
-    {
-     "file": "fr/planning/planning.mp4",
-     "parcours": "planning",
-     "step": "video",
-     "lang": "fr",
-     "theme": "light",
-     "device": "desktop",
-     "format": "mp4",
-     "caption": {
-      "fr": "Planning de la semaine",
-      "de": "Wochenplanung",
-      "en": "Weekly schedule"
-     },
-     "alt": {
-      "fr": "Planning de la semaine",
-      "de": "Wochenplanung",
-      "en": "Weekly schedule"
-     }
-    },
-    {
-     "file": "fr/planning/planning.webm",
-     "parcours": "planning",
-     "step": "video",
-     "lang": "fr",
-     "theme": "light",
-     "device": "desktop",
-     "format": "webm",
-     "caption": {
-      "fr": "Planning de la semaine",
-      "de": "Wochenplanung",
-      "en": "Weekly schedule"
-     },
-     "alt": {
-      "fr": "Planning de la semaine",
-      "de": "Wochenplanung",
-      "en": "Weekly schedule"
      }
     }
    ]
@@ -3351,44 +3429,6 @@
       "de": "Gestioo: Berichtsgenerator mit Datenvorschau und Export-Schaltflächen",
       "en": "Gestioo: report builder with data preview and export buttons"
      }
-    },
-    {
-     "file": "fr/rapports/rapports.mp4",
-     "parcours": "rapports",
-     "step": "video",
-     "lang": "fr",
-     "theme": "light",
-     "device": "desktop",
-     "format": "mp4",
-     "caption": {
-      "fr": "Générateur de rapports et export",
-      "de": "Berichtsgenerator und Export",
-      "en": "Report builder and export"
-     },
-     "alt": {
-      "fr": "Générateur de rapports et export",
-      "de": "Berichtsgenerator und Export",
-      "en": "Report builder and export"
-     }
-    },
-    {
-     "file": "fr/rapports/rapports.webm",
-     "parcours": "rapports",
-     "step": "video",
-     "lang": "fr",
-     "theme": "light",
-     "device": "desktop",
-     "format": "webm",
-     "caption": {
-      "fr": "Générateur de rapports et export",
-      "de": "Berichtsgenerator und Export",
-      "en": "Report builder and export"
-     },
-     "alt": {
-      "fr": "Générateur de rapports et export",
-      "de": "Berichtsgenerator und Export",
-      "en": "Report builder and export"
-     }
     }
    ]
   },
@@ -3405,7 +3445,7 @@
     "frontend/src/components/TresorerieLayout.tsx",
     "frontend/src/api/accountingPeriods.ts"
    ],
-   "updated_at": "2026-10-25T05:46:46.417Z",
+   "updated_at": "2026-10-31T21:31:30.293Z",
    "files": [
     {
      "file": "fr/tresorerie/bilan-light-desktop.png",
