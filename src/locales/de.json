@@ -19,7 +19,8 @@
     "trust": "Vertrauen",
     "pricing": "Preis",
     "news": "Neuigkeiten",
-    "gallery": "Bilder"
+    "gallery": "Bilder",
+    "events": "Veranstaltungen"
   },
   "media": {
     "hero": "Vorschau der Gestioo-Anwendung",
@@ -208,19 +209,6 @@
           "Partner-Mitteilungen (Sponsoren) mit Statistiken zu Aufrufen und Klicks, Tag für Tag",
           "Gezielte Sammelmails (Saison, Team, Alter, Rolle, Teilnehmende einer Veranstaltung …) mit Verlauf",
           "Anpassbare E-Mail-Vorlagen"
-        ]
-      },
-      {
-        "title": "Veranstaltungen",
-        "items": [
-          "Veranstaltungskalender des Vereins (Turniere, Feste, Ausflüge, Sitzungen) mit Beschreibung, Fotos, Datum und Ort",
-          "Team-Veranstaltungen, mit Aufgebot des ganzen Teams per Klick",
-          "Kostenlose oder kostenpflichtige Online-Anmeldungen: Die QR-Rechnung wird automatisch erstellt und verbucht",
-          "Externe Teilnehmende über einen öffentlichen Anmeldelink, mit Umwandlung in Vereinsmitglieder",
-          "Warteliste für ausgebuchte Veranstaltungen: Sobald ein Platz frei wird, wird die erste wartende Person automatisch angemeldet, bei kostenpflichtigen Veranstaltungen in Rechnung gestellt und per E-Mail informiert",
-          "Wiederverwendbare Stornobedingungen (Stufen nach Datum, Bearbeitungsgebühr), bei der Anmeldung festgehalten; Rückerstattung vor der Bestätigung angezeigt, Gutschrift automatisch erstellt, begründete manuelle Anpassung möglich",
-          "Absage der ganzen Veranstaltung durch den Verein: Anmeldungen vollständig erstattet, Begründung geht an jede Familie",
-          "Teilnehmerliste mit Zahlungsstatus, geordneter Warteliste und gewährten Rückerstattungen"
         ]
       },
       {
@@ -444,5 +432,35 @@
       "Keine versteckten Kosten"
     ],
     "cta": "Kontakt aufnehmen"
+  },
+  "events": {
+    "title": "Die Veranstaltungen des Vereins – vom Kalender bis zur Rückerstattung",
+    "intro": "Turniere, Feste, Ausflüge, Lager: Der Verein verwaltet alles an einem Ort, ohne Chat und ohne Tabellen.",
+    "items": [
+      {
+        "title": "Ein Kalender für den ganzen Verein",
+        "text": "Formatierte Beschreibung, Fotos, Datum und Ort. Bei Team-Veranstaltungen wird die ganze Mannschaft per Klick aufgeboten."
+      },
+      {
+        "title": "Kostenlos oder kostenpflichtig, mühelos",
+        "text": "Familien melden ihre Kinder online an. Bei kostenpflichtigen Veranstaltungen wird die QR-Rechnung automatisch erstellt und verbucht."
+      },
+      {
+        "title": "Offen für Externe",
+        "text": "Mit einem teilbaren Anmeldelink können sich Personen ausserhalb des Vereins anmelden und ihre QR-Rechnung erhalten – getrennt von den Mitgliedern. Sie lassen sich danach per Klick zu Mitgliedern machen."
+      },
+      {
+        "title": "Automatische Warteliste",
+        "text": "Ist eine Veranstaltung ausgebucht, tragen sich Familien auf die Warteliste ein. Sobald ein Platz frei wird, wird die erste Person angemeldet, bei Bedarf in Rechnung gestellt und per E-Mail informiert."
+      },
+      {
+        "title": "Stornierungen und Rückerstattungen",
+        "text": "Frei wählbare Stornobedingungen (Stufen nach Datum, Bearbeitungsgebühr), den Familien angezeigt. Die Rückerstattung ist vor der Stornierung bekannt; die Rechnung wird storniert oder automatisch eine Gutschrift erstellt."
+      },
+      {
+        "title": "Teilnehmende und Kommunikation",
+        "text": "Teilnehmerliste mit Zahlungsstatus, Warteliste und Rückerstattungen. Der Verein schreibt ihnen per Sammelmail oder sagt die ganze Veranstaltung mit vollständiger Rückerstattung ab."
+      }
+    ]
   }
 }
