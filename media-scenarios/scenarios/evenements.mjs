@@ -5,7 +5,7 @@ const TOURNOI = 'Tournoi de basket inter-clubs'; // événement des données d'e
 export default {
   id: 'evenements',
   user: 'admin',
-  deps: ['frontend/src/pages/EvenementsPage.tsx', 'frontend/src/pages/EvenementDetailPage.tsx', 'frontend/src/components/EvenementImage.tsx', 'frontend/src/components/EvenementGallery.tsx', 'frontend/src/components/EvenementTeamChips.tsx', 'frontend/src/api/evenements.ts', 'frontend/src/lib/evenements.ts', 'frontend/src/styles/evenements.css'],
+  deps: ['frontend/src/pages/EvenementsPage.tsx', 'frontend/src/pages/EvenementDetailPage.tsx', 'frontend/src/components/EvenementImage.tsx', 'frontend/src/components/EvenementGallery.tsx', 'frontend/src/components/EvenementTeamChips.tsx', 'frontend/src/api/evenements.ts', 'frontend/src/lib/evenements.ts', 'frontend/src/styles/evenements.css', 'frontend/src/pages/EvenementRefundPoliciesPage.tsx', 'frontend/src/components/RefundPolicySummary.tsx'],
   title: { fr: 'Agenda des événements', de: 'Veranstaltungskalender', en: 'Events calendar' },
   steps: [
     {
@@ -25,6 +25,15 @@ export default {
         await go(page, '/evenements');
         await page.getByText(TOURNOI).first().click();
         await page.getByText(tr(L, 'evenements:evenementDetailPage.when'), { exact: true }).first().waitFor();
+      },
+    },
+    {
+      name: 'conditions-annulation',
+      caption: { fr: 'Les conditions d’annulation et de remboursement des événements', de: 'Die Stornierungs- und Rückerstattungsbedingungen der Veranstaltungen', en: 'Event cancellation and refund conditions' },
+      alt: { fr: 'Gestioo : conditions d’annulation réutilisables avec paliers de remboursement', de: 'Gestioo: wiederverwendbare Stornierungsbedingungen mit Rückerstattungsstufen', en: 'Gestioo: reusable cancellation conditions with refund tiers' },
+      async run(page, L) {
+        await go(page, '/evenements/conditions-annulation');
+        await page.getByRole('heading').first().waitFor();
       },
     },
   ],

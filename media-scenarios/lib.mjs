@@ -14,8 +14,8 @@ export const FIXED_NOW = new Date(`${day}T10:00:00+02:00`);
 
 export const USERS = {
   admin: { email: 'admin@example.com', password: 'ChangeMe123!' },
-  famille: { email: 'jean.dupont@seed.local', password: 'SeedPass123!' },
-  staff: { email: 'marie.martin@seed.local', password: 'SeedPass123!' },
+  famille: { email: 'jean.dupont@seed.local', password: 'test' },
+  staff: { email: 'marie.martin@seed.local', password: 'test' },
 };
 
 const NO_ANIM = '*,*::before,*::after{animation:none!important;transition:none!important;caret-color:transparent!important;scroll-behavior:auto!important}';
